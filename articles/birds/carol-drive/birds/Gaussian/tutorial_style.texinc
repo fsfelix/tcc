@@ -1,0 +1,38 @@
+%%%%%%%%%%%%%%%%%%%%%%%% latex, pdflatex & latex2htmlstuff #################################
+\PassOptionsToPackage{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}{hyperref}
+\usepackage{html}
+%begin{latexonly}
+\usepackage{a4wide}
+\newif\ifpdf\ifx\pdfoutput\undefined\pdffalse\else\pdfoutput=1\pdftrue\fi
+\ifpdf
+  \DeclareGraphicsExtensions{.pdf,.jpg}
+\else
+  \DeclareGraphicsExtensions{.eps}
+  \usepackage[dvips]{hyperref}
+\fi
+\newcommand{\HREF}[2]{\href{#1}{#2}\footnote{\url{#1}}}
+%end{latexonly}
+\html{
+\usepackage[dvips]{color}
+\pagecolor[gray]{1.0}
+\newcommand{\HREF}[2]{\htmladdnormallink{#2}{#1}}
+\newcommand{\href}[2]{\htmladdnormallink{#2}{#1}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\MakeTutorialTitle}[1]{
+%begin{latexonly}
+\title{{\bf #1}\\
+       {\large A Tutorial for the Course \emph{Computational Intelligence}}\\
+       {\normalsize \url{http://www.igi.tugraz.at/lehre/CI}}}
+%end{latexonly}
+\html{\title{Tutorial: #1}
+\begin{rawhtml}<h1>\end{rawhtml}
+#1
+\begin{rawhtml}</h1>
+A Tutorial for the Course <em>Computational Intelligence</em>
+\end{rawhtml}
+}
+\latex{\maketitle}
+}

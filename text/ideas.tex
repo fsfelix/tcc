@@ -1,0 +1,142 @@
+% Created 2017-04-24 Mon 13:43
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Felipe Felix}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Felipe Felix},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.1.1 (Org mode 9.0.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+\section{TCC 17}
+\label{sec:org5c751d4}
+\subsection{Birds}
+\label{sec:org2c85691}
+Hoje em dia, aqui e no resto do mundo, ornitólogos extraem características do
+canto de forma muito artesanal. As únicas ferramenta que eles dispõe são o
+warbleR, \href{http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624/full}{aqui} descrito, e o \href{http://www.birds.cornell.edu/brp/raven/RavenOverview.html}{Raven}, que é de uso gratuito para pesquisadores
+brasileiros. Estes softwares permitem que eles mudem a resolução do
+espectograma, até que, visualmente, as notas do canto dos pássaros fiquem
+mais claras. A partir disso, a anotação dos parâmetros é basicamente manual.
+De outro lado, as iniciativas em torno da classificação são muito dependentes
+de dataset, já que a extração de parâmetros não é clara e metodológica.
+
+\begin{enumerate}
+\item segmentação automática dos arquivos sonoros, janelando as partes que contem sons dos animais (parece fácil mas não é);
+\item aplicação de um 'ganho de processamento' ou processing gain, ou seja, melhorar a relação sinal ruído entre o canto da ave e o background;
+\item primeiro levantamento de parâmetros de distinção entre espécies;
+\item avaliação da classificação dos ornitólogos quanto a quantidade de diferentes espécies no dataset. Ou seja, pode ser que, sonoramente, existam três, ao invés de duas, classes distintas de indivíduos quanto ao som. Poderíamos chamar isso de clusterização automática: buscar o número de classes que acarreta maior distancia estatística entre classes, para vários fatores (fatores levantados no item 3) e suas respectivas significâncias;
+\item uma vez estabelecido e confirmado o número de classes, estimar os parâmetros sonoros e a variabilidade dos mesmos.
+\end{enumerate}
+
+\subsubsection{Links}
+\label{sec:org14b0b65}
+\begin{itemize}
+\item \url{http://www.birds.cornell.edu/Page.aspx?pid=1478}
+\item \url{http://www.xeno-canto.org}
+\item \url{http://www.seas.ucla.edu/spapl/projects/Bird.html}
+\item \url{https://github.com/marsyas/marsyas}
+\end{itemize}
+
+\subsubsection{Articles [11/15]}
+\label{sec:orge17a72c}
+\begin{enumerate}
+\item {\bfseries\sffamily DONE} Automatic bird sound detection in long real-field recordings: Applications and tools. (\href{https://www.researchgate.net/profile/Klaus\_Riede/publication/260029691\_Automatic\_bird\_sound\_detection\_in\_long\_real-field\_recordings\_Applications\_and\_tools/links/0c96052ffd05bd7e9b000000.pdf}{link})
+\label{sec:orgdff77b0}
+\item {\bfseries\sffamily DONE} Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.
+\label{sec:org7965de9}
+\item {\bfseries\sffamily DONE} Automatic Bird Species Identification for Large Number of Species. (\href{http://www.ppgia.pucpr.br/\~alekoe/Papers/ISM2011-Koerich.pdf}{link})
+\label{sec:orgab715a6}
+\item {\bfseries\sffamily DONE} Noise robust bird song detection using syllable pattern-based hidden Markov models. (\href{http://www.seas.ucla.edu/spapl/weichu/docs/chu\_icassp\_11.pdf}{link})
+\label{sec:org8d2f785}
+\item {\bfseries\sffamily DONE} Parametric Representations of Bird Sounds for Automatic Species Recognition. (\href{https://www.researchgate.net/profile/Aki\_Haermae2/publication/3457694\_Parametric\_Representations\_of\_Bird\_Sounds\_for\_Automatic\_Species\_Recognition/links/00b4952a75660c3e4a000000.pdf}{link})
+\label{sec:orgdf7df44}
+\item {\bfseries\sffamily DONE} Time-Frequency Segmentation Of Bird Song In Noisy Acoustic Environments. (\href{http://www.freewillworkshop.org/neal\_briggs\_raich\_fern\_2011.pdf}{link})
+\label{sec:orgffcbf38}
+\item {\bfseries\sffamily DONE} Automated species recognition of antbirds in a Mexican rainforest using hidden Markov models. (\href{https://pdfs.semanticscholar.org/5437/48ce97ffff396f92eba529aa16839f39ed0a.pdf}{link})
+\label{sec:org5323587}
+\item {\bfseries\sffamily TODO} Bird Species Recognition Using Support Vector Machines. (\href{http://download.springer.com/static/pdf/160/art\%253A10.1155\%252F2007\%252F38637.pdf?originUrl=http\%3A\%2F\%2Flink.springer.com\%2Farticle\%2F10.1155\%2F2007\%2F38637\&token2=exp=1491790433\~acl=\%2Fstatic\%2Fpdf\%2F160\%2Fart\%25253A10.1155\%25252F2007\%25252F38637.pdf\%3ForiginUrl\%3Dhttp\%253A\%252F\%252Flink.springer.com\%252Farticle\%252F10.1155\%252F2007\%252F38637*\~hmac=749b3e2e28a5682fbb69d7e97b689d4170c4b28491fc3205cd89570cd52cef37}{link}) (Tem segmentation)
+\label{sec:org244dadf}
+\item {\bfseries\sffamily DONE} An Automated Acoustic System to Monitor and Classify Birds. (\href{http://download.springer.com/static/pdf/296/art\%253A10.1155\%252FASP\%252F2006\%252F96706.pdf?originUrl=http\%3A\%2F\%2Flink.springer.com\%2Farticle\%2F10.1155\%2FASP\%2F2006\%2F96706\&token2=exp=1491790536\~acl=\%2Fstatic\%2Fpdf\%2F296\%2Fart\%25253A10.1155\%25252FASP\%25252F2006\%25252F96706.pdf\%3ForiginUrl\%3Dhttp\%253A\%252F\%252Flink.springer.com\%252Farticle\%252F10.1155\%252FASP\%252F2006\%252F96706*\~hmac=d1377141fd9b5b444d1e9a8b5ecdb1c15c92f39a2b1695cf31f6da6a4cfb187a}{link})
+\label{sec:org03eddd7}
+\item {\bfseries\sffamily DONE} Automated recognition of bird song elements from continuous recordings using dynamic time warping and hidden Markov models: A comparative study. (\href{http://asa.scitation.org/doi/abs/10.1121/1.421364}{link})
+\label{sec:orgcef2ec4}
+\item {\bfseries\sffamily TODO} Automatic Recognition of Bird Songs Using Cepstral Coefficients. (\href{https://www.researchgate.net/profile/Chang-Hsing\_Lee/publication/253259227\_Automatic\_Recognition\_of\_Bird\_Songs\_Using\_Cepstral\_Coefficients/links/53ede4db0cf26b9b7dc63033.pdf}{link})
+\label{sec:orgb8a3cc5}
+\item {\bfseries\sffamily DONE} Wavelets in Recognition of Bird Sounds. (\href{http://s3.amazonaws.com/academia.edu.documents/40038976/560524cd08ae5e8e3f31325b.pdf20151115-68247-1reydjr.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A\&Expires=1491793894\&Signature=Ay\%2FrPHzyuWr55BessSwGTM\%2F3doE\%3D\&response-content-disposition=inline\%3B\%20filename\%3DWavelets\_in\_Recognition\_of\_Bird\_Sounds.pdf}{link})
+\label{sec:orgef53fa9}
+\item {\bfseries\sffamily TODO} Automatic Recognition of Bird Species by Their Sounds - Survey. (\href{http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund\_mst.pdf}{link})
+\label{sec:org92ae70d}
+\item {\bfseries\sffamily DONE} Bird classification algorithms: theory and experimental results. (\href{https://www.researchgate.net/profile/Chiman\_Kwan/publication/4088075\_Bird\_classification\_algorithms\_theory\_and\_experimental\_results/links/0deec5304cc050b8f7000000.pdf}{link})
+\label{sec:orga42cf48}
+\item {\bfseries\sffamily TODO} Automatic Recognition of Bird Species by Their Sounds. (\href{http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund\_mst.pdf}{link}) (Chapter about segmentation)
+\label{sec:org6ed1b60}
+\end{enumerate}
+
+\subsubsection{Datasets}
+\label{sec:orgc4222e1}
+\begin{enumerate}
+\item {\bfseries\sffamily DONE} Rocky Mountain Biological Laboratory American Robin database [RMBL-Robin] (\href{http://www.seas.ucla.edu/spapl/projects/Bird.html}{link})
+\label{sec:orgfd51f1a}
+A 78 minutes Robin song database collected by using a close-field song
+meter (www.wildlifeacoustics.com) at the Rocky Mountain Biological
+Laboratory near Crested Butte, Colorado in the summer of 2009 [3]. The
+recorded Robin songs are naturally corrupted by different kinds of
+background noises, such as wind, water and other vocal bird species.
+Non-target songs may overlap with target songs. Each song usually consists
+of 2-10 syllables. The timing boundaries and noise conditions of the
+syllables and songs, and human inferred syllable patterns are annotated.
+\end{enumerate}
+
+\subsubsection{Tema \& Descrição}
+\label{sec:orgff94e4f}
+\textbf{Nome}: Felipe Silva Felix \\
+\textbf{Supervisores}: Prof. Marcelo Queiroz (IME-USP) , Dr. Carolina Brum (Fliprl/Brazil e Google ATAP) \\
+\textbf{Tema do trabalho}: Processamento e identificação automática de cantos de pássaros. \\
+
+\textbf{Descrição}: O monitoramento de pássaros tem grande importância para identificar
+mudanças nas populações de animais selvagens e em seus ecossistemas. Uma das
+formas de monitorar pássaros é através da análise de seus cantos. Porém, a
+análise desses cantos apresenta grandes desafios para pesquisadores. Muitas
+vezes a quantidade de áudio a ser analisada é grande, impossibilitando a
+detecção e classificação manual dos cantos. Outro problema é que essas
+gravações, em sua maioria, apresentam ruídos como sons de outros animais, chuva,
+vento.
+
+Esse quadro levanta os seguintes desafios na área de processamento de sinais e
+de aprendizagem de máquina: pré-processamento da gravação para aprimorar a
+qualidade do sinal; segmentação e reconhecimento automático de padrões do sinal
+de forma a reduzir, de forma drástica, a quantidade de áudio a ser analisado
+(por exemplo, reconhecer um canto, previamente selecionado, na gravação); e
+classificação automática de espécies de pássaros a partir dos cantos presentes
+numa gravação.
+
+Pretendemos estudar técnicas de processamento de sinais (filtros, transformadas,
+representações alternativas) para tratar o sinal bruto e extrair suas devidas
+características. Assim como técnicas de segmentação e detecção automática
+baseadas em funções de novidade, cadeias de Markov escondidas, classificadores
+automáticos, entre outras. Também, desejamos estudar técnicas de identificação e
+classificação automática que utilizam algoritmos clássicos em aprendizagem de
+máquina como, kNN, Naïve Bayes e SVM.
+\end{document}

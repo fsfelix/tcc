@@ -1,0 +1,5 @@
+%lastpage.sty for latex 2.09 by Piet van Oostrum <piet@cs.ruu.nl>
+\let\origenddocument=\enddocument
+\def\enddocument{\clearpage\if@filesw
+  {\addtocounter{page}{-1} \immediate\write\@mainaux
+    {\string\newlabel{LastPage}{{}{\thepage}}}}\origenddocument}

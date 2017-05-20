@@ -1,0 +1,1090 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.70)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Statistical pattern recognition</TITLE>
+<META NAME="description" CONTENT="Statistical pattern recognition">
+<META NAME="keywords" CONTENT="Gaussian">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="../../ci.css">
+
+<LINK REL="next" HREF="node3.html">
+<LINK REL="previous" HREF="node1.html">
+<LINK REL="up" HREF="Gaussian.html">
+<LINK REL="next" HREF="node3.html">
+</HEAD>
+
+<BODY  bgcolor="#ffffff">
+
+<DIV CLASS="navigation"><table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left  class="tut_nav"><i><b>&nbsp;<A NAME="tex2html32"
+  HREF="Gaussian.html">Tutorial: Gaussian Statistics and Unsupervised Learning</A></b></i></td><td valign=middle align=right class="tut_nav">&nbsp;
+<A NAME="tex2html25"
+  HREF="node1.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A>&nbsp;&nbsp;<a href="index.html"><img ALIGN="absmiddle" BORDER="0" ALT="Contents" src="contents.gif"></a>&nbsp;
+<A NAME="tex2html33"
+  HREF="node3.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="next" SRC="next.gif"></A></dt></tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+<!--Table of Child-Links--><br>
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A NAME="tex2html35"
+  HREF="node2.html#SECTION00021000000000000000">A-priori class probabilities</A>
+<LI><A NAME="tex2html36"
+  HREF="node2.html#SECTION00022000000000000000">Gaussian modeling of classes</A>
+<LI><A NAME="tex2html37"
+  HREF="node2.html#SECTION00023000000000000000">Bayesian classification</A>
+<LI><A NAME="tex2html38"
+  HREF="node2.html#SECTION00024000000000000000">Discriminant surfaces</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+
+<H1><A NAME="SECTION00020000000000000000">
+Statistical pattern recognition</A>
+</H1>
+
+<P>
+
+<H2><A NAME="SECTION00021000000000000000"></A>
+<A NAME="sec:apriori"></A>
+<BR>
+A-priori class probabilities
+</H2>
+
+<H3><A NAME="SECTION00021100000000000000">
+Experiment:</A>
+</H3>
+Load data from file ``vowels.mat''. This file contains a database of
+2-dimensional samples of speech features in the form of formant
+frequencies (the first and the second spectral formants, <SPAN CLASS="MATH"><IMG
+ WIDTH="48" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img88.gif"
+ ALT="$ [F_1,F_2]$"></SPAN>).
+The formant frequency samples represent features that would be
+extracted from the speech signal for several occurrences of the vowels
+/a/, /e/, /i/, /o/, and /y/<A NAME="tex2html4"
+  HREF="footnode.html#foot353"><SUP><SPAN CLASS="arabic">1</SPAN></SUP></A>.  They are grouped in matrices of size <SPAN CLASS="MATH"><IMG
+ WIDTH="40" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img89.gif"
+ ALT="$ N\times2$"></SPAN>, where
+each of the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img30.gif"
+ ALT="$ N$"></SPAN> lines contains the two formant frequencies for one
+occurrence of a vowel.
+
+<P>
+Supposing that the whole database covers adequately an imaginary
+language made only of /a/'s, /e/'s, /i/'s, /o/'s, and /y/'s, compute
+the probability <SPAN CLASS="MATH"><IMG
+ WIDTH="38" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img90.gif"
+ ALT="$ P(q_k)$"></SPAN> of each class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>, <!-- MATH
+ $k \in
+\{\text{/a/},\text{/e/},\text{/i/},\text{/o/},\text{/y/}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="35" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img92.gif"
+ ALT="$ k \in
+\{$">/a/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/e/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/i/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/o/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/y/<IMG
+ WIDTH="10" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img94.gif"
+ ALT="$ \}$"></SPAN>. Which is
+the most common and which the least common phoneme in our imaginary
+language?
+
+<P>
+
+<H3><A NAME="SECTION00021200000000000000">
+Example:</A>
+</H3>
+<TT>&#187; clear all; load vowels.mat; whos</TT> 
+<BR>
+<TT>&#187; Na = size(a,1); Ne = size(e,1); Ni = size(i,1); No = size(o,1); Ny = size(y,1);</TT> 
+<BR>
+<TT>&#187; N = Na + Ne + Ni + No + Ny;</TT> 
+<BR>
+<TT>&#187; Pa = Na/N</TT> 
+<BR>
+<TT>&#187; Pi = Ni/N</TT> 
+<BR>
+etc.
+
+<P>
+
+<H2><A NAME="SECTION00022000000000000000"></A>
+<A NAME="gaussmod"></A>
+<BR>
+Gaussian modeling of classes
+</H2>
+
+<P>
+
+<H3><A NAME="SECTION00022100000000000000">
+Experiment:</A>
+</H3>
+Plot each vowel's data as clouds of points in the 2D plane. Train the
+Gaussian models corresponding to each class (use directly the
+<TT>mean</TT> and <TT>cov</TT> commands). Plot their contours (use directly
+the function <TT>plotgaus(mu,sigma,color)</TT> where <TT>color =
+  [R,G,B]</TT>).
+
+<P>
+
+<H3><A NAME="SECTION00022200000000000000">
+Example:</A>
+</H3>
+<TT>&#187; plotvow; % Plot the clouds of simulated vowel features</TT> 
+<BR>
+(Do not close the figure obtained, it will be used later on.) 
+<BR>
+Then compute and plot the Gaussian models: 
+<BR>
+<TT>&#187; mu_a = mean(a);</TT> 
+<BR>
+<TT>&#187; sigma_a = cov(a);</TT> 
+<BR>
+<TT>&#187; plotgaus(mu_a,sigma_a,[0 1 1]);</TT> 
+<BR>
+<TT>&#187; mu_e = mean(e);</TT> 
+<BR>
+<TT>&#187; sigma_e = cov(e);</TT> 
+<BR>
+<TT>&#187; plotgaus(mu_e,sigma_e,[0 1 1]);</TT> 
+<BR>
+etc.
+
+<P>
+
+<H2><A NAME="SECTION00023000000000000000"></A>
+<A NAME="sec:classification"></A>
+<BR>
+Bayesian classification
+</H2>
+
+<P>
+We will now find how to classify a feature vector <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> from a data
+sample (or several feature vectors <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN>) as belonging to a certain
+class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>.
+
+<P>
+
+<H3><A NAME="SECTION00023100000000000000">
+Useful formulas and definitions:</A>
+</H3>
+
+<UL>
+<LI><EM>Bayes' decision rule</EM>:
+  <!-- MATH
+ \begin{displaymath}
+X \in q_k \quad \mbox{if} \quad P(q_k|X,\ensuremath\boldsymbol{\Theta}) \geq P(q_j|X,\ensuremath\boldsymbol{\Theta}),
+  \quad\forall j \neq k
+  
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="46" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img95.gif"
+ ALT="$\displaystyle X \in q_k$">&nbsp; &nbsp;if<IMG
+ WIDTH="235" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img96.gif"
+ ALT="$\displaystyle \quad P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) \geq P(q_j\vert X,\ensuremath\boldsymbol{\Theta}),
+\quad\forall j \neq k
+$">
+</DIV><P></P>
+This formula means: given a set of classes <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>, characterized by a
+  set of known parameters in model <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN>, a set of one or more speech
+  feature vectors <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> (also called <EM>observations</EM>) belongs to the
+  class which has the highest probability once we actually know (or
+  ``see'', or ``measure'') the sample <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN>. <!-- MATH
+ $P(q_k|X,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="73" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img97.gif"
+ ALT="$ P(q_k\vert X,\ensuremath\boldsymbol{\Theta})$"></SPAN> is therefore
+  called the <EM>a posteriori probability</EM>, because it depends on
+  having seen the observations, as opposed to the <EM>a priori</EM>
+  probability <!-- MATH
+ $P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.gif"
+ ALT="$ P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> which does not depend on any observation
+  (but depends of course on knowing how to characterize all the
+  classes <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>, which means knowing the parameter set <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN>).
+
+<P>
+</LI>
+<LI>For some classification tasks (e.g. speech recognition), it is
+  practical to resort to <EM>Bayes' law</EM>, which makes use of <EM>
+    likelihoods</EM> (see sec.&nbsp;<A HREF="node1.html#sec:likelihood">1.3</A>), rather than trying
+  to directly estimate the posterior probability <!-- MATH
+ $P(q_k|X,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="73" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img97.gif"
+ ALT="$ P(q_k\vert X,\ensuremath\boldsymbol{\Theta})$"></SPAN>.
+  Bayes' law says:
+  <P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:decision-rule"></A><!-- MATH
+ \begin{equation}
+P(q_k|X,\ensuremath\boldsymbol{\Theta}) = \frac{p(X|q_k,\ensuremath\boldsymbol{\Theta})\; P(q_k|\ensuremath\boldsymbol{\Theta})}{p(X|\ensuremath\boldsymbol{\Theta})}
+\end{equation}
+ -->
+<TABLE CLASS="equation" CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><SPAN CLASS="MATH"><IMG
+ WIDTH="216" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img99.gif"
+ ALT="$\displaystyle P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) = \frac{p(X\vert q_k...
+...k\vert\ensuremath\boldsymbol{\Theta})}{p(X\vert\ensuremath\boldsymbol{\Theta})}$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+(<SPAN CLASS="arabic">4</SPAN>)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+where <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> is a class, <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> is a sample containing one or more
+  feature vectors and <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> is the parameter set of all the class
+  models.
+
+<P>
+</LI>
+<LI>The speech features are usually considered equi-probable:
+  <!-- MATH
+ $p(X|\ensuremath\boldsymbol{\Theta})=\text{const.}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="65" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img100.gif"
+ ALT="$ p(X\vert\ensuremath\boldsymbol{\Theta})=$">const.</SPAN> (uniform prior distribution for <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN>).
+  Hence, <!-- MATH
+ $P(q_k|X,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="73" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img97.gif"
+ ALT="$ P(q_k\vert X,\ensuremath\boldsymbol{\Theta})$"></SPAN> is proportional to <!-- MATH
+ $p(X|q_k,\ensuremath\boldsymbol{\Theta}) P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="121" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img101.gif"
+ ALT="$ p(X\vert q_k,\ensuremath\boldsymbol{\Theta}) P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN>
+  for all classes:
+  <!-- MATH
+ \begin{displaymath}
+P(q_k|X,\ensuremath\boldsymbol{\Theta}) \propto p(X|q_k,\ensuremath\boldsymbol{\Theta})\; P(q_k|\ensuremath\boldsymbol{\Theta}), \quad \forall k
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="248" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img102.gif"
+ ALT="$\displaystyle P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) \propto p(X\vert q_k...
+...dsymbol{\Theta})\; P(q_k\vert\ensuremath\boldsymbol{\Theta}), \quad \forall k
+$">
+</DIV><P></P>
+
+<P>
+</LI>
+<LI>Once again, it is more convenient to do the computation in the
+  <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img103.gif"
+ ALT="$ \log$"></SPAN> domain:
+  <P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:log-decision-rule"></A><!-- MATH
+ \begin{equation}
+\log P(q_k|X,\ensuremath\boldsymbol{\Theta}) \propto \log p(X|q_k,\ensuremath\boldsymbol{\Theta}) + \log P(q_k|\ensuremath\boldsymbol{\Theta})
+\end{equation}
+ -->
+<TABLE CLASS="equation" CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><SPAN CLASS="MATH"><IMG
+ WIDTH="287" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img104.gif"
+ ALT="$\displaystyle \log P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) \propto \log p(...
+...ensuremath\boldsymbol{\Theta}) + \log P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+(<SPAN CLASS="arabic">5</SPAN>)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+</LI>
+</UL>
+
+<P>
+In our case, <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> represents the set of <SPAN  CLASS="textit">all</SPAN> the means <!-- MATH
+ $\ensuremath\boldsymbol{\mu}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="20" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img105.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}_k$"></SPAN>
+and variances <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img106.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_k$"></SPAN>, <!-- MATH
+ $k \in
+\{\text{/a/},\text{/e/},\text{/i/},\text{/o/},/u/\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="35" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img92.gif"
+ ALT="$ k \in
+\{$">/a/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/e/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/i/<IMG
+ WIDTH="7" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.gif"
+ ALT="$ ,$">/o/<IMG
+ WIDTH="38" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img107.gif"
+ ALT="$ ,/u/\}$"></SPAN> of our data
+generation model.  <!-- MATH
+ $p(X|q_k,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="70" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img108.gif"
+ ALT="$ p(X\vert q_k,\ensuremath\boldsymbol{\Theta})$"></SPAN> and <!-- MATH
+ $\log p(X|q_k,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="90" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img109.gif"
+ ALT="$ \log p(X\vert q_k,\ensuremath\boldsymbol{\Theta})$"></SPAN> are the
+joint likelihood and joint log-likelihood
+(eq.&nbsp;<A HREF="node1.html#eq:joint-likelihood">2</A> in section&nbsp;<A HREF="node1.html#sec:likelihood">1.3</A>) of the
+sample <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> with respect to the model <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> for class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> (i.e., the
+model with parameter set <!-- MATH
+ $(\ensuremath\boldsymbol{\mu}_k,\ensuremath\boldsymbol{\Sigma}_k)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="56" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img110.gif"
+ ALT="$ (\ensuremath\boldsymbol{\mu}_k,\ensuremath\boldsymbol{\Sigma}_k)$"></SPAN>).
+
+<P>
+The probability <!-- MATH
+ $P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.gif"
+ ALT="$ P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> is the a-priori class probability for the
+class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>. It defines an absolute probability of occurrence for the
+class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>. The a-priori class probabilities for our phoneme classes
+have been computed in section&nbsp;<A HREF="#sec:apriori">2.1</A>.
+
+<P>
+
+<H3><A NAME="SECTION00023200000000000000">
+Experiment:</A>
+</H3>
+Now, we have modeled each vowel class with a Gaussian pdf (by
+computing means and variances), we know the probability <SPAN CLASS="MATH"><IMG
+ WIDTH="38" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img90.gif"
+ ALT="$ P(q_k)$"></SPAN> of
+each class in the imaginary language (sec.&nbsp;<A HREF="#sec:apriori">2.1</A>), which
+we assume to be the correct a priori probabilities <!-- MATH
+ $P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.gif"
+ ALT="$ P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> for
+each class given our model <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN>.  Further we assume that the speech
+<SPAN  CLASS="textit">features</SPAN> <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> (as opposed to speech <EM>classes</EM> <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>) are
+equi-probable<A NAME="tex2html5"
+  HREF="footnode.html#foot764"><SUP><SPAN CLASS="arabic">2</SPAN></SUP></A>.
+
+<P>
+What is the most probable class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> for each of the formant pairs
+(features) <!-- MATH
+ $\ensuremath\mathbf{x}_i=[F_1,F_2]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img112.gif"
+ ALT="$ \ensuremath\mathbf{x}_i=[F_1,F_2]^{\mathsf T}$"></SPAN> given in the table below?  Compute
+the values of the functions <!-- MATH
+ $f_k(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="41" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img113.gif"
+ ALT="$ f_k(\ensuremath\mathbf{x}_i)$"></SPAN> for our model <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> as the
+right-hand side of eq.&nbsp;<A HREF="#eq:log-decision-rule">5</A>: <!-- MATH
+ $f_k(\ensuremath\mathbf{x}_i) = \log
+p(\ensuremath\mathbf{x}_i|q_k,\ensuremath\boldsymbol{\Theta}) + \log P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="236" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img114.gif"
+ ALT="$ f_k(\ensuremath\mathbf{x}_i) = \log
+p(\ensuremath\mathbf{x}_i\vert q_k,\ensuremath\boldsymbol{\Theta}) + \log P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN>, proportional to the log of the
+posterior probability of <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> belonging to class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>.
+
+<P>
+
+<P>
+<BR>
+
+<DIV ALIGN="CENTER">
+
+  <TABLE CELLPADDING=3 BORDER="1">
+<TR><TD ALIGN="CENTER">i</TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $\ensuremath\mathbf{x}_i=[F_1,F_2]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img112.gif"
+ ALT="$ \ensuremath\mathbf{x}_i=[F_1,F_2]^{\mathsf T}$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $f_{\text{/a/}}(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="52" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img115.gif"
+ ALT="$ f_{\text{/a/}}(\ensuremath\mathbf{x}_i)$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $f_{\text{/e/}}(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="51" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img116.gif"
+ ALT="$ f_{\text{/e/}}(\ensuremath\mathbf{x}_i)$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $f_{\text{/i/}}(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="49" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img117.gif"
+ ALT="$ f_{\text{/i/}}(\ensuremath\mathbf{x}_i)$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $f_{\text{/o/}}(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="52" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img118.gif"
+ ALT="$ f_{\text{/o/}}(\ensuremath\mathbf{x}_i)$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER"><SMALL CLASS="SMALL"><!-- MATH
+ $f_{\text{/y/}}(\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="52" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img119.gif"
+ ALT="$ f_{\text{/y/}}(\ensuremath\mathbf{x}_i)$"></SPAN> </SMALL></TD>
+<TD ALIGN="CENTER">Most prob. class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN></TD>
+</TR>
+<TR><TD ALIGN="CENTER">1</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[400,1800]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img120.gif"
+ ALT="$ [400,1800]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="CENTER">2</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[400,1000]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img121.gif"
+ ALT="$ [400,1000]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="CENTER">3</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[530,1000]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img122.gif"
+ ALT="$ [530,1000]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="CENTER">4</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[600,1300]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img123.gif"
+ ALT="$ [600,1300]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="CENTER">5</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[670,1300]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img124.gif"
+ ALT="$ [670,1300]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="CENTER">6</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ $[420,2500]^{\mathsf T}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="74" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img125.gif"
+ ALT="$ [420,2500]^{\mathsf T}$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+</TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<H3><A NAME="SECTION00023300000000000000">
+Example:</A>
+</H3>
+Use function <TT>gloglike(point,mu,sigma)</TT> to compute the
+log-likelihoods <!-- MATH
+ $\log p(\ensuremath\mathbf{x}_i|q_k,\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="90" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img126.gif"
+ ALT="$ \log p(\ensuremath\mathbf{x}_i\vert q_k,\ensuremath\boldsymbol{\Theta})$"></SPAN>.  Don't forget to add the log
+of the prior probability <!-- MATH
+ $P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.gif"
+ ALT="$ P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN>!
+E.g., for the feature set <SPAN CLASS="MATH"><IMG
+ WIDTH="18" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img127.gif"
+ ALT="$ x_1$"></SPAN> and class /a/ use
+<BR>
+<TT>&#187; gloglike([400,1800],mu_a,sigma_a) + log(Pa)</TT>
+
+<P>
+
+<P><P>
+<BR>
+
+<H2><A NAME="SECTION00024000000000000000"></A>
+<A NAME="sec:discr"></A>
+<BR>
+Discriminant surfaces
+</H2>
+For the Bayesian classification in the last section we made use of the
+<SPAN  CLASS="textit">discriminant functions</SPAN> <!-- MATH
+ $f_k(\ensuremath\mathbf{x}_i) = \log p(\ensuremath\mathbf{x}_i|q_k,\ensuremath\boldsymbol{\Theta}) +
+\log P(q_k|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="236" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img114.gif"
+ ALT="$ f_k(\ensuremath\mathbf{x}_i) = \log
+p(\ensuremath\mathbf{x}_i\vert q_k,\ensuremath\boldsymbol{\Theta}) + \log P(q_k\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> to classify data points <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN>.  This corresponds to
+establishing <SPAN  CLASS="textit">discriminant surfaces</SPAN> of dimension <SPAN CLASS="MATH"><IMG
+ WIDTH="35" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img128.gif"
+ ALT="$ d-1$"></SPAN> in the
+vector space for <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN> (dimension <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.gif"
+ ALT="$ d$"></SPAN>) to separate regions for the
+different classes.
+
+<P>
+
+<H3><A NAME="SECTION00024100000000000000">
+Useful formulas and definitions:</A>
+</H3>
+
+<UL>
+<LI><EM>Discriminant function</EM>: a set of functions <!-- MATH
+ $f_k(\ensuremath\mathbf{x})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="36" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img129.gif"
+ ALT="$ f_k(\ensuremath\mathbf{x})$"></SPAN> allows
+  to classify a sample <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN> into <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img130.gif"
+ ALT="$ k$"></SPAN> classes <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> if:
+  <!-- MATH
+ \begin{displaymath}
+\ensuremath\mathbf{x}\in q_k \quad \Leftrightarrow \quad f_k(\ensuremath\mathbf{x},\ensuremath\boldsymbol{\Theta}_k) \geq f_l(\ensuremath\mathbf{x},\ensuremath\boldsymbol{\Theta}_l),
+  \quad \forall l \neq k
+  
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="281" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img131.gif"
+ ALT="$\displaystyle \ensuremath\mathbf{x}\in q_k \quad \Leftrightarrow \quad f_k(\ens...
+...suremath\mathbf{x},\ensuremath\boldsymbol{\Theta}_l),
+\quad \forall l \neq k
+$">
+</DIV><P></P>
+In this case, the <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img130.gif"
+ ALT="$ k$"></SPAN> functions <!-- MATH
+ $f_k(\ensuremath\mathbf{x})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="36" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img129.gif"
+ ALT="$ f_k(\ensuremath\mathbf{x})$"></SPAN> are called discriminant
+  functions.
+</LI>
+</UL>
+
+<P>
+The a-posteriori probability <!-- MATH
+ $P(q_k|\ensuremath\mathbf{x}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="55" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img132.gif"
+ ALT="$ P(q_k\vert\ensuremath\mathbf{x}_i)$"></SPAN> that a sample <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN>
+belongs to class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> is itself a discriminant function:
+<BR>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<!-- MATH
+ \begin{eqnarray*}
+\ensuremath\mathbf{x}\in q_k
+  & \Leftrightarrow & P(q_k|\ensuremath\mathbf{x}_i) \geq P(q_l|\ensuremath\mathbf{x}_i),\quad \forall l \neq k \\
+  & \Leftrightarrow & p(\ensuremath\mathbf{x}_i|q_k)\; P(q_k) \geq p(\ensuremath\mathbf{x}_i|q_l)\; P(q_l),\quad
+  \forall l \neq k \\
+  & \Leftrightarrow & \log p(\ensuremath\mathbf{x}_i|q_k)+\log P(q_k) \geq \log
+  p(\ensuremath\mathbf{x}_i|q_l)+\log P(q_l),\quad \forall l \neq k
+\end{eqnarray*}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="42" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img133.gif"
+ ALT="$\displaystyle \ensuremath\mathbf{x}\in q_k$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="17" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img134.gif"
+ ALT="$\displaystyle \Leftrightarrow$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="182" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img135.gif"
+ ALT="$\displaystyle P(q_k\vert\ensuremath\mathbf{x}_i) \geq P(q_l\vert\ensuremath\mathbf{x}_i),\quad \forall l \neq k$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="17" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img134.gif"
+ ALT="$\displaystyle \Leftrightarrow$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="249" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img136.gif"
+ ALT="$\displaystyle p(\ensuremath\mathbf{x}_i\vert q_k)\; P(q_k) \geq p(\ensuremath\mathbf{x}_i\vert q_l)\; P(q_l),\quad
+\forall l \neq k$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="17" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img134.gif"
+ ALT="$\displaystyle \Leftrightarrow$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="357" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img137.gif"
+ ALT="$\displaystyle \log p(\ensuremath\mathbf{x}_i\vert q_k)+\log P(q_k) \geq \log
+p(\ensuremath\mathbf{x}_i\vert q_l)+\log P(q_l),\quad \forall l \neq k$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL">
+
+<P>
+As in our case the samples <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN> are two-dimensional vectors, the
+discriminant surfaces are one-dimensional, i.e., lines at equal values
+of the discriminant functions for two distinct classes.
+
+<P>
+
+<H3><A NAME="SECTION00024200000000000000">
+Experiment:</A>
+</H3>
+
+<DIV ALIGN="CENTER"><A NAME="iso"></A><A NAME="836"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 1:</STRONG>
+Iso-likelihood lines for the Gaussian pdfs
+  <!-- MATH
+ ${\cal N}(\ensuremath\boldsymbol{\mu}_{\text{/i/}},\ensuremath\boldsymbol{\Sigma}_{\text{/i/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="85" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/i/}},\ensuremath \boldsymbol {\Sigma }_{\text {/i/}})$"></SPAN> and <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/e/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="89" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/e/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN> (top), and <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/i/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/i/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN> and <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/e/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="89" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/e/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN> (bottom).</CAPTION>
+<TR><TD>
+<DIV CLASS="centerline" ID="par3870" ALIGN="CENTER">
+<IMG
+ WIDTH="338" HEIGHT="723" ALIGN="BOTTOM" BORDER="0"
+ SRC="img138.gif"
+ ALT="\includegraphics[height=0.95\textheight]{iso}"></DIV></TD></TR>
+</TABLE>
+</DIV>
+The iso-likelihood lines for the Gaussian pdfs <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/i/}},\ensuremath\boldsymbol{\Sigma}_{\text{/i/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="85" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/i/}},\ensuremath \boldsymbol {\Sigma }_{\text {/i/}})$"></SPAN> and <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/e/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="89" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/e/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN>, which we used before to
+model the class /i/ and the class /e/, are plotted in
+figure&nbsp;<A HREF="#iso">1</A>, first graph. On the second graph in
+figure&nbsp;<A HREF="#iso">1</A>, the iso-likelihood lines for <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/i/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/i/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN> and <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu}_{\text{/e/}},\ensuremath\boldsymbol{\Sigma}_{\text{/e/}})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="89" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ ALT="$ {\cal N}(\ensuremath \boldsymbol {\mu }_{\text {/e/}},\ensuremath \boldsymbol {\Sigma }_{\text {/e/}})$"></SPAN> (two pdfs with the
+<SPAN  CLASS="textit">same</SPAN> covariance matrix <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_{\text{/e/}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="32" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img139.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_{\text{/e/}}$"></SPAN>) are represented.  
+
+<P>
+On these figures, use a colored pen to join the intersections of the
+level lines that correspond to equal likelihoods.  Assume that the
+highest iso-likelihood lines (smallest ellipses) are of the same
+height. (You can also use <TT>isosurf</TT> in M<SMALL>ATLAB</SMALL> to create a
+color plot.)
+
+<P>
+
+<H3><A NAME="SECTION00024300000000000000">
+Question:</A>
+</H3>
+What is the nature of the surface that separates class /i/ from class
+/e/ when the two models have <EM>different</EM> variances? Can you
+explain the origin of this form?
+
+<P>
+What is the nature of the surface that separates class /i/ from class
+/e/ when the two models have the <EM>same</EM> variances? Why is it
+different from the previous discriminant surface?
+
+<BR>
+<P>
+Show that in the case of two Gaussian pdfs with <SPAN  CLASS="textit">equal covariance
+  matrices</SPAN>, the separation between class 1 and class 2 does not
+depend upon the covariance <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> any more.
+
+<BR>
+<P>
+As a summary, we have seen that Bayesian classifiers with
+Gaussian data models separate the classes with combinations of
+parabolic surfaces. If the covariance matrices of the models are
+equal, the parabolic separation surfaces become simple hyper-planes.
+
+<P>
+
+<P><P>
+<BR>
+
+<P>
+
+<DIV CLASS="navigation"><br>
+<table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left width=1% class="tut_nav">
+<A NAME="tex2html25"
+  HREF="node1.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A></td><td valign=middle align=left class="tut_nav">&nbsp;<A NAME="tex2html26"
+  HREF="node1.html">Gaussian statistics</A></td>
+<td align=right valign=middle class="tut_nav"><A NAME="tex2html34"
+  HREF="node3.html">Unsupervised training</A>&nbsp;
+<A NAME="tex2html33"
+  HREF="node3.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="next" SRC="next.gif"></A></td>
+</tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

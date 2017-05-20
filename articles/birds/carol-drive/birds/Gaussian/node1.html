@@ -1,0 +1,1445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.70)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Gaussian statistics</TITLE>
+<META NAME="description" CONTENT="Gaussian statistics">
+<META NAME="keywords" CONTENT="Gaussian">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="../../ci.css">
+
+<LINK REL="next" HREF="node2.html">
+<LINK REL="previous" HREF="Gaussian.html">
+<LINK REL="up" HREF="Gaussian.html">
+<LINK REL="next" HREF="node2.html">
+</HEAD>
+
+<BODY  bgcolor="#ffffff">
+
+<DIV CLASS="navigation"><table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left  class="tut_nav"><i><b>&nbsp;<A NAME="tex2html19"
+  HREF="Gaussian.html">Tutorial: Gaussian Statistics and Unsupervised Learning</A></b></i></td><td valign=middle align=right class="tut_nav">&nbsp;
+<A NAME="tex2html12"
+  HREF="Gaussian.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A>&nbsp;&nbsp;<a href="index.html"><img ALIGN="absmiddle" BORDER="0" ALT="Contents" src="contents.gif"></a>&nbsp;
+<A NAME="tex2html20"
+  HREF="node2.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="next" SRC="next.gif"></A></dt></tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+<!--Table of Child-Links--><br>
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A NAME="tex2html22"
+  HREF="node1.html#SECTION00011000000000000000">Samples from a Gaussian density</A>
+<LI><A NAME="tex2html23"
+  HREF="node1.html#SECTION00012000000000000000">Gaussian modeling: Mean and variance of a sample</A>
+<LI><A NAME="tex2html24"
+  HREF="node1.html#SECTION00013000000000000000">Likelihood of a sample with respect to a Gaussian model</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+
+<H1><A NAME="SECTION00010000000000000000">
+Gaussian statistics</A>
+</H1>
+
+<P>
+
+<H2><A NAME="SECTION00011000000000000000"></A>
+<A NAME="samples"></A>
+<BR>
+Samples from a Gaussian density
+</H2>
+
+<P>
+
+<H3><A NAME="SECTION00011100000000000000"></A><A NAME="sec:gausspdf"></A>
+<BR>
+Useful formulas and definitions:
+</H3>
+
+<UL>
+<LI>The <EM>Gaussian probability density function (pdf)</EM> for the
+  <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.gif"
+ ALT="$ d$"></SPAN>-dimensional random variable <!-- MATH
+ $\ensuremath\mathbf{x}\circlearrowleft {\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="83" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.gif"
+ ALT="$ \ensuremath\mathbf{x}\circlearrowleft {\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$"></SPAN> (i.e., variable <!-- MATH
+ $\ensuremath\mathbf{x}\in \ensuremath\mathbb{R}^d$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="45" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.gif"
+ ALT="$ \ensuremath\mathbf{x}\in \ensuremath\mathbb{R}^d$"></SPAN> following the
+  Gaussian, or Normal, probability law) is given by:
+  <P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:gauss"></A><!-- MATH
+ \begin{equation}
+g_{(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})}(\ensuremath\mathbf{x}) = \frac{1}{\sqrt{2\pi}^d
+      \sqrt{\det\left(\ensuremath\boldsymbol{\Sigma}\right)}} \, e^{-\frac{1}{2} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})^{\mathsf T}
+      \ensuremath\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})}
+  
+\end{equation}
+ -->
+<TABLE CLASS="equation" CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><SPAN CLASS="MATH"><IMG
+ WIDTH="291" HEIGHT="44" ALIGN="MIDDLE" BORDER="0"
+ SRC="img8.gif"
+ ALT="$\displaystyle g_{(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})}(...
+...th\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})}$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+(<SPAN CLASS="arabic">1</SPAN>)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+where <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> is the mean vector and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> is the covariance matrix.
+  <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> are the <EM>parameters</EM> of the Gaussian
+  distribution.
+
+<P>
+</LI>
+<LI>The mean vector <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> contains the mean values of each
+  dimension, <!-- MATH
+ $\mu_i = E(x_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="70" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img11.gif"
+ ALT="$ \mu_i = E(x_i)$"></SPAN>, with <SPAN CLASS="MATH"><IMG
+ WIDTH="33" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.gif"
+ ALT="$ E(x)$"></SPAN> being the <SPAN  CLASS="textit">expected
+    value</SPAN> of <SPAN CLASS="MATH"><IMG
+ WIDTH="11" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img13.gif"
+ ALT="$ x$"></SPAN>.
+
+<P>
+</LI>
+<LI>All of the variances <SPAN CLASS="MATH"><IMG
+ WIDTH="18" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img14.gif"
+ ALT="$ c_{ii}$"></SPAN> and covariances <SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img15.gif"
+ ALT="$ c_{ij}$"></SPAN> are
+  collected together into the covariance matrix <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> of dimension
+  <SPAN CLASS="MATH"><IMG
+ WIDTH="35" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img16.gif"
+ ALT="$ d\times d$"></SPAN>:
+
+<P>
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><!-- MATH
+ \begin{equation*}
+\ensuremath\boldsymbol{\Sigma}=
+  \left[
+    \begin{array}{*{4}{c}}
+      c_{11} & c_{12} & \cdots & c_{1n} \\
+      c_{21} & c_{22} & \cdots & c_{2n} \\
+      \vdots & \vdots & \ddots & \vdots \\
+      c_{n1} & c_{n2} & \cdots & c_{nn} \\
+    \end{array}
+  \right]
+\end{equation*}
+ -->
+<TABLE CLASS="equation*" CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><SPAN CLASS="MATH"><IMG
+ WIDTH="183" HEIGHT="90" ALIGN="MIDDLE" BORDER="0"
+ SRC="img17.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}= \left[ \begin{array}{*{4}{c}} ...
+...ddots &amp; \vdots \\  c_{n1} &amp; c_{n2} &amp; \cdots &amp; c_{nn} \\  \end{array} \right]$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+
+<P>
+The covariance <SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img15.gif"
+ ALT="$ c_{ij}$"></SPAN> of two components <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img18.gif"
+ ALT="$ x_i$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="17" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img19.gif"
+ ALT="$ x_j$"></SPAN> of <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN>
+measures their tendency to vary together, i.e., to co-vary,
+<!-- MATH
+ \begin{displaymath}
+c_{ij} = E\left((x_i-\mu_i)^{\mathsf T}\,(x_j-\mu_j)\right).
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="190" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="img21.gif"
+ ALT="$\displaystyle c_{ij} = E\left((x_i-\mu_i)^{\mathsf T}\,(x_j-\mu_j)\right).$">
+</DIV><P></P>
+If two components <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img18.gif"
+ ALT="$ x_i$"></SPAN> and <SPAN CLASS="MATH"><IMG
+ WIDTH="17" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img19.gif"
+ ALT="$ x_j$"></SPAN>, <SPAN CLASS="MATH"><IMG
+ WIDTH="33" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img22.gif"
+ ALT="$ i\ne j$"></SPAN>, have zero covariance
+<!-- MATH
+ $c_{ij} = 0$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="45" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img23.gif"
+ ALT="$ c_{ij} = 0$"></SPAN> they are <EM>orthogonal</EM> in the statistical sense, which
+transposes to a geometric sense (the expectation is a scalar product
+of random variables; a null scalar product means orthogonality).  If
+all components of <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN> are mutually orthogonal the covariance matrix
+has a diagonal form.
+
+<P>
+</LI>
+<LI><!-- MATH
+ $\sqrt{\ensuremath\boldsymbol{\Sigma}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="27" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img24.gif"
+ ALT="$ \sqrt{\ensuremath\boldsymbol{\Sigma}}$"></SPAN> defines the <EM>standard deviation</EM> of the random
+  variable <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN>. Beware: this square root is meant in the <EM>matrix
+    sense</EM>.
+
+<P>
+</LI>
+<LI>If <!-- MATH
+ $\ensuremath\mathbf{x}\circlearrowleft {\cal N}(\mathbf{0},\mathbf{I})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="75" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img25.gif"
+ ALT="$ \ensuremath\mathbf{x}\circlearrowleft {\cal N}(\mathbf{0},\mathbf{I})$"></SPAN> (<!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN>
+  follows a normal law with zero mean and unit variance; <!-- MATH
+ $\mathbf{I}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="9" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img26.gif"
+ ALT="$ \mathbf{I}$"></SPAN>
+  denotes the identity matrix), and if <!-- MATH
+ $\mathbf{y} = \ensuremath\boldsymbol{\mu}+
+\sqrt{\ensuremath\boldsymbol{\Sigma}}\,\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="92" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img27.gif"
+ ALT="$ \mathbf{y} = \ensuremath\boldsymbol{\mu}+
+\sqrt{\ensuremath\boldsymbol{\Sigma}}\,\ensuremath\mathbf{x}$"></SPAN>, then <!-- MATH
+ $\mathbf{y} \circlearrowleft {\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="83" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img28.gif"
+ ALT="$ \mathbf{y} \circlearrowleft {\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$"></SPAN>.
+
+<P>
+</LI>
+</UL>
+
+<P>
+
+<H3><A NAME="SECTION00011200000000000000">
+Experiment:</A>
+</H3>
+Generate samples <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> of <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img30.gif"
+ ALT="$ N$"></SPAN> points, <!-- MATH
+ $X=\{\ensuremath\mathbf{x}_1,
+\ensuremath\mathbf{x}_2,\ldots,\ensuremath\mathbf{x}_N\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="134" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img31.gif"
+ ALT="$ X=\{\ensuremath\mathbf{x}_1,
+\ensuremath\mathbf{x}_2,\ldots,\ensuremath\mathbf{x}_N\}$"></SPAN>, with <SPAN CLASS="MATH"><IMG
+ WIDTH="70" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img32.gif"
+ ALT="$ N=10000$"></SPAN>, coming from a 2-dimensional
+Gaussian process that has mean
+<!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\mu}= \left[ \begin{array}{c} 730 \\1090 \end{array} \right]
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="89" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img33.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\mu}= \left[ \begin{array}{c} 730 \\ 1090 \end{array} \right]
+$">
+</DIV><P></P>
+and variance
+
+<UL>
+<LI>8000 for both dimensions (<EM>spherical process</EM>) (sample <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img34.gif"
+ ALT="$ X_1$"></SPAN>):
+  <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\Sigma}_1 = \left[ \begin{array}{cc}
+      8000 & 0 \\
+      0    & 8000
+    \end{array} \right]
+  
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="138" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img35.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}_1 = \left[ \begin{array}{cc}
+8000 &amp; 0 \\
+0 &amp; 8000
+\end{array} \right]
+$">
+</DIV><P></P>
+</LI>
+<LI>expressed as a <EM>diagonal</EM> covariance matrix (sample <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img36.gif"
+ ALT="$ X_2$"></SPAN>):
+  <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\Sigma}_2 = \left[ \begin{array}{cc}
+      8000 & 0 \\
+      0    & 18500
+    \end{array} \right]
+  
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="145" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img37.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}_2 = \left[ \begin{array}{cc}
+8000 &amp; 0 \\
+0 &amp; 18500
+\end{array} \right]
+$">
+</DIV><P></P>
+</LI>
+<LI>expressed as a <EM>full</EM> covariance matrix (sample <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN>):
+  <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\Sigma}_3 = \left[ \begin{array}{cc}
+      8000 & 8400 \\
+      8400 & 18500
+    \end{array} \right]
+  
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="145" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img39.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}_3 = \left[ \begin{array}{cc}
+8000 &amp; 8400 \\
+8400 &amp; 18500
+\end{array} \right]
+$">
+</DIV><P></P>
+</LI>
+</UL>
+Use the function <TT>gausview</TT> (<TT>&#187; help gausview</TT>) to plot the
+results as clouds of points in the 2-dimensional plane, and to view the
+corresponding 2-dimensional probability density functions (pdfs) in 2D and
+3D.
+
+<P>
+
+<H3><A NAME="SECTION00011300000000000000">
+Example:</A>
+</H3>
+<TT>&#187; N = 10000;</TT> 
+<BR>
+<TT>&#187; mu = [730 1090]; sigma_1 = [8000 0; 0 8000];</TT> 
+<BR>
+<TT>&#187; X1 = randn(N,2) * sqrtm(sigma_1) + repmat(mu,N,1);</TT> 
+<BR>
+<TT>&#187; gausview(X1,mu,sigma_1,'Sample X1');</TT> 
+<BR>
+Repeat for the two other variance matrices <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_2$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img40.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_2$"></SPAN> and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_3$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img41.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_3$"></SPAN>.
+Use the radio buttons to switch the plots on/off. Use the ``view''
+buttons to switch between 2D and 3D. Use the mouse to rotate the plot
+(must be enabled in <TT>Tools</TT> menu: <TT>Rotate 3D</TT>, or by the
+<!-- MATH
+ $\circlearrowleft$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img42.gif"
+ ALT="$ \circlearrowleft$"></SPAN> button).
+
+<P>
+
+<H3><A NAME="SECTION00011400000000000000">
+Questions:</A>
+</H3>
+By simple inspection of 2D views of the data and of the corresponding
+pdf contours, how can you tell which sample corresponds to a spherical
+process (as the sample <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img34.gif"
+ ALT="$ X_1$"></SPAN>), which sample corresponds to a process
+with a diagonal covariance matrix (as <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img36.gif"
+ ALT="$ X_2$"></SPAN>), and which to a process
+with a full covariance matrix (as <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN>)?
+
+<P>
+
+<H3><A NAME="SECTION00011500000000000000">
+Find the right statements:</A>
+</H3>
+<DL COMPACT>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In process 1 the first and the second component of the
+  vectors <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> are independent.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In process 2 the first and the second component of the
+  vectors <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> are independent.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In process 3 the first and the second component of the
+  vectors <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> are independent.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>If the first and second component of the vectors <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN>
+  are independent, the cloud of points and the pdf contour has the
+  shape of a circle.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>If the first and second component of the vectors <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN>
+  are independent, the cloud of points and pdf contour has to be
+  elliptic with the principle axes of the ellipse aligned with the
+  abscissa and ordinate axes.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>For the covariance matrix <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> the elements have to
+  satisfy <!-- MATH
+ $c_{ij} = c_{ji}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="54" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img45.gif"
+ ALT="$ c_{ij} = c_{ji}$"></SPAN>.
+
+<P>
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The covariance matrix has to be positive definite
+  (<!-- MATH
+ $\ensuremath\mathbf{x}^{\mathsf T}\ensuremath\boldsymbol{\Sigma}\, \ensuremath\mathbf{x}\ge 0$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="68" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img46.gif"
+ ALT="$ \ensuremath\mathbf{x}^{\mathsf T}\ensuremath\boldsymbol{\Sigma}\, \ensuremath\mathbf{x}\ge 0$"></SPAN>). (If yes, what happens if not? Try it
+  out in M<SMALL>ATLAB</SMALL>).
+</DD>
+</DL>
+
+<P>
+
+<H2><A NAME="SECTION00012000000000000000">
+Gaussian modeling: Mean and variance of a sample</A>
+</H2>
+
+<P>
+We will now estimate the parameters <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img10.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}$"></SPAN> of the Gaussian
+models from the data samples.
+
+<P>
+
+<H3><A NAME="SECTION00012100000000000000">
+Useful formulas and definitions:</A>
+</H3>
+
+<UL>
+<LI>Mean estimator: <!-- MATH
+ $\displaystyle \hat{\ensuremath\boldsymbol{\mu}} = \frac{1}{N}
+\sum_{i=1}^{N} \ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="86" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img47.gif"
+ ALT="$ \displaystyle \hat{\ensuremath\boldsymbol{\mu}} = \frac{1}{N}
+\sum_{i=1}^{N} \ensuremath\mathbf{x}_i$"></SPAN>
+</LI>
+<LI>Unbiased covariance estimator: <!-- MATH
+ $\displaystyle \hat{\ensuremath\boldsymbol{\Sigma}} =
+\frac{1}{N-1} \; \sum_{i=1}^{N} (\ensuremath\mathbf{x}_i-\ensuremath\boldsymbol{\mu})^{\mathsf T}(\ensuremath\mathbf{x}_i-\ensuremath\boldsymbol{\mu}) $
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="210" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img48.gif"
+ ALT="$ \displaystyle \hat{\ensuremath\boldsymbol{\Sigma}} =
+\frac{1}{N-1} \; \sum_{i...
+...dsymbol{\mu})^{\mathsf T}(\ensuremath\mathbf{x}_i-\ensuremath\boldsymbol{\mu}) $"></SPAN>
+</LI>
+</UL>
+
+<P>
+
+<H3><A NAME="SECTION00012200000000000000">
+Experiment:</A>
+</H3>
+Take the sample <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN> of 10000 points generated from <!-- MATH
+ ${\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma}_3)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="62" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img49.gif"
+ ALT="$ {\cal
+N}(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma}_3)$"></SPAN>. Compute an estimate <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img50.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}$"></SPAN> of its mean and an
+estimate <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img51.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}$"></SPAN> of its variance:
+
+<OL>
+<LI>with all the available points  <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}_{(10000)}
+=$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="65" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img52.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}_{(10000)}
+=$"></SPAN> <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}_{(10000)} =$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="67" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img53.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}_{(10000)} =$"></SPAN> <BR>
+<BR>
+<BR>
+</LI>
+<LI>with only 1000 points  <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}_{(1000)}
+=$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="60" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img54.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}_{(1000)}
+=$"></SPAN> <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}_{(1000)} =$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="61" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img55.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}_{(1000)} =$"></SPAN> <BR>
+<BR>
+<BR>
+</LI>
+<LI>with only 100 points  <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}_{(100)}
+=$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="54" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img56.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}_{(100)}
+=$"></SPAN> <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}_{(100)} =$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="56" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img57.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}_{(100)} =$"></SPAN> <BR>
+<BR>
+<BR>
+</LI>
+</OL>
+Compare the estimated mean vector <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img50.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}$"></SPAN> to the original mean
+vector <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> by measuring the Euclidean distance that separates them.
+Compare the estimated covariance matrix <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img51.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}$"></SPAN> to the original
+covariance matrix <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_3$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img41.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_3$"></SPAN> by measuring the matrix 2-norm of their
+difference (the norm <!-- MATH
+ $\|\mathbf{A}-\mathbf{B}\|_2$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="64" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img58.gif"
+ ALT="$ \Vert\mathbf{A}-\mathbf{B}\Vert _2$"></SPAN> constitutes a
+measure of similarity of two matrices <!-- MATH
+ $\mathbf{A}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img59.gif"
+ ALT="$ \mathbf{A}$"></SPAN> and <!-- MATH
+ $\mathbf{B}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img60.gif"
+ ALT="$ \mathbf{B}$"></SPAN>;
+use M<SMALL>ATLAB</SMALL>'s <TT>norm</TT> command).
+
+<P>
+
+<H3><A NAME="SECTION00012300000000000000">
+Example:</A>
+</H3>
+In the case of 1000 points (case 2.): 
+<BR>
+<TT>&#187; X = X3(1:1000,:);</TT> 
+<BR>
+<TT>&#187; N = size(X,1)</TT> 
+<BR>
+<TT>&#187; mu_1000 = sum(X)/N</TT> 
+<BR>
+<SPAN  CLASS="textit">-or-</SPAN>
+<BR>
+<TT>&#187; mu_1000 = mean(X)</TT> 
+<BR>
+<TT>&#187; sigma_1000 = (X - repmat(mu_1000,N,1))' * (X - repmat(mu_1000,N,1)) / (N-1)</TT> 
+<BR>
+<SPAN  CLASS="textit">-or-</SPAN>
+<BR>
+<TT>&#187; sigma_1000 = cov(X)</TT> 
+<BR>
+<P>
+
+<TT>&#187; % Comparison of means and covariances:</TT> 
+<BR>
+<TT>&#187; e_mu =  sqrt((mu_1000 - mu) * (mu_1000 - mu)')</TT> 
+<BR>
+<TT>&#187; % (This is the Euclidean distance between mu_1000 and mu)</TT> 
+<BR>
+<TT>&#187; e_sigma = norm(sigma_1000 - sigma_3)</TT> 
+<BR>
+<TT>&#187; % (This is the 2-norm of the difference between sigma_1000 and sigma_3)</TT>
+
+<P>
+
+<H3><A NAME="SECTION00012400000000000000">
+Question:</A>
+</H3>
+When comparing the estimated values <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\mu}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="27" ALIGN="MIDDLE" BORDER="0"
+ SRC="img50.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\mu}}$"></SPAN> and <!-- MATH
+ $\hat{\ensuremath\boldsymbol{\Sigma}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img51.gif"
+ ALT="$ \hat{\ensuremath\boldsymbol{\Sigma}}$"></SPAN> to
+the original values of <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN> and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_3$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img41.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_3$"></SPAN> (using the Euclidean
+distance and the matrix 2-norm), what can you observe?
+
+<P>
+
+<H3><A NAME="SECTION00012500000000000000">
+Find the right statements:</A>
+</H3>
+<DL COMPACT>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>An accurate mean estimate requires more points than an
+  accurate variance estimate.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>It is very important to have enough training examples to
+  estimate the parameters of the data generation process accurately.
+</DD>
+</DL>
+
+<P>
+
+<H2><A NAME="SECTION00013000000000000000"></A>
+<A NAME="sec:likelihood"></A>
+<BR>
+Likelihood of a sample with respect to a Gaussian model
+</H2>
+
+<P>
+In the following we compute the likelihood of a sample point <!-- MATH
+ $\ensuremath\mathbf{x}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="12" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img20.gif"
+ ALT="$ \ensuremath\mathbf{x}$"></SPAN>,
+and the joint likelihood of a series of samples <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> for a given model
+<!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> with one Gaussian.  The likelihood will be used in the formula
+for classification later on (sec.&nbsp;<A HREF="node2.html#sec:classification">2.3</A>).
+
+<P>
+
+<H3><A NAME="SECTION00013100000000000000">
+Useful formulas and definitions:</A>
+</H3>
+
+<UL>
+<LI><EM>Likelihood</EM>: the likelihood of a sample point <!-- MATH
+ $\ensuremath\mathbf{x}_i$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img44.gif"
+ ALT="$ \ensuremath\mathbf{x}_i$"></SPAN> given
+  a data generation model (i.e., given a set of parameters <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> for
+  the model pdf) is the value of the pdf <!-- MATH
+ $p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="51" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img62.gif"
+ ALT="$ p(\ensuremath\mathbf{x}_i\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> for that
+  point. In the case of Gaussian models <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}= (\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="73" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img63.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}= (\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})$"></SPAN>, this
+  amounts to the evaluation of equation&nbsp;<A HREF="#eq:gauss">1</A>.
+</LI>
+<LI><EM>Joint likelihood</EM>: for a set of independent identically
+  distributed (i.i.d.) samples, say <!-- MATH
+ $X = \{\ensuremath\mathbf{x}_1, \ensuremath\mathbf{x}_2, \ldots, \ensuremath\mathbf{x}_N
+\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="134" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img31.gif"
+ ALT="$ X=\{\ensuremath\mathbf{x}_1,
+\ensuremath\mathbf{x}_2,\ldots,\ensuremath\mathbf{x}_N\}$"></SPAN>, the joint (or total) likelihood is the product of the
+  likelihoods for each point. For instance, in the Gaussian case:
+  <P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:joint-likelihood"></A><!-- MATH
+ \begin{equation}
+p(X|\ensuremath\boldsymbol{\Theta}) =
+    \prod_{i=1}^{N} p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\Theta}) =
+    \prod_{i=1}^{N} p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma}) =
+    \prod_{i=1}^{N} g_{(\ensuremath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})}(\ensuremath\mathbf{x}_i)
+  
+\end{equation}
+ -->
+<TABLE CLASS="equation" CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><SPAN CLASS="MATH"><IMG
+ WIDTH="338" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img64.gif"
+ ALT="$\displaystyle p(X\vert\ensuremath\boldsymbol{\Theta}) = \prod_{i=1}^{N} p(\ens...
+...emath\boldsymbol{\mu},\ensuremath\boldsymbol{\Sigma})}(\ensuremath\mathbf{x}_i)$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+(<SPAN CLASS="arabic">2</SPAN>)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+</LI>
+</UL>
+
+<P>
+
+<H3><A NAME="SECTION00013200000000000000">
+Question:</A>
+</H3>
+Why do we might want to compute the <EM>log-likelihood</EM> rather than
+the simple <EM>likelihood</EM>?
+
+<BR>
+<P>
+Computing the log-likelihood turns the product into a sum:
+<!-- MATH
+ \begin{displaymath}
+p(X|\ensuremath\boldsymbol{\Theta}) = \prod_{i=1}^{N} p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\Theta}) \quad \Leftrightarrow \quad
+\log p(X|\ensuremath\boldsymbol{\Theta}) = \log \prod_{i=1}^{N} p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\Theta}) = \sum_{i=1}^{N}
+\log p(\ensuremath\mathbf{x}_i|\ensuremath\boldsymbol{\Theta})
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="470" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img65.gif"
+ ALT="$\displaystyle p(X\vert\ensuremath\boldsymbol{\Theta}) = \prod_{i=1}^{N} p(\ensu...
+...{i=1}^{N}
+\log p(\ensuremath\mathbf{x}_i\vert\ensuremath\boldsymbol{\Theta})
+$">
+</DIV><P></P>
+
+<P>
+In the Gaussian case, it also avoids the computation of the exponential:
+<BR>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:loglikely"></A><!-- MATH
+ \begin{eqnarray}
+p(\ensuremath\mathbf{x}|\ensuremath\boldsymbol{\Theta}) & = & \frac{1}{\sqrt{2\pi}^d \sqrt{\det\left(\ensuremath\boldsymbol{\Sigma}\right)}}
+  \, e^{-\frac{1}{2} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})^{\mathsf T}\ensuremath\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})} \nonumber \\
+  \log p(\ensuremath\mathbf{x}|\ensuremath\boldsymbol{\Theta}) & = &
+  \frac{1}{2} \left[-d \log \left( 2\pi \right)
+    -  \log \left( \det\left(\ensuremath\boldsymbol{\Sigma}\right) \right)
+    -  (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})^{\mathsf T}\ensuremath\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})\right]
+\end{eqnarray}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="46" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img66.gif"
+ ALT="$\displaystyle p(\ensuremath\mathbf{x}\vert\ensuremath\boldsymbol{\Theta})$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="217" HEIGHT="44" ALIGN="MIDDLE" BORDER="0"
+ SRC="img68.gif"
+ ALT="$\displaystyle \frac{1}{\sqrt{2\pi}^d \sqrt{\det\left(\ensuremath\boldsymbol{\Si...
+...th\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})}$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="66" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img69.gif"
+ ALT="$\displaystyle \log p(\ensuremath\mathbf{x}\vert\ensuremath\boldsymbol{\Theta})$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="331" HEIGHT="44" ALIGN="MIDDLE" BORDER="0"
+ SRC="img70.gif"
+ ALT="$\displaystyle \frac{1}{2} \left[-d \log \left( 2\pi \right)
+- \log \left( \det\...
+...dsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})\right]$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+(<SPAN CLASS="arabic">3</SPAN>)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL">
+
+Furthermore, since <SPAN CLASS="MATH"><IMG
+ WIDTH="40" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img71.gif"
+ ALT="$ \log(x)$"></SPAN> is a monotonically growing function, the
+log-likelihoods have the same relations of order as the likelihoods
+<!-- MATH
+ \begin{displaymath}
+p(x|\ensuremath\boldsymbol{\Theta}_1) > p(x|\ensuremath\boldsymbol{\Theta}_2) \quad \Leftrightarrow \quad
+\log p(x|\ensuremath\boldsymbol{\Theta}_1) > \log p(x|\ensuremath\boldsymbol{\Theta}_2),
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="329" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img72.gif"
+ ALT="$\displaystyle p(x\vert\ensuremath\boldsymbol{\Theta}_1) &gt; p(x\vert\ensuremath\b...
+...emath\boldsymbol{\Theta}_1) &gt; \log p(x\vert\ensuremath\boldsymbol{\Theta}_2),
+$">
+</DIV><P></P>
+so they can be used directly for classification.
+
+<P>
+
+<H3><A NAME="SECTION00013300000000000000">
+Find the right statements:</A>
+</H3>
+We can further simplify the computation of the log-likelihood in
+eq.&nbsp;<A HREF="#eq:loglikely">3</A> for classification by
+<DL COMPACT>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>dropping the division by two: <!-- MATH
+ $\frac{1}{2}
+\left[\ldots\right]$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="39" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="img73.gif"
+ ALT="$ \frac{1}{2}
+\left[\ldots\right]$"></SPAN>,
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>dropping term <!-- MATH
+ $d\log \left( 2\pi \right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="60" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img74.gif"
+ ALT="$ d\log \left( 2\pi \right)$"></SPAN>,
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>dropping term <!-- MATH
+ $\log \left( \det\left(\ensuremath\boldsymbol{\Sigma}\right)
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="79" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img75.gif"
+ ALT="$ \log \left( \det\left(\ensuremath\boldsymbol{\Sigma}\right)
+\right)$"></SPAN>,
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>dropping term <!-- MATH
+ $(\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})^{\mathsf T}\ensuremath\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="130" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="img76.gif"
+ ALT="$ (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})^{\mathsf T}\ensuremath\boldsymbol{\Sigma}^{-1} (\ensuremath\mathbf{x}-\ensuremath\boldsymbol{\mu})$"></SPAN>,
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>calculating the term <!-- MATH
+ $\log \left( \det\left(\ensuremath\boldsymbol{\Sigma}\right)
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="79" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img75.gif"
+ ALT="$ \log \left( \det\left(\ensuremath\boldsymbol{\Sigma}\right)
+\right)$"></SPAN> in advance.
+</DD>
+</DL>
+
+<P>
+
+<P>
+<BR>
+We can drop term(s) because:
+<DL COMPACT>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The term(s) are independent of <!-- MATH
+ $\ensuremath\boldsymbol{\mu}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="13" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}$"></SPAN>.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The terms are negligible small.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The term(s) are independent of the classes.
+</DD>
+</DL>
+
+<P>
+As a summary, log-likelihoods use simpler computation and are readily
+usable for classification tasks.
+
+<P>
+
+<H3><A NAME="SECTION00013400000000000000">
+Experiment:</A>
+</H3>
+Given the following 4 Gaussian models <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}_i = (\ensuremath\boldsymbol{\mu}_i,\ensuremath\boldsymbol{\Sigma}_i)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img77.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}_i = (\ensuremath\boldsymbol{\mu}_i,\ensuremath\boldsymbol{\Sigma}_i)$"></SPAN>
+<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3>
+<TR><TD ALIGN="CENTER"><!-- MATH
+ ${\cal N}_1: \; \ensuremath\boldsymbol{\Theta}_1 = \left(
+\left[\begin{array}{c}730 \\1090\end{array}\right],
+\left[\begin{array}{cc}8000 & 0 \\0 & 8000\end{array}\right]
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="258" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img78.gif"
+ ALT="$ {\cal N}_1: \; \ensuremath\boldsymbol{\Theta}_1 = \left(
+\left[\begin{array}{...
+...right],
+\left[\begin{array}{cc}8000 &amp; 0 \\ 0 &amp; 8000\end{array}\right]
+\right)$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ ${\cal N}_2: \; \ensuremath\boldsymbol{\Theta}_2 = \left(
+\left[\begin{array}{c}730 \\1090\end{array}\right],
+\left[\begin{array}{cc}8000 & 0 \\0 & 18500\end{array}\right]
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="265" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img79.gif"
+ ALT="$ {\cal N}_2: \; \ensuremath\boldsymbol{\Theta}_2 = \left(
+\left[\begin{array}{...
+...ight],
+\left[\begin{array}{cc}8000 &amp; 0 \\ 0 &amp; 18500\end{array}\right]
+\right)$"></SPAN></TD>
+</TR>
+<TR><TD ALIGN="CENTER"><!-- MATH
+ ${\cal N}_3: \; \ensuremath\boldsymbol{\Theta}_3 = \left(
+\left[\begin{array}{c}730 \\1090\end{array}\right],
+\left[\begin{array}{cc}8000 & 8400 \\8400 & 18500\end{array}\right]
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="265" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img80.gif"
+ ALT="$ {\cal N}_3: \; \ensuremath\boldsymbol{\Theta}_3 = \left(
+\left[\begin{array}{...
+...
+\left[\begin{array}{cc}8000 &amp; 8400 \\ 8400 &amp; 18500\end{array}\right]
+\right)$"></SPAN></TD>
+<TD ALIGN="CENTER">&nbsp;</TD>
+<TD ALIGN="CENTER"><!-- MATH
+ ${\cal N}_4: \; \ensuremath\boldsymbol{\Theta}_4 = \left(
+\left[\begin{array}{c}270 \\1690\end{array}\right],
+\left[\begin{array}{cc}8000 & 8400 \\8400 & 18500\end{array}\right]
+\right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="265" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img81.gif"
+ ALT="$ {\cal N}_4: \; \ensuremath\boldsymbol{\Theta}_4 = \left(
+\left[\begin{array}{...
+...
+\left[\begin{array}{cc}8000 &amp; 8400 \\ 8400 &amp; 18500\end{array}\right]
+\right)$"></SPAN></TD>
+</TR>
+</TABLE>
+</DIV>
+<BR>
+<BR>
+compute the following log-likelihoods for the whole sample
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN> (10000 points):
+
+<P>
+<!-- MATH
+ \begin{displaymath}
+\log p(X_3|\ensuremath\boldsymbol{\Theta}_1),\; \log p(X_3|\ensuremath\boldsymbol{\Theta}_2),\; \log p(X_3|\ensuremath\boldsymbol{\Theta}_3),\;
+\text{and}\; \log p(X_3|\ensuremath\boldsymbol{\Theta}_4).
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="268" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img82.gif"
+ ALT="$\displaystyle \log p(X_3\vert\ensuremath\boldsymbol{\Theta}_1),\; \log p(X_3\ve...
+...th\boldsymbol{\Theta}_2),\; \log p(X_3\vert\ensuremath\boldsymbol{\Theta}_3),\;$">&nbsp; &nbsp;and<IMG
+ WIDTH="90" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img83.gif"
+ ALT="$\displaystyle \; \log p(X_3\vert\ensuremath\boldsymbol{\Theta}_4).
+$">
+</DIV><P></P>
+
+<P>
+
+<H3><A NAME="SECTION00013500000000000000">
+Example:</A>
+</H3>
+<TT>&#187; N = size(X3,1)</TT> 
+<BR>
+<TT>&#187; mu_1 = [730 1090]; sigma_1 = [8000 0; 0 8000];</TT> 
+<BR>
+<TT>&#187; logLike1 = 0;</TT> 
+<BR>
+<TT>&#187; for i = 1:N;</TT> 
+<BR>
+<TT>logLike1 = logLike1 + (X3(i,:) - mu_1) * inv(sigma_1) * (X3(i,:) - mu_1)';</TT> 
+<BR>
+<TT>end;</TT> 
+<BR>
+<TT>&#187; logLike1 =  - 0.5 * (logLike1 + N*log(det(sigma_1)) + 2*N*log(2*pi))</TT> 
+<BR>
+<P>
+Note: Use the function <TT>gausview</TT> to compare the
+relative positions of the models <!-- MATH
+ ${\cal N}_1$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img84.gif"
+ ALT="$ {\cal N}_1$"></SPAN>, <!-- MATH
+ ${\cal N}_2$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img85.gif"
+ ALT="$ {\cal N}_2$"></SPAN>, <!-- MATH
+ ${\cal
+N}_3$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img86.gif"
+ ALT="$ {\cal
+N}_3$"></SPAN> and <!-- MATH
+ ${\cal N}_4$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img87.gif"
+ ALT="$ {\cal N}_4$"></SPAN> with respect to the data set <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN>, e.g.:
+
+<BR>
+<TT>&#187; mu_1 = [730 1090]; sigma_1 = [8000 0; 0 8000];</TT> 
+<BR>
+<TT>&#187; gausview(X3,mu_1,sigma_1,'Comparison of X3 and N1');</TT> 
+<BR>
+<BR>
+
+<H3><A NAME="SECTION00013600000000000000">
+Question:</A>
+</H3>
+Of <!-- MATH
+ ${\cal N}_1$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img84.gif"
+ ALT="$ {\cal N}_1$"></SPAN>, <!-- MATH
+ ${\cal N}_2$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img85.gif"
+ ALT="$ {\cal N}_2$"></SPAN>, <!-- MATH
+ ${\cal N}_3$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img86.gif"
+ ALT="$ {\cal
+N}_3$"></SPAN> and <!-- MATH
+ ${\cal N}_4$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img87.gif"
+ ALT="$ {\cal N}_4$"></SPAN>, which
+model ``explains'' best the data <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img38.gif"
+ ALT="$ X_3$"></SPAN>?  Which model has the highest
+number of parameters (with non-zero values)?  Which model would you
+choose for a good compromise between the number of parameters and the
+capacity to accurately represent the data?
+
+<P>
+
+<DIV CLASS="navigation"><br>
+<table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left width=1% class="tut_nav">
+<A NAME="tex2html12"
+  HREF="Gaussian.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A></td><td valign=middle align=left class="tut_nav">&nbsp;<A NAME="tex2html13"
+  HREF="Gaussian.html">Tutorial: Gaussian Statistics and Unsupervised Learning</A></td>
+<td align=right valign=middle class="tut_nav"><A NAME="tex2html21"
+  HREF="node2.html">Statistical pattern recognition</A>&nbsp;
+<A NAME="tex2html20"
+  HREF="node2.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="next" SRC="next.gif"></A></td>
+</tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

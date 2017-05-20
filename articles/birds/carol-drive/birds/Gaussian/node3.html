@@ -1,0 +1,1274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2002-2-1 (1.70)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Unsupervised training</TITLE>
+<META NAME="description" CONTENT="Unsupervised training">
+<META NAME="keywords" CONTENT="Gaussian">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2002-2-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="../../ci.css">
+
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="Gaussian.html">
+</HEAD>
+
+<BODY  bgcolor="#ffffff">
+
+<DIV CLASS="navigation"><table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left  class="tut_nav"><i><b>&nbsp;<A NAME="tex2html44"
+  HREF="Gaussian.html">Tutorial: Gaussian Statistics and Unsupervised Learning</A></b></i></td><td valign=middle align=right class="tut_nav">&nbsp;
+<A NAME="tex2html41"
+  HREF="node2.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A>&nbsp;&nbsp;<a href="index.html"><img ALIGN="absmiddle" BORDER="0" ALT="Contents" src="contents.gif"></a></dt></tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+<!--Table of Child-Links--><br>
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A NAME="tex2html45"
+  HREF="node3.html#SECTION00031000000000000000"><SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm</A>
+<LI><A NAME="tex2html46"
+  HREF="node3.html#SECTION00032000000000000000">Viterbi-EM algorithm for Gaussian clustering</A>
+<LI><A NAME="tex2html47"
+  HREF="node3.html#SECTION00033000000000000000">EM algorithm for Gaussian clustering</A>
+<LI><A NAME="tex2html48"
+  HREF="node3.html#SECTION00034000000000000000">Questions to <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means, Viterbi-EM and EM algorithm:</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+
+<H1><A NAME="SECTION00030000000000000000"></A>
+<A NAME="unsup"></A>
+<BR>
+Unsupervised training
+</H1>
+In the previous section, we have computed the models for classes /a/,
+/e/, /i/, /o/, and /y/ by knowing a-priori which training samples
+belongs to which class (we were disposing of a <EM>labeling</EM> of the
+training data). Hence, we have performed a <EM>supervised training</EM>
+of the Gaussian models.  Now, suppose that we only have unlabeled
+training data that we want to separate in several classes (e.g., 5
+classes) without knowing a-priori which point belongs to which class.
+This is called <EM>unsupervised training</EM>. Several algorithms are
+available for that purpose, among them: the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means, the EM
+(Expectation-Maximization), and the Viterbi-EM algorithm.
+
+<P>
+All these algorithms are characterized by the following components:
+
+<UL>
+<LI>a set of models for the classes <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> (not necessarily
+  Gaussian), defined by a parameter set <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> (means, variances,
+  priors,...);
+</LI>
+<LI>a measure of membership, telling to which extent a data point
+``belongs'' to a model;
+</LI>
+<LI>a ``recipe'' to update the model parameters as a function of the
+  membership information.
+</LI>
+</UL>
+The measure of membership usually takes the form of a distance measure
+or the form of a measure of probability. It replaces the missing
+labeling information to permit the application of standard parameter
+estimation techniques.  It also defines implicitly a global criterion
+of ``goodness of fit'' of the models to the data, e.g.:
+
+<UL>
+<LI>in the case of a distance measure, the models that are closer to
+  the data characterize it better;
+</LI>
+<LI>in the case of a probability measure, the models with a larger
+  likelihood for the data explain it better.
+</LI>
+</UL>
+
+<P>
+
+<H2><A NAME="SECTION00031000000000000000">
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm</A>
+</H2>
+
+<H3><A NAME="SECTION00031100000000000000">
+Synopsis of the algorithm:</A>
+</H3>
+
+<UL>
+<LI>Start with <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN> initial prototypes <!-- MATH
+ $\ensuremath\boldsymbol{\mu}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="20" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img105.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}_k$"></SPAN>, <!-- MATH
+ $k=1,\ldots,K$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="81" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img140.gif"
+ ALT="$ k=1,\ldots,K$"></SPAN>.
+</LI>
+<LI><B>Do</B>:
+
+<OL>
+<LI>For each data-point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN>, <!-- MATH
+ $n=1,\ldots,N$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="81" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img142.gif"
+ ALT="$ n=1,\ldots,N$"></SPAN>, compute the squared
+    Euclidean distance from the <!-- MATH
+ $k^{\text{th}}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img143.gif"
+ ALT="$ k^{\text{th}}$"></SPAN> prototype:
+    <BR>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><A NAME="eq:dist"></A><!-- MATH
+ \begin{eqnarray}
+d_k(\ensuremath\mathbf{x}_n) & = & \, \left\| \ensuremath\mathbf{x}_n - \ensuremath\boldsymbol{\mu}_k \right\|^2 \nonumber \\
+      & = & (\ensuremath\mathbf{x}_n-\ensuremath\boldsymbol{\mu}_k)^{\mathsf T}(\ensuremath\mathbf{x}_n-\ensuremath\boldsymbol{\mu}_k)   \nonumber
+    
+\end{eqnarray}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="44" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img144.gif"
+ ALT="$\displaystyle d_k(\ensuremath\mathbf{x}_n)$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="76" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img145.gif"
+ ALT="$\displaystyle \, \left\Vert \ensuremath\mathbf{x}_n - \ensuremath\boldsymbol{\mu}_k \right\Vert^2$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="133" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="img146.gif"
+ ALT="$\displaystyle (\ensuremath\mathbf{x}_n-\ensuremath\boldsymbol{\mu}_k)^{\mathsf T}(\ensuremath\mathbf{x}_n-\ensuremath\boldsymbol{\mu}_k)$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL">
+
+</LI>
+<LI>Assign each data-point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN> to its <SPAN  CLASS="textit">closest prototype</SPAN>
+    <!-- MATH
+ $\ensuremath\boldsymbol{\mu}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="20" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img105.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}_k$"></SPAN>, i.e., assign <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN> to the class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> if
+    <!-- MATH
+ \begin{displaymath}
+d_k(\ensuremath\mathbf{x}_n) \, < \, d_l(\ensuremath\mathbf{x}_n), \qquad \forall l \neq k
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="179" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img147.gif"
+ ALT="$\displaystyle d_k(\ensuremath\mathbf{x}_n) \, &lt; \, d_l(\ensuremath\mathbf{x}_n), \qquad \forall l \neq k
+$">
+</DIV><P></P>
+    <EM>Note</EM>: using the squared Euclidean distance for the
+    classification gives the same result as using the true Euclidean
+    distance, since the square root is a monotonically growing
+    function. But the computational load is obviously smaller when the
+    square root is dropped.
+</LI>
+<LI>Replace each prototype with the mean of the data-points assigned to
+  the corresponding class;
+</LI>
+<LI>Go to 1.
+</LI>
+</OL>
+
+<P>
+</LI>
+<LI><B>Until</B>: no further change occurs.
+</LI>
+</UL>
+
+<P>
+The global criterion for the present case is
+<!-- MATH
+ \begin{displaymath}
+J = \sum_{k=1}^{K} \sum_{\ensuremath\mathbf{x}_n \in q_k} d_k(\ensuremath\mathbf{x}_n)
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="129" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img148.gif"
+ ALT="$\displaystyle J = \sum_{k=1}^{K} \sum_{\ensuremath\mathbf{x}_n \in q_k} d_k(\ensuremath\mathbf{x}_n)
+$">
+</DIV><P></P>
+and represents the total squared distance between the data and the models
+they belong to. This criterion is locally minimized by the algorithm.
+
+<P>
+
+<H3><A NAME="SECTION00031200000000000000">
+Experiment:</A>
+</H3>
+Use the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means explorer utility:
+<PRE>
+ KMEANS K-means algorithm exploration tool
+
+   Launch it with KMEANS(DATA,NCLUST) where DATA is the matrix
+   of observations (one observation per row) and NCLUST is the
+   desired number of clusters.
+
+   The clusters are initialized with a heuristic that spreads
+   them randomly around mean(DATA) with standard deviation
+   sqrtm(cov(DATA)).
+
+   If you want to set your own initial clusters, use
+   KMEANS(DATA,MEANS) where MEANS is a cell array containing
+   NCLUST initial mean vectors.
+
+   Example: for two clusters
+     means{1} = [1 2]; means{2} = [3 4];
+     kmeans(data,means);
+</PRE>
+
+<P>
+Launch <TT>kmeans</TT> with the data sample <TT>allvow</TT>, which was part
+of file <TT>vowels.mat</TT> and gathers all the simulated vowels data. Do
+several runs with different cases of initialization of the algorithm:
+
+<OL>
+<LI>5 initial clusters determined according to the default heuristic;
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to some data points;
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to <!-- MATH
+ $\{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\text{/e/}}, \ensuremath\boldsymbol{\mu}_{\text{/i/}}, \ensuremath\boldsymbol{\mu}_{\text{/o/}},
+  \ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="176" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img149.gif"
+ ALT="$ \{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\tex...
+...emath\boldsymbol{\mu}_{\text{/o/}},
+\ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$"></SPAN>.
+</LI>
+</OL>
+Iterate the algorithm until its convergence. Observe the evolution of the
+cluster centers, of the data-points attribution chart and of the total
+squared Euclidean distance. (It is possible to zoom these plots: left
+click inside the axes to zoom <SPAN CLASS="MATH"><IMG
+ WIDTH="21" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img150.gif"
+ ALT="$ 2\times$"></SPAN> centered on the point under the
+mouse; right click to zoom out; click and drag to zoom into an area; double
+click to reset the figure to the original). Observe the mean values found after the convergence of the algorithm.
+
+<P>
+
+<H3><A NAME="SECTION00031300000000000000">
+Example:</A>
+</H3>
+<TT>&#187; kmeans(allvow,5);</TT> 
+<BR>
+- or - 
+<BR>
+<TT>&#187; means =  { mu_a, mu_e, mu_i, mu_o, mu_y };</TT> 
+<BR>
+<TT>&#187; kmeans(allvow,means);</TT> 
+<BR>
+Enlarge the window, then push the buttons, zoom etc.
+After the convergence, use:
+<BR>
+<TT>&#187; for k=1:5, disp(kmeans_result_means{k}); end</TT> 
+<BR>
+to see the resulting means.
+
+<P>
+
+<H3><A NAME="SECTION00031400000000000000">
+Think about the following question:</A>
+</H3>
+
+<OL>
+<LI>Does the final solution depend on the initialization of the
+  algorithm?
+</LI>
+<LI>Describe the evolution of the total squared Euclidean distance.
+</LI>
+<LI>What is the nature of the discriminant surfaces corresponding to
+  a minimum Euclidean distance classification scheme?
+</LI>
+<LI>Is the algorithm suitable for fitting Gaussian clusters?
+</LI>
+</OL>
+
+<P>
+
+<H2><A NAME="SECTION00032000000000000000">
+Viterbi-EM algorithm for Gaussian clustering</A>
+</H2>
+
+<H3><A NAME="SECTION00032100000000000000">
+Synopsis of the algorithm:</A>
+</H3>
+
+<UL>
+<LI>Start from <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN> initial Gaussian models <!-- MATH
+ ${\cal N}(\ensuremath\boldsymbol{\mu}_{k},\ensuremath\boldsymbol{\Sigma}_{k}),
+\; k=1\ldots K$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="146" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img151.gif"
+ ALT="$ {\cal N}(\ensuremath\boldsymbol{\mu}_{k},\ensuremath\boldsymbol{\Sigma}_{k}),
+\; k=1\ldots K$"></SPAN>, characterized by the set of parameters <!-- MATH
+ $\ensuremath\boldsymbol{\Theta}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img61.gif"
+ ALT="$ \ensuremath\boldsymbol{\Theta}$"></SPAN> (i.e., the
+set of all means and variances <!-- MATH
+ $\ensuremath\boldsymbol{\mu}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="20" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img105.gif"
+ ALT="$ \ensuremath\boldsymbol{\mu}_k$"></SPAN> and <!-- MATH
+ $\ensuremath\boldsymbol{\Sigma}_k$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="22" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img106.gif"
+ ALT="$ \ensuremath\boldsymbol{\Sigma}_k$"></SPAN>, <!-- MATH
+ $k=1\ldots K$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="70" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img152.gif"
+ ALT="$ k=1\ldots K$"></SPAN>). Set
+the initial prior probabilities <SPAN CLASS="MATH"><IMG
+ WIDTH="38" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img90.gif"
+ ALT="$ P(q_k)$"></SPAN> to <SPAN CLASS="MATH"><IMG
+ WIDTH="30" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img153.gif"
+ ALT="$ 1/K$"></SPAN>.
+</LI>
+<LI><B>Do</B>:
+
+<OL>
+<LI>Classify each data-point using Bayes' rule.
+
+<P>
+This step is equivalent to having a set <SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img154.gif"
+ ALT="$ Q$"></SPAN> of boolean hidden variables
+that give a labeling of the data by taking the value 1 (belongs) or 0 (does
+not belong) for each class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN> and each point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN>. The value of <SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img154.gif"
+ ALT="$ Q$"></SPAN>
+that maximizes <!-- MATH
+ $p(X,Q|\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="67" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img155.gif"
+ ALT="$ p(X,Q\vert\ensuremath\boldsymbol{\Theta})$"></SPAN> precisely tells which is the most probable
+model for each point of the whole set <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img29.gif"
+ ALT="$ X$"></SPAN> of training data.
+
+<P>
+Hence, each data point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN> is assigned to its most probable
+cluster <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>.
+</LI>
+<LI>Update the parameters (<SPAN CLASS="MATH"><IMG
+ WIDTH="8" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img156.gif"
+ ALT="$ i$"></SPAN> is the iteration index):
+
+<UL>
+<LI>update the means:
+    <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\mu}_{k}^{(i+1)} = \mbox{mean of the points belonging to } q_k^{(i)}
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="55" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img157.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\mu}_{k}^{(i+1)} =$">&nbsp; &nbsp;mean of the points belonging to <IMG
+ WIDTH="23" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img158.gif"
+ ALT="$\displaystyle q_k^{(i)}
+$">
+</DIV><P></P>
+</LI>
+<LI>update the variances:
+    <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\Sigma}_{k}^{(i+1)} = \mbox{variance of the points belonging to } q_k^{(i)}
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="57" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img159.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}_{k}^{(i+1)} =$">&nbsp; &nbsp;variance of the points belonging to <IMG
+ WIDTH="23" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img158.gif"
+ ALT="$\displaystyle q_k^{(i)}
+$">
+</DIV><P></P>
+</LI>
+<LI>update the priors:
+    <!-- MATH
+ \begin{displaymath}
+P(q_k^{(i+1)}|\ensuremath\boldsymbol{\Theta}^{(i+1)}) = \frac{\mbox{number of training points
+        belonging to } q_k^{(i)} }{\mbox{total number of training points}}
+    
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="387" HEIGHT="55" ALIGN="MIDDLE" BORDER="0"
+ SRC="img160.gif"
+ ALT="$\displaystyle P(q_k^{(i+1)}\vert\ensuremath\boldsymbol{\Theta}^{(i+1)}) = \frac...
+...ng points
+belonging to } q_k^{(i)} }{\mbox{total number of training points}}
+$">
+</DIV><P></P>
+</LI>
+</UL>
+</LI>
+<LI>Go to 1.
+</LI>
+</OL>
+</LI>
+<LI><B>Until</B>: no further change occurs.
+</LI>
+</UL>
+The global criterion in the present case is
+<BR>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<!-- MATH
+ \begin{eqnarray*}
+{\cal L}(\ensuremath\boldsymbol{\Theta}) &=& \sum_{X} P(X|\ensuremath\boldsymbol{\Theta}) \;=\; \sum_{Q} \sum_{X} p(X,Q|\ensuremath\boldsymbol{\Theta}) \\
+  &=& \sum_{k=1}^{K} \sum_{\ensuremath\mathbf{x}_n \in q_k} \log p(\ensuremath\mathbf{x}_n|\ensuremath\boldsymbol{\Theta}_k),
+\end{eqnarray*}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="36" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img161.gif"
+ ALT="$\displaystyle {\cal L}(\ensuremath\boldsymbol{\Theta})$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="212" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img162.gif"
+ ALT="$\displaystyle \sum_{X} P(X\vert\ensuremath\boldsymbol{\Theta}) \;=\; \sum_{Q} \sum_{X} p(X,Q\vert\ensuremath\boldsymbol{\Theta})$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="142" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img163.gif"
+ ALT="$\displaystyle \sum_{k=1}^{K} \sum_{\ensuremath\mathbf{x}_n \in q_k} \log p(\ensuremath\mathbf{x}_n\vert\ensuremath\boldsymbol{\Theta}_k),$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL">
+
+and represents the joint likelihood of the data with respect to the models
+they belong to. This criterion is locally maximized by the algorithm.
+
+<P>
+
+<H3><A NAME="SECTION00032200000000000000">
+Experiment:</A>
+</H3>
+Use the Viterbi-EM explorer utility:
+<PRE>
+ VITERB Viterbi version of the EM algorithm
+
+   Launch it with VITERB(DATA,NCLUST) where DATA is the matrix
+   of observations (one observation per row) and NCLUST is the
+   desired number of clusters.
+
+   The clusters are initialized with a heuristic that spreads
+   them randomly around mean(DATA) with standard deviation
+   sqrtm(cov(DATA)). Their initial covariance is set to cov(DATA).
+
+   If you want to set your own initial clusters, use
+   VITERB(DATA,MEANS,VARS) where MEANS and VARS are cell arrays
+   containing respectively NCLUST initial mean vectors and NCLUST
+   initial covariance matrices. In this case, the initial a-priori
+   probabilities are set equal to 1/NCLUST.
+
+   To set your own initial priors, use VITERB(DATA,MEANS,VARS,PRIORS)
+   where PRIORS is a vector containing NCLUST a priori probabilities.
+
+   Example: for two clusters
+     means{1} = [1 2]; means{2} = [3 4];
+     vars{1} = [2 0;0 2]; vars{2} = [1 0;0 1];
+     viterb(data,means,vars);
+</PRE>
+Launch <TT>viterb</TT> with the dataset <TT>allvow</TT>. Do several runs
+with different initializations of the algorithm:
+
+<OL>
+<LI>5 initial clusters determined according to the default heuristic;
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to some data points, and some
+  random <TT>VARS</TT> values (try for instance <TT>cov(allvow)</TT> for all
+  the classes);
+</LI>
+<LI>the initial <TT>MEANS</TT>, <TT>VARS</TT> and <TT>PRIORS</TT> values
+  found by the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm.
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to <!-- MATH
+ $\{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\text{/e/}}, \ensuremath\boldsymbol{\mu}_{\text{/i/}}, \ensuremath\boldsymbol{\mu}_{\text{/o/}},
+  \ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="176" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img149.gif"
+ ALT="$ \{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\tex...
+...emath\boldsymbol{\mu}_{\text{/o/}},
+\ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$"></SPAN>, <TT>VARS</TT> values equal to <BR>
+  <!-- MATH
+ $\{\ensuremath\boldsymbol{\Sigma}_{\text{/a/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/e/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/i/}},
+\ensuremath\boldsymbol{\Sigma}_{\text{/o/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/y/}}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="185" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img164.gif"
+ ALT="$ \{\ensuremath\boldsymbol{\Sigma}_{\text{/a/}}, \ensuremath\boldsymbol{\Sigma}_...
+...\boldsymbol{\Sigma}_{\text{/o/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/y/}}\}$"></SPAN>, and <TT>PRIORS</TT> values
+  equal to
+  <!-- MATH
+ $[P_{\text{/a/}},P_{\text{/e/}},P_{\text{/i/}},P_{\text{/o/}},P_{\text{/y/}}]$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="165" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img165.gif"
+ ALT="$ [P_{\text{/a/}},P_{\text{/e/}},P_{\text{/i/}},P_{\text{/o/}},P_{\text{/y/}}]$"></SPAN>;
+</LI>
+<LI>initial <TT>MEANS</TT> and <TT>VARS</TT> values chosen by yourself.
+</LI>
+</OL>
+Iterate the algorithm until it converges. Observe the evolution of the
+clusters, of the data points attribution chart and of the total
+likelihood curve. Observe the mean, variance and priors values found
+after the convergence of the algorithm. Compare them with the values
+computed in section&nbsp;<A HREF="node2.html#gaussmod">2.2</A> (using supervised training).
+
+<P>
+
+<H3><A NAME="SECTION00032300000000000000">
+Example:</A>
+</H3>
+<TT>&#187; viterb(allvow,5);</TT> 
+<BR>
+- or - 
+<BR>
+<TT>&#187; means =  { mu_a, mu_e, mu_i, mu_o, mu_y };</TT> 
+<BR>
+<TT>&#187; vars = { sigma_a, sigma_e, sigma_i, sigma_o, sigma_y };</TT> 
+<BR>
+<TT>&#187; viterb(allvow,means,vars);</TT> 
+<BR>
+Enlarge the window, then push the buttons, zoom, etc.
+After convergence, use:
+<BR>
+<TT>&#187; for k=1:5, disp(viterb_result_means{k}); end</TT> 
+<BR>
+<TT>&#187; for k=1:5, disp(viterb_result_vars{k}); end</TT> 
+<BR>
+<TT>&#187; for k=1:5, disp(viterb_result_priors(k)); end</TT> 
+<BR>
+to see the resulting means, variances and priors.
+
+<P>
+
+<H3><A NAME="SECTION00032400000000000000">
+Question:</A>
+</H3>
+
+<OL>
+<LI>Does the final solution depend on the initialization of the
+algorithm?
+</LI>
+<LI>Describe the evolution of the total likelihood. Is it monotonic?
+</LI>
+<LI>In terms of optimization of the likelihood, what does the final
+solution correspond to?
+</LI>
+<LI>What is the nature of the discriminant surfaces corresponding to the
+Gaussian classification?
+</LI>
+<LI>Is the algorithm suitable for fitting Gaussian clusters?
+</LI>
+</OL>
+
+<P>
+
+<H2><A NAME="SECTION00033000000000000000">
+EM algorithm for Gaussian clustering</A>
+</H2>
+
+<H3><A NAME="SECTION00033100000000000000">
+Synopsis of the algorithm:</A>
+</H3>
+
+<UL>
+<LI>Start from K initial Gaussian models <!-- MATH
+ ${\cal N}(\ensuremath\boldsymbol{\mu}_{k},\ensuremath\boldsymbol{\Sigma}_{k}),
+\; k=1\ldots K$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="146" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img151.gif"
+ ALT="$ {\cal N}(\ensuremath\boldsymbol{\mu}_{k},\ensuremath\boldsymbol{\Sigma}_{k}),
+\; k=1\ldots K$"></SPAN>, with equal priors set to <!-- MATH
+ $P(q_k) = 1/K$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="84" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img166.gif"
+ ALT="$ P(q_k) = 1/K$"></SPAN>.
+</LI>
+<LI><B>Do</B>:
+
+<OL>
+<LI><B>Estimation step</B>: compute the probability
+  <!-- MATH
+ $P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="97" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img167.gif"
+ ALT="$ P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})$"></SPAN> for each data point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN> to belong
+  to the class <SPAN CLASS="MATH"><IMG
+ WIDTH="23" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img168.gif"
+ ALT="$ q_k^{(i)}$"></SPAN>:
+<BR>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<!-- MATH
+ \begin{eqnarray*}
+P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)}) & = & \frac{P(q_k^{(i)}|\ensuremath\boldsymbol{\Theta}^{(i)})
+    \cdot p(\ensuremath\mathbf{x}_n|q_k^{(i)},\ensuremath\boldsymbol{\Theta}^{(i)})}
+  {p(\ensuremath\mathbf{x}_n|\ensuremath\boldsymbol{\Theta}^{(i)})} \\
+  & = & \frac{P(q_k^{(i)}|\ensuremath\boldsymbol{\Theta}^{(i)}) \cdot p(\ensuremath\mathbf{x}_n|\ensuremath\boldsymbol{\mu}_k^{(i)},\ensuremath\boldsymbol{\Sigma}_k^{(i)}) }
+  {\sum_j P(q_j^{(i)}|\ensuremath\boldsymbol{\Theta}^{(i)}) \cdot p(\ensuremath\mathbf{x}_n|\ensuremath\boldsymbol{\mu}_j^{(i)},\ensuremath\boldsymbol{\Sigma}_j^{(i)}) }
+\end{eqnarray*}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="97" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img169.gif"
+ ALT="$\displaystyle P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})$"></TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="179" HEIGHT="55" ALIGN="MIDDLE" BORDER="0"
+ SRC="img170.gif"
+ ALT="$\displaystyle \frac{P(q_k^{(i)}\vert\ensuremath\boldsymbol{\Theta}^{(i)})
+\cdot...
+...}^{(i)})}
+{p(\ensuremath\mathbf{x}_n\vert\ensuremath\boldsymbol{\Theta}^{(i)})}$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD WIDTH="10" ALIGN="CENTER" NOWRAP><IMG
+ WIDTH="14" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img67.gif"
+ ALT="$\displaystyle =$"></TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="204" HEIGHT="55" ALIGN="MIDDLE" BORDER="0"
+ SRC="img171.gif"
+ ALT="$\displaystyle \frac{P(q_k^{(i)}\vert\ensuremath\boldsymbol{\Theta}^{(i)}) \cdot...
+...rt\ensuremath\boldsymbol{\mu}_j^{(i)},\ensuremath\boldsymbol{\Sigma}_j^{(i)}) }$"></TD>
+<TD CLASS="eqno" WIDTH=10 ALIGN="RIGHT">
+&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL">
+
+<P>
+This step is equivalent to having a set <SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="26" ALIGN="MIDDLE" BORDER="0"
+ SRC="img154.gif"
+ ALT="$ Q$"></SPAN> of continuous hidden
+variables, taking values in the interval <SPAN CLASS="MATH"><IMG
+ WIDTH="31" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img172.gif"
+ ALT="$ [0,1]$"></SPAN>, that give a labeling
+of the data by telling to which extent a point <!-- MATH
+ $\ensuremath\mathbf{x}_n$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="19" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img141.gif"
+ ALT="$ \ensuremath\mathbf{x}_n$"></SPAN> belongs to the
+class <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="25" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.gif"
+ ALT="$ q_k$"></SPAN>. This represents a soft classification, since a point can
+belong, e.g., by 60% to class 1 and by 40% to class 2 (think of
+Schr&#246;dinger's cat which is 60% alive and 40% dead as long as
+nobody opens the box or performs Bayesian classification).
+</LI>
+<LI><B>Maximization step</B>:
+
+<UL>
+<LI>update the means:
+    <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\mu}_{k}^{(i+1)} = \frac{\sum_{n=1}^{N} \ensuremath\mathbf{x}_n
+P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})}
+    {\sum_{n=1}^{N} P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})} 
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="212" HEIGHT="55" ALIGN="MIDDLE" BORDER="0"
+ SRC="img173.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\mu}_{k}^{(i+1)} = \frac{\sum_{n=1}^{N} \e...
+...P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})} $">
+</DIV><P></P>
+</LI>
+<LI>update the variances:
+    <!-- MATH
+ \begin{displaymath}
+\ensuremath\boldsymbol{\Sigma}_{k}^{(i+1)} = \frac{\sum_{n=1}^{N} P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})\;
+(\ensuremath\mathbf{x}_n - \ensuremath\boldsymbol{\mu}_k^{(i+1)})(\ensuremath\mathbf{x}_n - \ensuremath\boldsymbol{\mu}_k^{(i+1)})^{\mathsf T}}
+    {\sum_{n=1}^{N} P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})} 
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="372" HEIGHT="55" ALIGN="MIDDLE" BORDER="0"
+ SRC="img174.gif"
+ ALT="$\displaystyle \ensuremath\boldsymbol{\Sigma}_{k}^{(i+1)} = \frac{\sum_{n=1}^{N}...
+...P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})} $">
+</DIV><P></P>
+</LI>
+<LI>update the priors:
+    <!-- MATH
+ \begin{displaymath}
+P(q_k^{(i+1)}|\ensuremath\boldsymbol{\Theta}^{(i+1)}) = \frac{1}{N} \sum_{n=1}^{N}
+    P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)}) 
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay">
+<IMG
+ WIDTH="258" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img175.gif"
+ ALT="$\displaystyle P(q_k^{(i+1)}\vert\ensuremath\boldsymbol{\Theta}^{(i+1)}) = \frac...
+...
+P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)}) $">
+</DIV><P></P>
+</LI>
+</UL>
+In the present case, all the data points participate to the update of all
+the models, but their participation is weighted by the value of
+<!-- MATH
+ $P(q_k^{(i)}|\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="97" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img167.gif"
+ ALT="$ P(q_k^{(i)}\vert\ensuremath\mathbf{x}_n,\ensuremath\boldsymbol{\Theta}^{(i)})$"></SPAN>.
+</LI>
+<LI>Go to 1.
+</LI>
+</OL>
+</LI>
+<LI><B>Until</B>: the total likelihood increase for the training data
+falls under some desired threshold.
+</LI>
+</UL>
+The global criterion in the present case is the joint likelihood of
+all data with respect to all the models:
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="RIGHT"><SPAN CLASS="MATH"><IMG
+ WIDTH="122" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img176.gif"
+ ALT="$\displaystyle {\cal L}(\ensuremath\boldsymbol{\Theta}) = \log p(X\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP ALIGN="LEFT"><SPAN CLASS="MATH"><IMG
+ WIDTH="124" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img177.gif"
+ ALT="$\displaystyle = \log \sum_Q p(X,Q\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE">
+<TD>&nbsp;</TD>
+<TD NOWRAP ALIGN="LEFT"><SPAN CLASS="MATH"><IMG
+ WIDTH="175" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img178.gif"
+ ALT="$\displaystyle = \log \sum_Q P(Q\vert X,\ensuremath\boldsymbol{\Theta})p(X\vert\ensuremath\boldsymbol{\Theta})$">&nbsp; &nbsp;(Bayes)</SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE">
+<TD>&nbsp;</TD>
+<TD NOWRAP ALIGN="LEFT"><SPAN CLASS="MATH"><IMG
+ WIDTH="177" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img179.gif"
+ ALT="$\displaystyle = \log \sum_{k=1}^{K} P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) p(X\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+Applying Jensen's inequality <!-- MATH
+ $\left( \log \sum_j \lambda_j y_j \geq
+\sum_j \lambda_j \log y_j \mbox{ if } \sum_j \lambda_j = 1 \right)$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="264" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img180.gif"
+ ALT="$ \left( \log \sum_j \lambda_j y_j \geq
+\sum_j \lambda_j \log y_j \mbox{ if } \sum_j \lambda_j = 1 \right)$"></SPAN>,
+we obtain:
+<P></P>
+<DIV ALIGN="CENTER" CLASS="mathdisplay"><TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="RIGHT"><SPAN CLASS="MATH"><IMG
+ WIDTH="87" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img181.gif"
+ ALT="$\displaystyle {\cal L}(\ensuremath\boldsymbol{\Theta}) \ge J(\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP ALIGN="LEFT"><SPAN CLASS="MATH"><IMG
+ WIDTH="180" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img182.gif"
+ ALT="$\displaystyle = \sum_{k=1}^{K} P(q_k\vert X,\ensuremath\boldsymbol{\Theta}) \log p(X\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+<TR VALIGN="MIDDLE">
+<TD>&nbsp;</TD>
+<TD NOWRAP ALIGN="LEFT"><SPAN CLASS="MATH"><IMG
+ WIDTH="211" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img183.gif"
+ ALT="$\displaystyle = \sum_{k=1}^{K} \sum_{n=1}^{N} P(q_k\vert\ensuremath\mathbf{x}_n...
+...bol{\Theta}) \log p(\ensuremath\mathbf{x}_n\vert\ensuremath\boldsymbol{\Theta})$"></SPAN></TD>
+<TD NOWRAP CLASS="eqno" WIDTH="10" ALIGN="RIGHT">
+&nbsp;&nbsp;&nbsp;</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+Hence, the criterion <!-- MATH
+ $J(\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="36" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img184.gif"
+ ALT="$ J(\ensuremath\boldsymbol{\Theta})$"></SPAN> represents a lower boundary for <!-- MATH
+ ${\cal
+L}(\ensuremath\boldsymbol{\Theta})$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="36" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img185.gif"
+ ALT="$ {\cal
+L}(\ensuremath\boldsymbol{\Theta})$"></SPAN>. This criterion is locally maximized by the algorithm.
+
+<P>
+
+<H3><A NAME="SECTION00033200000000000000">
+Experiment:</A>
+</H3>
+Use the EM explorer utility:
+<PRE>
+ EMALGO EM algorithm explorer
+
+   Launch it with EMALGO(DATA,NCLUST) where DATA is the matrix
+   of observations (one observation per row) and NCLUST is the
+   desired number of clusters.
+
+   The clusters are initialized with a heuristic that spreads
+   them randomly around mean(DATA) with standard deviation
+   sqrtm(cov(DATA)*10). Their initial covariance is set to cov(DATA).
+
+   If you want to set your own initial clusters, use
+   EMALGO(DATA,MEANS,VARS) where MEANS and VARS are cell arrays
+   containing respectively NCLUST initial mean vectors and NCLUST
+   initial covariance matrices. In this case, the initial a-priori
+   probabilities are set equal to 1/NCLUST.
+
+   To set your own initial priors, use VITERB(DATA,MEANS,VARS,PRIORS)
+   where PRIORS is a vector containing NCLUST a priori probabilities.
+
+   Example: for two clusters
+     means{1} = [1 2]; means{2} = [3 4];
+     vars{1} = [2 0;0 2]; vars{2} = [1 0;0 1];
+     emalgo(data,means,vars);
+</PRE>
+Launch <TT>emalgo</TT> with again the same dataset <TT>allvow</TT>. Do
+several runs with different cases of initialization of the algorithm:
+
+<OL>
+<LI>5 clusters determined according to the default heuristic;
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to some data points, and some
+  random <TT>VARS</TT> values (e.g., <TT>cov(allvow)</TT> for all the
+  classes);
+</LI>
+<LI>the initial <TT>MEANS</TT> and <TT>VARS</TT> values found by the
+  <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm.
+</LI>
+<LI>initial <TT>MEANS</TT> values equal to <!-- MATH
+ $\{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\text{/e/}}, \ensuremath\boldsymbol{\mu}_{\text{/i/}}, \ensuremath\boldsymbol{\mu}_{\text{/o/}},
+  \ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="176" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img149.gif"
+ ALT="$ \{\ensuremath\boldsymbol{\mu}_{\text{/a/}},
+\ensuremath\boldsymbol{\mu}_{\tex...
+...emath\boldsymbol{\mu}_{\text{/o/}},
+\ensuremath\boldsymbol{\mu}_{\text{/y/}}\}$"></SPAN>, <TT>VARS</TT> values equal to <BR>
+  <!-- MATH
+ $\{\ensuremath\boldsymbol{\Sigma}_{\text{/a/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/e/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/i/}},
+\ensuremath\boldsymbol{\Sigma}_{\text{/o/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/y/}}\}$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="185" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img164.gif"
+ ALT="$ \{\ensuremath\boldsymbol{\Sigma}_{\text{/a/}}, \ensuremath\boldsymbol{\Sigma}_...
+...\boldsymbol{\Sigma}_{\text{/o/}}, \ensuremath\boldsymbol{\Sigma}_{\text{/y/}}\}$"></SPAN>, and <TT>PRIORS</TT> values
+  equal to
+  <!-- MATH
+ $[P_{\text{/a/}},P_{\text{/e/}},P_{\text{/i/}},P_{\text{/o/}},P_{\text{/y/}}]$
+ -->
+<SPAN CLASS="MATH"><IMG
+ WIDTH="165" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img165.gif"
+ ALT="$ [P_{\text{/a/}},P_{\text{/e/}},P_{\text{/i/}},P_{\text{/o/}},P_{\text{/y/}}]$"></SPAN>;
+</LI>
+<LI>initial <TT>MEANS</TT> and <TT>VARS</TT> values chosen by yourself.
+</LI>
+</OL>
+(If you have time, also increase the number of clusters and play again with
+the algorithm.)
+
+<P>
+Iterate the algorithm until the total likelihood reaches an asymptotic
+convergence. Observe the evolution of the clusters and of the total
+likelihood curve. (In the EM case, the data points attribution chart is not
+given because each data point participates to the update of each cluster.)
+Observe the mean, variance and prior values found after the convergence of
+the algorithm. Compare them with the values found in
+section&nbsp;<A HREF="node2.html#gaussmod">2.2</A>.
+
+<P>
+
+<H3><A NAME="SECTION00033300000000000000">
+Example:</A>
+</H3>
+<TT>&#187; emalgo(allvow,5);</TT> 
+<BR>
+- or - 
+<BR>
+<TT>&#187; means =  { mu_a, mu_e, mu_i, mu_o, mu_y };</TT> 
+<BR>
+<TT>&#187; vars = { sigma_a, sigma_e, sigma_i, sigma_o, sigma_y };</TT> 
+<BR>
+<TT>&#187; emalgo(allvow,means,vars);</TT> 
+<BR>
+Enlarge the window, then push the buttons, zoom etc.
+After convergence, use:
+<BR>
+<TT>&#187; for k=1:5; disp(emalgo_result_means{k}); end</TT> 
+<BR>
+<TT>&#187; for k=1:5; disp(emalgo_result_vars{k}); end</TT> 
+<BR>
+<TT>&#187; for k=1:5; disp(emalgo_result_priors(k)); end</TT> 
+<BR>
+to see the resulting means, variances and priors.
+
+<P>
+
+<H3><A NAME="SECTION00033400000000000000">
+Question:</A>
+</H3>
+
+<OL>
+<LI>Does the final solution depend on the initialization of the
+  algorithm?
+</LI>
+<LI>Describe the evolution of the total likelihood. Is it monotonic?
+</LI>
+<LI>In terms of optimization of the likelihood, what does the final
+  solution correspond to?
+</LI>
+<LI>Is the algorithm suitable for fitting Gaussian clusters?
+</LI>
+</OL>
+
+<P>
+
+<H2><A NAME="SECTION00034000000000000000">
+Questions to <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means, Viterbi-EM and EM algorithm:</A>
+</H2>
+
+<H3><A NAME="SECTION00034100000000000000">
+Find the right statements:</A>
+</H3>
+<DL COMPACT>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>With the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm the solution is independent
+  upon the initialization.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>With the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm the discriminant surfaces are
+  linear.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm is well suited for fitting
+  Gaussian clusters
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In the <SPAN CLASS="MATH"><IMG
+ WIDTH="16" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.gif"
+ ALT="$ K$"></SPAN>-means algorithm the global criterion used to
+  minimize is the maximum likelihood.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In all 3 algorithms the measure used as global criterion
+  decreases in a monotonic way.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In the Viterbi-EM and EM algorithm the solution is
+  highly dependent upon initialization.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The EM algorithm is best suited for fitting Gaussian
+  clusters.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>It is an easy task to guess the parameters for
+  initialization.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>With the Viterbi-EM algorithm the discriminant surfaces
+  are linear.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>With the EM algorithm the discriminant surfaces have the
+  form of (hyper)parabola.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The EM algorithm needs less computational effort then
+  the Viterbi-EM algorithm.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>In the EM algorithm and the Viterbi-EM algorithm, the
+  same global criterion is used.
+</DD>
+<DT><SPAN CLASS="MATH"><IMG
+ WIDTH="14" HEIGHT="13" ALIGN="BOTTOM" BORDER="0"
+ SRC="img43.gif"
+ ALT="$ \Box$"></SPAN></DT>
+<DD>The EM algorithm finds a global optimum.
+</DD>
+</DL>
+
+<P>
+
+<DIV CLASS="navigation"><br>
+<table border=0 cellspacing=0 callpadding=0 width=100% class="tut_nav">
+<tr valign=middle class="tut_nav">
+<td valign=middle align=left width=1% class="tut_nav">
+<A NAME="tex2html41"
+  HREF="node2.html">
+<IMG  ALIGN="absmiddle" BORDER="0" ALT="previous" SRC="prev.gif"></A></td><td valign=middle align=left class="tut_nav">&nbsp;<A NAME="tex2html42"
+  HREF="node2.html">Statistical pattern recognition</A></td>
+</tr></table>
+</DIV>
+<!--End of Navigation Panel-->
+
+</BODY>
+</HTML>

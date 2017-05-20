@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-04-11 Tue 14:04 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Felipe Felix" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge5278ab">1. TCC 17</a>
+<ul>
+<li><a href="#org7eba93f">1.1. Birds</a>
+<ul>
+<li><a href="#orge430f6a">1.1.1. Links</a></li>
+<li><a href="#orgfce3f82">1.1.2. Articles <code>[6/14]</code></a></li>
+<li><a href="#org638bf8c">1.1.3. Datasets</a></li>
+<li><a href="#org6ec4cd0">1.1.4. Tema &amp; Descrição</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge5278ab" class="outline-2">
+<h2 id="orge5278ab"><span class="section-number-2">1</span> TCC 17</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-org7eba93f" class="outline-3">
+<h3 id="org7eba93f"><span class="section-number-3">1.1</span> Birds</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Hoje em dia, aqui e no resto do mundo, ornitólogos extraem características do
+canto de forma muito artesanal. As únicas ferramenta que eles dispõe são o
+warbleR, <a href="http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624/full">aqui</a> descrito, e o <a href="http://www.birds.cornell.edu/brp/raven/RavenOverview.html">Raven</a>, que é de uso gratuito para pesquisadores
+brasileiros. Estes softwares permitem que eles mudem a resolução do
+espectograma, até que, visualmente, as notas do canto dos pássaros fiquem
+mais claras. A partir disso, a anotação dos parâmetros é basicamente manual.
+De outro lado, as iniciativas em torno da classificação são muito dependentes
+de dataset, já que a extração de parâmetros não é clara e metodológica.
+</p>
+
+<ol class="org-ol">
+<li>segmentação automática dos arquivos sonoros, janelando as partes que contem sons dos animais (parece fácil mas não é);</li>
+<li>aplicação de um 'ganho de processamento' ou processing gain, ou seja, melhorar a relação sinal ruído entre o canto da ave e o background;</li>
+<li>primeiro levantamento de parâmetros de distinção entre espécies;</li>
+<li>avaliação da classificação dos ornitólogos quanto a quantidade de diferentes espécies no dataset. Ou seja, pode ser que, sonoramente, existam três, ao invés de duas, classes distintas de indivíduos quanto ao som. Poderíamos chamar isso de clusterização automática: buscar o número de classes que acarreta maior distancia estatística entre classes, para vários fatores (fatores levantados no item 3) e suas respectivas significâncias;</li>
+<li>uma vez estabelecido e confirmado o número de classes, estimar os parâmetros sonoros e a variabilidade dos mesmos.</li>
+</ol>
+</div>
+
+<div id="outline-container-orge430f6a" class="outline-4">
+<h4 id="orge430f6a"><span class="section-number-4">1.1.1</span> Links</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li><a href="http://www.birds.cornell.edu/Page.aspx?pid=1478">http://www.birds.cornell.edu/Page.aspx?pid=1478</a></li>
+<li><a href="http://www.xeno-canto.org">http://www.xeno-canto.org</a></li>
+<li><a href="http://www.seas.ucla.edu/spapl/projects/Bird.html">http://www.seas.ucla.edu/spapl/projects/Bird.html</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfce3f82" class="outline-4">
+<h4 id="orgfce3f82"><span class="section-number-4">1.1.2</span> Articles <code>[6/14]</code></h4>
+<div class="outline-text-4" id="text-1-1-2">
+</div><ol class="org-ol"><li><a id="org840adcf"></a><span class="done DONE">DONE</span> Automatic bird sound detection in long real-field recordings: Applications and tools.<br  /></li>
+<li><a id="org047bc45"></a><span class="done DONE">DONE</span> Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.<br  /></li>
+<li><a id="org6bdc06a"></a><span class="todo TODO">TODO</span> Automatic Bird Species Identification for Large Number of Species.<br  /></li>
+<li><a id="org01df048"></a><span class="done DONE">DONE</span> Noise robust bird song detection using syllable pattern-based hidden Markov models. (<a href="http://www.seas.ucla.edu/spapl/weichu/docs/chu_icassp_11.pdf">link</a>)<br  /></li>
+<li><a id="org410c0b4"></a><span class="done DONE">DONE</span> Parametric Representations of Bird Sounds for Automatic Species Recognition. (<a href="https://www.researchgate.net/profile/Aki_Haermae2/publication/3457694_Parametric_Representations_of_Bird_Sounds_for_Automatic_Species_Recognition/links/00b4952a75660c3e4a000000.pdf">link</a>)<br  /></li>
+<li><a id="orgf1d0f46"></a><span class="done DONE">DONE</span> Time-Frequency Segmentation Of Bird Song In Noisy Acoustic Environments. (<a href="http://www.freewillworkshop.org/neal_briggs_raich_fern_2011.pdf">lintk</a>)<br  /></li>
+<li><a id="org0ff78bd"></a><span class="todo TODO">TODO</span> Automated species recognition of antbirds in a Mexican rainforest using hidden Markov models. (<a href="https://pdfs.semanticscholar.org/5437/48ce97ffff396f92eba529aa16839f39ed0a.pdf">link</a>)<br  /></li>
+<li><a id="org1f93c74"></a><span class="todo TODO">TODO</span> Bird Species Recognition Using Support Vector Machines. (<a href="http://download.springer.com/static/pdf/160/art%3A10.1155%2F2007%2F38637.pdf?originUrl=http://link.springer.com/article/10.1155/2007/38637&amp;token2=exp=1491790433~acl=/static/pdf/160/art%253A10.1155%252F2007%252F38637.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2F2007%2F38637*~hmac=749b3e2e28a5682fbb69d7e97b689d4170c4b28491fc3205cd89570cd52cef37">link</a>)<br  /></li>
+<li><a id="org783ded0"></a><span class="todo TODO">TODO</span> An Automated Acoustic System to Monitor and Classify Birds. (<a href="http://download.springer.com/static/pdf/296/art%3A10.1155%2FASP%2F2006%2F96706.pdf?originUrl=http://link.springer.com/article/10.1155/ASP/2006/96706&amp;token2=exp=1491790536~acl=/static/pdf/296/art%253A10.1155%252FASP%252F2006%252F96706.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2FASP%2F2006%2F96706*~hmac=d1377141fd9b5b444d1e9a8b5ecdb1c15c92f39a2b1695cf31f6da6a4cfb187a">link</a>)<br  /></li>
+<li><a id="org738d77c"></a><span class="done DONE">DONE</span> Automated recognition of bird song elements from continuous recordings using dynamic time warping and hidden Markov models: A comparative study. (<a href="http://asa.scitation.org/doi/abs/10.1121/1.421364">link</a>)<br  /></li>
+<li><a id="org6d17fb9"></a><span class="todo TODO">TODO</span> Automatic Recognition of Bird Songs Using Cepstral Coefficients. (<a href="https://www.researchgate.net/profile/Chang-Hsing_Lee/publication/253259227_Automatic_Recognition_of_Bird_Songs_Using_Cepstral_Coefficients/links/53ede4db0cf26b9b7dc63033.pdf">link</a>)<br  /></li>
+<li><a id="org8ea4844"></a><span class="todo TODO">TODO</span> Wavelets in Recognition of Bird Sounds. (<a href="http://s3.amazonaws.com/academia.edu.documents/40038976/560524cd08ae5e8e3f31325b.pdf20151115-68247-1reydjr.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&amp;Expires=1491793894&amp;Signature=Ay/rPHzyuWr55BessSwGTM/3doE=&amp;response-content-disposition=inline;%20filename=Wavelets_in_Recognition_of_Bird_Sounds.pdf">link</a>)<br  /></li>
+<li><a id="org9a37091"></a><span class="todo TODO">TODO</span> Automatic Recognition of Bird Species by Their Sounds - Survey. (<a href="http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund_mst.pdf">link</a>)<br  /></li>
+<li><a id="orga0eb1aa"></a><span class="todo TODO">TODO</span> Bird classification algorithms: theory and experimental results. (<a href="https://www.researchgate.net/profile/Chiman_Kwan/publication/4088075_Bird_classification_algorithms_theory_and_experimental_results/links/0deec5304cc050b8f7000000.pdf">link</a>)<br  /></li></ol>
+</div>
+
+<div id="outline-container-org638bf8c" class="outline-4">
+<h4 id="org638bf8c"><span class="section-number-4">1.1.3</span> Datasets</h4>
+<div class="outline-text-4" id="text-1-1-3">
+</div><ol class="org-ol"><li><a id="org8b05963"></a><span class="done DONE">DONE</span> Rocky Mountain Biological Laboratory American Robin database [RMBL-Robin] (<a href="http://www.seas.ucla.edu/spapl/projects/Bird.html">link</a>)<br  /><div class="outline-text-5" id="text-1-1-3-1">
+<p>
+A 78 minutes Robin song database collected by using a close-field song
+meter (www.wildlifeacoustics.com) at the Rocky Mountain Biological
+Laboratory near Crested Butte, Colorado in the summer of 2009 [3]. The
+recorded Robin songs are naturally corrupted by different kinds of
+background noises, such as wind, water and other vocal bird species.
+Non-target songs may overlap with target songs. Each song usually consists
+of 2-10 syllables. The timing boundaries and noise conditions of the
+syllables and songs, and human inferred syllable patterns are annotated.
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-org6ec4cd0" class="outline-4">
+<h4 id="org6ec4cd0"><span class="section-number-4">1.1.4</span> Tema &amp; Descrição</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<p>
+<b>Nome</b>: Felipe Silva Felix <br  />
+<b>Supervisores</b>: Prof. Marcelo Queiroz (IME-USP) , Dr. Carolina Brum (Fliprl/Brazil e Google ATAP) <br  />
+<b>Tema do trabalho</b>: Processamento e identificação automática de cantos de pássaros. <br  />
+</p>
+
+<p>
+<b>Descrição</b>: O monitoramento de pássaros tem grande importância para identificar
+mudanças nas populações de animais selvagens e em seus ecossistemas. Uma das
+formas de monitorar pássaros é através da análise de seus cantos. Porém, a
+análise desses cantos apresenta grandes desafios para pesquisadores. Muitas
+vezes a quantidade de áudio a ser analisada é grande, impossibilitando a
+detecção e classificação manual dos cantos. Outro problema é que essas
+gravações, em sua maioria, apresentam ruídos como sons de outros animais, chuva,
+vento.
+</p>
+
+<p>
+Esse quadro levanta os seguintes desafios na área de processamento de sinais e
+de aprendizagem de máquina: pré-processamento da gravação para aprimorar a
+qualidade do sinal; segmentação e reconhecimento automático de padrões do sinal
+de forma a reduzir, de forma drástica, a quantidade de áudio a ser analisado
+(por exemplo, reconhecer um canto, previamente selecionado, na gravação); e
+classificação automática de espécies de pássaros a partir dos cantos presentes
+numa gravação.
+</p>
+
+<p>
+Pretendemos estudar técnicas de processamento de sinais (filtros, transformadas,
+representações alternativas) para tratar o sinal bruto e extrair suas devidas
+características. Assim como técnicas de segmentação e detecção automática
+baseadas em funções de novidade, cadeias de Markov escondidas, classificadores
+automáticos, entre outras. Também, desejamos estudar técnicas de identificação e
+classificação automática que utilizam algoritmos clássicos em aprendizagem de
+máquina como, kNN, Naïve Bayes e SVM.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Felipe Felix</p>
+<p class="date">Created: 2017-04-11 Tue 14:04</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
