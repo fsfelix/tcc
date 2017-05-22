@@ -1,0 +1,140 @@
+#+SETUPFILE: ./org-html-themes-master/setup/theme-readtheorg.setup
+
+* TCC 17
+** Birds 
+   Hoje em dia, aqui e no resto do mundo, ornitólogos extraem características do
+   canto de forma muito artesanal. As únicas ferramenta que eles dispõe são o
+   warbleR, [[http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624/full][aqui]] descrito, e o [[http://www.birds.cornell.edu/brp/raven/RavenOverview.html][Raven]], que é de uso gratuito para pesquisadores
+   brasileiros. Estes softwares permitem que eles mudem a resolução do
+   espectograma, até que, visualmente, as notas do canto dos pássaros fiquem
+   mais claras. A partir disso, a anotação dos parâmetros é basicamente manual.
+   De outro lado, as iniciativas em torno da classificação são muito dependentes
+   de dataset, já que a extração de parâmetros não é clara e metodológica.
+
+   1. segmentação automática dos arquivos sonoros, janelando as partes que contem sons dos animais (parece fácil mas não é);
+   2. aplicação de um 'ganho de processamento' ou processing gain, ou seja, melhorar a relação sinal ruído entre o canto da ave e o background;
+   3. primeiro levantamento de parâmetros de distinção entre espécies;
+   4. avaliação da classificação dos ornitólogos quanto a quantidade de diferentes espécies no dataset. Ou seja, pode ser que, sonoramente, existam três, ao invés de duas, classes distintas de indivíduos quanto ao som. Poderíamos chamar isso de clusterização automática: buscar o número de classes que acarreta maior distancia estatística entre classes, para vários fatores (fatores levantados no item 3) e suas respectivas significâncias;
+   5. uma vez estabelecido e confirmado o número de classes, estimar os parâmetros sonoros e a variabilidade dos mesmos.
+
+*** Links
+    + http://www.birds.cornell.edu/Page.aspx?pid=1478
+    + http://www.xeno-canto.org
+    + http://www.seas.ucla.edu/spapl/projects/Bird.html
+    + https://github.com/marsyas/marsyas
+    + http://baudline.com/download.html
+    + http://www.dainf.cefetpr.br/~kaestner/brbird/brbird.htm
+*** Articles [11/15]
+**** DONE [#A] Automatic bird sound detection in long real-field recordings: Applications and tools. ([[https://www.researchgate.net/profile/Klaus_Riede/publication/260029691_Automatic_bird_sound_detection_in_long_real-field_recordings_Applications_and_tools/links/0c96052ffd05bd7e9b000000.pdf][link]])
+**** DONE [#A] Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.
+**** DONE [#B] Automatic Bird Species Identification for Large Number of Species. ([[http://www.ppgia.pucpr.br/~alekoe/Papers/ISM2011-Koerich.pdf][link]])
+**** DONE [#A] Noise robust bird song detection using syllable pattern-based hidden Markov models. ([[http://www.seas.ucla.edu/spapl/weichu/docs/chu_icassp_11.pdf][link]])
+**** DONE [#B] Parametric Representations of Bird Sounds for Automatic Species Recognition. ([[https://www.researchgate.net/profile/Aki_Haermae2/publication/3457694_Parametric_Representations_of_Bird_Sounds_for_Automatic_Species_Recognition/links/00b4952a75660c3e4a000000.pdf][link]])
+**** DONE [#A] Time-Frequency Segmentation Of Bird Song In Noisy Acoustic Environments. ([[http://www.freewillworkshop.org/neal_briggs_raich_fern_2011.pdf][link]])
+**** DONE [#C] Automated species recognition of antbirds in a Mexican rainforest using hidden Markov models. ([[https://pdfs.semanticscholar.org/5437/48ce97ffff396f92eba529aa16839f39ed0a.pdf][link]])
+**** DONE [#C] An Automated Acoustic System to Monitor and Classify Birds. ([[http://download.springer.com/static/pdf/296/art%253A10.1155%252FASP%252F2006%252F96706.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2FASP%2F2006%2F96706&token2=exp=1491790536~acl=%2Fstatic%2Fpdf%2F296%2Fart%25253A10.1155%25252FASP%25252F2006%25252F96706.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1155%252FASP%252F2006%252F96706*~hmac=d1377141fd9b5b444d1e9a8b5ecdb1c15c92f39a2b1695cf31f6da6a4cfb187a][link]])
+**** DONE [#B] Automated recognition of bird song elements from continuous recordings using dynamic time warping and hidden Markov models: A comparative study. ([[http://asa.scitation.org/doi/abs/10.1121/1.421364][link]])
+**** DONE [#B] Wavelets in Recognition of Bird Sounds. ([[http://s3.amazonaws.com/academia.edu.documents/40038976/560524cd08ae5e8e3f31325b.pdf20151115-68247-1reydjr.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1491793894&Signature=Ay%2FrPHzyuWr55BessSwGTM%2F3doE%3D&response-content-disposition=inline%3B%20filename%3DWavelets_in_Recognition_of_Bird_Sounds.pdf][link]])
+**** DONE [#A] Bird classification algorithms: theory and experimental results. ([[https://www.researchgate.net/profile/Chiman_Kwan/publication/4088075_Bird_classification_algorithms_theory_and_experimental_results/links/0deec5304cc050b8f7000000.pdf][link]])
+**** TODO [#A] Automatic Recognition of Bird Species by Their Sounds. ([[http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund_mst.pdf][link]]) (Chapter about segmentation) 
+**** TODO [#B] Automatic Recognition of Bird Species by Their Sounds - Survey. ([[http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund_mst.pdf][link]])
+**** TODO [#B] Automatic Recognition of Bird Songs Using Cepstral Coefficients. ([[https://www.researchgate.net/profile/Chang-Hsing_Lee/publication/253259227_Automatic_Recognition_of_Bird_Songs_Using_Cepstral_Coefficients/links/53ede4db0cf26b9b7dc63033.pdf][link]])
+**** TODO [#A] Bird Species Recognition Using Support Vector Machines. ([[http://download.springer.com/static/pdf/160/art%253A10.1155%252F2007%252F38637.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2F2007%2F38637&token2=exp=1491790433~acl=%2Fstatic%2Fpdf%2F160%2Fart%25253A10.1155%25252F2007%25252F38637.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1155%252F2007%252F38637*~hmac=749b3e2e28a5682fbb69d7e97b689d4170c4b28491fc3205cd89570cd52cef37][link]]) (Tem segmentation)
+      
+
+*** Datasets
+**** DONE Rocky Mountain Biological Laboratory American Robin database [RMBL-Robin] ([[http://www.seas.ucla.edu/spapl/projects/Bird.html][link]])
+     A 78 minutes Robin song database collected by using a close-field song
+     meter (www.wildlifeacoustics.com) at the Rocky Mountain Biological
+     Laboratory near Crested Butte, Colorado in the summer of 2009 [3]. The
+     recorded Robin songs are naturally corrupted by different kinds of
+     background noises, such as wind, water and other vocal bird species.
+     Non-target songs may overlap with target songs. Each song usually consists
+     of 2-10 syllables. The timing boundaries and noise conditions of the
+     syllables and songs, and human inferred syllable patterns are annotated.
+
+**** TODO Cornel
+
+*** TODOS     
+**** TODO Look for classic algorithms for segmentation
+
+** Textos
+*** Tema & Descrição
+    *Nome*: Felipe Silva Felix \\
+    *Supervisores*: Prof. Marcelo Queiroz (IME-USP) , Dr. Carolina Brum (Fliprl/Brazil e Google ATAP) \\
+    *Tema do trabalho*: Processamento e identificação automática de cantos de pássaros. \\
+
+    *Descrição*: O monitoramento de pássaros tem grande importância para identificar
+    mudanças nas populações de animais selvagens e em seus ecossistemas. Uma das
+    formas de monitorar pássaros é através da análise de seus cantos. Porém, a
+    análise desses cantos apresenta grandes desafios para pesquisadores. Muitas
+    vezes a quantidade de áudio a ser analisada é grande, impossibilitando a
+    detecção e classificação manual dos cantos. Outro problema é que essas
+    gravações, em sua maioria, apresentam ruídos como sons de outros animais, chuva,
+    e vento.
+
+    Esse quadro levanta os seguintes desafios na área de processamento de sinais e
+    de aprendizagem de máquina: pré-processamento da gravação para aprimorar a
+    qualidade do sinal; segmentação e reconhecimento automático de padrões do sinal
+    de forma a reduzir, de forma drástica, a quantidade de áudio a ser analisado
+    (por exemplo, reconhecer um canto, previamente selecionado, na gravação); e
+    classificação automática de espécies de pássaros a partir dos cantos presentes
+    numa gravação.
+
+    Pretendemos estudar técnicas de processamento de sinais (filtros, transformadas,
+    representações alternativas) para tratar o sinal bruto e extrair suas devidas
+    características. Assim como técnicas de segmentação e detecção automática
+    baseadas em funções de novidade, cadeias de Markov escondidas, classificadores
+    automáticos, entre outras. Também, desejamos estudar técnicas de identificação e
+    classificação automática que utilizam algoritmos clássicos em aprendizagem de
+    máquina, como kNN, Naïve Bayes e SVM.
+
+*** Proposta
+
+    Contextualização e Motivação Identificação de espécies de pássaros é uma tarefa
+    muito importante para ornitólogos. Estimativas do tamanho da população, da área
+    ocupada por uma espécie e tendências da população são cruciais para entender a
+    situação de conservação de uma espécie [1]. Pássaros também são ótimos
+    indicadores de mudanças na biodiversidade de um ecossistema, já que são fáceis
+    de detectar pelo seu canto [2]. Há também o desejo de identificar pássaros para
+    evitar acidentes envolvendo aviões e pássaros nas redondezas de aeroportos [3,
+    4].
+
+    Muitos sistemas de identificação e classificação automática de espécies a partir
+    dos cantos têm sido desenvolvidos. De um modo geral, esses sistemas pressupõe
+    estágios bem definidos: pré-processamento do sinal gravado para melhorar a
+    relação sinal ruído; segmentação para encontrar os excertos mais relevantes do
+    sinal; extração de características para representar propriedades do sinal que
+    não podem ser visualizadas no domínio usual; a fase de treinamento de um
+    classificador e, por fim, a fase de classificação [5].
+
+    Objetivos Temos como objetivo desenvolver um sistema de classificação automática
+    para espécies de pássaros. Nosso trabalho enfatizará a segmentação automática da
+    gravação, a extração das características e a classificação das espécies. Para
+    isso, implementaremos as técnicas de segmentação apresentadas em [5]. Nessa fase
+    desejamos utilizar o dataset RMBL-Robin [6] que é próprio para avaliação de
+    segmentadores automáticos. Na fase de extração de características, além de
+    utilizar as características mais usuais em sistemas de classificação de áudio
+    como características espectrais, temporais, MFCCs, desejamos também utilizar
+    características mais específicas do contexto de pássaros como número de notas do
+    canto, duração do canto, entre outros que são apresentados em [7]. Na
+    classificação queremos estudar e comparar vários classificadores como o kNN [5],
+    SVM [8], Naïve Bayes [4]. Pretendemos estudar a influência das características,
+    número de espécies no classificador, tipo do classificador no resultado da
+    classificação.
+
+    Atividades Previstas Nosso projeto pode ser dividido em algumas fases: Estudo
+    teórico de cada técnica apresentada, implementação das técnicas e testes,
+    avaliação dos classificadores e dos parâmetros.
+
+    Cronograma Aproximado
+    [1] Potamitis, Ilyas, et al. "Automatic bird sound detection in long real-field recordings: Applications and tools." Applied Acoustics 80 (2014): 1-9.
+    [2] Bardeli, Rolf, et al. "Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring." Pattern Recognition Letters 31.12 (2010): 1524-1534.
+    [3] Kwan, Chiman, et al. "Bird classification algorithms: Theory and experimental results." Acoustics, Speech, and Signal Processing, 2004. Proceedings.(ICASSP'04). IEEE International Conference on. Vol. 5. IEEE, 2004.
+    [4] Lopes, Marcelo T., et al. "Automatic bird species identification for large number of species." Multimedia (ISM), 2011 IEEE International Symposium on. IEEE, 2011.
+    [5] Fagerlund, Seppo. Automatic recognition of bird species by their sounds. Diss. Helsinki University of technology, 2004.
+    [6] Chu, Wei, and Daniel T. Blumstein. "Noise robust bird song detection using syllable pattern-based hidden Markov models." Acoustics, Speech and Signal Processing (ICASSP), 2011 IEEE International Conference on. IEEE, 2011.
+    [7] Carneiro, Lincoln Silva, et al. "Systematic revision of the Spotted Antpitta (Grallariidae: Hylopezus macularius), with description of a cryptic new species from Brazilian Amazonia." The Auk 129.2 (2012): 338-351.
+    [8] Fagerlund, Seppo. "Bird species recognition using support vector machines." EURASIP Journal on Applied Signal Processing 2007.1 (2007): 64-64.
+
+**** Equalizador 
