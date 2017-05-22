@@ -24,7 +24,7 @@
     + https://github.com/marsyas/marsyas
     + http://baudline.com/download.html
     + http://www.dainf.cefetpr.br/~kaestner/brbird/brbird.htm
-*** Articles [11/15]
+*** Articles [11/16]
 **** DONE [#A] Automatic bird sound detection in long real-field recordings: Applications and tools. ([[https://www.researchgate.net/profile/Klaus_Riede/publication/260029691_Automatic_bird_sound_detection_in_long_real-field_recordings_Applications_and_tools/links/0c96052ffd05bd7e9b000000.pdf][link]])
 **** DONE [#A] Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.
 **** DONE [#B] Automatic Bird Species Identification for Large Number of Species. ([[http://www.ppgia.pucpr.br/~alekoe/Papers/ISM2011-Koerich.pdf][link]])
@@ -40,7 +40,7 @@
 **** TODO [#B] Automatic Recognition of Bird Species by Their Sounds - Survey. ([[http://legacy.spa.aalto.fi/research/avesound/pubs/fagerlund_mst.pdf][link]])
 **** TODO [#B] Automatic Recognition of Bird Songs Using Cepstral Coefficients. ([[https://www.researchgate.net/profile/Chang-Hsing_Lee/publication/253259227_Automatic_Recognition_of_Bird_Songs_Using_Cepstral_Coefficients/links/53ede4db0cf26b9b7dc63033.pdf][link]])
 **** TODO [#A] Bird Species Recognition Using Support Vector Machines. ([[http://download.springer.com/static/pdf/160/art%253A10.1155%252F2007%252F38637.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2F2007%2F38637&token2=exp=1491790433~acl=%2Fstatic%2Fpdf%2F160%2Fart%25253A10.1155%25252F2007%25252F38637.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1155%252F2007%252F38637*~hmac=749b3e2e28a5682fbb69d7e97b689d4170c4b28491fc3205cd89570cd52cef37][link]]) (Tem segmentation)
-      
+**** TODO [#C] Classification of general audio data for content-based retrieval. (/Border effect/)
 
 *** Datasets
 **** DONE Rocky Mountain Biological Laboratory American Robin database [RMBL-Robin] ([[http://www.seas.ucla.edu/spapl/projects/Bird.html][link]])
