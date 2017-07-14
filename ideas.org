@@ -24,6 +24,11 @@
     + https://github.com/marsyas/marsyas
     + http://baudline.com/download.html
     + http://www.dainf.cefetpr.br/~kaestner/brbird/brbird.htm
+    + http://www.dainf.ct.utfpr.edu.br/~kaestner/brbird/brbird.htm
+
+*** Machine Learning Course
+    + https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A&index=1
+
 *** Articles [11/16]
 **** DONE [#A] Automatic bird sound detection in long real-field recordings: Applications and tools. ([[https://www.researchgate.net/profile/Klaus_Riede/publication/260029691_Automatic_bird_sound_detection_in_long_real-field_recordings_Applications_and_tools/links/0c96052ffd05bd7e9b000000.pdf][link]])
 **** DONE [#A] Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.
@@ -57,7 +62,7 @@
 
 *** TODOS     
 **** TODO Look for classic algorithms for segmentation
-
+     
 ** Textos
 *** Tema & Descrição
     *Nome*: Felipe Silva Felix \\
