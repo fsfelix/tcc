@@ -143,3 +143,10 @@
     [8] Fagerlund, Seppo. "Bird species recognition using support vector machines." EURASIP Journal on Applied Signal Processing 2007.1 (2007): 64-64.
 
 **** Equalizador 
+
+** Reunião 14/07
+    + Feature Globais: médias, variâncias
+    + Normalizar features locais
+    + Classificadores de frames
+    + Pensar na segmentação temporal
+    + Escrever pontos pra facilitar a monografia
