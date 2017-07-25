@@ -29,6 +29,25 @@
 *** Machine Learning Course
     + https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A&index=1
 
+**** DONE [#A] Lecture 1 - The Learning Problem
+**** DONE [#A] Lecture 2 - Is Learning Feasible?
+**** DONE [#B] Lecture 3 - The Linear Model I
+**** TODO Lecture 4 - Error and Noise
+**** TODO [#A] Lecture 5 - Training vs Testing
+**** TODO Lecture 6 - Theory of Generalization 
+**** TODO Lecture 7 - The VC Dimension
+**** TODO Lecture 8 - Bias-Variance Tradeoff
+**** TODO Lecture 9 - The Linear Model II
+**** TODO [#C] Lecture 10 - Neural Networks
+**** TODO [#A] Lecture 11 - Overfitting
+**** TODO [#A] Lecture 12 - Regularization
+**** TODO [#A] Lecture 13 - Validation
+**** TODO [#A] Lecture 14 - Support Vector Machines
+**** TODO [#A] Lecture 15 - Kernel Methods
+**** TODO Lecture 16 - Radial Basis Functions 
+**** TODO Lecture 17 - Three Learning Principles
+**** TODO Lecture 18 - Epilogue
+
 *** Articles [11/16]
 **** DONE [#A] Automatic bird sound detection in long real-field recordings: Applications and tools. ([[https://www.researchgate.net/profile/Klaus_Riede/publication/260029691_Automatic_bird_sound_detection_in_long_real-field_recordings_Applications_and_tools/links/0c96052ffd05bd7e9b000000.pdf][link]])
 **** DONE [#A] Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring.
