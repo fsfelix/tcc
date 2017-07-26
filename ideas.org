@@ -169,3 +169,13 @@
     + Classificadores de frames
     + Pensar na segmentação temporal
     + Escrever pontos pra facilitar a monografia
+
+** Tarefas
+*** TODO Implementar protótipo simples para entender scikit.
+**** TODO kNN
+**** TODO Naïve-Bayes
+*** TODO Preparar apresentação com protótipo e explicação.
+*** TODO Entender SVM e implementar com scikit.
+*** TODO Entender MFCC's.
+
+
