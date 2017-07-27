@@ -1,4 +1,0 @@
-- Instrumentos distribuidos
-- WAAX
-- WebMIDI
-- transMIDI
