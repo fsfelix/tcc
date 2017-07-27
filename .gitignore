@@ -20,8 +20,20 @@
 *.tar
 *.zip
 
+*.aif
+*.iff
+*.m3u
+*.m4a
+*.mid
+*.wma
+*.WMA
+
 *.wav
 *.mp3
+*.AU
+*.WAV
+*.MP3
+*.pdf
 
 # Logs and databases #
 ######################
