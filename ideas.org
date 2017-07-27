@@ -172,10 +172,13 @@
 
 ** Tarefas
 *** TODO Implementar protótipo simples para entender scikit.
-**** TODO kNN
+**** DONE kNN
 **** TODO Naïve-Bayes
-*** TODO Preparar apresentação com protótipo e explicação.
+**** DONE SVM
+
 *** TODO Entender SVM e implementar com scikit.
+*** TODO Preparar apresentação com protótipo e explicação.
 *** TODO Entender MFCC's.
+   + http://www.speech.cs.cmu.edu/15-492/slides/03_mfcc.pdf
 
 
