@@ -27,7 +27,7 @@
 *.mid
 *.wma
 *.WMA
-
+*.flac
 *.wav
 *.mp3
 *.AU
