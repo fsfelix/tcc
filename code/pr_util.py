@@ -75,3 +75,7 @@ name_species_num_dir = ['Aegolius harrisii 1',
                         'Vanellus chilensis 4',
                         'Xenops minutus 4',
                         'Xiphorhynchus fuscus 4']
+
+DATA_DIR_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte'
+
+
