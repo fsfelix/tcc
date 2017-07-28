@@ -1,0 +1,179 @@
+** Experiment 1 
+   + Features globais: média, std, max, min MFCC's 
+
+*** 3 Espécies   
+**** '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/'
+     + {'Anthus Lutescens': 3, 'Amazilia Versicolor': 2, 'Aegolius Harrisii': 1}
+     + [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3]
+     + 47 files
+
+     3-Neighbors | F-Measure: 0.3 | Weight: uniform
+     3-Neighbors | F-Measure: 0.3 | Weight: distance
+     4-Neighbors | F-Measure: 0.4 | Weight: uniform
+     4-Neighbors | F-Measure: 0.3 | Weight: distance
+     5-Neighbors | F-Measure: 0.3 | Weight: uniform
+     5-Neighbors | F-Measure: 0.3 | Weight: distance
+     6-Neighbors | F-Measure: 0.5 | Weight: uniform
+     6-Neighbors | F-Measure: 0.3 | Weight: distance
+     7-Neighbors | F-Measure: 0.4 | Weight: uniform
+     7-Neighbors | F-Measure: 0.4 | Weight: distance
+     8-Neighbors | F-Measure: 0.4 | Weight: uniform
+     8-Neighbors | F-Measure: 0.4 | Weight: distance
+     9-Neighbors | F-Measure: 0.5 | Weight: uniform
+     9-Neighbors | F-Measure: 0.4 | Weight: distance
+     10-Neighbors | F-Measure: 0.5 | Weight: uniform
+     10-Neighbors | F-Measure: 0.4 | Weight: distance
+     11-Neighbors | F-Measure: 0.6 | Weight: uniform
+     11-Neighbors | F-Measure: 0.4 | Weight: distance
+     12-Neighbors | F-Measure: 0.6 | Weight: uniform
+     12-Neighbors | F-Measure: 0.4 | Weight: distance
+     13-Neighbors | F-Measure: 0.6 | Weight: uniform
+     13-Neighbors | F-Measure: 0.4 | Weight: distance
+     14-Neighbors | F-Measure: 0.7 | Weight: uniform
+     14-Neighbors | F-Measure: 0.4 | Weight: distance
+     15-Neighbors | F-Measure: 0.7 | Weight: uniform
+     15-Neighbors | F-Measure: 0.4 | Weight: distance
+     16-Neighbors | F-Measure: 0.5 | Weight: uniform
+     16-Neighbors | F-Measure: 0.4 | Weight: distance
+     17-Neighbors | F-Measure: 0.5 | Weight: uniform
+     17-Neighbors | F-Measure: 0.5 | Weight: distance
+     18-Neighbors | F-Measure: 0.5 | Weight: uniform
+     18-Neighbors | F-Measure: 0.5 | Weight: distance
+     19-Neighbors | F-Measure: 0.5 | Weight: uniform
+     19-Neighbors | F-Measure: 0.5 | Weight: distance
+   
+
+     + clf = svm.SVC(kernel='linear', C=1)
+     + clf.fit(X_train, y_train)
+     + clf.score(X_test, y_test) # Retorna f-measure = 0.5
+
+**** '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/'     
+     + {'Colonia Colonus': 1, 'Crypturellus Noctivagus': 3, 'Cranioleuca Obsoleta': 2}
+     + [1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3]
+     + 31 files
+
+     3-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     3-Neighbors | F-Measure: 0.42857142857142855 | Weight: distance
+     4-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     4-Neighbors | F-Measure: 0.42857142857142855 | Weight: distance
+     5-Neighbors | F-Measure: 0.42857142857142855 | Weight: uniform
+     5-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     6-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     6-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     7-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     7-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     8-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     8-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     9-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     9-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     10-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     10-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     11-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     11-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     12-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     12-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     13-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     13-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     14-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     14-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     15-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     15-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     16-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     16-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     17-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     17-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     18-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     18-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     19-Neighbors | F-Measure: 0.2857142857142857 | Weight: uniform
+     19-Neighbors | F-Measure: 0.2857142857142857 | Weight: distance
+     
+     + f-measure: 0.2857142857142857
+
+
+*** 5 Espécies
+**** '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/'
+
+     + {'Anthus Lutescens': 3, 'Amazilia Versicolor': 2, 'Attila Rufus': 4, 'Automolus Leucophthalmus': 5, 'Aegolius Harrisii': 1}
+     + [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3  3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]
+     + 94 files
+     
+     3-Neighbors | F-Measure: 0.21052631578947367 | Weight: uniform
+     3-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     4-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     4-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     5-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     5-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     6-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     6-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     7-Neighbors | F-Measure: 0.5789473684210527 | Weight: uniform
+     7-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     8-Neighbors | F-Measure: 0.5263157894736842 | Weight: uniform
+     8-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     9-Neighbors | F-Measure: 0.5263157894736842 | Weight: uniform
+     9-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     10-Neighbors | F-Measure: 0.5263157894736842 | Weight: uniform
+     10-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     11-Neighbors | F-Measure: 0.3684210526315789 | Weight: uniform
+     11-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     12-Neighbors | F-Measure: 0.47368421052631576 | Weight: uniform
+     12-Neighbors | F-Measure: 0.2631578947368421 | Weight: distance
+     13-Neighbors | F-Measure: 0.47368421052631576 | Weight: uniform
+     13-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     14-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     14-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     15-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     15-Neighbors | F-Measure: 0.3157894736842105 | Weight: distance
+     16-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     16-Neighbors | F-Measure: 0.42105263157894735 | Weight: distance
+     17-Neighbors | F-Measure: 0.42105263157894735 | Weight: uniform
+     17-Neighbors | F-Measure: 0.42105263157894735 | Weight: distance
+     18-Neighbors | F-Measure: 0.5263157894736842 | Weight: uniform
+     18-Neighbors | F-Measure: 0.42105263157894735 | Weight: distance
+     19-Neighbors | F-Measure: 0.5263157894736842 | Weight: uniform
+     19-Neighbors | F-Measure: 0.42105263157894735 | Weight: distance
+
+     + f-measure: 0.57894736842105265
+
+**** '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/'
+
+    + {'Colonia Colonus': 1, 'Cyanocorax Caeruleus': 5, 'Crypturellus Noctivagus': 3, 'Culicivora Caudacuta': 4, 'Cranioleuca Obsoleta': 2}
+    + [1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5]
+    + 56 files
+
+    3-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    3-Neighbors | F-Measure: 0.4166666666666667 | Weight: distance
+    4-Neighbors | F-Measure: 0.4166666666666667 | Weight: uniform
+    4-Neighbors | F-Measure: 0.5 | Weight: distance
+    5-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    5-Neighbors | F-Measure: 0.5 | Weight: distance
+    6-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    6-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    7-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    7-Neighbors | F-Measure: 0.4166666666666667 | Weight: distance
+    8-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    8-Neighbors | F-Measure: 0.4166666666666667 | Weight: distance
+    9-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    9-Neighbors | F-Measure: 0.4166666666666667 | Weight: distance
+    10-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    10-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    11-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    11-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    12-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    12-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    13-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    13-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    14-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    14-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    15-Neighbors | F-Measure: 0.25 | Weight: uniform
+    15-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    16-Neighbors | F-Measure: 0.25 | Weight: uniform
+    16-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    17-Neighbors | F-Measure: 0.25 | Weight: uniform
+    17-Neighbors | F-Measure: 0.4166666666666667 | Weight: distance
+    18-Neighbors | F-Measure: 0.3333333333333333 | Weight: uniform
+    18-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+    19-Neighbors | F-Measure: 0.25 | Weight: uniform
+    19-Neighbors | F-Measure: 0.3333333333333333 | Weight: distance
+
+    + f-measure svm: 0.25
+

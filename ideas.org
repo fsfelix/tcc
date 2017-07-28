@@ -31,9 +31,9 @@
 
 **** DONE [#A] Lecture 1 - The Learning Problem
 **** DONE [#A] Lecture 2 - Is Learning Feasible?
-**** DONE [#B] Lecture 3 - The Linear Model I
-**** TODO Lecture 4 - Error and Noise
-**** TODO [#A] Lecture 5 - Training vs Testing
+**** DONE [#A] Lecture 3 - The Linear Model I
+**** DONE [#B] Lecture 4 - Error and Noise
+**** DONE [#B] Lecture 5 - Training vs Testing
 **** TODO Lecture 6 - Theory of Generalization 
 **** TODO Lecture 7 - The VC Dimension
 **** TODO Lecture 8 - Bias-Variance Tradeoff
@@ -65,7 +65,7 @@
 **** TODO [#B] Automatic Recognition of Bird Songs Using Cepstral Coefficients. ([[https://www.researchgate.net/profile/Chang-Hsing_Lee/publication/253259227_Automatic_Recognition_of_Bird_Songs_Using_Cepstral_Coefficients/links/53ede4db0cf26b9b7dc63033.pdf][link]])
 **** TODO [#A] Bird Species Recognition Using Support Vector Machines. ([[http://download.springer.com/static/pdf/160/art%253A10.1155%252F2007%252F38637.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Farticle%2F10.1155%2F2007%2F38637&token2=exp=1491790433~acl=%2Fstatic%2Fpdf%2F160%2Fart%25253A10.1155%25252F2007%25252F38637.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Farticle%252F10.1155%252F2007%252F38637*~hmac=749b3e2e28a5682fbb69d7e97b689d4170c4b28491fc3205cd89570cd52cef37][link]]) (Tem segmentation)
 **** TODO [#C] Classification of general audio data for content-based retrieval. (/Border effect/)
-
+**** A tutorial on support vector machines for pattern recognition.
 *** Datasets
 **** DONE Rocky Mountain Biological Laboratory American Robin database [RMBL-Robin] ([[http://www.seas.ucla.edu/spapl/projects/Bird.html][link]])
      A 78 minutes Robin song database collected by using a close-field song
