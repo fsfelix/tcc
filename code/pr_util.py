@@ -1,4 +1,7 @@
-name_species_num_dir = ['Aegolius harrisii 1',
+import numpy as np
+import os
+
+NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
                         'Amazilia versicolor 1',
                         'Anthus lutescens 1',
                         'Attila rufus 1',
@@ -78,4 +81,34 @@ name_species_num_dir = ['Aegolius harrisii 1',
 
 DATA_DIR_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte'
 
+DATA_DIR_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/',
+                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/',
+                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/',
+                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/']
 
+def is_audio(file_name):
+    file_extension = file_name.split('.')[-1]
+    file_extension = file_extension.lower()
+    return file_extension == 'mp3' or file_extension == 'wav' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
+
+def num_files(data_dirs, song_or_call):
+    num_file = 0
+    for data_dir in data_dirs:
+        for subdir, dirs, files in os.walk(data_dir):
+            for file in files:
+                type_of_rec = subdir.split('/')[-1]
+                if is_audio(file) and type_of_rec == song_or_call:
+                    num_file += 1
+    return num_file
+
+def choose_species(num_species):
+    # Return list of directories with species randomly choosen
+
+    species =  np.random.choice(NAME_SPECIES_NUM_DIR, num_species)
+    dirs = []
+
+    for specie in species:
+        dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
+        dirs.append(dir)
+
+    return dirs

@@ -163,7 +163,9 @@
 
 **** Equalizador 
 
+
 ** Reunião 14/07
+
     + Feature Globais: médias, variâncias
     + Normalizar features locais
     + Classificadores de frames
