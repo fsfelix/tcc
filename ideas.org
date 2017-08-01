@@ -164,13 +164,18 @@
 **** Equalizador 
 
 
-** Reunião 14/07
-
+** Reuniões
+*** 14/07 - Grupo dos pássaros
     + Feature Globais: médias, variâncias
     + Normalizar features locais
     + Classificadores de frames
     + Pensar na segmentação temporal
     + Escrever pontos pra facilitar a monografia
+*** 31/07 - CompMus
+    + kNN, SVM implementados com MFCC, resultados parecidos
+    + Devo focar em um tipo de classificador? Teoria pesada.
+    + Próximos passos
+
 
 ** Tarefas
 *** TODO Implementar protótipo simples para entender scikit.

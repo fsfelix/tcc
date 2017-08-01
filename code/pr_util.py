@@ -109,6 +109,7 @@ def choose_species(num_species):
 
     for specie in species:
         dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
+        print(dir)
         dirs.append(dir)
 
     return dirs
