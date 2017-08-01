@@ -113,3 +113,25 @@ def choose_species(num_species):
         dirs.append(dir)
 
     return dirs
+
+def plot_scatter(x, y, labels, xlabel, ylabel):
+    # plot scatter graph with 2 features
+
+    fig, ax = plt.subplots()
+    markers = ['2', '.', '>', '*', '<', ',', '1', '8']
+    colors = ['b','g','r','c','m','y','k','w']
+
+    for label in labels:
+        ax.scatter(x[labels == label], y[labels == label], marker = markers[label], c = colors[label], s = 75)
+
+    plt.title("Scatter Plot (n_species = %i)" % (max(labels) + 1))
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    plt.show()
+
+def kNN(data, labels,k_range, cv = 5):
+    for k in k_range:
+        for weight in ['uniform', 'distance']:
+            clf = neighbors.KNeighborsClassifier(k, weights = weight)
+            scores = cross_val_score(clf, data, labels, cv = cv)
+            print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
