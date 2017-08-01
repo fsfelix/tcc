@@ -1,5 +1,11 @@
-import numpy as np
 import os
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+from sklearn import svm, neighbors
+from sklearn.model_selection import cross_val_score
+
 
 NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
                         'Amazilia versicolor 1',
@@ -109,7 +115,6 @@ def choose_species(num_species):
 
     for specie in species:
         dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
-        print(dir)
         dirs.append(dir)
 
     return dirs
@@ -129,9 +134,20 @@ def plot_scatter(x, y, labels, xlabel, ylabel):
     ax.set_ylabel(ylabel)
     plt.show()
 
-def kNN(data, labels,k_range, cv = 5):
+def kNN(data, labels, k_range, cv = 5):
     for k in k_range:
         for weight in ['uniform', 'distance']:
             clf = neighbors.KNeighborsClassifier(k, weights = weight)
             scores = cross_val_score(clf, data, labels, cv = cv)
             print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+
+def u_SVM(data2, labels2, cv2 = 5):
+    # kwargs = {'kernel' = 'linear', 'C' = 1}
+    # clf = svm.SVC(**kwargs)
+    clf2 = svm.SVC(kernel = 'linear', C = 1)
+    # print(clf)
+    # print(data)
+    # print(labels)
+    # print(cv)
+    scores2 = cross_val_score(clf2, data2, labels2, cv2)
+    #    print(scores)
