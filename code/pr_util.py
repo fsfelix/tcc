@@ -164,5 +164,3 @@ def u_SVM(data2, labels2, cv2 = 5):
     # print(cv)
     scores2 = cross_val_score(clf2, data2, labels2, cv2)
     #    print(scores)
-
-print(choose_species(6))
