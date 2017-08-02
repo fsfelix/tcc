@@ -1,4 +1,5 @@
 import os
+import random
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -92,6 +93,13 @@ DATA_DIR_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte
                  '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/',
                  '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/']
 
+DATA_DIR_PULSE_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte'
+
+DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-1/',
+                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-2/',
+                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-3/',
+                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-4/']
+
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
     file_extension = file_extension.lower()
@@ -107,14 +115,19 @@ def num_files(data_dirs, song_or_call):
                     num_file += 1
     return num_file
 
-def choose_species(num_species):
+def choose_species(num_species, full_or_pulse = 'full'):
     # Return list of directories with species randomly choosen
 
-    species =  np.random.choice(NAME_SPECIES_NUM_DIR, num_species)
-    dirs = []
+    n_dir = len(NAME_SPECIES_NUM_DIR)
+    samples = random.sample(range(0, n_dir), num_species)
 
-    for specie in species:
-        dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
+    dirs = []
+    for i in samples:
+        specie = NAME_SPECIES_NUM_DIR[i]
+        if full_or_pulse == 'full':
+            dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
+        else:
+            dir = DATA_DIR_PULSE_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
         dirs.append(dir)
 
     return dirs
@@ -151,3 +164,5 @@ def u_SVM(data2, labels2, cv2 = 5):
     # print(cv)
     scores2 = cross_val_score(clf2, data2, labels2, cv2)
     #    print(scores)
+
+print(choose_species(6))

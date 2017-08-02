@@ -12,10 +12,10 @@ def generate_local_feature(file_dir, feat_name, feat_func, y, **kwargs):
     else:
        print('{} already exists.'.format(output_file))
 
-def main():
+def extract_feat(data_dirs):
     kwargs = {}
 
-    for data_dir in util.DATA_DIR_FULL:
+    for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 if util.is_audio(file):
@@ -28,7 +28,3 @@ def main():
                     #generate_local_feature(file_dir, 'stft', librosa.core.stft, y)
 
                     generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, y, **kwargs)
-
-
-if __name__ == "__main__":
-    main()
