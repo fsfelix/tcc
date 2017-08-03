@@ -1,0 +1,28 @@
+* Introdução
+
+** Contextualização
+** Estrutura do trabalho
+
+* Fundamentação Teórica
+
+** Conceitos Iniciais
+*** Representações do sinal
+*** Definição do problema de classificação
+
+** Features
+*** MFCC's
+
+** Classificação
+*** Classificação Supervisionada
+*** Classificadores
+**** kNN
+**** Naïve-Bayes
+**** SVM
+
+** Avaliação
+
+* Implementação e Experimentos
+** Dataset
+
+
+* Conclusões
