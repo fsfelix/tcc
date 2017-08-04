@@ -25,11 +25,15 @@ def print_table(table):
 def check_num_files(data_dirs, song_or_call, num_species, n_min):
     # Check if all dirs have at least n_min files
 
-    for i in range(num_species):
-        if util.num_files([data_dirs[i]], song_or_call) < n_min:
-            print("loop infinito?")
+    i = 0
+    while i < num_species:
+        num_files = util.num_files([data_dirs[i]], song_or_call)
+        #print(data_dirs[i] + ' ' + str(num_files))
+        if num_files < n_min:
             data_dirs = util.choose_species(num_species)
             i = 0
+        else:
+            i += 1
 
     return data_dirs
 
@@ -37,11 +41,11 @@ def main():
     num_species  = int(input('Número de espécies: '))
     song_or_call = 'song'
 
-    n_min    = 5
+    n_min    = 10
     n_global = 4
 
     data_dirs = util.choose_species(num_species)
-    check_num_files(data_dirs, song_or_call, num_species, n_min)
+    data_dirs = check_num_files(data_dirs, song_or_call, num_species, n_min)
 
     print("Diretórios: ")
     for dir in data_dirs:
