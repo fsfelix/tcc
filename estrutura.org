@@ -1,28 +1,31 @@
-* Introdução
+* TODO Introdução [0/2]
 
-** Contextualização
-** Estrutura do trabalho
+** TODO Contextualização
+** TODO Estrutura do trabalho
 
-* Fundamentação Teórica
+* TODO Fundamentação Teórica [0/4]
 
-** Conceitos Iniciais
-*** Representações do sinal
-*** Definição do problema de classificação
+** TODO Conceitos Iniciais [0/2]
+*** TODO Representações do sinal
+*** TODO Definição do problema de classificação
 
-** Features
-*** MFCC's
+** TODO Features [0/4]
+*** TODO MFCC's
+*** TODO Spectral Bandwidth
+*** TODO Spectral Centroid
+*** TODO Spectral Rolloff
 
-** Classificação
-*** Classificação Supervisionada
-*** Classificadores
-**** kNN
-**** Naïve-Bayes
-**** SVM
+** TODO Classificação [0/2]
+*** TODO Classificação Supervisionada
+*** TODO Classificadores
+**** TODO kNN
+**** TODO Naïve-Bayes
+**** TODO SVM
 
-** Avaliação
+** TODO Avaliação 
 
-* Implementação e Experimentos
-** Dataset
+* TODO Implementação e Experimentos [0/1]
+** TODO Dataset
 
+* TODO Conclusões
 
-* Conclusões

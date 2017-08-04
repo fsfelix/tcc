@@ -100,6 +100,12 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-3/',
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-4/']
 
+FEATURES = ['mfcc', 'spec_band', 'spec_cent', 'spec_roll']
+
+CLASSIFIERS = ['kNN', 'NB', 'SVM']
+
+GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
+
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
     file_extension = file_extension.lower()
@@ -129,7 +135,6 @@ def choose_species(num_species, full_or_pulse = 'full'):
         else:
             dir = DATA_DIR_PULSE_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
         dirs.append(dir)
-
     return dirs
 
 def plot_scatter(x, y, labels, xlabel, ylabel):
@@ -148,11 +153,20 @@ def plot_scatter(x, y, labels, xlabel, ylabel):
     plt.show()
 
 def kNN(data, labels, k_range, cv = 5):
+    max_acc = -np.inf
+
     for k in k_range:
         for weight in ['uniform', 'distance']:
             clf = neighbors.KNeighborsClassifier(k, weights = weight)
             scores = cross_val_score(clf, data, labels, cv = cv)
-            print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+            acc = scores.mean()
+            if acc > max_acc:
+                max_acc = acc
+                max_k   = k
+                result  = '{0:.2f} (+/- {1:.2f})'.format(max_acc, scores.std() * 2)
+            #print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+
+    return result, max_k
 
 def u_SVM(data2, labels2, cv2 = 5):
     # kwargs = {'kernel' = 'linear', 'C' = 1}
