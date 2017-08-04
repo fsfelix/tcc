@@ -1,5 +1,7 @@
 import pr_util as util
 import numpy as np
+import datetime
+import time
 
 from sklearn import svm
 from sklearn.naive_bayes import GaussianNB
@@ -22,6 +24,18 @@ def print_table(table):
             print('{} | '.format(str(element).rjust(20)), end = '')
         print()
 
+def write_table(table, file_exp):
+    file_exp.write(' | '.rjust(23))
+    for classifier in util.CLASSIFIERS:
+        file_exp.write('{} | '.format(classifier.rjust(20)))
+    file_exp.write('\n')
+    for line in table:
+        for element in line:
+            file_exp.write('{} | '.format(str(element).rjust(20)))
+        file_exp.write('\n')
+    file_exp.write('\n')
+
+
 def check_num_files(data_dirs, song_or_call, num_species, n_min):
     # Check if all dirs have at least n_min files
 
@@ -37,9 +51,10 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
 
     return data_dirs
 
-def main():
-    num_species  = int(input('Número de espécies: '))
-    song_or_call = 'song'
+def generate_experiments(num_species, file_exp, song_or_call = 'song'):
+# def main():
+#     num_species  = int(input('Número de espécies: '))
+#     song_or_call = 'song'
 
     n_min    = 10
     n_global = 4
@@ -50,6 +65,11 @@ def main():
     print("Diretórios: ")
     for dir in data_dirs:
         print(dir)
+    print()
+
+    file_exp.write("Diretórios: \n")
+    for dir in data_dirs:
+        file_exp.write("{} \n".format(dir))
     print()
 
 
@@ -84,5 +104,25 @@ def main():
         i += 1
 
     print_table(table)
+    write_table(table, file_exp)
+
+def generate_exp_file():
+    return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
+
+def main():
+    num_species = [3, 5, 8, 12, 20]
+    num_exp     =  5
+
+    file_exp = open(generate_exp_file(), "w+")
+
+    for num in num_species:
+        file_exp.write('Número de espécies: {}\n'.format(num))
+        for i in range(num_exp):
+            print("Número espécie: {} | Exp: {}/{}".format(num, i, num_exp))
+            generate_experiments(num, file_exp, song_or_call = 'song')
+
+    file_exp.close()
+
+
 if __name__ == '__main__':
     main()
