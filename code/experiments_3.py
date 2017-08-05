@@ -87,15 +87,16 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song'):
 
         # naïve-bayes
         gnb = GaussianNB()
-        scores = cross_val_score(gnb, data, labels, cv = 5)
+        scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5)
         acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
         table[i].append(acc)
         print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
         print(scores)
 
         # SVM
-        clf = svm.SVC(kernel = 'linear', C = 1)
-        scores = cross_val_score(clf, data, labels, cv = 5)
+        clf = svm.SVC(kernel = 'rbf', C = 1)
+        file_exp.write(str(clf))
+        scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5)
         acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
         table[i].append(acc)
         print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))

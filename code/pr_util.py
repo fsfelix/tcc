@@ -158,7 +158,7 @@ def kNN(data, labels, k_range, cv = 5):
     for k in k_range:
         for weight in ['uniform', 'distance']:
             clf = neighbors.KNeighborsClassifier(k, weights = weight)
-            scores = cross_val_score(clf, data, labels, cv = cv)
+            scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = cv)
             acc = scores.mean()
             if acc > max_acc:
                 max_acc = acc
