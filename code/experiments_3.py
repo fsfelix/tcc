@@ -42,7 +42,7 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
     i = 0
     while i < num_species:
         num_files = util.num_files([data_dirs[i]], song_or_call)
-        #print(data_dirs[i] + ' ' + str(num_files))
+        print(data_dirs[i] + ' ' + str(num_files))
         if num_files < n_min:
             data_dirs = util.choose_species(num_species)
             i = 0
@@ -95,7 +95,7 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song'):
 
         # SVM
         clf = svm.SVC(kernel = 'rbf', C = 1)
-        file_exp.write(str(clf))
+        file_exp.write(str(clf) + '\n')
         scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5)
         acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
         table[i].append(acc)

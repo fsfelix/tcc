@@ -178,13 +178,15 @@
 
 
 ** Tarefas
-*** TODO Implementar protótipo simples para entender scikit.
+*** DONE Implementar protótipo simples para entender scikit.
 **** DONE kNN
-**** TODO Naïve-Bayes
+**** DONE Naïve-Bayes
 **** DONE SVM
 
 *** TODO Entender SVM e implementar com scikit.
 *** TODO Preparar apresentação com protótipo e explicação.
+**** Classes não estão balanceadas... Criar o vetor de pesos para o SVM
+
 *** TODO Entender MFCC's.
    + http://www.speech.cs.cmu.edu/15-492/slides/03_mfcc.pdf
 
