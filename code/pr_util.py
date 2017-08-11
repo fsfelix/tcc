@@ -100,6 +100,8 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-3/',
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-4/']
 
+EXPERIMENTS_DIR = '/Users/felipefelix/USP/tcc/experiments'
+
 FEATURES = ['mfcc', 'spec_band', 'spec_cent', 'spec_roll']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']

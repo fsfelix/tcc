@@ -111,10 +111,10 @@ def generate_exp_file():
     return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 def main():
-    num_species = [3, 5, 8, 12, 20]
-    num_exp     =  5
+    num_species = [3]#, 5, 8, 12, 20]
+    num_exp     =  1
 
-    file_exp = open(generate_exp_file(), "w+")
+    file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
 
     for num in num_species:
         file_exp.write('Número de espécies: {}\n'.format(num))
