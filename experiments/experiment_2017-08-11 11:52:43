@@ -1,0 +1,27 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                mfcc |      0.43 (+/- 0.15) |      0.36 (+/- 0.28) |      0.41 (+/- 0.04) | 
+           spec_band |      0.42 (+/- 0.45) |      0.41 (+/- 0.22) |      0.41 (+/- 0.04) | 
+           spec_cent |      0.43 (+/- 0.34) |      0.46 (+/- 0.31) |      0.41 (+/- 0.04) | 
+           spec_roll |      0.57 (+/- 0.32) |      0.51 (+/- 0.41) |      0.41 (+/- 0.04) | 
+

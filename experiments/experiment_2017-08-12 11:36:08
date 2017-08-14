@@ -1,0 +1,32 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Philydor atricapillus/ 
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.68 (+/- 0.24) |      0.47 (+/- 0.23) |      0.50 (+/- 0.08) | 
+                mfcc |      0.39 (+/- 0.07) |      0.45 (+/- 0.21) |      0.34 (+/- 0.22) | 
+           spec_band |      0.58 (+/- 0.06) |      0.57 (+/- 0.16) |      0.57 (+/- 0.25) | 
+           spec_cent |      0.69 (+/- 0.25) |      0.71 (+/- 0.25) |      0.56 (+/- 0.22) | 
+           spec_roll |      0.53 (+/- 0.28) |      0.49 (+/- 0.29) |      0.51 (+/- 0.29) | 
+

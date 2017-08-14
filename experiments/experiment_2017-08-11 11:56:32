@@ -1,0 +1,27 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                mfcc |      0.53 (+/- 0.18) |      0.51 (+/- 0.12) |      0.51 (+/- 0.11) | 
+           spec_band |      0.48 (+/- 0.25) |      0.48 (+/- 0.13) |      0.51 (+/- 0.11) | 
+           spec_cent |      0.58 (+/- 0.09) |      0.55 (+/- 0.22) |      0.51 (+/- 0.11) | 
+           spec_roll |      0.52 (+/- 0.13) |      0.55 (+/- 0.28) |      0.51 (+/- 0.11) | 
+

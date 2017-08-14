@@ -1,0 +1,27 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/ 
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                mfcc |      0.66 (+/- 0.14) |      0.78 (+/- 0.12) |      0.73 (+/- 0.04) | 
+           spec_band |      0.60 (+/- 0.24) |      0.57 (+/- 0.49) |      0.73 (+/- 0.04) | 
+           spec_cent |      0.54 (+/- 0.24) |      0.61 (+/- 0.24) |      0.73 (+/- 0.04) | 
+           spec_roll |      0.67 (+/- 0.12) |      0.56 (+/- 0.38) |      0.73 (+/- 0.04) | 
+

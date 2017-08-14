@@ -1,0 +1,32 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/ 
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.22) |      0.42 (+/- 0.39) |      0.50 (+/- 0.00) | 
+                mfcc |      0.60 (+/- 0.17) |      0.53 (+/- 0.24) |      0.50 (+/- 0.00) | 
+           spec_band |      0.42 (+/- 0.30) |      0.52 (+/- 0.26) |      0.50 (+/- 0.00) | 
+           spec_cent |      0.50 (+/- 0.19) |      0.47 (+/- 0.18) |      0.50 (+/- 0.00) | 
+           spec_roll |      0.54 (+/- 0.11) |      0.59 (+/- 0.07) |      0.50 (+/- 0.00) | 
+

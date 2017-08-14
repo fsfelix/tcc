@@ -3,6 +3,8 @@ import librosa
 import numpy as np
 import pr_util as util
 
+# Como rodar: extract_feat(util.DATA_DIR_FULL)
+
 def generate_local_feature(file_dir, feat_name, feat_func, y, **kwargs):
     output_file = file_dir + '.' + feat_name + '.txt'
     if not os.path.isfile(output_file):
@@ -23,7 +25,8 @@ def extract_feat(data_dirs):
                     #print('Loading {}...'.format(file_dir))
                     y, sr = librosa.load(file_dir)
                     kwargs = {'sr' : sr}
-                    #generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
+
+                    generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
 
                     #generate_local_feature(file_dir, 'stft', librosa.core.stft, y)
 
@@ -33,4 +36,6 @@ def extract_feat(data_dirs):
 
                     #generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, y, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
+
+extract_feat(util.DATA_DIR_FULL)

@@ -42,8 +42,8 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
     i = 0
     while i < num_species:
         num_files = util.num_files([data_dirs[i]], song_or_call)
-        print(data_dirs[i] + ' ' + str(num_files))
-        if num_files < n_min:
+        print(data_dirs[i] + ' n files:' + str(num_files))
+        if num_files < n_min or num_files > 50:
             data_dirs = util.choose_species(num_species)
             i = 0
         else:
@@ -94,14 +94,16 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song'):
         print(scores)
 
         # SVM
-        clf = svm.SVC(kernel = 'rbf', C = 1)
+        #clf = svm.SVC(kernel = 'rbf', C = 1)
+        clf = svm.SVC(kernel = 'linear', C = 1)
+        #clf = svm.SVC(kernel = 'poly', C = 1)
         file_exp.write(str(clf) + '\n')
         scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5)
         acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
         table[i].append(acc)
         print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
         print(scores)
-
+        print()
         i += 1
 
     print_table(table)
@@ -111,15 +113,15 @@ def generate_exp_file():
     return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 def main():
-    num_species = [3]#, 5, 8, 12, 20]
-    num_exp     =  1
+    num_species = [3, 5, 8, 12, 20]
+    num_exp     =  5
 
     file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
 
     for num in num_species:
         file_exp.write('Número de espécies: {}\n'.format(num))
         for i in range(num_exp):
-            print("Número espécie: {} | Exp: {}/{}".format(num, i, num_exp))
+            print("Número espécie: {} | Exp: {}/{}".format(num, i + 1, num_exp))
             generate_experiments(num, file_exp, song_or_call = 'song')
 
     file_exp.close()

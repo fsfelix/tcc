@@ -102,7 +102,7 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
 
 EXPERIMENTS_DIR = '/Users/felipefelix/USP/tcc/experiments'
 
-FEATURES = ['mfcc', 'spec_band', 'spec_cent', 'spec_roll']
+FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
