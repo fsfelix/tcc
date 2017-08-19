@@ -35,7 +35,6 @@ def write_table(table, file_exp):
         file_exp.write('\n')
     file_exp.write('\n')
 
-
 def check_num_files(data_dirs, song_or_call, num_species, n_min):
     # Check if all dirs have at least n_min files
 
@@ -51,7 +50,7 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
 
     return data_dirs
 
-def generate_experiments(num_species, file_exp, song_or_call = 'song'):
+def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring = 'f1_weighted'):
 # def main():
 #     num_species  = int(input('Número de espécies: '))
 #     song_or_call = 'song'
@@ -72,7 +71,7 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song'):
         file_exp.write("{} \n".format(dir))
     print()
 
-
+    file_exp.write("type of score: {}\n".format(scoring))
     table = create_table(util.FEATURES)
 
     i = 0
@@ -80,29 +79,39 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song'):
         print('Feature: {}'.format(feat))
         labels_dict, labels, data = generate_global_features(n_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS)
 
-        # kNN
-        res, max_k = util.kNN(data, labels, range(3, 4), 5)
-        table[i].append(res)
-        print('kNN: Accuracy: {} | k: {}'.format(res, max_k))
+        # kNN  - OLD WAY USING UTIL
+        # res, max_k = util.kNN(data, labels, range(3, 4), 5)
+        # table[i].append(res)
+        # print('kNN: Accuracy: {} | k: {}'.format(res, max_k))
+
+        clf     = neighbors.KNeighborsClassifier(k, weights = 'uniform')
+        scores  = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+        result  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        table[i].append(result)
+        print('kNN: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
+        print(scores)
 
         # naïve-bayes
-        gnb = GaussianNB()
-        scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5)
-        acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        table[i].append(acc)
+        gnb    = GaussianNB()
+        scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+        result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+
+        table[i].append(result)
         print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
         print(scores)
 
         # SVM
         #clf = svm.SVC(kernel = 'rbf', C = 1)
-        clf = svm.SVC(kernel = 'linear', C = 1)
         #clf = svm.SVC(kernel = 'poly', C = 1)
+
+        clf = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
         file_exp.write(str(clf) + '\n')
-        scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5)
-        acc = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        table[i].append(acc)
+        scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+        result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        table[i].append(result)
         print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
         print(scores)
+
         print()
         i += 1
 
