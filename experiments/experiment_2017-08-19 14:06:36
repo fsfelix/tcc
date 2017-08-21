@@ -1,0 +1,970 @@
+Número de espécies: 3
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.62 (+/- 0.30) |      0.55 (+/- 0.17) |      0.40 (+/- 0.09) | 
+                mfcc |      0.55 (+/- 0.29) |      0.44 (+/- 0.13) |      0.45 (+/- 0.33) | 
+           spec_band |      0.42 (+/- 0.11) |      0.44 (+/- 0.29) |      0.44 (+/- 0.14) | 
+           spec_cent |      0.64 (+/- 0.21) |      0.75 (+/- 0.27) |      0.62 (+/- 0.37) | 
+           spec_roll |      0.47 (+/- 0.30) |      0.50 (+/- 0.16) |      0.55 (+/- 0.33) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.19) |      0.46 (+/- 0.21) |      0.51 (+/- 0.05) | 
+                mfcc |      0.57 (+/- 0.10) |      0.55 (+/- 0.27) |      0.50 (+/- 0.05) | 
+           spec_band |      0.50 (+/- 0.26) |      0.52 (+/- 0.27) |      0.50 (+/- 0.15) | 
+           spec_cent |      0.63 (+/- 0.08) |      0.66 (+/- 0.24) |      0.70 (+/- 0.16) | 
+           spec_roll |      0.53 (+/- 0.15) |      0.55 (+/- 0.14) |      0.54 (+/- 0.21) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.28) |      0.56 (+/- 0.19) |      0.47 (+/- 0.06) | 
+                mfcc |      0.67 (+/- 0.23) |      0.55 (+/- 0.16) |      0.50 (+/- 0.19) | 
+           spec_band |      0.69 (+/- 0.21) |      0.58 (+/- 0.10) |      0.68 (+/- 0.21) | 
+           spec_cent |      0.77 (+/- 0.34) |      0.78 (+/- 0.22) |      0.82 (+/- 0.18) | 
+           spec_roll |      0.51 (+/- 0.24) |      0.60 (+/- 0.31) |      0.64 (+/- 0.38) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.42 (+/- 0.16) |      0.31 (+/- 0.34) |      0.33 (+/- 0.03) | 
+                mfcc |      0.55 (+/- 0.13) |      0.62 (+/- 0.31) |      0.69 (+/- 0.09) | 
+           spec_band |      0.51 (+/- 0.28) |      0.59 (+/- 0.34) |      0.53 (+/- 0.27) | 
+           spec_cent |      0.56 (+/- 0.15) |      0.58 (+/- 0.27) |      0.49 (+/- 0.34) | 
+           spec_roll |      0.63 (+/- 0.24) |      0.58 (+/- 0.15) |      0.50 (+/- 0.22) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.44 (+/- 0.13) |      0.33 (+/- 0.07) |      0.33 (+/- 0.02) | 
+                mfcc |      0.39 (+/- 0.30) |      0.40 (+/- 0.21) |      0.42 (+/- 0.25) | 
+           spec_band |      0.48 (+/- 0.10) |      0.32 (+/- 0.07) |      0.45 (+/- 0.23) | 
+           spec_cent |      0.38 (+/- 0.30) |      0.46 (+/- 0.31) |      0.38 (+/- 0.12) | 
+           spec_roll |      0.53 (+/- 0.14) |      0.49 (+/- 0.18) |      0.43 (+/- 0.31) | 
+
+Número de espécies: 5
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.28 (+/- 0.08) |      0.27 (+/- 0.16) |      0.21 (+/- 0.03) | 
+                mfcc |      0.26 (+/- 0.09) |      0.29 (+/- 0.19) |      0.33 (+/- 0.06) | 
+           spec_band |      0.32 (+/- 0.08) |      0.29 (+/- 0.12) |      0.21 (+/- 0.07) | 
+           spec_cent |      0.26 (+/- 0.13) |      0.17 (+/- 0.12) |      0.22 (+/- 0.09) | 
+           spec_roll |      0.24 (+/- 0.11) |      0.25 (+/- 0.15) |      0.20 (+/- 0.07) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.29 (+/- 0.25) |      0.26 (+/- 0.17) |      0.12 (+/- 0.02) | 
+                mfcc |      0.31 (+/- 0.13) |      0.33 (+/- 0.19) |      0.25 (+/- 0.19) | 
+           spec_band |      0.26 (+/- 0.15) |      0.20 (+/- 0.13) |      0.26 (+/- 0.10) | 
+           spec_cent |      0.46 (+/- 0.15) |      0.45 (+/- 0.11) |      0.30 (+/- 0.18) | 
+           spec_roll |      0.25 (+/- 0.30) |      0.25 (+/- 0.10) |      0.25 (+/- 0.09) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Emberizoides ypiranganus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.28 (+/- 0.13) |      0.30 (+/- 0.19) |      0.13 (+/- 0.01) | 
+                mfcc |      0.41 (+/- 0.28) |      0.36 (+/- 0.17) |      0.39 (+/- 0.20) | 
+           spec_band |      0.30 (+/- 0.17) |      0.26 (+/- 0.15) |      0.23 (+/- 0.17) | 
+           spec_cent |      0.29 (+/- 0.20) |      0.39 (+/- 0.28) |      0.36 (+/- 0.24) | 
+           spec_roll |      0.41 (+/- 0.23) |      0.28 (+/- 0.17) |      0.39 (+/- 0.18) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.27 (+/- 0.13) |      0.28 (+/- 0.13) |      0.12 (+/- 0.03) | 
+                mfcc |      0.27 (+/- 0.09) |      0.43 (+/- 0.19) |      0.44 (+/- 0.09) | 
+           spec_band |      0.41 (+/- 0.10) |      0.40 (+/- 0.12) |      0.39 (+/- 0.21) | 
+           spec_cent |      0.52 (+/- 0.30) |      0.51 (+/- 0.29) |      0.43 (+/- 0.20) | 
+           spec_roll |      0.29 (+/- 0.12) |      0.28 (+/- 0.19) |      0.33 (+/- 0.20) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.35 (+/- 0.17) |      0.16 (+/- 0.22) |      0.18 (+/- 0.02) | 
+                mfcc |      0.22 (+/- 0.11) |      0.33 (+/- 0.20) |      0.31 (+/- 0.14) | 
+           spec_band |      0.27 (+/- 0.17) |      0.33 (+/- 0.19) |      0.32 (+/- 0.17) | 
+           spec_cent |      0.32 (+/- 0.12) |      0.31 (+/- 0.15) |      0.22 (+/- 0.15) | 
+           spec_roll |      0.27 (+/- 0.17) |      0.21 (+/- 0.10) |      0.23 (+/- 0.15) | 
+
+Número de espécies: 8
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.14 (+/- 0.08) |      0.14 (+/- 0.08) |      0.05 (+/- 0.01) | 
+                mfcc |      0.16 (+/- 0.05) |      0.20 (+/- 0.08) |      0.22 (+/- 0.09) | 
+           spec_band |      0.19 (+/- 0.10) |      0.17 (+/- 0.10) |      0.23 (+/- 0.12) | 
+           spec_cent |      0.12 (+/- 0.10) |      0.13 (+/- 0.08) |      0.13 (+/- 0.08) | 
+           spec_roll |      0.13 (+/- 0.05) |      0.19 (+/- 0.06) |      0.17 (+/- 0.10) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphocelus bresilius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.20 (+/- 0.08) |      0.15 (+/- 0.20) |      0.13 (+/- 0.05) | 
+                mfcc |      0.19 (+/- 0.12) |      0.15 (+/- 0.08) |      0.12 (+/- 0.12) | 
+           spec_band |      0.14 (+/- 0.11) |      0.18 (+/- 0.15) |      0.17 (+/- 0.06) | 
+           spec_cent |      0.15 (+/- 0.05) |      0.19 (+/- 0.09) |      0.20 (+/- 0.13) | 
+           spec_roll |      0.20 (+/- 0.07) |      0.23 (+/- 0.11) |      0.18 (+/- 0.07) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Philydor atricapillus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.27 (+/- 0.12) |      0.16 (+/- 0.10) |      0.07 (+/- 0.01) | 
+                mfcc |      0.13 (+/- 0.07) |      0.19 (+/- 0.07) |      0.21 (+/- 0.11) | 
+           spec_band |      0.24 (+/- 0.10) |      0.24 (+/- 0.13) |      0.29 (+/- 0.14) | 
+           spec_cent |      0.23 (+/- 0.10) |      0.26 (+/- 0.13) |      0.25 (+/- 0.07) | 
+           spec_roll |      0.24 (+/- 0.21) |      0.20 (+/- 0.12) |      0.16 (+/- 0.10) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Emberizoides ypiranganus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.17 (+/- 0.13) |      0.12 (+/- 0.13) |      0.06 (+/- 0.00) | 
+                mfcc |      0.16 (+/- 0.07) |      0.17 (+/- 0.13) |      0.14 (+/- 0.08) | 
+           spec_band |      0.22 (+/- 0.13) |      0.19 (+/- 0.10) |      0.17 (+/- 0.12) | 
+           spec_cent |      0.17 (+/- 0.07) |      0.16 (+/- 0.07) |      0.17 (+/- 0.12) | 
+           spec_roll |      0.24 (+/- 0.13) |      0.13 (+/- 0.07) |      0.15 (+/- 0.13) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.19 (+/- 0.03) |      0.11 (+/- 0.14) |      0.07 (+/- 0.04) | 
+                mfcc |      0.19 (+/- 0.15) |      0.15 (+/- 0.07) |      0.14 (+/- 0.06) | 
+           spec_band |      0.15 (+/- 0.10) |      0.17 (+/- 0.12) |      0.19 (+/- 0.08) | 
+           spec_cent |      0.32 (+/- 0.17) |      0.34 (+/- 0.16) |      0.29 (+/- 0.09) | 
+           spec_roll |      0.22 (+/- 0.09) |      0.21 (+/- 0.18) |      0.22 (+/- 0.19) | 
+
+Número de espécies: 12
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.08 (+/- 0.06) |      0.12 (+/- 0.07) |      0.04 (+/- 0.00) | 
+                mfcc |      0.14 (+/- 0.07) |      0.14 (+/- 0.06) |      0.16 (+/- 0.07) | 
+           spec_band |      0.12 (+/- 0.04) |      0.12 (+/- 0.06) |      0.13 (+/- 0.10) | 
+           spec_cent |      0.15 (+/- 0.13) |      0.17 (+/- 0.10) |      0.13 (+/- 0.08) | 
+           spec_roll |      0.16 (+/- 0.14) |      0.14 (+/- 0.08) |      0.14 (+/- 0.12) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.14 (+/- 0.05) |      0.16 (+/- 0.11) |      0.05 (+/- 0.01) | 
+                mfcc |      0.21 (+/- 0.05) |      0.12 (+/- 0.06) |      0.14 (+/- 0.09) | 
+           spec_band |      0.15 (+/- 0.08) |      0.14 (+/- 0.10) |      0.20 (+/- 0.15) | 
+           spec_cent |      0.18 (+/- 0.09) |      0.16 (+/- 0.14) |      0.20 (+/- 0.13) | 
+           spec_roll |      0.17 (+/- 0.07) |      0.13 (+/- 0.10) |      0.12 (+/- 0.06) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Emberizoides ypiranganus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.13 (+/- 0.11) |      0.07 (+/- 0.07) |      0.03 (+/- 0.00) | 
+                mfcc |      0.18 (+/- 0.12) |      0.17 (+/- 0.07) |      0.20 (+/- 0.15) | 
+           spec_band |      0.16 (+/- 0.07) |      0.15 (+/- 0.05) |      0.15 (+/- 0.08) | 
+           spec_cent |      0.26 (+/- 0.13) |      0.28 (+/- 0.14) |      0.26 (+/- 0.07) | 
+           spec_roll |      0.19 (+/- 0.12) |      0.20 (+/- 0.08) |      0.19 (+/- 0.07) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.09 (+/- 0.03) |      0.08 (+/- 0.10) |      0.04 (+/- 0.01) | 
+                mfcc |      0.19 (+/- 0.03) |      0.17 (+/- 0.10) |      0.18 (+/- 0.06) | 
+           spec_band |      0.13 (+/- 0.08) |      0.12 (+/- 0.05) |      0.15 (+/- 0.04) | 
+           spec_cent |      0.21 (+/- 0.01) |      0.18 (+/- 0.05) |      0.17 (+/- 0.06) | 
+           spec_roll |      0.19 (+/- 0.11) |      0.19 (+/- 0.08) |      0.18 (+/- 0.09) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.17 (+/- 0.09) |      0.11 (+/- 0.07) |      0.03 (+/- 0.00) | 
+                mfcc |      0.20 (+/- 0.07) |      0.16 (+/- 0.09) |      0.17 (+/- 0.07) | 
+           spec_band |      0.14 (+/- 0.05) |      0.14 (+/- 0.11) |      0.16 (+/- 0.08) | 
+           spec_cent |      0.17 (+/- 0.10) |      0.18 (+/- 0.10) |      0.20 (+/- 0.09) | 
+           spec_roll |      0.14 (+/- 0.08) |      0.18 (+/- 0.06) |      0.18 (+/- 0.03) | 
+
+Número de espécies: 20
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Emberizoides ypiranganus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphocelus bresilius/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.08 (+/- 0.05) |      0.05 (+/- 0.05) |      0.05 (+/- 0.05) | 
+                mfcc |      0.15 (+/- 0.04) |      0.10 (+/- 0.03) |      0.11 (+/- 0.04) | 
+           spec_band |      0.13 (+/- 0.08) |      0.09 (+/- 0.06) |      0.15 (+/- 0.07) | 
+           spec_cent |      0.15 (+/- 0.05) |      0.11 (+/- 0.05) |      0.15 (+/- 0.05) | 
+           spec_roll |      0.17 (+/- 0.07) |      0.10 (+/- 0.04) |      0.13 (+/- 0.05) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.12 (+/- 0.05) |      0.06 (+/- 0.04) |      0.03 (+/- 0.00) | 
+                mfcc |      0.11 (+/- 0.03) |      0.09 (+/- 0.04) |      0.04 (+/- 0.04) | 
+           spec_band |      0.13 (+/- 0.02) |      0.08 (+/- 0.05) |      0.09 (+/- 0.03) | 
+           spec_cent |      0.16 (+/- 0.06) |      0.09 (+/- 0.04) |      0.09 (+/- 0.05) | 
+           spec_roll |      0.15 (+/- 0.03) |      0.09 (+/- 0.04) |      0.11 (+/- 0.05) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.07 (+/- 0.02) |      0.07 (+/- 0.06) |      0.02 (+/- 0.02) | 
+                mfcc |      0.11 (+/- 0.05) |      0.07 (+/- 0.06) |      0.10 (+/- 0.04) | 
+           spec_band |      0.08 (+/- 0.02) |      0.08 (+/- 0.02) |      0.10 (+/- 0.03) | 
+           spec_cent |      0.12 (+/- 0.04) |      0.09 (+/- 0.07) |      0.09 (+/- 0.04) | 
+           spec_roll |      0.07 (+/- 0.07) |      0.08 (+/- 0.02) |      0.06 (+/- 0.04) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Philydor atricapillus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.10 (+/- 0.05) |      0.05 (+/- 0.03) |      0.03 (+/- 0.02) | 
+                mfcc |      0.10 (+/- 0.05) |      0.09 (+/- 0.04) |      0.10 (+/- 0.06) | 
+           spec_band |      0.09 (+/- 0.03) |      0.07 (+/- 0.06) |      0.09 (+/- 0.02) | 
+           spec_cent |      0.15 (+/- 0.07) |      0.12 (+/- 0.08) |      0.11 (+/- 0.05) | 
+           spec_roll |      0.14 (+/- 0.10) |      0.15 (+/- 0.05) |      0.12 (+/- 0.08) | 
+
+Diretórios: 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.07 (+/- 0.05) |      0.06 (+/- 0.05) |      0.03 (+/- 0.01) | 
+                mfcc |      0.12 (+/- 0.04) |      0.15 (+/- 0.07) |      0.16 (+/- 0.05) | 
+           spec_band |      0.11 (+/- 0.09) |      0.09 (+/- 0.03) |      0.11 (+/- 0.05) | 
+           spec_cent |      0.15 (+/- 0.07) |      0.14 (+/- 0.08) |      0.14 (+/- 0.05) | 
+           spec_roll |      0.16 (+/- 0.02) |      0.11 (+/- 0.05) |      0.13 (+/- 0.04) | 
+

@@ -3,7 +3,7 @@ import numpy as np
 import datetime
 import time
 
-from sklearn import svm
+from sklearn import svm, neighbors
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import cross_val_score
 from generate_global_features_2 import generate_global_features
@@ -84,7 +84,7 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
         # table[i].append(res)
         # print('kNN: Accuracy: {} | k: {}'.format(res, max_k))
 
-        clf     = neighbors.KNeighborsClassifier(k, weights = 'uniform')
+        clf     = neighbors.KNeighborsClassifier(3, weights = 'uniform')
         scores  = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
         result  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
         table[i].append(result)
