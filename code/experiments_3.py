@@ -95,7 +95,6 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
         gnb    = GaussianNB()
         scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
         result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-
         table[i].append(result)
         print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
         print(scores)

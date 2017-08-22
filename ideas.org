@@ -25,7 +25,9 @@
     + http://baudline.com/download.html
     + http://www.dainf.cefetpr.br/~kaestner/brbird/brbird.htm
     + http://www.dainf.ct.utfpr.edu.br/~kaestner/brbird/brbird.htm
-
+    + http://text-analytics101.rxnlp.com/2014/10/computing-precision-and-recall-for.html
+    + https://stats.stackexchange.com/questions/21822/understanding-naive-bayes/21849#21849
+      
 *** Machine Learning Course
     + https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A&index=1
 

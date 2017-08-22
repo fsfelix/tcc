@@ -166,7 +166,7 @@ def kNN(data, labels, k_range, cv = 5):
                 max_acc = acc
                 max_k   = k
                 result  = '{0:.2f} (+/- {1:.2f})'.format(max_acc, scores.std() * 2)
-            #print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+            print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
 
     return result, max_k
 
