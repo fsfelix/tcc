@@ -35,21 +35,6 @@ def write_table(table, file_exp):
         file_exp.write('\n')
     file_exp.write('\n')
 
-def check_num_files(data_dirs, song_or_call, num_species, n_min):
-    # Check if all dirs have at least n_min files
-
-    i = 0
-    while i < num_species:
-        num_files = util.num_files([data_dirs[i]], song_or_call)
-        print(data_dirs[i] + ' n files:' + str(num_files))
-        if num_files < n_min or num_files > 50:
-            data_dirs = util.choose_species(num_species)
-            i = 0
-        else:
-            i += 1
-
-    return data_dirs
-
 def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring = 'f1_weighted'):
 # def main():
 #     num_species  = int(input('Número de espécies: '))
@@ -59,7 +44,7 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
     n_global = 4
 
     data_dirs = util.choose_species(num_species)
-    data_dirs = check_num_files(data_dirs, song_or_call, num_species, n_min)
+    data_dirs = util.check_num_files(data_dirs, song_or_call, num_species, n_min)
 
     print("Diretórios: ")
     for dir in data_dirs:
@@ -121,7 +106,8 @@ def generate_exp_file():
     return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 def main():
-    num_species = [3, 5, 8, 12, 20]
+    #num_species = [3, 5, 8, 12, 20]
+    num_species = [3]
     num_exp     =  5
 
     file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
