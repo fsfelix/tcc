@@ -26,16 +26,16 @@ def extract_feat(data_dirs):
                     y, sr = librosa.load(file_dir)
                     kwargs = {'sr' : sr}
 
-                    # generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
+                    generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
 
-                    # generate_local_feature(file_dir, 'stft', librosa.core.stft, y)
+                    #generate_local_feature(file_dir, 'stft', librosa.core.stft, y)
 
-                    # generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, y, **kwargs)
+                    generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, y, **kwargs)
 
                     generate_local_feature(file_dir, 'spec_cent', librosa.feature.spectral_centroid, y, **kwargs)
 
-                    # generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, y, **kwargs)
+                    generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, y, **kwargs)
 
-                    # generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
+                    generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
 
 #extract_feat(util.DATA_DIR_FULL)

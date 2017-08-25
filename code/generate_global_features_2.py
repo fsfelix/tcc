@@ -7,10 +7,9 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
     # feat_name: feature name, must use the convection file.feat_name.txt
     # data_dirs: list with directories with birds features
     # song_or_call: what type of recording is to be used
-    # functions: list with functions that will generate global features (np.max, etc...)
+    # functions: list with functions that will generate global features [np.max, etc...]
 
     labels_dict = {}
-
     labels  = []
     n_label = -1
     n_files = util.num_files(data_dirs, song_or_call)
@@ -25,7 +24,6 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
                 if type_of_rec == song_or_call and file.split('.')[-2] == feat_name:
                     filt_count = file.count('filtered')
                     if (filt_count == 1 and file.split('.')[-4] == version) or (filt_count == 0 and version == None):
-#                    if (len(file.split('.')) == 4 and version == None) or (len(file.split('.')) > 4 and file.split('.')[-4] == version):
                         print(file)
                         bird_specie = subdir.split('/')[-2].title()
                         if not bird_specie in labels_dict.keys():
@@ -42,7 +40,6 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
                             j += 1
                         i += 1
                         j  = 0
-
 
     labels = np.array(labels)
     return labels_dict, labels, data

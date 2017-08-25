@@ -22,12 +22,12 @@ data_dirs = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/B
 for data_dir in data_dirs:
   for subdir, dirs, files in os.walk(data_dir):
     for file in files:
-      if util.is_audio(file):
+      if util.is_audio(file) and file.count('filtered') == 0:
         file_dir = subdir + '/' + file
         print(file_dir)
         y, sr = librosa.load(file_dir, sr=44100)
-        y_filtered = my_filter(y, sr)
-        path = file_dir + '.filtered1.wav'
+        y_filtered = my_filter2(y, sr)
+        path = file_dir + '.filtered2.wav'
         print("arquivo filtrado: {}".format(path))
         librosa.output.write_wav(path, y_filtered, sr)
         #print('Filtered ' + file)

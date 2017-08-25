@@ -113,7 +113,7 @@ def is_audio(file_name):
     file_extension = file_extension.lower()
     return file_extension == 'mp3' or file_extension == 'wav' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
 
-def num_files(data_dirs, song_or_call, num_versions = 2):
+def num_files(data_dirs, song_or_call, num_versions = 3):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
 
