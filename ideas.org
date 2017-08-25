@@ -193,3 +193,5 @@
    + http://www.speech.cs.cmu.edu/15-492/slides/03_mfcc.pdf
 
 
+*** TODO GridSearch
+*** TODO Normalization/Standardization of data input

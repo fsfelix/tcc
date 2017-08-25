@@ -113,10 +113,7 @@ def is_audio(file_name):
     file_extension = file_extension.lower()
     return file_extension == 'mp3' or file_extension == 'wav' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
 
-def num_files(data_dirs, song_or_call, num_versions = 2):
-    # num_versions indicates how many filtered versions we
-    # have for each original audio file
-
+def num_files(data_dirs, song_or_call):
     num_file = 0
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
@@ -124,7 +121,7 @@ def num_files(data_dirs, song_or_call, num_versions = 2):
                 type_of_rec = subdir.split('/')[-1]
                 if is_audio(file) and type_of_rec == song_or_call:
                     num_file += 1
-    return int(num_file/num_versions)
+    return num_file
 
 def choose_species(num_species, full_or_pulse = 'full'):
     # Return list of directories with species randomly choosen
