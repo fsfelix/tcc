@@ -38,4 +38,4 @@ def extract_feat(data_dirs):
 
                     generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
 
-#extract_feat(util.DATA_DIR_FULL)
+extract_feat(util.DATA_DIR_FULL)

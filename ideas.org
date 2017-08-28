@@ -27,7 +27,9 @@
     + http://www.dainf.ct.utfpr.edu.br/~kaestner/brbird/brbird.htm
     + http://text-analytics101.rxnlp.com/2014/10/computing-precision-and-recall-for.html
     + https://stats.stackexchange.com/questions/21822/understanding-naive-bayes/21849#21849
-      
+    + https://stats.stackexchange.com/questions/44261/how-to-determine-the-quality-of-a-multiclass-classifier
+
+
 *** Machine Learning Course
     + https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A&index=1
 
@@ -196,3 +198,4 @@
 *** TODO GridSearch
 *** TODO Normalization/Standardization of data input
 *** TODO PCA
+*** Compare Nicolas Filtes with a standard low-pass
