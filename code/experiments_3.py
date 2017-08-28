@@ -35,6 +35,14 @@ def write_table(table, file_exp):
         file_exp.write('\n')
     file_exp.write('\n')
 
+def generate_results_table(table, clf, scoring, scores):
+    result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+    table.append(result)
+    print('{0} - {1}: {2:.2f} (+/- {3:.2f})'.format(clf, scoring, scores.mean(), scores.std() * 2))
+    print(scores)
+
+
+
 def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring = 'f1_weighted'):
 # def main():
 #     num_species  = int(input('Número de espécies: '))
@@ -71,18 +79,20 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
 
         clf     = neighbors.KNeighborsClassifier(3, weights = 'uniform')
         scores  = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        result  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        table[i].append(result)
-        print('kNN: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        print(scores)
+        generate_results_table(table[i], 'kNN', scoring, scores)
+        # result  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        # table[i].append(result)
+        # print('kNN: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
+        # print(scores)
 
         # naïve-bayes
         gnb    = GaussianNB()
         scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        table[i].append(result)
-        print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        print(scores)
+        generate_results_table(table[i], 'GaussianNB', scoring, scores)
+        # result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        # table[i].append(result)
+        # print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
+        # print(scores)
 
         # SVM
         #clf = svm.SVC(kernel = 'rbf', C = 1)
@@ -91,10 +101,12 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
         clf = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
         file_exp.write(str(clf) + '\n')
         scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        table[i].append(result)
-        print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        print(scores)
+        generate_results_table(table[i], 'SVM', scoring, scores)
+
+        # result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        # table[i].append(result)
+        # print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
+        # print(scores)
 
         print()
         i += 1
@@ -108,7 +120,7 @@ def generate_exp_file():
 def main():
     #num_species = [3, 5, 8, 12, 20]
     num_species = [3]
-    num_exp     =  5
+    num_exp     =  2
 
     file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
 

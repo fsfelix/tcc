@@ -24,7 +24,7 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
                 if type_of_rec == song_or_call and file.split('.')[-2] == feat_name:
                     filt_count = file.count('filtered')
                     if (filt_count == 1 and file.split('.')[-4] == version) or (filt_count == 0 and version == None):
-                        print(file)
+                        # print(file)
                         bird_specie = subdir.split('/')[-2].title()
                         if not bird_specie in labels_dict.keys():
                             n_label += 1
