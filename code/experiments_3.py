@@ -67,60 +67,50 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
     file_exp.write("type of score: {}\n".format(scoring))
     table = create_table(util.FEATURES)
 
-    i = 0
-    for feat in util.FEATURES:
-        print('Feature: {}'.format(feat))
-        labels_dict, labels, data = generate_global_features(n_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS)
+    for version in util.VERSIONS:
+        i = 0
+        table = create_table(util.FEATURES)
+        for feat in util.FEATURES:
+            print('Feature: {} | Version: {}'.format(feat, version))
+            labels_dict, labels, data = generate_global_features(n_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS, version = version)
 
-        # kNN  - OLD WAY USING UTIL
-        # res, max_k = util.kNN(data, labels, range(3, 4), 5)
-        # table[i].append(res)
-        # print('kNN: Accuracy: {} | k: {}'.format(res, max_k))
+            # kNN  - OLD WAY USING UTIL
+            # res, max_k = util.kNN(data, labels, range(3, 4), 5)
+            # table[i].append(res)
+            # print('kNN: Accuracy: {} | k: {}'.format(res, max_k))
 
-        clf     = neighbors.KNeighborsClassifier(3, weights = 'uniform')
-        scores  = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        generate_results_table(table[i], 'kNN', scoring, scores)
-        # result  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        # table[i].append(result)
-        # print('kNN: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        # print(scores)
+            clf     = neighbors.KNeighborsClassifier(3, weights = 'uniform')
+            scores  = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+            generate_results_table(table[i], 'kNN', scoring, scores)
 
-        # naïve-bayes
-        gnb    = GaussianNB()
-        scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        generate_results_table(table[i], 'GaussianNB', scoring, scores)
-        # result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        # table[i].append(result)
-        # print('GaussianNB: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        # print(scores)
+            # naïve-bayes
+            gnb    = GaussianNB()
+            scores = cross_val_score(gnb, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+            generate_results_table(table[i], 'GaussianNB', scoring, scores)
 
-        # SVM
-        #clf = svm.SVC(kernel = 'rbf', C = 1)
-        #clf = svm.SVC(kernel = 'poly', C = 1)
+            # SVM
+            #clf = svm.SVC(kernel = 'rbf', C = 1)
+            #clf = svm.SVC(kernel = 'poly', C = 1)
 
-        clf = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
-        file_exp.write(str(clf) + '\n')
-        scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
-        generate_results_table(table[i], 'SVM', scoring, scores)
+            clf = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
+            file_exp.write(str(clf) + '\n')
+            scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = 5, scoring=scoring)
+            generate_results_table(table[i], 'SVM', scoring, scores)
 
-        # result = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        # table[i].append(result)
-        # print('SVM: Accuracy: {0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2))
-        # print(scores)
+            print()
+            i += 1
 
-        print()
-        i += 1
-
-    print_table(table)
-    write_table(table, file_exp)
+        file_exp.write('Type of recording: ' + str(version) + '\n')
+        print_table(table)
+        write_table(table, file_exp)
 
 def generate_exp_file():
     return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 def main():
-    #num_species = [3, 5, 8, 12, 20]
-    num_species = [3]
-    num_exp     =  2
+    num_species = [3, 5, 8, 12, 20]
+    # num_species = [3, 5]
+    num_exp     =  5
 
     file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
 

@@ -108,6 +108,8 @@ CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
+VERSIONS = [None, 'filtered1']
+
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
     file_extension = file_extension.lower()
