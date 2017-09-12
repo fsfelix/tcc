@@ -41,8 +41,6 @@ def generate_results_table(table, clf, scoring, scores):
     print('{0} - {1}: {2:.2f} (+/- {3:.2f})'.format(clf, scoring, scores.mean(), scores.std() * 2))
     print(scores)
 
-
-
 def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring = 'f1_weighted'):
 # def main():
 #     num_species  = int(input('Número de espécies: '))
