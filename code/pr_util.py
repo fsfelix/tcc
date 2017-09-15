@@ -177,7 +177,6 @@ def return_random_audio(data_dirs):
     rec_choosen = recordings[np.random.randint(len(recordings))]
     return generate_filtered_dirs(rec_choosen)
 
-
 def plot_scatter(x, y, labels, xlabel, ylabel):
     # plot scatter graph with 2 features
 
