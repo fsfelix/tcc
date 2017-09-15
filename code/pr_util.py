@@ -159,6 +159,25 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
 
     return data_dirs
 
+def generate_filtered_dirs(data_dir, num_filters = 2):
+    recordings = [data_dir]
+    for i in range(num_filters):
+        recordings.append(data_dir + '.filtered' + str(i + 1) + '.wav')
+    return recordings
+
+def return_random_audio(data_dirs):
+    recordings = []
+    for data_dir in data_dirs:
+        for subdir, dirs, files in os.walk(data_dir):
+            for file in files:
+                type_of_rec = subdir.split('/')[-1] # Is it a call or a song?
+                filt_count  = file.count('filtered')
+                if type_of_rec == 'song' and is_audio(file) and filt_count == 0:
+                    recordings.append(subdir + '/' + file)
+    rec_choosen = recordings[np.random.randint(len(recordings))]
+    return generate_filtered_dirs(rec_choosen)
+
+
 def plot_scatter(x, y, labels, xlabel, ylabel):
     # plot scatter graph with 2 features
 
