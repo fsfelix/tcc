@@ -150,8 +150,8 @@ def check_num_files(data_dirs, song_or_call, num_species, n_min):
     i = 0
     while i < num_species:
         spc_num_files = num_files([data_dirs[i]], song_or_call)
-        print(data_dirs[i] + ' n files:' + str(spc_num_files))
-        if spc_num_files < n_min or spc_num_files > 50:
+        #print(data_dirs[i] + ' n files:' + str(spc_num_files))
+        if spc_num_files < n_min: #or spc_num_files > 50:
             data_dirs = choose_species(num_species)
             i = 0
         else:

@@ -32,8 +32,8 @@ for data_dir in data_dirs:
         file_dir = subdir + '/' + file
         print(file_dir)
         y, sr = librosa.load(file_dir, sr=44100)
-        y_filtered = my_filter2(y, sr)
-        path = file_dir + '.filtered2.wav'
+        y_filtered = my_filter3(y, sr)
+        path = file_dir + '.filtered3.wav'
         print("arquivo filtrado: {}".format(path))
         librosa.output.write_wav(path, y_filtered, sr)
         #print('Filtered ' + file)

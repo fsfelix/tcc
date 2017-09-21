@@ -132,7 +132,7 @@ def my_filter3(y, sr):
     contrast = contrastTrustFunc(np.abs(Y), sr)
     
     mask = np.zeros(varTrust.shape)
-    mask[np.logical_and(varTrust > 0.3, contrast > 0.3)] = 1
+    mask[np.logical_and(varTrust > 0.15, contrast > 0.2)] = 1
     
     mag, phase = librosa.magphase(Y)
     newmag = np.multiply(mag, mask)
