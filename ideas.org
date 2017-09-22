@@ -18,7 +18,7 @@
    5. uma vez estabelecido e confirmado o número de classes, estimar os parâmetros sonoros e a variabilidade dos mesmos.
 
 *** Links
-    + http://www.birds.cornell.edu/Page.aspx?pid=1478
+    + http://www.birds.cornell.>edu/Page.aspx?pid=1478
     + http://www.xeno-canto.org
     + http://www.seas.ucla.edu/spapl/projects/Bird.html
     + https://github.com/marsyas/marsyas
@@ -187,15 +187,15 @@
 **** DONE Naïve-Bayes
 **** DONE SVM
 
-*** TODO Entender SVM e implementar com scikit.
+*** DONE Entender SVM e implementar com scikit.
 *** TODO Preparar apresentação com protótipo e explicação.
 **** Classes não estão balanceadas... Criar o vetor de pesos para o SVM
 
 *** TODO Entender MFCC's.
    + http://www.speech.cs.cmu.edu/15-492/slides/03_mfcc.pdf
 
-
 *** TODO GridSearch
 *** TODO Normalization/Standardization of data input
-*** TODO PCA
-*** Compare Nicolas Filtes with a standard low-pass
+*** TODO ICA/PCA
+*** TODO Compare Nicolas Filtes with a standard low-pass
+*** TODO Diagrama com o panorama do trabalho

@@ -124,16 +124,16 @@ def my_filter2(y, sr):
 # In[19]:
 
 def my_filter3(y, sr):
-    
+
     Y = librosa.stft(y, n_fft = 4096, hop_length = 512)
     Y_dB = librosa.amplitude_to_db(Y, ref=np.max)
-       
+
     varTrust = varTrustFunc(Y_dB)
     contrast = contrastTrustFunc(np.abs(Y), sr)
-    
+
     mask = np.zeros(varTrust.shape)
     mask[np.logical_and(varTrust > 0.15, contrast > 0.2)] = 1
-    
+
     mag, phase = librosa.magphase(Y)
     newmag = np.multiply(mag, mask)
     Y_rec = np.multiply(newmag, np.exp(np.multiply(phase, (1j))))
@@ -142,7 +142,7 @@ def my_filter3(y, sr):
 #     newmag = librosa.db_to_amplitude(np.add(mask, Y_dB))
 #     Y_rec = np.multiply(newmag, np.exp(np.multiply(phase, (1j))))
 
-    
+
     y_rec = librosa.istft(Y_rec, hop_length=512)
 
     return y_rec
