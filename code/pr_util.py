@@ -192,6 +192,12 @@ def plot_scatter(x, y, labels, xlabel, ylabel):
     ax.set_ylabel(ylabel)
     plt.show()
 
+def samples_to_time(n_samples, sr):
+    return n_samples/sr
+
+def time_to_samples(time_sec, sr):
+    return int(time_sec * sr)
+
 def kNN(data, labels, k_range, cv = 5):
     max_acc = -np.inf
 
@@ -218,3 +224,4 @@ def u_SVM(data2, labels2, cv2 = 5):
     # print(cv)
     scores2 = cross_val_score(clf2, data2, labels2, cv2)
     #    print(scores)
+
