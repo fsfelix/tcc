@@ -102,13 +102,14 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
 
 EXPERIMENTS_DIR = '/Users/felipefelix/USP/tcc/experiments'
 
-FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur']
+FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
-VERSIONS = [None, 'filtered1']
+VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
+
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
@@ -120,7 +121,7 @@ def is_not_wav(file_name):
     file_extension = file_extension.lower()
     return file_extension == 'mp3' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
 
-def num_files(data_dirs, song_or_call, num_versions = 1):
+def num_files(data_dirs, song_or_call, num_versions = 4):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
 
@@ -129,8 +130,8 @@ def num_files(data_dirs, song_or_call, num_versions = 1):
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 type_of_rec = subdir.split('/')[-1]
-                #if is_audio(file) and type_of_rec == song_or_call:
-                if type_of_rec == song_or_call:
+                if is_audio(file) and type_of_rec == song_or_call:
+                # if type_of_rec == song_or_call:
                     num_file += 1
     return int(num_file/num_versions)
 
