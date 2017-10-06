@@ -43,15 +43,18 @@ def generate_global_multi_features(n_global_feat, feat_names, data_dirs, song_or
                             feature_path = subdir + '/' + file
                             feature = np.loadtxt(feature_path)
                             for function in functions: # Iterate through all functions
-                                #print(feature)
+                                #print(feature_path)
                                 if feature.size > 0:
-                                    data[i][(n_global_feature * current_feature) + j] = function(feature)
+                                    data[i][(n_global_feat * current_feature) + j] = function(feature)
                                 else:
-                                    data[i][(n_global_feature * current_feature) + j] = 0
+                                    data[i][(n_global_feat * current_feature) + j] = 0
                                 j += 1
                             i += 1
                             j  = 0
-        currrent_feature += 1
+        current_feature += 1
+
+    labels = np.array(labels)
+    return labels_dict, labels, data
 
 def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, functions, version = None):
     # n_global_feat: number of global features
