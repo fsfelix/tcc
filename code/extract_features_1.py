@@ -2,6 +2,7 @@ import os
 import librosa
 import numpy as np
 import pr_util as util
+import extract_syllable_duration_4 as esd
 
 # Como rodar: extract_feat(util.DATA_DIR_FULL)
 
@@ -24,18 +25,20 @@ def extract_feat(data_dirs):
                     file_dir = subdir + '/' + file
                     #print('Loading {}...'.format(file_dir))
                     y, sr = librosa.load(file_dir)
-                    kwargs = {'sr' : sr}
+                    kwargs = {'sr' : sr, 'min_dur' : 0.01, 'max_dur' : 3}
 
-                    generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
+                    #generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, y)
 
                     #generate_local_feature(file_dir, 'stft', librosa.core.stft, y)
 
-                    generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, y, **kwargs)
+                    #generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, y, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_cent', librosa.feature.spectral_centroid, y, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_cent', librosa.feature.spectral_centroid, y, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, y, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, y, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, y, **kwargs)
+                    generate_local_feature(file_dir, 'syllable_dur', esd.get_syllable_durations, y, **kwargs)
 
-extract_feat(util.DATA_DIR_FULL)
+#extract_feat(util.DATA_DIR_FULL)
+extract_feat(['/Users/felipefelix/USP/tcc/dataset/pr_article/experimentos_100/Vanellus chilensis', '/Users/felipefelix/USP/tcc/dataset/pr_article/experimentos_100/Trogon surrucura', '/Users/felipefelix/USP/tcc/dataset/pr_article/experimentos_100/Synallaxis spixi'])

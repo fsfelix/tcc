@@ -102,7 +102,7 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
 
 EXPERIMENTS_DIR = '/Users/felipefelix/USP/tcc/experiments'
 
-FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll']
+FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
@@ -115,7 +115,12 @@ def is_audio(file_name):
     file_extension = file_extension.lower()
     return file_extension == 'mp3' or file_extension == 'wav' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
 
-def num_files(data_dirs, song_or_call, num_versions = 4):
+def is_not_wav(file_name):
+    file_extension = file_name.split('.')[-1]
+    file_extension = file_extension.lower()
+    return file_extension == 'mp3' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
+
+def num_files(data_dirs, song_or_call, num_versions = 1):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
 
@@ -124,7 +129,8 @@ def num_files(data_dirs, song_or_call, num_versions = 4):
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 type_of_rec = subdir.split('/')[-1]
-                if is_audio(file) and type_of_rec == song_or_call:
+                #if is_audio(file) and type_of_rec == song_or_call:
+                if type_of_rec == song_or_call:
                     num_file += 1
     return int(num_file/num_versions)
 
@@ -198,30 +204,70 @@ def samples_to_time(n_samples, sr):
 def time_to_samples(time_sec, sr):
     return int(time_sec * sr)
 
-def kNN(data, labels, k_range, cv = 5):
-    max_acc = -np.inf
+def audio_to_txt(file_dir):
+    y, sr = librosa.load(file_dir)
+    y = np.append(y, sr)
+    print('Writing {}...'.format(file_dir_txt(file_dir)))
+    np.savetxt(file_dir_txt(file_dir), y)
 
-    for k in k_range:
-        for weight in ['uniform', 'distance']:
-            clf = neighbors.KNeighborsClassifier(k, weights = weight)
-            scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = cv)
-            acc = scores.mean()
-            if acc > max_acc:
-                max_acc = acc
-                max_k   = k
-                result  = '{0:.2f} (+/- {1:.2f})'.format(max_acc, scores.std() * 2)
-            print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+def txt_to_audio(file_dir):
+    y = np.loadtxt(file_dir)
+    sr = y[-1]
+    return y[:-1], sr
 
-    return result, max_k
 
-def u_SVM(data2, labels2, cv2 = 5):
-    # kwargs = {'kernel' = 'linear', 'C' = 1}
-    # clf = svm.SVC(**kwargs)
-    clf2 = svm.SVC(kernel = 'linear', C = 1)
-    # print(clf)
-    # print(data)
-    # print(labels)
-    # print(cv)
-    scores2 = cross_val_score(clf2, data2, labels2, cv2)
-    #    print(scores)
+# def kNN(data, labels, k_range, cv = 5):
+#     max_acc = -np.inf
 
+#     for k in k_range:
+#         for weight in ['uniform', 'distance']:
+#             clf = neighbors.KNeighborsClassifier(k, weights = weight)
+#             scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = cv)
+#             acc = scores.mean()
+#             if acc > max_acc:
+#                 max_acc = acc
+#                 max_k   = k
+#                 result  = '{0:.2f} (+/- {1:.2f})'.format(max_acc, scores.std() * 2)
+#             print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
+
+#     return result, max_k
+
+# def u_SVM(data2, labels2, cv2 = 5):
+#     # kwargs = {'kernel' = 'linear', 'C' = 1}
+#     # clf = svm.SVC(**kwargs)
+#     clf2 = svm.SVC(kernel = 'linear', C = 1)
+#     # print(clf)
+#     # print(data)
+#     # print(labels)
+#     # print(cv)
+#     scores2 = cross_val_score(clf2, data2, labels2, cv2)
+#     #    print(scores)
+
+
+# print(labels_dict_o)
+# print(labels_dict_f1)
+# print(labels_dict_f2)
+# print(labels_dict_f3)
+
+
+# print(labels_o)
+# print(labels_f1)
+# print(labels_f2)
+# print(labels_f3)
+
+
+# print(len(labels_o))
+# print(len(labels_f1))
+# print(len(labels_f2))
+# print(len(labels_f3))
+
+
+# print(data_o[:10])
+# print(data_f1[:10])
+# print(data_f2[:10])
+# print(data_f3[:10])
+
+# print(len(data_o))
+# print(len(data_f1))
+# print(len(data_f2))
+# print(len(data_f3))
