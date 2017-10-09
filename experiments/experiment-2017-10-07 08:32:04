@@ -1,0 +1,2622 @@
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.57 (+/- 0.16) |      0.33 (+/- 0.39) |      0.35 (+/- 0.04) | 
+                mfcc |      0.62 (+/- 0.13) |      0.63 (+/- 0.20) |      0.65 (+/- 0.11) | 
+           spec_band |      0.57 (+/- 0.23) |      0.64 (+/- 0.18) |      0.57 (+/- 0.20) | 
+           spec_cent |      0.53 (+/- 0.14) |      0.52 (+/- 0.17) |      0.46 (+/- 0.15) | 
+           spec_roll |      0.48 (+/- 0.16) |      0.52 (+/- 0.22) |      0.41 (+/- 0.22) | 
+        syllable_dur |      0.64 (+/- 0.13) |      0.42 (+/- 0.13) |      0.34 (+/- 0.03) | 
+   syllable_dur_list |      0.67 (+/- 0.13) |      0.61 (+/- 0.40) |      0.35 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.16) |      0.39 (+/- 0.19) |      0.35 (+/- 0.04) | 
+                mfcc |      0.53 (+/- 0.23) |      0.62 (+/- 0.16) |      0.66 (+/- 0.15) | 
+           spec_band |      0.53 (+/- 0.19) |      0.59 (+/- 0.27) |      0.56 (+/- 0.17) | 
+           spec_cent |      0.62 (+/- 0.12) |      0.55 (+/- 0.06) |      0.57 (+/- 0.15) | 
+           spec_roll |      0.52 (+/- 0.16) |      0.60 (+/- 0.14) |      0.50 (+/- 0.20) | 
+        syllable_dur |      0.67 (+/- 0.15) |      0.51 (+/- 0.29) |      0.35 (+/- 0.04) | 
+   syllable_dur_list |      0.74 (+/- 0.16) |      0.43 (+/- 0.15) |      0.35 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.25) |      0.46 (+/- 0.18) |      0.35 (+/- 0.04) | 
+                mfcc |      0.51 (+/- 0.13) |      0.56 (+/- 0.23) |      0.67 (+/- 0.21) | 
+           spec_band |      0.50 (+/- 0.16) |      0.59 (+/- 0.18) |      0.61 (+/- 0.12) | 
+           spec_cent |      0.55 (+/- 0.28) |      0.47 (+/- 0.19) |      0.45 (+/- 0.20) | 
+           spec_roll |      0.51 (+/- 0.08) |      0.55 (+/- 0.18) |      0.51 (+/- 0.18) | 
+        syllable_dur |      0.64 (+/- 0.16) |      0.71 (+/- 0.15) |      0.35 (+/- 0.04) | 
+   syllable_dur_list |      0.80 (+/- 0.30) |      0.72 (+/- 0.23) |      0.35 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.64 (+/- 0.15) |      0.57 (+/- 0.09) |      0.59 (+/- 0.06) | 
+                mfcc |      0.66 (+/- 0.10) |      0.65 (+/- 0.12) |      0.58 (+/- 0.05) | 
+           spec_band |      0.60 (+/- 0.13) |      0.60 (+/- 0.05) |      0.59 (+/- 0.08) | 
+           spec_cent |      0.62 (+/- 0.13) |      0.64 (+/- 0.07) |      0.63 (+/- 0.13) | 
+           spec_roll |      0.63 (+/- 0.13) |      0.60 (+/- 0.05) |      0.69 (+/- 0.10) | 
+        syllable_dur |      0.74 (+/- 0.13) |      0.54 (+/- 0.22) |      0.59 (+/- 0.06) | 
+   syllable_dur_list |      0.79 (+/- 0.04) |      0.61 (+/- 0.10) |      0.59 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.62 (+/- 0.12) |      0.55 (+/- 0.10) |      0.59 (+/- 0.06) | 
+                mfcc |      0.70 (+/- 0.15) |      0.72 (+/- 0.12) |      0.72 (+/- 0.13) | 
+           spec_band |      0.58 (+/- 0.10) |      0.58 (+/- 0.04) |      0.58 (+/- 0.07) | 
+           spec_cent |      0.65 (+/- 0.09) |      0.69 (+/- 0.07) |      0.69 (+/- 0.09) | 
+           spec_roll |      0.66 (+/- 0.05) |      0.62 (+/- 0.14) |      0.62 (+/- 0.07) | 
+        syllable_dur |      0.73 (+/- 0.16) |      0.35 (+/- 0.24) |      0.58 (+/- 0.05) | 
+   syllable_dur_list |      0.78 (+/- 0.09) |      0.30 (+/- 0.23) |      0.59 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.63 (+/- 0.14) |      0.62 (+/- 0.21) |      0.59 (+/- 0.06) | 
+                mfcc |      0.73 (+/- 0.09) |      0.72 (+/- 0.05) |      0.70 (+/- 0.11) | 
+           spec_band |      0.73 (+/- 0.13) |      0.65 (+/- 0.10) |      0.62 (+/- 0.12) | 
+           spec_cent |      0.68 (+/- 0.07) |      0.65 (+/- 0.15) |      0.67 (+/- 0.10) | 
+           spec_roll |      0.65 (+/- 0.15) |      0.63 (+/- 0.16) |      0.66 (+/- 0.08) | 
+        syllable_dur |      0.80 (+/- 0.13) |      0.42 (+/- 0.22) |      0.59 (+/- 0.06) | 
+   syllable_dur_list |      0.78 (+/- 0.11) |      0.60 (+/- 0.07) |      0.59 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.41 (+/- 0.22) |      0.35 (+/- 0.24) |      0.21 (+/- 0.03) | 
+                mfcc |      0.45 (+/- 0.11) |      0.41 (+/- 0.16) |      0.41 (+/- 0.11) | 
+           spec_band |      0.46 (+/- 0.19) |      0.40 (+/- 0.15) |      0.41 (+/- 0.10) | 
+           spec_cent |      0.58 (+/- 0.20) |      0.59 (+/- 0.26) |      0.54 (+/- 0.05) | 
+           spec_roll |      0.60 (+/- 0.12) |      0.47 (+/- 0.09) |      0.48 (+/- 0.07) | 
+        syllable_dur |      0.27 (+/- 0.19) |      0.19 (+/- 0.07) |      0.20 (+/- 0.03) | 
+   syllable_dur_list |      0.49 (+/- 0.21) |      0.23 (+/- 0.19) |      0.22 (+/- 0.11) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.25 (+/- 0.14) |      0.38 (+/- 0.15) |      0.21 (+/- 0.03) | 
+                mfcc |      0.60 (+/- 0.20) |      0.43 (+/- 0.18) |      0.56 (+/- 0.18) | 
+           spec_band |      0.42 (+/- 0.14) |      0.36 (+/- 0.14) |      0.39 (+/- 0.21) | 
+           spec_cent |      0.54 (+/- 0.33) |      0.40 (+/- 0.19) |      0.42 (+/- 0.21) | 
+           spec_roll |      0.54 (+/- 0.16) |      0.38 (+/- 0.10) |      0.34 (+/- 0.12) | 
+        syllable_dur |      0.24 (+/- 0.13) |      0.30 (+/- 0.22) |      0.21 (+/- 0.03) | 
+   syllable_dur_list |      0.48 (+/- 0.17) |      0.31 (+/- 0.22) |      0.21 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.31 (+/- 0.06) |      0.36 (+/- 0.20) |      0.21 (+/- 0.03) | 
+                mfcc |      0.51 (+/- 0.15) |      0.53 (+/- 0.16) |      0.58 (+/- 0.20) | 
+           spec_band |      0.31 (+/- 0.13) |      0.34 (+/- 0.07) |      0.33 (+/- 0.27) | 
+           spec_cent |      0.58 (+/- 0.21) |      0.60 (+/- 0.16) |      0.49 (+/- 0.22) | 
+           spec_roll |      0.66 (+/- 0.18) |      0.53 (+/- 0.23) |      0.46 (+/- 0.11) | 
+        syllable_dur |      0.32 (+/- 0.22) |      0.18 (+/- 0.08) |      0.21 (+/- 0.03) | 
+   syllable_dur_list |      0.50 (+/- 0.22) |      0.22 (+/- 0.12) |      0.21 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.63 (+/- 0.09) |      0.45 (+/- 0.08) |      0.38 (+/- 0.01) | 
+                mfcc |      0.51 (+/- 0.11) |      0.60 (+/- 0.06) |      0.54 (+/- 0.11) | 
+           spec_band |      0.58 (+/- 0.11) |      0.58 (+/- 0.18) |      0.66 (+/- 0.11) | 
+           spec_cent |      0.65 (+/- 0.14) |      0.65 (+/- 0.09) |      0.73 (+/- 0.08) | 
+           spec_roll |      0.59 (+/- 0.22) |      0.55 (+/- 0.15) |      0.66 (+/- 0.12) | 
+        syllable_dur |      0.42 (+/- 0.07) |      0.26 (+/- 0.16) |      0.38 (+/- 0.01) | 
+   syllable_dur_list |      0.50 (+/- 0.10) |      0.27 (+/- 0.19) |      0.38 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.55 (+/- 0.10) |      0.47 (+/- 0.07) |      0.38 (+/- 0.01) | 
+                mfcc |      0.67 (+/- 0.13) |      0.55 (+/- 0.08) |      0.71 (+/- 0.14) | 
+           spec_band |      0.65 (+/- 0.11) |      0.60 (+/- 0.18) |      0.61 (+/- 0.09) | 
+           spec_cent |      0.65 (+/- 0.10) |      0.56 (+/- 0.14) |      0.58 (+/- 0.12) | 
+           spec_roll |      0.55 (+/- 0.12) |      0.54 (+/- 0.15) |      0.52 (+/- 0.08) | 
+        syllable_dur |      0.50 (+/- 0.10) |      0.37 (+/- 0.04) |      0.37 (+/- 0.02) | 
+   syllable_dur_list |      0.43 (+/- 0.13) |      0.37 (+/- 0.03) |      0.38 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.56 (+/- 0.09) |      0.57 (+/- 0.19) |      0.38 (+/- 0.01) | 
+                mfcc |      0.57 (+/- 0.10) |      0.53 (+/- 0.07) |      0.58 (+/- 0.16) | 
+           spec_band |      0.70 (+/- 0.10) |      0.59 (+/- 0.13) |      0.68 (+/- 0.10) | 
+           spec_cent |      0.60 (+/- 0.03) |      0.54 (+/- 0.12) |      0.56 (+/- 0.13) | 
+           spec_roll |      0.61 (+/- 0.15) |      0.50 (+/- 0.10) |      0.55 (+/- 0.10) | 
+        syllable_dur |      0.40 (+/- 0.12) |      0.19 (+/- 0.13) |      0.38 (+/- 0.01) | 
+   syllable_dur_list |      0.46 (+/- 0.17) |      0.30 (+/- 0.10) |      0.38 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.68 (+/- 0.06) |      0.64 (+/- 0.12) |      0.57 (+/- 0.04) | 
+                mfcc |      0.79 (+/- 0.13) |      0.66 (+/- 0.09) |      0.72 (+/- 0.02) | 
+           spec_band |      0.65 (+/- 0.10) |      0.64 (+/- 0.06) |      0.64 (+/- 0.11) | 
+           spec_cent |      0.66 (+/- 0.09) |      0.58 (+/- 0.06) |      0.64 (+/- 0.06) | 
+           spec_roll |      0.77 (+/- 0.11) |      0.72 (+/- 0.16) |      0.66 (+/- 0.13) | 
+        syllable_dur |      0.60 (+/- 0.06) |      0.48 (+/- 0.15) |      0.57 (+/- 0.04) | 
+   syllable_dur_list |      0.64 (+/- 0.08) |      0.50 (+/- 0.11) |      0.57 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.69 (+/- 0.12) |      0.54 (+/- 0.19) |      0.57 (+/- 0.04) | 
+                mfcc |      0.74 (+/- 0.09) |      0.71 (+/- 0.05) |      0.73 (+/- 0.10) | 
+           spec_band |      0.67 (+/- 0.04) |      0.72 (+/- 0.09) |      0.71 (+/- 0.10) | 
+           spec_cent |      0.74 (+/- 0.17) |      0.68 (+/- 0.14) |      0.70 (+/- 0.14) | 
+           spec_roll |      0.76 (+/- 0.10) |      0.71 (+/- 0.14) |      0.68 (+/- 0.15) | 
+        syllable_dur |      0.66 (+/- 0.08) |      0.07 (+/- 0.07) |      0.57 (+/- 0.04) | 
+   syllable_dur_list |      0.75 (+/- 0.07) |      0.20 (+/- 0.29) |      0.57 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.71 (+/- 0.08) |      0.69 (+/- 0.08) |      0.57 (+/- 0.04) | 
+                mfcc |      0.75 (+/- 0.15) |      0.73 (+/- 0.13) |      0.76 (+/- 0.12) | 
+           spec_band |      0.65 (+/- 0.09) |      0.65 (+/- 0.06) |      0.65 (+/- 0.08) | 
+           spec_cent |      0.71 (+/- 0.19) |      0.60 (+/- 0.11) |      0.63 (+/- 0.11) | 
+           spec_roll |      0.81 (+/- 0.09) |      0.73 (+/- 0.10) |      0.67 (+/- 0.09) | 
+        syllable_dur |      0.73 (+/- 0.07) |      0.26 (+/- 0.29) |      0.57 (+/- 0.04) | 
+   syllable_dur_list |      0.73 (+/- 0.09) |      0.71 (+/- 0.16) |      0.57 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 5
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.06) |      0.51 (+/- 0.04) |      0.38 (+/- 0.04) | 
+                mfcc |      0.61 (+/- 0.06) |      0.62 (+/- 0.09) |      0.62 (+/- 0.06) | 
+           spec_band |      0.54 (+/- 0.10) |      0.45 (+/- 0.09) |      0.46 (+/- 0.05) | 
+           spec_cent |      0.63 (+/- 0.10) |      0.61 (+/- 0.06) |      0.61 (+/- 0.07) | 
+           spec_roll |      0.58 (+/- 0.15) |      0.52 (+/- 0.09) |      0.51 (+/- 0.13) | 
+        syllable_dur |      0.42 (+/- 0.07) |      0.12 (+/- 0.02) |      0.38 (+/- 0.04) | 
+   syllable_dur_list |      0.43 (+/- 0.09) |      0.12 (+/- 0.01) |      0.38 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.47 (+/- 0.08) |      0.49 (+/- 0.09) |      0.38 (+/- 0.04) | 
+                mfcc |      0.50 (+/- 0.14) |      0.46 (+/- 0.10) |      0.37 (+/- 0.04) | 
+           spec_band |      0.49 (+/- 0.10) |      0.54 (+/- 0.12) |      0.55 (+/- 0.08) | 
+           spec_cent |      0.66 (+/- 0.16) |      0.62 (+/- 0.12) |      0.60 (+/- 0.09) | 
+           spec_roll |      0.65 (+/- 0.06) |      0.61 (+/- 0.13) |      0.60 (+/- 0.10) | 
+        syllable_dur |      0.39 (+/- 0.14) |      0.06 (+/- 0.06) |      0.38 (+/- 0.04) | 
+   syllable_dur_list |      0.37 (+/- 0.05) |      0.08 (+/- 0.06) |      0.37 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.53 (+/- 0.04) |      0.48 (+/- 0.09) |      0.38 (+/- 0.04) | 
+                mfcc |      0.55 (+/- 0.10) |      0.50 (+/- 0.14) |      0.44 (+/- 0.10) | 
+           spec_band |      0.51 (+/- 0.12) |      0.47 (+/- 0.06) |      0.51 (+/- 0.08) | 
+           spec_cent |      0.70 (+/- 0.04) |      0.67 (+/- 0.08) |      0.62 (+/- 0.06) | 
+           spec_roll |      0.65 (+/- 0.07) |      0.57 (+/- 0.03) |      0.58 (+/- 0.13) | 
+        syllable_dur |      0.35 (+/- 0.09) |      0.12 (+/- 0.31) |      0.38 (+/- 0.04) | 
+   syllable_dur_list |      0.40 (+/- 0.10) |      0.15 (+/- 0.22) |      0.38 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 5
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Ramphocelus bresilius/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.26 (+/- 0.14) |      0.23 (+/- 0.15) |      0.13 (+/- 0.12) | 
+                mfcc |      0.22 (+/- 0.11) |      0.17 (+/- 0.09) |      0.20 (+/- 0.04) | 
+           spec_band |      0.40 (+/- 0.11) |      0.31 (+/- 0.05) |      0.34 (+/- 0.04) | 
+           spec_cent |      0.18 (+/- 0.07) |      0.26 (+/- 0.15) |      0.27 (+/- 0.14) | 
+           spec_roll |      0.24 (+/- 0.24) |      0.20 (+/- 0.11) |      0.18 (+/- 0.11) | 
+        syllable_dur |      0.32 (+/- 0.11) |      0.09 (+/- 0.07) |      0.11 (+/- 0.05) | 
+   syllable_dur_list |      0.36 (+/- 0.15) |      0.18 (+/- 0.09) |      0.14 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.27 (+/- 0.13) |      0.20 (+/- 0.13) |      0.12 (+/- 0.09) | 
+                mfcc |      0.29 (+/- 0.28) |      0.28 (+/- 0.15) |      0.42 (+/- 0.34) | 
+           spec_band |      0.20 (+/- 0.12) |      0.23 (+/- 0.10) |      0.25 (+/- 0.10) | 
+           spec_cent |      0.35 (+/- 0.24) |      0.21 (+/- 0.12) |      0.28 (+/- 0.17) | 
+           spec_roll |      0.27 (+/- 0.11) |      0.28 (+/- 0.20) |      0.28 (+/- 0.10) | 
+        syllable_dur |      0.30 (+/- 0.14) |      0.20 (+/- 0.09) |      0.16 (+/- 0.06) | 
+   syllable_dur_list |      0.47 (+/- 0.15) |      0.25 (+/- 0.14) |      0.18 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.20 (+/- 0.11) |      0.24 (+/- 0.21) |      0.12 (+/- 0.08) | 
+                mfcc |      0.26 (+/- 0.10) |      0.30 (+/- 0.12) |      0.26 (+/- 0.13) | 
+           spec_band |      0.31 (+/- 0.13) |      0.30 (+/- 0.20) |      0.33 (+/- 0.06) | 
+           spec_cent |      0.26 (+/- 0.15) |      0.29 (+/- 0.17) |      0.26 (+/- 0.24) | 
+           spec_roll |      0.23 (+/- 0.10) |      0.28 (+/- 0.29) |      0.20 (+/- 0.08) | 
+        syllable_dur |      0.23 (+/- 0.16) |      0.16 (+/- 0.09) |      0.14 (+/- 0.07) | 
+   syllable_dur_list |      0.36 (+/- 0.24) |      0.20 (+/- 0.07) |      0.13 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 5
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.34 (+/- 0.12) |      0.25 (+/- 0.09) |      0.10 (+/- 0.00) | 
+                mfcc |      0.39 (+/- 0.06) |      0.47 (+/- 0.07) |      0.49 (+/- 0.14) | 
+           spec_band |      0.30 (+/- 0.07) |      0.28 (+/- 0.12) |      0.28 (+/- 0.13) | 
+           spec_cent |      0.50 (+/- 0.18) |      0.32 (+/- 0.08) |      0.34 (+/- 0.09) | 
+           spec_roll |      0.44 (+/- 0.11) |      0.38 (+/- 0.18) |      0.37 (+/- 0.15) | 
+        syllable_dur |      0.23 (+/- 0.12) |      0.22 (+/- 0.10) |      0.15 (+/- 0.11) | 
+   syllable_dur_list |      0.28 (+/- 0.05) |      0.24 (+/- 0.07) |      0.21 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.14 (+/- 0.09) |      0.24 (+/- 0.09) |      0.10 (+/- 0.00) | 
+                mfcc |      0.39 (+/- 0.07) |      0.31 (+/- 0.08) |      0.48 (+/- 0.07) | 
+           spec_band |      0.28 (+/- 0.15) |      0.28 (+/- 0.13) |      0.20 (+/- 0.13) | 
+           spec_cent |      0.41 (+/- 0.13) |      0.38 (+/- 0.19) |      0.39 (+/- 0.11) | 
+           spec_roll |      0.39 (+/- 0.15) |      0.42 (+/- 0.08) |      0.27 (+/- 0.11) | 
+        syllable_dur |      0.33 (+/- 0.14) |      0.12 (+/- 0.07) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.31 (+/- 0.12) |      0.10 (+/- 0.07) |      0.10 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.19 (+/- 0.12) |      0.23 (+/- 0.21) |      0.10 (+/- 0.00) | 
+                mfcc |      0.46 (+/- 0.07) |      0.41 (+/- 0.10) |      0.47 (+/- 0.04) | 
+           spec_band |      0.24 (+/- 0.07) |      0.30 (+/- 0.10) |      0.26 (+/- 0.15) | 
+           spec_cent |      0.57 (+/- 0.09) |      0.44 (+/- 0.22) |      0.37 (+/- 0.12) | 
+           spec_roll |      0.60 (+/- 0.15) |      0.51 (+/- 0.06) |      0.43 (+/- 0.16) | 
+        syllable_dur |      0.32 (+/- 0.12) |      0.17 (+/- 0.11) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.32 (+/- 0.07) |      0.19 (+/- 0.22) |      0.11 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 5
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.36 (+/- 0.19) |      0.31 (+/- 0.04) |      0.15 (+/- 0.02) | 
+                mfcc |      0.34 (+/- 0.16) |      0.39 (+/- 0.20) |      0.37 (+/- 0.10) | 
+           spec_band |      0.32 (+/- 0.30) |      0.37 (+/- 0.16) |      0.30 (+/- 0.21) | 
+           spec_cent |      0.32 (+/- 0.22) |      0.35 (+/- 0.17) |      0.32 (+/- 0.08) | 
+           spec_roll |      0.33 (+/- 0.14) |      0.23 (+/- 0.11) |      0.29 (+/- 0.07) | 
+        syllable_dur |      0.16 (+/- 0.15) |      0.20 (+/- 0.07) |      0.16 (+/- 0.02) | 
+   syllable_dur_list |      0.32 (+/- 0.18) |      0.23 (+/- 0.14) |      0.17 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.29 (+/- 0.09) |      0.28 (+/- 0.14) |      0.15 (+/- 0.02) | 
+                mfcc |      0.41 (+/- 0.08) |      0.46 (+/- 0.14) |      0.42 (+/- 0.13) | 
+           spec_band |      0.40 (+/- 0.10) |      0.41 (+/- 0.13) |      0.39 (+/- 0.16) | 
+           spec_cent |      0.33 (+/- 0.10) |      0.24 (+/- 0.12) |      0.29 (+/- 0.10) | 
+           spec_roll |      0.36 (+/- 0.22) |      0.27 (+/- 0.19) |      0.20 (+/- 0.06) | 
+        syllable_dur |      0.19 (+/- 0.13) |      0.11 (+/- 0.06) |      0.16 (+/- 0.03) | 
+   syllable_dur_list |      0.29 (+/- 0.11) |      0.19 (+/- 0.09) |      0.15 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.24 (+/- 0.06) |      0.36 (+/- 0.10) |      0.15 (+/- 0.02) | 
+                mfcc |      0.33 (+/- 0.15) |      0.40 (+/- 0.15) |      0.51 (+/- 0.11) | 
+           spec_band |      0.36 (+/- 0.13) |      0.37 (+/- 0.16) |      0.34 (+/- 0.18) | 
+           spec_cent |      0.30 (+/- 0.12) |      0.32 (+/- 0.14) |      0.21 (+/- 0.21) | 
+           spec_roll |      0.32 (+/- 0.16) |      0.35 (+/- 0.07) |      0.31 (+/- 0.17) | 
+        syllable_dur |      0.35 (+/- 0.17) |      0.14 (+/- 0.12) |      0.15 (+/- 0.02) | 
+   syllable_dur_list |      0.30 (+/- 0.15) |      0.18 (+/- 0.09) |      0.15 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 5
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Xenops minutus/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.53 (+/- 0.04) |      0.49 (+/- 0.10) |      0.35 (+/- 0.03) | 
+                mfcc |      0.53 (+/- 0.10) |      0.37 (+/- 0.09) |      0.35 (+/- 0.02) | 
+           spec_band |      0.56 (+/- 0.11) |      0.51 (+/- 0.08) |      0.52 (+/- 0.15) | 
+           spec_cent |      0.67 (+/- 0.04) |      0.61 (+/- 0.07) |      0.60 (+/- 0.09) | 
+           spec_roll |      0.62 (+/- 0.07) |      0.51 (+/- 0.16) |      0.36 (+/- 0.09) | 
+        syllable_dur |      0.44 (+/- 0.06) |      0.24 (+/- 0.08) |      0.35 (+/- 0.03) | 
+   syllable_dur_list |      0.49 (+/- 0.04) |      0.21 (+/- 0.20) |      0.35 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.06) |      0.43 (+/- 0.06) |      0.35 (+/- 0.02) | 
+                mfcc |      0.53 (+/- 0.10) |      0.48 (+/- 0.11) |      0.35 (+/- 0.02) | 
+           spec_band |      0.59 (+/- 0.06) |      0.46 (+/- 0.04) |      0.43 (+/- 0.08) | 
+           spec_cent |      0.72 (+/- 0.07) |      0.67 (+/- 0.13) |      0.68 (+/- 0.10) | 
+           spec_roll |      0.66 (+/- 0.10) |      0.61 (+/- 0.07) |      0.59 (+/- 0.08) | 
+        syllable_dur |      0.41 (+/- 0.06) |      0.15 (+/- 0.11) |      0.35 (+/- 0.02) | 
+   syllable_dur_list |      0.48 (+/- 0.05) |      0.21 (+/- 0.11) |      0.35 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.13) |      0.44 (+/- 0.06) |      0.35 (+/- 0.02) | 
+                mfcc |      0.46 (+/- 0.13) |      0.42 (+/- 0.08) |      0.35 (+/- 0.02) | 
+           spec_band |      0.53 (+/- 0.13) |      0.46 (+/- 0.03) |      0.48 (+/- 0.07) | 
+           spec_cent |      0.69 (+/- 0.08) |      0.65 (+/- 0.05) |      0.67 (+/- 0.09) | 
+           spec_roll |      0.65 (+/- 0.06) |      0.63 (+/- 0.08) |      0.60 (+/- 0.13) | 
+        syllable_dur |      0.42 (+/- 0.10) |      0.22 (+/- 0.03) |      0.34 (+/- 0.01) | 
+   syllable_dur_list |      0.44 (+/- 0.13) |      0.23 (+/- 0.09) |      0.34 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 8
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.32 (+/- 0.16) |      0.23 (+/- 0.10) |      0.07 (+/- 0.01) | 
+                mfcc |      0.21 (+/- 0.07) |      0.22 (+/- 0.11) |      0.24 (+/- 0.04) | 
+           spec_band |      0.26 (+/- 0.11) |      0.19 (+/- 0.11) |      0.27 (+/- 0.11) | 
+           spec_cent |      0.32 (+/- 0.15) |      0.34 (+/- 0.12) |      0.37 (+/- 0.16) | 
+           spec_roll |      0.26 (+/- 0.09) |      0.23 (+/- 0.04) |      0.25 (+/- 0.09) | 
+        syllable_dur |      0.20 (+/- 0.09) |      0.18 (+/- 0.05) |      0.06 (+/- 0.01) | 
+   syllable_dur_list |      0.35 (+/- 0.13) |      0.19 (+/- 0.08) |      0.11 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.29 (+/- 0.09) |      0.22 (+/- 0.12) |      0.07 (+/- 0.01) | 
+                mfcc |      0.32 (+/- 0.12) |      0.33 (+/- 0.10) |      0.34 (+/- 0.17) | 
+           spec_band |      0.29 (+/- 0.12) |      0.26 (+/- 0.16) |      0.27 (+/- 0.15) | 
+           spec_cent |      0.26 (+/- 0.13) |      0.26 (+/- 0.08) |      0.27 (+/- 0.13) | 
+           spec_roll |      0.28 (+/- 0.09) |      0.23 (+/- 0.09) |      0.25 (+/- 0.18) | 
+        syllable_dur |      0.23 (+/- 0.09) |      0.15 (+/- 0.12) |      0.09 (+/- 0.05) | 
+   syllable_dur_list |      0.23 (+/- 0.09) |      0.12 (+/- 0.09) |      0.07 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.24 (+/- 0.11) |      0.24 (+/- 0.15) |      0.07 (+/- 0.01) | 
+                mfcc |      0.21 (+/- 0.12) |      0.26 (+/- 0.15) |      0.29 (+/- 0.07) | 
+           spec_band |      0.26 (+/- 0.09) |      0.16 (+/- 0.09) |      0.26 (+/- 0.16) | 
+           spec_cent |      0.38 (+/- 0.12) |      0.34 (+/- 0.11) |      0.38 (+/- 0.07) | 
+           spec_roll |      0.37 (+/- 0.22) |      0.38 (+/- 0.15) |      0.32 (+/- 0.12) | 
+        syllable_dur |      0.21 (+/- 0.11) |      0.25 (+/- 0.06) |      0.07 (+/- 0.01) | 
+   syllable_dur_list |      0.26 (+/- 0.11) |      0.23 (+/- 0.13) |      0.07 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 8
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Muscipipra vetula/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Scytalopus iraiensis/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.55 (+/- 0.04) |      0.42 (+/- 0.16) |      0.37 (+/- 0.04) | 
+                mfcc |      0.56 (+/- 0.04) |      0.45 (+/- 0.04) |      0.39 (+/- 0.03) | 
+           spec_band |      0.55 (+/- 0.02) |      0.43 (+/- 0.10) |      0.43 (+/- 0.09) | 
+           spec_cent |      0.58 (+/- 0.07) |      0.51 (+/- 0.08) |      0.54 (+/- 0.09) | 
+           spec_roll |      0.54 (+/- 0.06) |      0.45 (+/- 0.06) |      0.44 (+/- 0.06) | 
+        syllable_dur |      0.46 (+/- 0.08) |      0.20 (+/- 0.26) |      0.37 (+/- 0.04) | 
+   syllable_dur_list |      0.47 (+/- 0.08) |      0.41 (+/- 0.06) |      0.37 (+/- 0.05) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.53 (+/- 0.07) |      0.47 (+/- 0.09) |      0.37 (+/- 0.04) | 
+                mfcc |      0.53 (+/- 0.05) |      0.39 (+/- 0.02) |      0.47 (+/- 0.03) | 
+           spec_band |      0.50 (+/- 0.11) |      0.48 (+/- 0.05) |      0.46 (+/- 0.12) | 
+           spec_cent |      0.61 (+/- 0.10) |      0.57 (+/- 0.13) |      0.56 (+/- 0.13) | 
+           spec_roll |      0.55 (+/- 0.07) |      0.55 (+/- 0.08) |      0.53 (+/- 0.05) | 
+        syllable_dur |      0.46 (+/- 0.07) |      0.13 (+/- 0.22) |      0.37 (+/- 0.04) | 
+   syllable_dur_list |      0.43 (+/- 0.15) |      0.18 (+/- 0.33) |      0.37 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.08) |      0.51 (+/- 0.12) |      0.37 (+/- 0.04) | 
+                mfcc |      0.49 (+/- 0.09) |      0.46 (+/- 0.06) |      0.41 (+/- 0.03) | 
+           spec_band |      0.54 (+/- 0.06) |      0.47 (+/- 0.07) |      0.48 (+/- 0.11) | 
+           spec_cent |      0.63 (+/- 0.06) |      0.55 (+/- 0.09) |      0.56 (+/- 0.12) | 
+           spec_roll |      0.62 (+/- 0.06) |      0.52 (+/- 0.04) |      0.53 (+/- 0.07) | 
+        syllable_dur |      0.43 (+/- 0.04) |      0.04 (+/- 0.01) |      0.37 (+/- 0.04) | 
+   syllable_dur_list |      0.45 (+/- 0.12) |      0.05 (+/- 0.04) |      0.37 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 8
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Picumnus temminckii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.49 (+/- 0.09) |      0.42 (+/- 0.07) |      0.29 (+/- 0.03) | 
+                mfcc |      0.45 (+/- 0.09) |      0.45 (+/- 0.04) |      0.46 (+/- 0.07) | 
+           spec_band |      0.47 (+/- 0.08) |      0.41 (+/- 0.08) |      0.43 (+/- 0.12) | 
+           spec_cent |      0.53 (+/- 0.03) |      0.46 (+/- 0.10) |      0.43 (+/- 0.07) | 
+           spec_roll |      0.54 (+/- 0.11) |      0.47 (+/- 0.08) |      0.51 (+/- 0.10) | 
+        syllable_dur |      0.31 (+/- 0.06) |      0.15 (+/- 0.09) |      0.29 (+/- 0.03) | 
+   syllable_dur_list |      0.41 (+/- 0.12) |      0.25 (+/- 0.09) |      0.32 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.46 (+/- 0.02) |      0.41 (+/- 0.07) |      0.29 (+/- 0.03) | 
+                mfcc |      0.40 (+/- 0.18) |      0.44 (+/- 0.10) |      0.44 (+/- 0.12) | 
+           spec_band |      0.49 (+/- 0.10) |      0.45 (+/- 0.09) |      0.46 (+/- 0.11) | 
+           spec_cent |      0.50 (+/- 0.07) |      0.47 (+/- 0.07) |      0.43 (+/- 0.06) | 
+           spec_roll |      0.54 (+/- 0.03) |      0.46 (+/- 0.08) |      0.42 (+/- 0.06) | 
+        syllable_dur |      0.27 (+/- 0.06) |      0.17 (+/- 0.06) |      0.29 (+/- 0.03) | 
+   syllable_dur_list |      0.37 (+/- 0.07) |      0.18 (+/- 0.06) |      0.29 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.45 (+/- 0.06) |      0.44 (+/- 0.04) |      0.29 (+/- 0.03) | 
+                mfcc |      0.45 (+/- 0.10) |      0.47 (+/- 0.11) |      0.48 (+/- 0.04) | 
+           spec_band |      0.44 (+/- 0.07) |      0.42 (+/- 0.02) |      0.44 (+/- 0.07) | 
+           spec_cent |      0.49 (+/- 0.06) |      0.49 (+/- 0.09) |      0.47 (+/- 0.05) | 
+           spec_roll |      0.51 (+/- 0.06) |      0.53 (+/- 0.07) |      0.49 (+/- 0.08) | 
+        syllable_dur |      0.28 (+/- 0.10) |      0.15 (+/- 0.11) |      0.29 (+/- 0.03) | 
+   syllable_dur_list |      0.38 (+/- 0.11) |      0.19 (+/- 0.06) |      0.29 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 8
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Cyanocorax caeruleus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Mackenziaena leachii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Amazilia versicolor/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Ramphastos dicolorus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.06) |      0.40 (+/- 0.11) |      0.33 (+/- 0.03) | 
+                mfcc |      0.40 (+/- 0.07) |      0.36 (+/- 0.07) |      0.34 (+/- 0.04) | 
+           spec_band |      0.35 (+/- 0.09) |      0.37 (+/- 0.03) |      0.38 (+/- 0.04) | 
+           spec_cent |      0.41 (+/- 0.08) |      0.38 (+/- 0.02) |      0.41 (+/- 0.12) | 
+           spec_roll |      0.42 (+/- 0.08) |      0.41 (+/- 0.07) |      0.41 (+/- 0.08) | 
+        syllable_dur |      0.35 (+/- 0.07) |      0.11 (+/- 0.06) |      0.34 (+/- 0.03) | 
+   syllable_dur_list |      0.44 (+/- 0.09) |      0.13 (+/- 0.15) |      0.34 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.36 (+/- 0.03) |      0.33 (+/- 0.06) |      0.33 (+/- 0.03) | 
+                mfcc |      0.38 (+/- 0.04) |      0.36 (+/- 0.04) |      0.33 (+/- 0.03) | 
+           spec_band |      0.38 (+/- 0.07) |      0.43 (+/- 0.06) |      0.42 (+/- 0.05) | 
+           spec_cent |      0.45 (+/- 0.12) |      0.43 (+/- 0.04) |      0.43 (+/- 0.06) | 
+           spec_roll |      0.45 (+/- 0.06) |      0.41 (+/- 0.13) |      0.41 (+/- 0.04) | 
+        syllable_dur |      0.37 (+/- 0.07) |      0.06 (+/- 0.09) |      0.33 (+/- 0.03) | 
+   syllable_dur_list |      0.42 (+/- 0.10) |      0.10 (+/- 0.10) |      0.33 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.07) |      0.30 (+/- 0.06) |      0.33 (+/- 0.03) | 
+                mfcc |      0.35 (+/- 0.04) |      0.34 (+/- 0.05) |      0.33 (+/- 0.03) | 
+           spec_band |      0.41 (+/- 0.07) |      0.38 (+/- 0.07) |      0.42 (+/- 0.04) | 
+           spec_cent |      0.40 (+/- 0.11) |      0.40 (+/- 0.06) |      0.42 (+/- 0.07) | 
+           spec_roll |      0.43 (+/- 0.09) |      0.45 (+/- 0.13) |      0.43 (+/- 0.08) | 
+        syllable_dur |      0.36 (+/- 0.06) |      0.06 (+/- 0.06) |      0.33 (+/- 0.03) | 
+   syllable_dur_list |      0.41 (+/- 0.03) |      0.11 (+/- 0.07) |      0.33 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 8
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Batara cinerea/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.09) |      0.40 (+/- 0.07) |      0.18 (+/- 0.01) | 
+                mfcc |      0.42 (+/- 0.08) |      0.31 (+/- 0.04) |      0.33 (+/- 0.03) | 
+           spec_band |      0.40 (+/- 0.07) |      0.28 (+/- 0.07) |      0.36 (+/- 0.08) | 
+           spec_cent |      0.44 (+/- 0.02) |      0.39 (+/- 0.06) |      0.39 (+/- 0.07) | 
+           spec_roll |      0.47 (+/- 0.07) |      0.41 (+/- 0.08) |      0.41 (+/- 0.07) | 
+        syllable_dur |      0.22 (+/- 0.03) |      0.17 (+/- 0.06) |      0.18 (+/- 0.01) | 
+   syllable_dur_list |      0.29 (+/- 0.04) |      0.18 (+/- 0.07) |      0.18 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.42 (+/- 0.02) |      0.40 (+/- 0.05) |      0.18 (+/- 0.01) | 
+                mfcc |      0.40 (+/- 0.05) |      0.31 (+/- 0.08) |      0.26 (+/- 0.04) | 
+           spec_band |      0.47 (+/- 0.12) |      0.42 (+/- 0.09) |      0.44 (+/- 0.08) | 
+           spec_cent |      0.45 (+/- 0.07) |      0.43 (+/- 0.07) |      0.46 (+/- 0.07) | 
+           spec_roll |      0.48 (+/- 0.12) |      0.46 (+/- 0.02) |      0.47 (+/- 0.07) | 
+        syllable_dur |      0.23 (+/- 0.04) |      0.13 (+/- 0.06) |      0.18 (+/- 0.02) | 
+   syllable_dur_list |      0.23 (+/- 0.09) |      0.13 (+/- 0.05) |      0.18 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.39 (+/- 0.07) |      0.45 (+/- 0.07) |      0.18 (+/- 0.01) | 
+                mfcc |      0.36 (+/- 0.04) |      0.31 (+/- 0.07) |      0.32 (+/- 0.07) | 
+           spec_band |      0.42 (+/- 0.02) |      0.38 (+/- 0.05) |      0.37 (+/- 0.06) | 
+           spec_cent |      0.51 (+/- 0.06) |      0.42 (+/- 0.02) |      0.42 (+/- 0.04) | 
+           spec_roll |      0.50 (+/- 0.08) |      0.48 (+/- 0.09) |      0.42 (+/- 0.10) | 
+        syllable_dur |      0.25 (+/- 0.03) |      0.14 (+/- 0.03) |      0.18 (+/- 0.01) | 
+   syllable_dur_list |      0.27 (+/- 0.11) |      0.15 (+/- 0.04) |      0.18 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 12
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Anthus lutescens/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Saltator similis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Xenops minutus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Attila rufus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Campephilus robustus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.31 (+/- 0.14) |      0.24 (+/- 0.04) |      0.14 (+/- 0.02) | 
+                mfcc |      0.34 (+/- 0.09) |      0.25 (+/- 0.08) |      0.29 (+/- 0.06) | 
+           spec_band |      0.29 (+/- 0.07) |      0.25 (+/- 0.05) |      0.29 (+/- 0.06) | 
+           spec_cent |      0.39 (+/- 0.05) |      0.38 (+/- 0.04) |      0.36 (+/- 0.03) | 
+           spec_roll |      0.38 (+/- 0.02) |      0.31 (+/- 0.08) |      0.30 (+/- 0.09) | 
+        syllable_dur |      0.18 (+/- 0.10) |      0.12 (+/- 0.12) |      0.14 (+/- 0.02) | 
+   syllable_dur_list |      0.27 (+/- 0.07) |      0.06 (+/- 0.05) |      0.14 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.35 (+/- 0.10) |      0.26 (+/- 0.06) |      0.14 (+/- 0.02) | 
+                mfcc |      0.29 (+/- 0.10) |      0.25 (+/- 0.05) |      0.31 (+/- 0.07) | 
+           spec_band |      0.39 (+/- 0.06) |      0.30 (+/- 0.05) |      0.33 (+/- 0.07) | 
+           spec_cent |      0.43 (+/- 0.13) |      0.37 (+/- 0.04) |      0.37 (+/- 0.04) | 
+           spec_roll |      0.34 (+/- 0.07) |      0.34 (+/- 0.05) |      0.33 (+/- 0.09) | 
+        syllable_dur |      0.16 (+/- 0.05) |      0.11 (+/- 0.14) |      0.16 (+/- 0.02) | 
+   syllable_dur_list |      0.28 (+/- 0.14) |      0.10 (+/- 0.06) |      0.16 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.32 (+/- 0.07) |      0.25 (+/- 0.09) |      0.14 (+/- 0.02) | 
+                mfcc |      0.29 (+/- 0.10) |      0.24 (+/- 0.09) |      0.23 (+/- 0.03) | 
+           spec_band |      0.34 (+/- 0.07) |      0.30 (+/- 0.04) |      0.31 (+/- 0.09) | 
+           spec_cent |      0.41 (+/- 0.11) |      0.40 (+/- 0.04) |      0.39 (+/- 0.06) | 
+           spec_roll |      0.44 (+/- 0.02) |      0.35 (+/- 0.08) |      0.34 (+/- 0.05) | 
+        syllable_dur |      0.19 (+/- 0.07) |      0.20 (+/- 0.04) |      0.14 (+/- 0.02) | 
+   syllable_dur_list |      0.27 (+/- 0.11) |      0.09 (+/- 0.07) |      0.16 (+/- 0.04) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 12
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Saltator similis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Xenops minutus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Cranioleuca obsoleta/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.21 (+/- 0.03) |      0.18 (+/- 0.03) |      0.10 (+/- 0.01) | 
+                mfcc |      0.24 (+/- 0.03) |      0.21 (+/- 0.04) |      0.24 (+/- 0.04) | 
+           spec_band |      0.22 (+/- 0.04) |      0.17 (+/- 0.05) |      0.21 (+/- 0.04) | 
+           spec_cent |      0.30 (+/- 0.07) |      0.23 (+/- 0.06) |      0.24 (+/- 0.03) | 
+           spec_roll |      0.26 (+/- 0.04) |      0.23 (+/- 0.05) |      0.21 (+/- 0.05) | 
+        syllable_dur |      0.13 (+/- 0.04) |      0.11 (+/- 0.07) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.23 (+/- 0.03) |      0.07 (+/- 0.03) |      0.10 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.28 (+/- 0.08) |      0.21 (+/- 0.06) |      0.10 (+/- 0.01) | 
+                mfcc |      0.26 (+/- 0.04) |      0.23 (+/- 0.07) |      0.28 (+/- 0.12) | 
+           spec_band |      0.25 (+/- 0.07) |      0.18 (+/- 0.04) |      0.20 (+/- 0.07) | 
+           spec_cent |      0.29 (+/- 0.14) |      0.23 (+/- 0.04) |      0.25 (+/- 0.04) | 
+           spec_roll |      0.27 (+/- 0.04) |      0.21 (+/- 0.03) |      0.21 (+/- 0.04) | 
+        syllable_dur |      0.16 (+/- 0.05) |      0.07 (+/- 0.10) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.28 (+/- 0.05) |      0.09 (+/- 0.06) |      0.11 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.24 (+/- 0.06) |      0.23 (+/- 0.08) |      0.10 (+/- 0.01) | 
+                mfcc |      0.20 (+/- 0.06) |      0.16 (+/- 0.02) |      0.21 (+/- 0.06) | 
+           spec_band |      0.25 (+/- 0.04) |      0.22 (+/- 0.06) |      0.23 (+/- 0.03) | 
+           spec_cent |      0.25 (+/- 0.07) |      0.26 (+/- 0.04) |      0.26 (+/- 0.04) | 
+           spec_roll |      0.27 (+/- 0.07) |      0.27 (+/- 0.06) |      0.24 (+/- 0.07) | 
+        syllable_dur |      0.19 (+/- 0.08) |      0.18 (+/- 0.02) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.25 (+/- 0.05) |      0.21 (+/- 0.07) |      0.10 (+/- 0.01) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 12
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Drymophila malura/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Philydor atricapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Procnias nudicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Culicivora caudacuta/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Colonia colonus/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.41 (+/- 0.02) |      0.36 (+/- 0.06) |      0.34 (+/- 0.04) | 
+                mfcc |      0.40 (+/- 0.07) |      0.27 (+/- 0.06) |      0.26 (+/- 0.08) | 
+           spec_band |      0.36 (+/- 0.07) |      0.29 (+/- 0.09) |      0.35 (+/- 0.11) | 
+           spec_cent |      0.41 (+/- 0.08) |      0.35 (+/- 0.07) |      0.37 (+/- 0.04) | 
+           spec_roll |      0.46 (+/- 0.02) |      0.38 (+/- 0.06) |      0.40 (+/- 0.07) | 
+        syllable_dur |      0.24 (+/- 0.07) |      0.19 (+/- 0.06) |      0.21 (+/- 0.04) | 
+   syllable_dur_list |      0.33 (+/- 0.07) |      0.23 (+/- 0.08) |      0.20 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.44 (+/- 0.10) |      0.35 (+/- 0.10) |      0.35 (+/- 0.07) | 
+                mfcc |      0.41 (+/- 0.08) |      0.37 (+/- 0.07) |      0.39 (+/- 0.06) | 
+           spec_band |      0.41 (+/- 0.06) |      0.40 (+/- 0.08) |      0.38 (+/- 0.09) | 
+           spec_cent |      0.45 (+/- 0.06) |      0.34 (+/- 0.08) |      0.42 (+/- 0.05) | 
+           spec_roll |      0.47 (+/- 0.05) |      0.35 (+/- 0.06) |      0.37 (+/- 0.05) | 
+        syllable_dur |      0.29 (+/- 0.05) |      0.07 (+/- 0.04) |      0.15 (+/- 0.02) | 
+   syllable_dur_list |      0.32 (+/- 0.06) |      0.14 (+/- 0.09) |      0.16 (+/- 0.05) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.06) |      0.40 (+/- 0.08) |      0.35 (+/- 0.04) | 
+                mfcc |      0.37 (+/- 0.07) |      0.31 (+/- 0.03) |      0.30 (+/- 0.03) | 
+           spec_band |      0.39 (+/- 0.06) |      0.36 (+/- 0.08) |      0.37 (+/- 0.08) | 
+           spec_cent |      0.44 (+/- 0.05) |      0.39 (+/- 0.06) |      0.41 (+/- 0.05) | 
+           spec_roll |      0.53 (+/- 0.03) |      0.42 (+/- 0.05) |      0.46 (+/- 0.03) | 
+        syllable_dur |      0.26 (+/- 0.03) |      0.11 (+/- 0.12) |      0.14 (+/- 0.02) | 
+   syllable_dur_list |      0.32 (+/- 0.04) |      0.18 (+/- 0.07) |      0.17 (+/- 0.06) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 12
+Diretórios: 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Campylorhamphus falcularius/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Piprites chloris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Clibanornis dendrocolaptoides/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-1/Cnemotriccus fuscatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/ 
+/var/tmp/ff/pr_article/S_A_C_Base_Parte-3/Myrmeciza squamosa/ 
+
+type of score: f1_weighted
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.09 (+/- 0.03) |      0.08 (+/- 0.02) |      0.03 (+/- 0.00) | 
+                mfcc |      0.15 (+/- 0.04) |      0.14 (+/- 0.04) |      0.15 (+/- 0.08) | 
+           spec_band |      0.14 (+/- 0.04) |      0.11 (+/- 0.04) |      0.13 (+/- 0.03) | 
+           spec_cent |      0.20 (+/- 0.05) |      0.17 (+/- 0.08) |      0.16 (+/- 0.08) | 
+           spec_roll |      0.22 (+/- 0.06) |      0.13 (+/- 0.05) |      0.13 (+/- 0.06) | 
+        syllable_dur |      0.10 (+/- 0.03) |      0.06 (+/- 0.04) |      0.03 (+/- 0.00) | 
+   syllable_dur_list |      0.11 (+/- 0.05) |      0.06 (+/- 0.04) |      0.06 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered1
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.10 (+/- 0.07) |      0.09 (+/- 0.04) |      0.03 (+/- 0.00) | 
+                mfcc |      0.13 (+/- 0.07) |      0.17 (+/- 0.08) |      0.24 (+/- 0.07) | 
+           spec_band |      0.16 (+/- 0.05) |      0.13 (+/- 0.04) |      0.13 (+/- 0.04) | 
+           spec_cent |      0.17 (+/- 0.08) |      0.11 (+/- 0.04) |      0.13 (+/- 0.05) | 
+           spec_roll |      0.19 (+/- 0.04) |      0.11 (+/- 0.05) |      0.13 (+/- 0.03) | 
+        syllable_dur |      0.14 (+/- 0.05) |      0.06 (+/- 0.04) |      0.03 (+/- 0.00) | 
+   syllable_dur_list |      0.14 (+/- 0.04) |      0.08 (+/- 0.07) |      0.05 (+/- 0.02) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Type of recording: filtered2
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.09 (+/- 0.03) |      0.12 (+/- 0.04) |      0.03 (+/- 0.00) | 
+                mfcc |      0.18 (+/- 0.08) |      0.16 (+/- 0.07) |      0.19 (+/- 0.05) | 
+           spec_band |      0.13 (+/- 0.06) |      0.14 (+/- 0.10) |      0.13 (+/- 0.12) | 
+           spec_cent |      0.19 (+/- 0.07) |      0.17 (+/- 0.05) |      0.16 (+/- 0.05) | 
+           spec_roll |      0.22 (+/- 0.11) |      0.19 (+/- 0.04) |      0.15 (+/- 0.07) | 
+        syllable_dur |      0.13 (+/- 0.09) |      0.12 (+/- 0.04) |      0.03 (+/- 0.00) | 
+   syllable_dur_list |      0.14 (+/- 0.07) |      0.14 (+/- 0.06) |      0.04 (+/- 0.03) | 
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
