@@ -200,3 +200,37 @@
 *** TODO Compare Nicolas Filtes with a standard low-pass
 *** TODO Diagrama com o panorama do trabalho
 
+** Monografia
+*** TODO Resumo
+*** TODO Abstract
+*** TODO Introdução
+**** TODO Contextualização e objetivos
+**** TODO Estrutura do trabalho
+*** TODO Fundamentação teórica
+**** TODO Conceitos iniciais
+***** TODO Representações do sinal
+***** TODO Sons de pássaros
+***** TODO Classificação multi-classes
+**** TODO Extração de características
+***** TODO Características acústicas
+***** TODO Características próprias do domínio
+***** TODO Características globais
+**** TODO Classificação
+***** TODO Aprendizagem supervisionada
+***** TODO Classificadores
+****** TODO kNN
+****** TODO Naïve-Bayes
+****** TODO SVM
+***** TODO Avaliação
+**** TODO Experimentos e Resultados
+***** TODO Dataset
+***** TODO Detalhes de implementação
+***** TODO Resultados
+*** TODO Conclusões
+
+
+
+
+   
+
+   

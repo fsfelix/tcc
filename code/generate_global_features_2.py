@@ -70,7 +70,7 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
     i = 0
     j = 0
     data = np.empty((n_files, n_global_feat))
-    print("number of files loaded: ".format(n_files))
+    print("number of files loaded: {}".format(n_files))
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
