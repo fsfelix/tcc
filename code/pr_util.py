@@ -86,7 +86,18 @@ NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
                         'Xenops minutus 4',
                         'Xiphorhynchus fuscus 4']
 
-DATA_DIR_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte'
+DATA_DIR_BASE = '/var/tmp/ff/pr_article/S_A_C_Base_Parte'
+#DATA_DIR_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte'
+
+DATA_DIR_FULL = [DATA_DIR_BASE + '-1/',
+                 DATA_DIR_BASE + '-2/',
+                 DATA_DIR_BASE + '-3/',
+                 DATA_DIR_BASE + '-4/']
+
+DATA_DIR_POOL = [[DATA_DIR_BASE + '-1/'],
+                 [DATA_DIR_BASE + '-2/'],
+                 [DATA_DIR_BASE + '-3/'],
+                 [DATA_DIR_BASE + '-4/']]
 
 DATA_DIR_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/',
                  '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/',
