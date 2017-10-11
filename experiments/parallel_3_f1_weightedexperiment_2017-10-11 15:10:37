@@ -1,0 +1,52 @@
+rmselol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+mfcclol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+spec_bandlol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+spec_centlol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+spec_rolllol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+syllable_durlol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+syllable_dur_listlol
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=100000000, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+Número de espécies: 3
+Diretórios: 
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/ 
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/ 
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/ 
+
+type of score: f1_weighted
+Type of recording: None
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.54 (+/- 0.06) |      0.40 (+/- 0.05) |      0.21 (+/- 0.00) | 
+                mfcc |      0.57 (+/- 0.10) |      0.43 (+/- 0.15) |      0.41 (+/- 0.09) | 
+           spec_band |      0.52 (+/- 0.04) |      0.38 (+/- 0.14) |      0.42 (+/- 0.07) | 
+           spec_cent |      0.54 (+/- 0.04) |      0.38 (+/- 0.06) |      0.37 (+/- 0.06) | 
+           spec_roll |      0.53 (+/- 0.10) |      0.39 (+/- 0.04) |      0.41 (+/- 0.09) | 
+        syllable_dur |      0.41 (+/- 0.09) |      0.28 (+/- 0.21) |      0.28 (+/- 0.08) | 
+   syllable_dur_list |      0.47 (+/- 0.04) |      0.37 (+/- 0.11) |      0.34 (+/- 0.12) | 
+

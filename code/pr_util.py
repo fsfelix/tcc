@@ -86,9 +86,8 @@ NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
                         'Xenops minutus 4',
                         'Xiphorhynchus fuscus 4']
 
-DATA_DIR_BASE = '/var/tmp/ff/pr_article/S_A_C_Base_Parte'
-#DATA_DIR_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte'
-
+#DATA_DIR_BASE = '/var/tmp/ff/pr_article/S_A_C_Base_Parte'
+DATA_DIR_BASE = '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte'
 DATA_DIR_FULL = [DATA_DIR_BASE + '-1/',
                  DATA_DIR_BASE + '-2/',
                  DATA_DIR_BASE + '-3/',
@@ -99,11 +98,6 @@ DATA_DIR_POOL = [[DATA_DIR_BASE + '-1/'],
                  [DATA_DIR_BASE + '-3/'],
                  [DATA_DIR_BASE + '-4/']]
 
-DATA_DIR_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-1/',
-                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-2/',
-                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-3/',
-                 '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Parte-4/']
-
 DATA_DIR_PULSE_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte'
 
 DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-1/',
@@ -111,9 +105,10 @@ DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-3/',
                        '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-4/']
 
-EXPERIMENTS_DIR = '/Users/felipefelix/USP/tcc/experiments'
+EXPERIMENTS_DIR = '/var/tmp/ff/tcc/experiments'
 
 FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list']
+
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
@@ -121,6 +116,7 @@ GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
 VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
 
+VERSIONS_EXPERIMENTS = [None]
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
@@ -135,14 +131,14 @@ def is_not_wav(file_name):
 def num_files(data_dirs, song_or_call, num_versions = 4):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
-
+    num_versions = len(VERSIONS)
     num_file = 0
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 type_of_rec = subdir.split('/')[-1]
                 if is_audio(file) and type_of_rec == song_or_call:
-                # if type_of_rec == song_or_call:
+                #if type_of_rec == song_or_call:
                     num_file += 1
     return int(num_file/num_versions)
 
@@ -203,7 +199,7 @@ def plot_scatter(x, y, labels, xlabel, ylabel):
     colors = ['b','g','r','c','m','y','k','w']
 
     for label in labels:
-        ax.scatter(x[labels == label], y[labels == label], marker = markers[label], c = colors[label], s = 75)
+        ax.scatter(x[labels == label], y[labels == label], marker = markers[label], c = colors[label], s = 15)
 
     plt.title("Scatter Plot (n_species = %i)" % (max(labels) + 1))
     ax.set_xlabel(xlabel)
