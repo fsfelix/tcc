@@ -208,7 +208,7 @@
 **** TODO Estrutura do trabalho
 *** TODO Fundamentação teórica
 **** TODO Conceitos iniciais
-***** TODO Representações do sinal
+***** DONE Representações do sinal
 
       Na última seção, descrevemos o processo de digitalização do sinal
       analógico, o que nos resultou na representação temporal. Apresentamos
