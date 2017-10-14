@@ -88,6 +88,7 @@ NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
 
 #DATA_DIR_BASE = '/var/tmp/ff/pr_article/S_A_C_Base_Parte'
 DATA_DIR_BASE = '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte'
+
 DATA_DIR_FULL = [DATA_DIR_BASE + '-1/',
                  DATA_DIR_BASE + '-2/',
                  DATA_DIR_BASE + '-3/',
@@ -98,12 +99,20 @@ DATA_DIR_POOL = [[DATA_DIR_BASE + '-1/'],
                  [DATA_DIR_BASE + '-3/'],
                  [DATA_DIR_BASE + '-4/']]
 
-DATA_DIR_PULSE_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte'
+#DATA_DIR_PULSE_BASE = '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte'
 
-DATA_DIR_PULSE_FULL = ['/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-1/',
-                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-2/',
-                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-3/',
-                       '/Users/felipefelix/USP/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte-4/']
+DATA_DIR_PULSE_BASE = '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Pulsos_Parte'
+
+DATA_DIR_PULSE_FULL = [DATA_DIR_PULSE_BASE + '-1/',
+                       DATA_DIR_PULSE_BASE + '-2/',
+                       DATA_DIR_PULSE_BASE + '-3/',
+                       DATA_DIR_PULSE_BASE + '-4/']
+
+DATA_DIR_PULSE_POOL = [[DATA_DIR_PULSE_BASE + '-1/'],
+                       [DATA_DIR_PULSE_BASE + '-2/'],
+                       [DATA_DIR_PULSE_BASE + '-3/'],
+                       [DATA_DIR_PULSE_BASE + '-4/']]
+
 
 EXPERIMENTS_DIR = '/var/tmp/ff/tcc/experiments'
 

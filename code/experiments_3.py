@@ -137,10 +137,12 @@ def generate_experiments_parallel(num_species, song_or_call = 'song', scoring = 
         # lock.acquire()
         #file_exp.write("Número de espécies: {}\n".format(num_species))
         #file_exp.write("Diretórios: \n")
+        print("\n")
         print("Número de espécies: {} Número Mínimo: {} Scoring: {}".format(num_species, num_min, scoring))
         for dir in data_dirs:
             print(dir)
             #file_exp.write("{} \n".format(dir))
+        print("\n")
         #file_exp.write("\n")
         #file_exp.write("type of score: {}\n".format(scoring))
         #file_exp.write('Type of recording: ' + str(version) + '\n')
@@ -165,7 +167,8 @@ def experiments_parallel(num_exp, num_cores):
 
     pool = Pool(initializer = init, initargs = (l,), processes = num_cores)
 
-    args_p = [3, 5, 8, 12, 20] * num_exp
+    # args_p = [3, 5, 8, 12, 20] * num_exp
+    args_p = [20] * num_exp
     # args_p = [3] * num_exp
 
     pool.map(generate_experiments_parallel, args_p)
