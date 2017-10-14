@@ -164,10 +164,9 @@ def experiments_parallel(num_exp, num_cores):
         num_cores = cpu_count()
 
     pool = Pool(initializer = init, initargs = (l,), processes = num_cores)
-    num_species = [3, 5, 8, 12, 20]
 
-    #args_p = [[3], [5], [8], [12], [20]] * num_exp
-    args_p = [3] * num_exp
+    args_p = [3, 5, 8, 12, 20] * num_exp
+    # args_p = [3] * num_exp
 
     pool.map(generate_experiments_parallel, args_p)
     pool.close()
@@ -182,7 +181,7 @@ def main():
     num_exp = 5
     num_min = 30
     num_cores = -2
-    
+
     if num_cores != -1:
         experiments_parallel(num_exp, num_cores)
 

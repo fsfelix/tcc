@@ -1,0 +1,1440 @@
+Feature: rmse | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.36 (+/- 0.07)
+[ 0.34594219  0.33477986  0.33635032  0.42920964  0.33705048]
+GaussianNB - f1_weighted: 0.27 (+/- 0.07)
+[ 0.28757727  0.20386019  0.31122767  0.28376107  0.25614545]
+SVM - f1_weighted: 0.20 (+/- 0.04)
+[ 0.19299219  0.18151526  0.18289007  0.19020952  0.23686684]
+Feature: mfcc | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.35 (+/- 0.08)
+[ 0.35454722  0.38498287  0.29139367  0.39845576  0.31184789]
+GaussianNB - f1_weighted: 0.23 (+/- 0.03)
+[ 0.22533547  0.24871829  0.21402394  0.22905485  0.24469787]
+SVM - f1_weighted: 0.18 (+/- 0.04)
+[ 0.1726591   0.181496    0.14443267  0.18401423  0.21336093]
+Feature: spec_band | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.35 (+/- 0.06)
+[ 0.35777194  0.3251339   0.35320661  0.39044568  0.30030945]
+GaussianNB - f1_weighted: 0.30 (+/- 0.06)
+[ 0.3028427   0.32078988  0.26624051  0.26421966  0.34777583]
+SVM - f1_weighted: 0.31 (+/- 0.04)
+[ 0.31189774  0.29170291  0.29219433  0.31397068  0.34122439]
+Feature: spec_cent | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.45 (+/- 0.07)
+[ 0.42443308  0.50132217  0.40148681  0.46868096  0.47322535]
+GaussianNB - f1_weighted: 0.34 (+/- 0.10)
+[ 0.31638441  0.3813861   0.41803737  0.29590352  0.30342535]
+SVM - f1_weighted: 0.32 (+/- 0.06)
+[ 0.34757579  0.28589799  0.36527916  0.32934255  0.28745034]
+Feature: spec_roll | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.45 (+/- 0.08)
+[ 0.48447603  0.50225656  0.44350447  0.38125221  0.45755896]
+GaussianNB - f1_weighted: 0.31 (+/- 0.02)
+[ 0.30379979  0.30508938  0.31664836  0.33184657  0.30917832]
+SVM - f1_weighted: 0.26 (+/- 0.04)
+[ 0.25755044  0.24572449  0.284998    0.25952416  0.23089841]
+Feature: syllable_dur | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.16 (+/- 0.05)
+[ 0.15118693  0.15667041  0.13075609  0.21058224  0.17278092]
+GaussianNB - f1_weighted: 0.11 (+/- 0.04)
+[ 0.14660507  0.10594087  0.12281299  0.08167703  0.11398801]
+SVM - f1_weighted: 0.14 (+/- 0.01)
+[ 0.1552171   0.1375639   0.14845098  0.13672269  0.13867182]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 605
+kNN - f1_weighted: 0.25 (+/- 0.05)
+[ 0.27150299  0.27455165  0.22141507  0.26936722  0.21387773]
+GaussianNB - f1_weighted: 0.13 (+/- 0.05)
+[ 0.1826871   0.11164862  0.13762719  0.11741831  0.11872472]
+SVM - f1_weighted: 0.14 (+/- 0.01)
+[ 0.14414542  0.13740153  0.14936534  0.13667654  0.15192744]
+Número de espécies: 8 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.36 (+/- 0.07) |      0.27 (+/- 0.07) |      0.20 (+/- 0.04) | 
+                mfcc |      0.35 (+/- 0.08) |      0.23 (+/- 0.03) |      0.18 (+/- 0.04) | 
+           spec_band |      0.35 (+/- 0.06) |      0.30 (+/- 0.06) |      0.31 (+/- 0.04) | 
+           spec_cent |      0.45 (+/- 0.07) |      0.34 (+/- 0.10) |      0.32 (+/- 0.06) | 
+           spec_roll |      0.45 (+/- 0.08) |      0.31 (+/- 0.02) |      0.26 (+/- 0.04) | 
+        syllable_dur |      0.16 (+/- 0.05) |      0.11 (+/- 0.04) |      0.14 (+/- 0.01) | 
+   syllable_dur_list |      0.25 (+/- 0.05) |      0.13 (+/- 0.05) |      0.14 (+/- 0.01) | 
+Feature: rmse | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.27 (+/- 0.04)
+[ 0.2521246   0.30345182  0.29658224  0.25589332  0.26187849]
+GaussianNB - f1_weighted: 0.20 (+/- 0.02)
+[ 0.18389018  0.21200927  0.21410958  0.20916052  0.20277866]
+SVM - f1_weighted: 0.07 (+/- 0.04)
+[ 0.04883699  0.06438503  0.060535    0.05684979  0.09965049]
+Feature: mfcc | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.33 (+/- 0.07)
+[ 0.30118034  0.35829439  0.38613522  0.30862771  0.31378514]
+GaussianNB - f1_weighted: 0.17 (+/- 0.04)
+[ 0.19018321  0.16963898  0.19006418  0.16859938  0.14132448]
+SVM - f1_weighted: 0.15 (+/- 0.05)
+[ 0.1452321   0.16752287  0.11607802  0.18530719  0.14443014]
+Feature: spec_band | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.24 (+/- 0.06)
+[ 0.29366194  0.24186807  0.20838917  0.20917284  0.26018243]
+GaussianNB - f1_weighted: 0.19 (+/- 0.03)
+[ 0.16918066  0.19924904  0.17029489  0.19999434  0.20442042]
+SVM - f1_weighted: 0.19 (+/- 0.02)
+[ 0.19336595  0.20560935  0.18240954  0.19400463  0.17015668]
+Feature: spec_cent | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.34 (+/- 0.04)
+[ 0.30574814  0.34111854  0.34067221  0.36197889  0.36437495]
+GaussianNB - f1_weighted: 0.25 (+/- 0.05)
+[ 0.25713008  0.29063599  0.26211551  0.21979696  0.24039077]
+SVM - f1_weighted: 0.28 (+/- 0.02)
+[ 0.27206186  0.28990753  0.27638512  0.26065423  0.27700362]
+Feature: spec_roll | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.37 (+/- 0.07)
+[ 0.37588244  0.33066213  0.42777692  0.3828485   0.33374379]
+GaussianNB - f1_weighted: 0.24 (+/- 0.05)
+[ 0.22444823  0.20873351  0.2606753   0.21882687  0.26917474]
+SVM - f1_weighted: 0.26 (+/- 0.03)
+[ 0.24563413  0.27710423  0.29004312  0.25550981  0.24988245]
+Feature: syllable_dur | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.13 (+/- 0.04)
+[ 0.15817898  0.13603231  0.09837519  0.12820221  0.1264939 ]
+GaussianNB - f1_weighted: 0.08 (+/- 0.03)
+[ 0.09701727  0.0788029   0.09223086  0.06028723  0.05661219]
+SVM - f1_weighted: 0.08 (+/- 0.04)
+[ 0.11884589  0.07400835  0.07557808  0.06646873  0.07387707]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 962
+kNN - f1_weighted: 0.18 (+/- 0.09)
+[ 0.23858623  0.16296637  0.22943234  0.15885725  0.11941559]
+GaussianNB - f1_weighted: 0.07 (+/- 0.05)
+[ 0.08721714  0.08048592  0.0876343   0.05831673  0.02131836]
+SVM - f1_weighted: 0.07 (+/- 0.04)
+[ 0.09626444  0.06804114  0.05113516  0.05317549  0.08638752]
+Número de espécies: 12 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.27 (+/- 0.04) |      0.20 (+/- 0.02) |      0.07 (+/- 0.04) | 
+                mfcc |      0.33 (+/- 0.07) |      0.17 (+/- 0.04) |      0.15 (+/- 0.05) | 
+           spec_band |      0.24 (+/- 0.06) |      0.19 (+/- 0.03) |      0.19 (+/- 0.02) | 
+           spec_cent |      0.34 (+/- 0.04) |      0.25 (+/- 0.05) |      0.28 (+/- 0.02) | 
+           spec_roll |      0.37 (+/- 0.07) |      0.24 (+/- 0.05) |      0.26 (+/- 0.03) | 
+        syllable_dur |      0.13 (+/- 0.04) |      0.08 (+/- 0.03) |      0.08 (+/- 0.04) | 
+   syllable_dur_list |      0.18 (+/- 0.09) |      0.07 (+/- 0.05) |      0.07 (+/- 0.04) | 
+Feature: rmse | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.73 (+/- 0.06)
+[ 0.68439451  0.72014784  0.71419587  0.75258075  0.77095817]
+GaussianNB - f1_weighted: 0.72 (+/- 0.08)
+[ 0.7848859   0.65432099  0.7135506   0.72081448  0.71162123]
+SVM - f1_weighted: 0.65 (+/- 0.03)
+[ 0.63041765  0.63041765  0.64921891  0.66889632  0.6627451 ]
+Feature: mfcc | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.74 (+/- 0.07)
+[ 0.80203115  0.73952904  0.70350404  0.74059274  0.72172224]
+GaussianNB - f1_weighted: 0.72 (+/- 0.03)
+[ 0.69158249  0.73087839  0.72851153  0.72543935  0.70791576]
+SVM - f1_weighted: 0.70 (+/- 0.04)
+[ 0.68677249  0.7030525   0.6892945   0.67526726  0.72679739]
+Feature: spec_band | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.77 (+/- 0.09)
+[ 0.81526045  0.75773379  0.70691824  0.82639517  0.74007652]
+GaussianNB - f1_weighted: 0.64 (+/- 0.07)
+[ 0.65967366  0.60298593  0.60013639  0.64957265  0.68983957]
+SVM - f1_weighted: 0.67 (+/- 0.04)
+[ 0.66554433  0.66084656  0.65408805  0.70921386  0.6627451 ]
+Feature: spec_cent | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.65 (+/- 0.05)
+[ 0.6255144   0.61302682  0.64690027  0.67197171  0.67985125]
+GaussianNB - f1_weighted: 0.69 (+/- 0.08)
+[ 0.64456654  0.6474472   0.69296741  0.75325657  0.7212995 ]
+SVM - f1_weighted: 0.69 (+/- 0.06)
+[ 0.65682591  0.68727517  0.67520216  0.75259224  0.69515571]
+Feature: spec_roll | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.71 (+/- 0.05)
+[ 0.72897843  0.72712418  0.7246292   0.66433566  0.70317634]
+GaussianNB - f1_weighted: 0.64 (+/- 0.09)
+[ 0.5677277   0.61451682  0.70630837  0.64578755  0.65114816]
+SVM - f1_weighted: 0.68 (+/- 0.03)
+[ 0.6898844   0.66042673  0.67238422  0.70745921  0.69416272]
+Feature: syllable_dur | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.65 (+/- 0.07)
+[ 0.62281996  0.68312757  0.59675296  0.65934066  0.67389466]
+GaussianNB - f1_weighted: 0.64 (+/- 0.04)
+[ 0.62126643  0.62801932  0.63731656  0.6741573   0.65300727]
+SVM - f1_weighted: 0.65 (+/- 0.03)
+[ 0.63041765  0.63041765  0.64921891  0.66889632  0.6627451 ]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 264
+kNN - f1_weighted: 0.73 (+/- 0.13)
+[ 0.77710438  0.61760324  0.80620256  0.75109259  0.70721925]
+GaussianNB - f1_weighted: 0.69 (+/- 0.05)
+[ 0.66790123  0.71910033  0.67033543  0.65687122  0.72072829]
+SVM - f1_weighted: 0.68 (+/- 0.03)
+[ 0.67292897  0.66960374  0.6892945   0.70921386  0.6627451 ]
+Número de espécies: 3 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.73 (+/- 0.06) |      0.72 (+/- 0.08) |      0.65 (+/- 0.03) | 
+                mfcc |      0.74 (+/- 0.07) |      0.72 (+/- 0.03) |      0.70 (+/- 0.04) | 
+           spec_band |      0.77 (+/- 0.09) |      0.64 (+/- 0.07) |      0.67 (+/- 0.04) | 
+           spec_cent |      0.65 (+/- 0.05) |      0.69 (+/- 0.08) |      0.69 (+/- 0.06) | 
+           spec_roll |      0.71 (+/- 0.05) |      0.64 (+/- 0.09) |      0.68 (+/- 0.03) | 
+        syllable_dur |      0.65 (+/- 0.07) |      0.64 (+/- 0.04) |      0.65 (+/- 0.03) | 
+   syllable_dur_list |      0.73 (+/- 0.13) |      0.69 (+/- 0.05) |      0.68 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.58 (+/- 0.09)
+[ 0.59875953  0.63269053  0.55543096  0.49763436  0.59497404]
+GaussianNB - f1_weighted: 0.50 (+/- 0.10)
+[ 0.45962657  0.52486025  0.58370032  0.45651276  0.48638018]
+SVM - f1_weighted: 0.47 (+/- 0.04)
+[ 0.4876276   0.50369334  0.46258898  0.44199415  0.46246007]
+Feature: mfcc | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.55 (+/- 0.09)
+[ 0.53214096  0.54648722  0.5611188   0.62210319  0.48013638]
+GaussianNB - f1_weighted: 0.44 (+/- 0.08)
+[ 0.42076499  0.4394573   0.38159555  0.49728261  0.4829848 ]
+SVM - f1_weighted: 0.45 (+/- 0.06)
+[ 0.46711738  0.41052157  0.46878343  0.47872914  0.41395851]
+Feature: spec_band | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.53 (+/- 0.08)
+[ 0.50037705  0.47384126  0.56771075  0.57844023  0.53219519]
+GaussianNB - f1_weighted: 0.39 (+/- 0.05)
+[ 0.39928579  0.35805861  0.4122194   0.42145111  0.36744438]
+SVM - f1_weighted: 0.52 (+/- 0.07)
+[ 0.56240791  0.46859399  0.49097378  0.50585317  0.55350127]
+Feature: spec_cent | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.56 (+/- 0.09)
+[ 0.57729145  0.53310068  0.57211638  0.61784677  0.48347136]
+GaussianNB - f1_weighted: 0.46 (+/- 0.05)
+[ 0.41750842  0.47905709  0.47975229  0.48925197  0.44587873]
+SVM - f1_weighted: 0.55 (+/- 0.12)
+[ 0.58038301  0.60906039  0.52285123  0.60328015  0.44791388]
+Feature: spec_roll | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.65 (+/- 0.07)
+[ 0.69170083  0.65309289  0.60241072  0.69190213  0.63494421]
+GaussianNB - f1_weighted: 0.52 (+/- 0.07)
+[ 0.47405101  0.53195545  0.52099224  0.58074073  0.50984202]
+SVM - f1_weighted: 0.58 (+/- 0.07)
+[ 0.5856521   0.56059422  0.53600308  0.60227007  0.63012413]
+Feature: syllable_dur | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.48 (+/- 0.07)
+[ 0.45651951  0.47430322  0.45235422  0.55349237  0.46923801]
+GaussianNB - f1_weighted: 0.31 (+/- 0.16)
+[ 0.18551981  0.35959978  0.3942177   0.34863212  0.23912199]
+SVM - f1_weighted: 0.30 (+/- 0.07)
+[ 0.23254124  0.31126076  0.29200934  0.32633478  0.31437508]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 487
+kNN - f1_weighted: 0.52 (+/- 0.05)
+[ 0.53924955  0.48565184  0.52689093  0.5026163   0.56008687]
+GaussianNB - f1_weighted: 0.40 (+/- 0.06)
+[ 0.42512244  0.42149355  0.35382085  0.39062506  0.43214646]
+SVM - f1_weighted: 0.29 (+/- 0.07)
+[ 0.3583118   0.25552584  0.26316204  0.26962166  0.28282561]
+Número de espécies: 5 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.58 (+/- 0.09) |      0.50 (+/- 0.10) |      0.47 (+/- 0.04) | 
+                mfcc |      0.55 (+/- 0.09) |      0.44 (+/- 0.08) |      0.45 (+/- 0.06) | 
+           spec_band |      0.53 (+/- 0.08) |      0.39 (+/- 0.05) |      0.52 (+/- 0.07) | 
+           spec_cent |      0.56 (+/- 0.09) |      0.46 (+/- 0.05) |      0.55 (+/- 0.12) | 
+           spec_roll |      0.65 (+/- 0.07) |      0.52 (+/- 0.07) |      0.58 (+/- 0.07) | 
+        syllable_dur |      0.48 (+/- 0.07) |      0.31 (+/- 0.16) |      0.30 (+/- 0.07) | 
+   syllable_dur_list |      0.52 (+/- 0.05) |      0.40 (+/- 0.06) |      0.29 (+/- 0.07) | 
+Feature: rmse | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.58 (+/- 0.29)
+[ 0.53783496  0.69746142  0.61092504  0.73786569  0.32692308]
+GaussianNB - f1_weighted: 0.43 (+/- 0.10)
+[ 0.41753247  0.5011039   0.48080808  0.3982684   0.36988304]
+SVM - f1_weighted: 0.33 (+/- 0.03)
+[ 0.31758242  0.31758242  0.35030303  0.35030303  0.33333333]
+Feature: mfcc | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.56 (+/- 0.15)
+[ 0.5832533   0.63855198  0.48926512  0.45124909  0.61515152]
+GaussianNB - f1_weighted: 0.61 (+/- 0.10)
+[ 0.67900227  0.62142857  0.62578163  0.6004405   0.52257873]
+SVM - f1_weighted: 0.59 (+/- 0.12)
+[ 0.51725988  0.66782839  0.620521    0.50887826  0.61217949]
+Feature: spec_band | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.59 (+/- 0.18)
+[ 0.56582633  0.51371795  0.66445146  0.48484848  0.72931034]
+GaussianNB - f1_weighted: 0.50 (+/- 0.21)
+[ 0.52691344  0.39238095  0.46464646  0.43757332  0.69069952]
+SVM - f1_weighted: 0.51 (+/- 0.07)
+[ 0.50595238  0.46532076  0.52563226  0.48842593  0.56428571]
+Feature: spec_cent | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.68 (+/- 0.14)
+[ 0.72274436  0.59061224  0.78932179  0.63541905  0.68257576]
+GaussianNB - f1_weighted: 0.64 (+/- 0.08)
+[ 0.66240693  0.59121103  0.62208049  0.60816723  0.70585162]
+SVM - f1_weighted: 0.63 (+/- 0.13)
+[ 0.69801587  0.64979592  0.55976209  0.70138889  0.56078297]
+Feature: spec_roll | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.71 (+/- 0.08)
+[ 0.66648198  0.77589886  0.72366522  0.68980716  0.69305556]
+GaussianNB - f1_weighted: 0.54 (+/- 0.16)
+[ 0.5547619   0.6513653   0.429329    0.58564859  0.47192982]
+SVM - f1_weighted: 0.56 (+/- 0.11)
+[ 0.5296724   0.63144894  0.60552897  0.57604618  0.47983871]
+Feature: syllable_dur | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.39 (+/- 0.16)
+[ 0.53063246  0.28632653  0.35988456  0.42097902  0.35501567]
+GaussianNB - f1_weighted: 0.35 (+/- 0.27)
+[ 0.42379221  0.35761039  0.41338384  0.08484848  0.46590909]
+SVM - f1_weighted: 0.37 (+/- 0.02)
+[ 0.3752381   0.3752381   0.35030303  0.35030303  0.37608696]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 168
+kNN - f1_weighted: 0.55 (+/- 0.09)
+[ 0.53687075  0.56385488  0.49075369  0.51750842  0.62022333]
+GaussianNB - f1_weighted: 0.41 (+/- 0.23)
+[ 0.35761039  0.42379221  0.60528361  0.25528007  0.40250447]
+SVM - f1_weighted: 0.43 (+/- 0.06)
+[ 0.3752381   0.42379221  0.46186869  0.46081707  0.42424242]
+Número de espécies: 3 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.58 (+/- 0.29) |      0.43 (+/- 0.10) |      0.33 (+/- 0.03) | 
+                mfcc |      0.56 (+/- 0.15) |      0.61 (+/- 0.10) |      0.59 (+/- 0.12) | 
+           spec_band |      0.59 (+/- 0.18) |      0.50 (+/- 0.21) |      0.51 (+/- 0.07) | 
+           spec_cent |      0.68 (+/- 0.14) |      0.64 (+/- 0.08) |      0.63 (+/- 0.13) | 
+           spec_roll |      0.71 (+/- 0.08) |      0.54 (+/- 0.16) |      0.56 (+/- 0.11) | 
+        syllable_dur |      0.39 (+/- 0.16) |      0.35 (+/- 0.27) |      0.37 (+/- 0.02) | 
+   syllable_dur_list |      0.55 (+/- 0.09) |      0.41 (+/- 0.23) |      0.43 (+/- 0.06) | 
+Feature: rmse | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.42 (+/- 0.13)
+[ 0.44901705  0.51563612  0.41764706  0.31442595  0.39784705]
+GaussianNB - f1_weighted: 0.45 (+/- 0.06)
+[ 0.4170187   0.45585736  0.40772597  0.46656104  0.49120338]
+SVM - f1_weighted: 0.17 (+/- 0.02)
+[ 0.18624339  0.16109253  0.17204301  0.17171717  0.17185822]
+Feature: mfcc | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.63 (+/- 0.12)
+[ 0.69827079  0.64389083  0.66692759  0.60779484  0.52370487]
+GaussianNB - f1_weighted: 0.45 (+/- 0.12)
+[ 0.40251295  0.49361831  0.53458299  0.3600331   0.43532482]
+SVM - f1_weighted: 0.51 (+/- 0.07)
+[ 0.48463901  0.57630148  0.51785346  0.50138268  0.49322726]
+Feature: spec_band | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.49 (+/- 0.16)
+[ 0.43886468  0.5633827   0.43711143  0.41367545  0.60906183]
+GaussianNB - f1_weighted: 0.37 (+/- 0.09)
+[ 0.43901066  0.33726877  0.38117283  0.37590188  0.31454022]
+SVM - f1_weighted: 0.31 (+/- 0.08)
+[ 0.24922581  0.36566114  0.2871996   0.31026254  0.35170531]
+Feature: spec_cent | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.61 (+/- 0.17)
+[ 0.63834081  0.50697059  0.56890756  0.56323805  0.74961598]
+GaussianNB - f1_weighted: 0.50 (+/- 0.18)
+[ 0.49228395  0.55898182  0.43084439  0.39299861  0.64880565]
+SVM - f1_weighted: 0.45 (+/- 0.13)
+[ 0.43086803  0.46189921  0.45403616  0.35349818  0.56211678]
+Feature: spec_roll | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.56 (+/- 0.18)
+[ 0.62405203  0.50472989  0.59874266  0.6457265   0.40214757]
+GaussianNB - f1_weighted: 0.43 (+/- 0.15)
+[ 0.43742424  0.34610317  0.45535407  0.5597182   0.37243922]
+SVM - f1_weighted: 0.45 (+/- 0.10)
+[ 0.51610067  0.41880342  0.38794634  0.49214968  0.410831  ]
+Feature: syllable_dur | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.24 (+/- 0.09)
+[ 0.23523436  0.29190981  0.17110177  0.28309795  0.21982808]
+GaussianNB - f1_weighted: 0.14 (+/- 0.06)
+[ 0.10834715  0.12110444  0.14049175  0.19626517  0.11496599]
+SVM - f1_weighted: 0.16 (+/- 0.01)
+[ 0.15075639  0.15384615  0.16666667  0.16666667  0.15306122]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 257
+kNN - f1_weighted: 0.33 (+/- 0.12)
+[ 0.38085577  0.39321429  0.3119299   0.32413291  0.22492197]
+GaussianNB - f1_weighted: 0.25 (+/- 0.15)
+[ 0.19096521  0.38764092  0.21538919  0.25736867  0.18616408]
+SVM - f1_weighted: 0.16 (+/- 0.01)
+[ 0.15075639  0.16109253  0.16666667  0.16666667  0.15306122]
+Número de espécies: 5 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.42 (+/- 0.13) |      0.45 (+/- 0.06) |      0.17 (+/- 0.02) | 
+                mfcc |      0.63 (+/- 0.12) |      0.45 (+/- 0.12) |      0.51 (+/- 0.07) | 
+           spec_band |      0.49 (+/- 0.16) |      0.37 (+/- 0.09) |      0.31 (+/- 0.08) | 
+           spec_cent |      0.61 (+/- 0.17) |      0.50 (+/- 0.18) |      0.45 (+/- 0.13) | 
+           spec_roll |      0.56 (+/- 0.18) |      0.43 (+/- 0.15) |      0.45 (+/- 0.10) | 
+        syllable_dur |      0.24 (+/- 0.09) |      0.14 (+/- 0.06) |      0.16 (+/- 0.01) | 
+   syllable_dur_list |      0.33 (+/- 0.12) |      0.25 (+/- 0.15) |      0.16 (+/- 0.01) | 
+Feature: rmse | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.37 (+/- 0.04)
+[ 0.36526292  0.38237336  0.39311063  0.3899861   0.33609093]
+GaussianNB - f1_weighted: 0.32 (+/- 0.06)
+[ 0.30149206  0.29083089  0.35531572  0.35395599  0.28727693]
+SVM - f1_weighted: 0.18 (+/- 0.04)
+[ 0.17360804  0.17416565  0.16356164  0.17521349  0.21844253]
+Feature: mfcc | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.40 (+/- 0.12)
+[ 0.35583979  0.35614593  0.34629488  0.46361488  0.48452965]
+GaussianNB - f1_weighted: 0.27 (+/- 0.07)
+[ 0.33280834  0.23093997  0.27912702  0.266572    0.24444331]
+SVM - f1_weighted: 0.20 (+/- 0.07)
+[ 0.17665131  0.17791643  0.2623027   0.17999965  0.20509117]
+Feature: spec_band | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.39 (+/- 0.04)
+[ 0.38626535  0.37474221  0.40540963  0.35450889  0.41412276]
+GaussianNB - f1_weighted: 0.27 (+/- 0.06)
+[ 0.25074061  0.29422697  0.29232293  0.22383763  0.30671295]
+SVM - f1_weighted: 0.25 (+/- 0.04)
+[ 0.24243268  0.25415781  0.2567205   0.22816308  0.29058562]
+Feature: spec_cent | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.49 (+/- 0.05)
+[ 0.46566609  0.53192256  0.49638196  0.46796288  0.48105184]
+GaussianNB - f1_weighted: 0.41 (+/- 0.04)
+[ 0.42007218  0.40622325  0.43857343  0.37776321  0.42762477]
+SVM - f1_weighted: 0.42 (+/- 0.05)
+[ 0.38475179  0.4494029   0.44174689  0.4070759   0.42082973]
+Feature: spec_roll | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.48 (+/- 0.05)
+[ 0.52473597  0.4666732   0.44708241  0.47132747  0.465265  ]
+GaussianNB - f1_weighted: 0.38 (+/- 0.03)
+[ 0.36159183  0.38314895  0.3859285   0.37617352  0.40822526]
+SVM - f1_weighted: 0.38 (+/- 0.05)
+[ 0.35802593  0.35666794  0.41572305  0.39682092  0.39240592]
+Feature: syllable_dur | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.22 (+/- 0.04)
+[ 0.22978996  0.20012558  0.19785618  0.25382995  0.23215044]
+GaussianNB - f1_weighted: 0.15 (+/- 0.03)
+[ 0.16089294  0.11604621  0.15154735  0.157006    0.1554755 ]
+SVM - f1_weighted: 0.13 (+/- 0.02)
+[ 0.14466974  0.12291439  0.11247166  0.11806757  0.13205892]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 603
+kNN - f1_weighted: 0.27 (+/- 0.06)
+[ 0.22985873  0.31388236  0.24187184  0.26263478  0.29634183]
+GaussianNB - f1_weighted: 0.15 (+/- 0.09)
+[ 0.136736    0.14714082  0.20145086  0.07643261  0.18615461]
+SVM - f1_weighted: 0.13 (+/- 0.03)
+[ 0.12066857  0.14698147  0.1122807   0.14689266  0.13045249]
+Número de espécies: 8 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.37 (+/- 0.04) |      0.32 (+/- 0.06) |      0.18 (+/- 0.04) | 
+                mfcc |      0.40 (+/- 0.12) |      0.27 (+/- 0.07) |      0.20 (+/- 0.07) | 
+           spec_band |      0.39 (+/- 0.04) |      0.27 (+/- 0.06) |      0.25 (+/- 0.04) | 
+           spec_cent |      0.49 (+/- 0.05) |      0.41 (+/- 0.04) |      0.42 (+/- 0.05) | 
+           spec_roll |      0.48 (+/- 0.05) |      0.38 (+/- 0.03) |      0.38 (+/- 0.05) | 
+        syllable_dur |      0.22 (+/- 0.04) |      0.15 (+/- 0.03) |      0.13 (+/- 0.02) | 
+   syllable_dur_list |      0.27 (+/- 0.06) |      0.15 (+/- 0.09) |      0.13 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.31 (+/- 0.02)
+[ 0.30668699  0.2978002   0.3278817   0.31984284  0.31861318]
+GaussianNB - f1_weighted: 0.19 (+/- 0.05)
+[ 0.15324563  0.18730605  0.21259662  0.18473627  0.21722783]
+SVM - f1_weighted: 0.09 (+/- 0.01)
+[ 0.08901747  0.09006473  0.09460458  0.09611919  0.09436069]
+Feature: mfcc | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.32 (+/- 0.06)
+[ 0.29769226  0.35429465  0.33453968  0.33603168  0.27894506]
+GaussianNB - f1_weighted: 0.22 (+/- 0.02)
+[ 0.20894588  0.23574836  0.2068599   0.21029228  0.21643859]
+SVM - f1_weighted: 0.19 (+/- 0.04)
+[ 0.19809194  0.20547424  0.14530901  0.18898756  0.18908515]
+Feature: spec_band | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.28 (+/- 0.04)
+[ 0.28451808  0.31465559  0.25332597  0.29600029  0.26832708]
+GaussianNB - f1_weighted: 0.17 (+/- 0.07)
+[ 0.1797689   0.17606541  0.11641257  0.16811754  0.21844035]
+SVM - f1_weighted: 0.21 (+/- 0.04)
+[ 0.19943978  0.19614992  0.24512726  0.20630065  0.19015799]
+Feature: spec_cent | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.30 (+/- 0.01)
+[ 0.29997877  0.30908912  0.30134669  0.31019245  0.3009777 ]
+GaussianNB - f1_weighted: 0.19 (+/- 0.04)
+[ 0.17184789  0.16871828  0.21495665  0.19596426  0.20349646]
+SVM - f1_weighted: 0.18 (+/- 0.05)
+[ 0.20117445  0.13099066  0.20017151  0.20083624  0.18611005]
+Feature: spec_roll | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.33 (+/- 0.03)
+[ 0.33517161  0.33612219  0.33999935  0.29709644  0.33730536]
+GaussianNB - f1_weighted: 0.20 (+/- 0.05)
+[ 0.18925643  0.19946078  0.17685518  0.18012122  0.24988741]
+SVM - f1_weighted: 0.17 (+/- 0.05)
+[ 0.14895122  0.19264674  0.14126109  0.20692281  0.17195769]
+Feature: syllable_dur | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.16 (+/- 0.02)
+[ 0.16106635  0.15287263  0.15145241  0.17727489  0.16067367]
+GaussianNB - f1_weighted: 0.08 (+/- 0.04)
+[ 0.03947715  0.08144979  0.0976468   0.09932418  0.08718985]
+SVM - f1_weighted: 0.10 (+/- 0.01)
+[ 0.08859358  0.09983523  0.10487412  0.09564802  0.09388889]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 833
+kNN - f1_weighted: 0.29 (+/- 0.04)
+[ 0.30444249  0.31769256  0.29378964  0.25137545  0.29906057]
+GaussianNB - f1_weighted: 0.18 (+/- 0.04)
+[ 0.18228519  0.15426235  0.18077611  0.1928057   0.20806087]
+SVM - f1_weighted: 0.14 (+/- 0.03)
+[ 0.14863823  0.12453951  0.1193627   0.15748384  0.12692382]
+Número de espécies: 12 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.31 (+/- 0.02) |      0.19 (+/- 0.05) |      0.09 (+/- 0.01) | 
+                mfcc |      0.32 (+/- 0.06) |      0.22 (+/- 0.02) |      0.19 (+/- 0.04) | 
+           spec_band |      0.28 (+/- 0.04) |      0.17 (+/- 0.07) |      0.21 (+/- 0.04) | 
+           spec_cent |      0.30 (+/- 0.01) |      0.19 (+/- 0.04) |      0.18 (+/- 0.05) | 
+           spec_roll |      0.33 (+/- 0.03) |      0.20 (+/- 0.05) |      0.17 (+/- 0.05) | 
+        syllable_dur |      0.16 (+/- 0.02) |      0.08 (+/- 0.04) |      0.10 (+/- 0.01) | 
+   syllable_dur_list |      0.29 (+/- 0.04) |      0.18 (+/- 0.04) |      0.14 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.50 (+/- 0.09)
+[ 0.42143821  0.55735294  0.5         0.50179487  0.50558214]
+GaussianNB - f1_weighted: 0.35 (+/- 0.16)
+[ 0.30569431  0.37470356  0.21558442  0.45177033  0.39292563]
+SVM - f1_weighted: 0.27 (+/- 0.23)
+[ 0.21018062  0.22857143  0.49644269  0.22857143  0.19838057]
+Feature: mfcc | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.43 (+/- 0.15)
+[ 0.41798942  0.31176471  0.50961039  0.39166667  0.49886955]
+GaussianNB - f1_weighted: 0.63 (+/- 0.15)
+[ 0.57630325  0.73714286  0.66262443  0.63290043  0.52447552]
+SVM - f1_weighted: 0.50 (+/- 0.10)
+[ 0.56402116  0.56929825  0.45        0.45716783  0.47953216]
+Feature: spec_band | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.49 (+/- 0.11)
+[ 0.53897954  0.58        0.46323529  0.42967033  0.44963086]
+GaussianNB - f1_weighted: 0.50 (+/- 0.17)
+[ 0.45050748  0.57428571  0.38461538  0.61929825  0.4962406 ]
+SVM - f1_weighted: 0.54 (+/- 0.16)
+[ 0.60865801  0.52428571  0.38916084  0.57714286  0.57894737]
+Feature: spec_cent | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.68 (+/- 0.08)
+[ 0.75808505  0.67692308  0.67282913  0.63615385  0.6742731 ]
+GaussianNB - f1_weighted: 0.69 (+/- 0.18)
+[ 0.76707606  0.7459893   0.77        0.57791855  0.57368421]
+SVM - f1_weighted: 0.78 (+/- 0.09)
+[ 0.75982263  0.79340659  0.8         0.84865801  0.71674641]
+Feature: spec_roll | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.53 (+/- 0.18)
+[ 0.39545455  0.62997199  0.59880952  0.43956044  0.56710526]
+GaussianNB - f1_weighted: 0.63 (+/- 0.23)
+[ 0.52918193  0.69312217  0.57221719  0.525       0.82439271]
+SVM - f1_weighted: 0.65 (+/- 0.15)
+[ 0.51984127  0.65        0.74725275  0.68126984  0.66087164]
+Feature: syllable_dur | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.37 (+/- 0.20)
+[ 0.45004177  0.34        0.21916667  0.5020979   0.31706539]
+GaussianNB - f1_weighted: 0.20 (+/- 0.17)
+[ 0.24019608  0.32207792  0.1         0.1         0.21291866]
+SVM - f1_weighted: 0.21 (+/- 0.06)
+[ 0.21018062  0.22857143  0.22857143  0.22857143  0.15350877]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 100
+kNN - f1_weighted: 0.51 (+/- 0.18)
+[ 0.56507937  0.49898785  0.60347594  0.34395604  0.52631579]
+GaussianNB - f1_weighted: 0.21 (+/- 0.13)
+[ 0.14024071  0.29038462  0.29038462  0.17391304  0.17684211]
+SVM - f1_weighted: 0.21 (+/- 0.03)
+[ 0.21768707  0.22857143  0.22857143  0.18461538  0.19838057]
+Número de espécies: 3 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.09) |      0.35 (+/- 0.16) |      0.27 (+/- 0.23) | 
+                mfcc |      0.43 (+/- 0.15) |      0.63 (+/- 0.15) |      0.50 (+/- 0.10) | 
+           spec_band |      0.49 (+/- 0.11) |      0.50 (+/- 0.17) |      0.54 (+/- 0.16) | 
+           spec_cent |      0.68 (+/- 0.08) |      0.69 (+/- 0.18) |      0.78 (+/- 0.09) | 
+           spec_roll |      0.53 (+/- 0.18) |      0.63 (+/- 0.23) |      0.65 (+/- 0.15) | 
+        syllable_dur |      0.37 (+/- 0.20) |      0.20 (+/- 0.17) |      0.21 (+/- 0.06) | 
+   syllable_dur_list |      0.51 (+/- 0.18) |      0.21 (+/- 0.13) |      0.21 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.37 (+/- 0.04)
+[ 0.34015961  0.39086187  0.39603814  0.36903968  0.35986241]
+GaussianNB - f1_weighted: 0.29 (+/- 0.05)
+[ 0.28535963  0.2439617   0.29826929  0.27797483  0.32804427]
+SVM - f1_weighted: 0.19 (+/- 0.01)
+[ 0.18194696  0.18525641  0.18244262  0.1893913   0.19301666]
+Feature: mfcc | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.38 (+/- 0.05)
+[ 0.38410438  0.40646183  0.38589454  0.38090896  0.33472769]
+GaussianNB - f1_weighted: 0.35 (+/- 0.09)
+[ 0.30363538  0.39517804  0.34365413  0.30455167  0.41872297]
+SVM - f1_weighted: 0.32 (+/- 0.06)
+[ 0.3040356   0.3326111   0.3643252   0.27529825  0.32311379]
+Feature: spec_band | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.32 (+/- 0.09)
+[ 0.34548248  0.28634259  0.38478962  0.31398648  0.25936276]
+GaussianNB - f1_weighted: 0.23 (+/- 0.02)
+[ 0.23142638  0.23774388  0.21389569  0.2408923   0.23307219]
+SVM - f1_weighted: 0.28 (+/- 0.04)
+[ 0.29378319  0.28330046  0.27948862  0.23700993  0.30134746]
+Feature: spec_cent | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.32 (+/- 0.10)
+[ 0.24184606  0.33626945  0.39044544  0.32605884  0.32059966]
+GaussianNB - f1_weighted: 0.28 (+/- 0.04)
+[ 0.24265238  0.28923796  0.29701219  0.29180693  0.2850483 ]
+SVM - f1_weighted: 0.30 (+/- 0.08)
+[ 0.30844788  0.35529663  0.31634368  0.23776948  0.28876688]
+Feature: spec_roll | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.36 (+/- 0.07)
+[ 0.3744559   0.35711463  0.33340821  0.32905097  0.42761566]
+GaussianNB - f1_weighted: 0.26 (+/- 0.08)
+[ 0.20629103  0.27850592  0.23698451  0.3282762   0.25034694]
+SVM - f1_weighted: 0.28 (+/- 0.06)
+[ 0.25724856  0.24005884  0.27871767  0.32572146  0.27880056]
+Feature: syllable_dur | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.20 (+/- 0.04)
+[ 0.17750426  0.2063075   0.20264803  0.17293927  0.2275163 ]
+GaussianNB - f1_weighted: 0.13 (+/- 0.04)
+[ 0.11134021  0.16610243  0.11969229  0.11279296  0.14464075]
+SVM - f1_weighted: 0.19 (+/- 0.01)
+[ 0.18194696  0.18525641  0.18244262  0.1893913   0.19301666]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 470
+kNN - f1_weighted: 0.29 (+/- 0.08)
+[ 0.27979306  0.2299725   0.28641463  0.30332229  0.35369246]
+GaussianNB - f1_weighted: 0.10 (+/- 0.13)
+[ 0.2093509   0.06744824  0.14063011  0.05882663  0.04063378]
+SVM - f1_weighted: 0.19 (+/- 0.01)
+[ 0.18194696  0.18525641  0.18244262  0.1893913   0.19301666]
+Número de espécies: 8 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.37 (+/- 0.04) |      0.29 (+/- 0.05) |      0.19 (+/- 0.01) | 
+                mfcc |      0.38 (+/- 0.05) |      0.35 (+/- 0.09) |      0.32 (+/- 0.06) | 
+           spec_band |      0.32 (+/- 0.09) |      0.23 (+/- 0.02) |      0.28 (+/- 0.04) | 
+           spec_cent |      0.32 (+/- 0.10) |      0.28 (+/- 0.04) |      0.30 (+/- 0.08) | 
+           spec_roll |      0.36 (+/- 0.07) |      0.26 (+/- 0.08) |      0.28 (+/- 0.06) | 
+        syllable_dur |      0.20 (+/- 0.04) |      0.13 (+/- 0.04) |      0.19 (+/- 0.01) | 
+   syllable_dur_list |      0.29 (+/- 0.08) |      0.10 (+/- 0.13) |      0.19 (+/- 0.01) | 
+Feature: rmse | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.50 (+/- 0.09)
+[ 0.5707601   0.52981409  0.46054442  0.44758976  0.50662617]
+GaussianNB - f1_weighted: 0.36 (+/- 0.14)
+[ 0.39736596  0.39416759  0.28347204  0.28054972  0.45149732]
+SVM - f1_weighted: 0.39 (+/- 0.05)
+[ 0.3872033   0.37114715  0.38496891  0.35443284  0.43405128]
+Feature: mfcc | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.65 (+/- 0.04)
+[ 0.64505166  0.69844137  0.64664902  0.63589524  0.64895096]
+GaussianNB - f1_weighted: 0.51 (+/- 0.09)
+[ 0.49637152  0.44854786  0.4697826   0.53733173  0.57876357]
+SVM - f1_weighted: 0.51 (+/- 0.09)
+[ 0.53157051  0.46005698  0.49885614  0.48349206  0.59597137]
+Feature: spec_band | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.62 (+/- 0.07)
+[ 0.67615266  0.57009863  0.61600628  0.62474512  0.61082612]
+GaussianNB - f1_weighted: 0.47 (+/- 0.08)
+[ 0.5075695   0.40428329  0.46283016  0.52156145  0.47081402]
+SVM - f1_weighted: 0.50 (+/- 0.06)
+[ 0.55325404  0.47478538  0.46987176  0.49128427  0.51478788]
+Feature: spec_cent | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.65 (+/- 0.10)
+[ 0.65422186  0.66777372  0.65349307  0.72147667  0.57108482]
+GaussianNB - f1_weighted: 0.54 (+/- 0.12)
+[ 0.53221449  0.62844174  0.47475094  0.58250406  0.4793566 ]
+SVM - f1_weighted: 0.59 (+/- 0.10)
+[ 0.58786984  0.53681982  0.56198072  0.68253436  0.55720214]
+Feature: spec_roll | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.68 (+/- 0.09)
+[ 0.60888947  0.75272299  0.6835646   0.67344298  0.6750919 ]
+GaussianNB - f1_weighted: 0.58 (+/- 0.07)
+[ 0.59167636  0.54652548  0.58648934  0.55075158  0.6421054 ]
+SVM - f1_weighted: 0.61 (+/- 0.13)
+[ 0.56683379  0.60569811  0.59103661  0.57104892  0.73687057]
+Feature: syllable_dur | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.35 (+/- 0.06)
+[ 0.37728267  0.38995492  0.31269746  0.33318458  0.33887048]
+GaussianNB - f1_weighted: 0.15 (+/- 0.04)
+[ 0.17876881  0.12378833  0.12523051  0.14029651  0.15724662]
+SVM - f1_weighted: 0.21 (+/- 0.02)
+[ 0.19126878  0.2190843   0.2190843   0.21644144  0.21644144]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 409
+kNN - f1_weighted: 0.37 (+/- 0.08)
+[ 0.43535641  0.35606341  0.34869304  0.32698113  0.38782925]
+GaussianNB - f1_weighted: 0.31 (+/- 0.05)
+[ 0.35946734  0.31254826  0.30423101  0.27536176  0.31547619]
+SVM - f1_weighted: 0.22 (+/- 0.03)
+[ 0.20593263  0.2190843   0.2190843   0.25441485  0.21644144]
+Número de espécies: 5 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.09) |      0.36 (+/- 0.14) |      0.39 (+/- 0.05) | 
+                mfcc |      0.65 (+/- 0.04) |      0.51 (+/- 0.09) |      0.51 (+/- 0.09) | 
+           spec_band |      0.62 (+/- 0.07) |      0.47 (+/- 0.08) |      0.50 (+/- 0.06) | 
+           spec_cent |      0.65 (+/- 0.10) |      0.54 (+/- 0.12) |      0.59 (+/- 0.10) | 
+           spec_roll |      0.68 (+/- 0.09) |      0.58 (+/- 0.07) |      0.61 (+/- 0.13) | 
+        syllable_dur |      0.35 (+/- 0.06) |      0.15 (+/- 0.04) |      0.21 (+/- 0.02) | 
+   syllable_dur_list |      0.37 (+/- 0.08) |      0.31 (+/- 0.05) |      0.22 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.56 (+/- 0.11)
+[ 0.56003522  0.65356101  0.5508377   0.48888367  0.55438596]
+GaussianNB - f1_weighted: 0.53 (+/- 0.04)
+[ 0.52580402  0.56521241  0.54317852  0.50678733  0.51976717]
+SVM - f1_weighted: 0.51 (+/- 0.04)
+[ 0.51865561  0.53970331  0.49575631  0.47913625  0.50414815]
+Feature: mfcc | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.56 (+/- 0.08)
+[ 0.52010782  0.51637324  0.59764525  0.61115159  0.54313626]
+GaussianNB - f1_weighted: 0.47 (+/- 0.07)
+[ 0.47877352  0.43961267  0.41377299  0.51025641  0.49183908]
+SVM - f1_weighted: 0.44 (+/- 0.05)
+[ 0.46423115  0.39208233  0.45445762  0.44451617  0.43387235]
+Feature: spec_band | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.54 (+/- 0.08)
+[ 0.53303641  0.45686309  0.56981492  0.57274419  0.54533873]
+GaussianNB - f1_weighted: 0.43 (+/- 0.09)
+[ 0.44318329  0.34080388  0.45463733  0.47274902  0.41694999]
+SVM - f1_weighted: 0.48 (+/- 0.05)
+[ 0.49047622  0.43814668  0.46402308  0.50780037  0.4774769 ]
+Feature: spec_cent | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.63 (+/- 0.03)
+[ 0.64654389  0.60562951  0.62711246  0.63874864  0.62638035]
+GaussianNB - f1_weighted: 0.51 (+/- 0.05)
+[ 0.46911994  0.51968252  0.53319933  0.53386709  0.4824071 ]
+SVM - f1_weighted: 0.55 (+/- 0.14)
+[ 0.61670579  0.55390256  0.55522946  0.62078764  0.42766276]
+Feature: spec_roll | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.66 (+/- 0.06)
+[ 0.66173257  0.63770715  0.62027177  0.69795918  0.69848485]
+GaussianNB - f1_weighted: 0.53 (+/- 0.05)
+[ 0.47615146  0.52590262  0.55619452  0.54062535  0.53840122]
+SVM - f1_weighted: 0.57 (+/- 0.06)
+[ 0.61569885  0.53418764  0.55024226  0.5437317   0.5961039 ]
+Feature: syllable_dur | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.48 (+/- 0.05)
+[ 0.5043176   0.51594869  0.44271686  0.49006266  0.46008181]
+GaussianNB - f1_weighted: 0.35 (+/- 0.13)
+[ 0.40921659  0.36898751  0.36025327  0.23221278  0.39809117]
+SVM - f1_weighted: 0.31 (+/- 0.07)
+[ 0.24951267  0.31292777  0.31250251  0.33528721  0.34213461]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 465
+kNN - f1_weighted: 0.54 (+/- 0.09)
+[ 0.55441568  0.52256963  0.51942885  0.47575203  0.61136033]
+GaussianNB - f1_weighted: 0.43 (+/- 0.08)
+[ 0.42897212  0.41793299  0.36872445  0.45995122  0.48853184]
+SVM - f1_weighted: 0.28 (+/- 0.03)
+[ 0.29455828  0.27307898  0.25595905  0.27472527  0.28559028]
+Número de espécies: 5 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.56 (+/- 0.11) |      0.53 (+/- 0.04) |      0.51 (+/- 0.04) | 
+                mfcc |      0.56 (+/- 0.08) |      0.47 (+/- 0.07) |      0.44 (+/- 0.05) | 
+           spec_band |      0.54 (+/- 0.08) |      0.43 (+/- 0.09) |      0.48 (+/- 0.05) | 
+           spec_cent |      0.63 (+/- 0.03) |      0.51 (+/- 0.05) |      0.55 (+/- 0.14) | 
+           spec_roll |      0.66 (+/- 0.06) |      0.53 (+/- 0.05) |      0.57 (+/- 0.06) | 
+        syllable_dur |      0.48 (+/- 0.05) |      0.35 (+/- 0.13) |      0.31 (+/- 0.07) | 
+   syllable_dur_list |      0.54 (+/- 0.09) |      0.43 (+/- 0.08) |      0.28 (+/- 0.03) | 
+Feature: rmse | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.31 (+/- 0.04)
+[ 0.312645    0.32670428  0.26895391  0.32938919  0.31628376]
+GaussianNB - f1_weighted: 0.21 (+/- 0.04)
+[ 0.18238388  0.24037315  0.19052194  0.22864843  0.20470377]
+SVM - f1_weighted: 0.10 (+/- 0.02)
+[ 0.08942868  0.10169503  0.09633524  0.10688312  0.11505273]
+Feature: mfcc | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.38 (+/- 0.04)
+[ 0.35205072  0.37314983  0.41265373  0.37058953  0.3960743 ]
+GaussianNB - f1_weighted: 0.22 (+/- 0.05)
+[ 0.18277259  0.23266053  0.23741646  0.25945073  0.20724458]
+SVM - f1_weighted: 0.16 (+/- 0.04)
+[ 0.16874683  0.14365794  0.17165085  0.13035558  0.17446464]
+Feature: spec_band | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.32 (+/- 0.04)
+[ 0.34204145  0.32537513  0.2957118   0.29424476  0.32107518]
+GaussianNB - f1_weighted: 0.17 (+/- 0.02)
+[ 0.18417346  0.17500125  0.16566494  0.1808613   0.15089151]
+SVM - f1_weighted: 0.19 (+/- 0.03)
+[ 0.18155278  0.20097504  0.19238675  0.20230295  0.1620588 ]
+Feature: spec_cent | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.40 (+/- 0.02)
+[ 0.38691119  0.38966582  0.3903625   0.4119014   0.40257751]
+GaussianNB - f1_weighted: 0.24 (+/- 0.03)
+[ 0.24391268  0.26432697  0.22429424  0.25114936  0.22024527]
+SVM - f1_weighted: 0.30 (+/- 0.09)
+[ 0.36337946  0.23718878  0.27612301  0.33761967  0.2794304 ]
+Feature: spec_roll | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.43 (+/- 0.08)
+[ 0.43840909  0.38937676  0.4979638   0.40724017  0.41323777]
+GaussianNB - f1_weighted: 0.23 (+/- 0.09)
+[ 0.18663354  0.20427618  0.24522041  0.20094155  0.31061388]
+SVM - f1_weighted: 0.26 (+/- 0.05)
+[ 0.27263659  0.268188    0.24759148  0.29357545  0.22022739]
+Feature: syllable_dur | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.16 (+/- 0.04)
+[ 0.16497754  0.1969657   0.14186949  0.16682482  0.14614273]
+GaussianNB - f1_weighted: 0.06 (+/- 0.04)
+[ 0.04391681  0.04101852  0.09013168  0.07629576  0.06636398]
+SVM - f1_weighted: 0.08 (+/- 0.01)
+[ 0.09216073  0.07886558  0.08141209  0.07322654  0.07593904]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 769
+kNN - f1_weighted: 0.22 (+/- 0.03)
+[ 0.22122097  0.20157796  0.22995513  0.23768358  0.19953639]
+GaussianNB - f1_weighted: 0.08 (+/- 0.03)
+[ 0.09605869  0.05586895  0.09038709  0.0815363   0.06665168]
+SVM - f1_weighted: 0.08 (+/- 0.01)
+[ 0.07880931  0.07997558  0.07149839  0.07322654  0.07678752]
+Número de espécies: 12 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.31 (+/- 0.04) |      0.21 (+/- 0.04) |      0.10 (+/- 0.02) | 
+                mfcc |      0.38 (+/- 0.04) |      0.22 (+/- 0.05) |      0.16 (+/- 0.04) | 
+           spec_band |      0.32 (+/- 0.04) |      0.17 (+/- 0.02) |      0.19 (+/- 0.03) | 
+           spec_cent |      0.40 (+/- 0.02) |      0.24 (+/- 0.03) |      0.30 (+/- 0.09) | 
+           spec_roll |      0.43 (+/- 0.08) |      0.23 (+/- 0.09) |      0.26 (+/- 0.05) | 
+        syllable_dur |      0.16 (+/- 0.04) |      0.06 (+/- 0.04) |      0.08 (+/- 0.01) | 
+   syllable_dur_list |      0.22 (+/- 0.03) |      0.08 (+/- 0.03) |      0.08 (+/- 0.01) | 
+Feature: rmse | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.50 (+/- 0.06)
+[ 0.48478702  0.44565826  0.53679137  0.51149425  0.49889465]
+GaussianNB - f1_weighted: 0.45 (+/- 0.16)
+[ 0.36781609  0.35310635  0.56758242  0.50319863  0.46134759]
+SVM - f1_weighted: 0.32 (+/- 0.03)
+[ 0.31435445  0.29442509  0.33333333  0.33333333  0.33333333]
+Feature: mfcc | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.57 (+/- 0.06)
+[ 0.56475096  0.62619048  0.54773756  0.54757958  0.57692308]
+GaussianNB - f1_weighted: 0.50 (+/- 0.10)
+[ 0.51866448  0.57770563  0.46876457  0.50868486  0.43076923]
+SVM - f1_weighted: 0.51 (+/- 0.11)
+[ 0.56993464  0.55974026  0.45759369  0.52564103  0.42766608]
+Feature: spec_band | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.52 (+/- 0.22)
+[ 0.60098522  0.45194207  0.42144522  0.44117421  0.69980276]
+GaussianNB - f1_weighted: 0.49 (+/- 0.09)
+[ 0.47000869  0.44718117  0.46002024  0.49230769  0.57073696]
+SVM - f1_weighted: 0.53 (+/- 0.11)
+[ 0.43088617  0.52180451  0.58189349  0.57692308  0.55944056]
+Feature: spec_cent | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.44 (+/- 0.05)
+[ 0.45217663  0.47857143  0.43085513  0.40542088  0.4464766 ]
+GaussianNB - f1_weighted: 0.41 (+/- 0.24)
+[ 0.60498084  0.36681548  0.38717949  0.23529412  0.43176179]
+SVM - f1_weighted: 0.43 (+/- 0.13)
+[ 0.50290093  0.37344913  0.47100947  0.32352941  0.45913462]
+Feature: spec_roll | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.51 (+/- 0.10)
+[ 0.53065899  0.52836572  0.41945181  0.48687424  0.56904944]
+GaussianNB - f1_weighted: 0.48 (+/- 0.15)
+[ 0.57779244  0.35600606  0.46794872  0.51832579  0.46311319]
+SVM - f1_weighted: 0.45 (+/- 0.06)
+[ 0.47586207  0.44480519  0.39663462  0.48736558  0.45862471]
+Feature: syllable_dur | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.44 (+/- 0.13)
+[ 0.4941036   0.35391705  0.44725275  0.38415338  0.53405853]
+GaussianNB - f1_weighted: 0.28 (+/- 0.10)
+[ 0.19655172  0.29442509  0.33333333  0.31578947  0.2520523 ]
+SVM - f1_weighted: 0.32 (+/- 0.03)
+[ 0.31435445  0.29442509  0.33333333  0.33333333  0.33333333]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 135
+kNN - f1_weighted: 0.48 (+/- 0.11)
+[ 0.56679728  0.51450216  0.41675632  0.49254876  0.42307692]
+GaussianNB - f1_weighted: 0.18 (+/- 0.20)
+[ 0.37274885  0.19693878  0.11778846  0.10096154  0.11421911]
+SVM - f1_weighted: 0.32 (+/- 0.04)
+[ 0.29885057  0.29442509  0.33333333  0.33333333  0.33333333]
+Número de espécies: 3 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.06) |      0.45 (+/- 0.16) |      0.32 (+/- 0.03) | 
+                mfcc |      0.57 (+/- 0.06) |      0.50 (+/- 0.10) |      0.51 (+/- 0.11) | 
+           spec_band |      0.52 (+/- 0.22) |      0.49 (+/- 0.09) |      0.53 (+/- 0.11) | 
+           spec_cent |      0.44 (+/- 0.05) |      0.41 (+/- 0.24) |      0.43 (+/- 0.13) | 
+           spec_roll |      0.51 (+/- 0.10) |      0.48 (+/- 0.15) |      0.45 (+/- 0.06) | 
+        syllable_dur |      0.44 (+/- 0.13) |      0.28 (+/- 0.10) |      0.32 (+/- 0.03) | 
+   syllable_dur_list |      0.48 (+/- 0.11) |      0.18 (+/- 0.20) |      0.32 (+/- 0.04) | 
+Feature: rmse | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.39 (+/- 0.06)
+[ 0.43516275  0.4051929   0.36292889  0.37879092  0.34443408]
+GaussianNB - f1_weighted: 0.29 (+/- 0.05)
+[ 0.30710183  0.33035617  0.28810512  0.24922292  0.27856524]
+SVM - f1_weighted: 0.25 (+/- 0.05)
+[ 0.28528351  0.26816781  0.24605131  0.21870677  0.24518534]
+Feature: mfcc | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.37 (+/- 0.04)
+[ 0.34306618  0.38717366  0.35375221  0.394       0.37671672]
+GaussianNB - f1_weighted: 0.26 (+/- 0.08)
+[ 0.22585645  0.25007788  0.21978153  0.31842517  0.29547266]
+SVM - f1_weighted: 0.27 (+/- 0.05)
+[ 0.2592147   0.24721063  0.23473958  0.28978932  0.29784978]
+Feature: spec_band | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.35 (+/- 0.10)
+[ 0.37039276  0.25041325  0.40141369  0.35524574  0.37778194]
+GaussianNB - f1_weighted: 0.26 (+/- 0.06)
+[ 0.24337392  0.20425248  0.27821161  0.29620575  0.25426811]
+SVM - f1_weighted: 0.33 (+/- 0.07)
+[ 0.31745541  0.30095535  0.31783207  0.31238859  0.39780128]
+Feature: spec_cent | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.43 (+/- 0.08)
+[ 0.42801882  0.43766404  0.42532242  0.48388588  0.35882662]
+GaussianNB - f1_weighted: 0.35 (+/- 0.08)
+[ 0.36364627  0.32406262  0.34409157  0.42050794  0.30902377]
+SVM - f1_weighted: 0.40 (+/- 0.08)
+[ 0.4282852   0.43671866  0.35963213  0.44490478  0.35349572]
+Feature: spec_roll | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.48 (+/- 0.07)
+[ 0.45613106  0.43809812  0.5278612   0.47422544  0.51274955]
+GaussianNB - f1_weighted: 0.37 (+/- 0.11)
+[ 0.33172032  0.29652569  0.35834046  0.42491074  0.4364862 ]
+SVM - f1_weighted: 0.43 (+/- 0.06)
+[ 0.40754938  0.41914998  0.39979518  0.48022857  0.44282744]
+Feature: syllable_dur | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.24 (+/- 0.02)
+[ 0.24651348  0.26359742  0.24570994  0.23497034  0.23034816]
+GaussianNB - f1_weighted: 0.13 (+/- 0.13)
+[ 0.06398245  0.18251832  0.22618343  0.09593549  0.08171474]
+SVM - f1_weighted: 0.16 (+/- 0.04)
+[ 0.18845155  0.14246449  0.14054054  0.15015432  0.16416158]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 636
+kNN - f1_weighted: 0.30 (+/- 0.06)
+[ 0.28999009  0.25770614  0.35118003  0.31326498  0.30303213]
+GaussianNB - f1_weighted: 0.15 (+/- 0.06)
+[ 0.15515353  0.19734602  0.14327282  0.13259592  0.10893425]
+SVM - f1_weighted: 0.15 (+/- 0.05)
+[ 0.12705831  0.15144839  0.11805556  0.17667836  0.17767509]
+Número de espécies: 8 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.39 (+/- 0.06) |      0.29 (+/- 0.05) |      0.25 (+/- 0.05) | 
+                mfcc |      0.37 (+/- 0.04) |      0.26 (+/- 0.08) |      0.27 (+/- 0.05) | 
+           spec_band |      0.35 (+/- 0.10) |      0.26 (+/- 0.06) |      0.33 (+/- 0.07) | 
+           spec_cent |      0.43 (+/- 0.08) |      0.35 (+/- 0.08) |      0.40 (+/- 0.08) | 
+           spec_roll |      0.48 (+/- 0.07) |      0.37 (+/- 0.11) |      0.43 (+/- 0.06) | 
+        syllable_dur |      0.24 (+/- 0.02) |      0.13 (+/- 0.13) |      0.16 (+/- 0.04) | 
+   syllable_dur_list |      0.30 (+/- 0.06) |      0.15 (+/- 0.06) |      0.15 (+/- 0.05) | 
+Feature: rmse | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.31 (+/- 0.04)
+[ 0.32804438  0.32579166  0.27758946  0.30353717  0.30824266]
+GaussianNB - f1_weighted: 0.27 (+/- 0.03)
+[ 0.27793799  0.26115185  0.25720899  0.24841769  0.28518003]
+SVM - f1_weighted: 0.17 (+/- 0.02)
+[ 0.17511972  0.17364759  0.19073306  0.16595401  0.1670368 ]
+Feature: mfcc | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.36 (+/- 0.04)
+[ 0.34579513  0.33153556  0.37344801  0.39241044  0.3533746 ]
+GaussianNB - f1_weighted: 0.26 (+/- 0.04)
+[ 0.29984204  0.25293849  0.27245113  0.23844522  0.25699885]
+SVM - f1_weighted: 0.23 (+/- 0.05)
+[ 0.23511161  0.23342088  0.23097702  0.18820616  0.27495717]
+Feature: spec_band | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.32 (+/- 0.05)
+[ 0.2924348   0.29480521  0.34653723  0.35142788  0.32019055]
+GaussianNB - f1_weighted: 0.21 (+/- 0.04)
+[ 0.17531861  0.21290296  0.20621231  0.23523701  0.20900585]
+SVM - f1_weighted: 0.25 (+/- 0.02)
+[ 0.24869237  0.24868872  0.26454526  0.2387939   0.2594615 ]
+Feature: spec_cent | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.41 (+/- 0.03)
+[ 0.38164605  0.40434374  0.42667132  0.41189249  0.41515446]
+GaussianNB - f1_weighted: 0.35 (+/- 0.04)
+[ 0.33573293  0.37143756  0.32001327  0.3625035   0.34367567]
+SVM - f1_weighted: 0.37 (+/- 0.07)
+[ 0.35760695  0.43118964  0.33800534  0.3950008   0.349038  ]
+Feature: spec_roll | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.45 (+/- 0.08)
+[ 0.47008862  0.38617108  0.43165094  0.49907985  0.44326228]
+GaussianNB - f1_weighted: 0.37 (+/- 0.02)
+[ 0.37782522  0.35003112  0.37889305  0.36235098  0.37271265]
+SVM - f1_weighted: 0.34 (+/- 0.02)
+[ 0.35249645  0.33996259  0.34044676  0.35696054  0.3269137 ]
+Feature: syllable_dur | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.19 (+/- 0.03)
+[ 0.16564299  0.2081861   0.17080184  0.19210461  0.20415976]
+GaussianNB - f1_weighted: 0.06 (+/- 0.08)
+[ 0.05012107  0.12949983  0.08173873  0.01678013  0.0464876 ]
+SVM - f1_weighted: 0.09 (+/- 0.01)
+[ 0.08080808  0.08288813  0.08616265  0.08692899  0.08932887]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 691
+kNN - f1_weighted: 0.21 (+/- 0.04)
+[ 0.22345355  0.22766863  0.21692745  0.17135946  0.23464859]
+GaussianNB - f1_weighted: 0.12 (+/- 0.05)
+[ 0.08092355  0.13691579  0.14713598  0.11694563  0.13469353]
+SVM - f1_weighted: 0.09 (+/- 0.01)
+[ 0.08080808  0.08288813  0.08616265  0.08692899  0.08932887]
+Número de espécies: 12 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.31 (+/- 0.04) |      0.27 (+/- 0.03) |      0.17 (+/- 0.02) | 
+                mfcc |      0.36 (+/- 0.04) |      0.26 (+/- 0.04) |      0.23 (+/- 0.05) | 
+           spec_band |      0.32 (+/- 0.05) |      0.21 (+/- 0.04) |      0.25 (+/- 0.02) | 
+           spec_cent |      0.41 (+/- 0.03) |      0.35 (+/- 0.04) |      0.37 (+/- 0.07) | 
+           spec_roll |      0.45 (+/- 0.08) |      0.37 (+/- 0.02) |      0.34 (+/- 0.02) | 
+        syllable_dur |      0.19 (+/- 0.03) |      0.06 (+/- 0.08) |      0.09 (+/- 0.01) | 
+   syllable_dur_list |      0.21 (+/- 0.04) |      0.12 (+/- 0.05) |      0.09 (+/- 0.01) | 
+Feature: rmse | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.28 (+/- 0.18)
+[ 0.43983822  0.30479139  0.19233449  0.19359588  0.25771006]
+GaussianNB - f1_weighted: 0.30 (+/- 0.16)
+[ 0.32342193  0.31833657  0.37694013  0.14737399  0.35643655]
+SVM - f1_weighted: 0.14 (+/- 0.08)
+[ 0.15123781  0.12979592  0.16672474  0.1839163   0.07322654]
+Feature: mfcc | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.34 (+/- 0.19)
+[ 0.48223432  0.35665584  0.29823007  0.1965812   0.36157702]
+GaussianNB - f1_weighted: 0.30 (+/- 0.11)
+[ 0.34963002  0.28679654  0.26271777  0.36189768  0.21805282]
+SVM - f1_weighted: 0.33 (+/- 0.11)
+[ 0.43365449  0.29128683  0.33310775  0.30399013  0.2737278 ]
+Feature: spec_band | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.29 (+/- 0.18)
+[ 0.30465116  0.18627246  0.39329268  0.1786243   0.36989128]
+GaussianNB - f1_weighted: 0.27 (+/- 0.07)
+[ 0.19584521  0.29223856  0.30158652  0.27136031  0.26400938]
+SVM - f1_weighted: 0.26 (+/- 0.09)
+[ 0.24291319  0.28679391  0.24985413  0.18698225  0.31387091]
+Feature: spec_cent | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.35 (+/- 0.12)
+[ 0.46651075  0.35077     0.27781873  0.32174142  0.35447593]
+GaussianNB - f1_weighted: 0.29 (+/- 0.12)
+[ 0.27768312  0.31839827  0.26326113  0.39230769  0.21879699]
+SVM - f1_weighted: 0.25 (+/- 0.13)
+[ 0.32701741  0.24347827  0.19672199  0.32829312  0.17343087]
+Feature: spec_roll | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.38 (+/- 0.07)
+[ 0.41993355  0.35826167  0.41427136  0.33687716  0.35436493]
+GaussianNB - f1_weighted: 0.33 (+/- 0.14)
+[ 0.24088962  0.2904968   0.45764264  0.32794606  0.33530482]
+SVM - f1_weighted: 0.32 (+/- 0.04)
+[ 0.31968522  0.30108582  0.35262658  0.30424837  0.31971104]
+Feature: syllable_dur | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.13 (+/- 0.07)
+[ 0.13860465  0.13604308  0.07085311  0.15002514  0.17282441]
+GaussianNB - f1_weighted: 0.17 (+/- 0.08)
+[ 0.13049619  0.15927036  0.22169448  0.21457061  0.13866245]
+SVM - f1_weighted: 0.14 (+/- 0.18)
+[ 0.09302326  0.07563025  0.32363977  0.08891006  0.1317139 ]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 203
+kNN - f1_weighted: 0.18 (+/- 0.13)
+[ 0.22165805  0.15097349  0.27679701  0.10848126  0.12661798]
+GaussianNB - f1_weighted: 0.18 (+/- 0.13)
+[ 0.29256566  0.18588666  0.16619762  0.13809284  0.09430817]
+SVM - f1_weighted: 0.13 (+/- 0.08)
+[ 0.07245081  0.10591536  0.16762749  0.12017612  0.17263158]
+Número de espécies: 5 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.28 (+/- 0.18) |      0.30 (+/- 0.16) |      0.14 (+/- 0.08) | 
+                mfcc |      0.34 (+/- 0.19) |      0.30 (+/- 0.11) |      0.33 (+/- 0.11) | 
+           spec_band |      0.29 (+/- 0.18) |      0.27 (+/- 0.07) |      0.26 (+/- 0.09) | 
+           spec_cent |      0.35 (+/- 0.12) |      0.29 (+/- 0.12) |      0.25 (+/- 0.13) | 
+           spec_roll |      0.38 (+/- 0.07) |      0.33 (+/- 0.14) |      0.32 (+/- 0.04) | 
+        syllable_dur |      0.13 (+/- 0.07) |      0.17 (+/- 0.08) |      0.14 (+/- 0.18) | 
+   syllable_dur_list |      0.18 (+/- 0.13) |      0.18 (+/- 0.13) |      0.13 (+/- 0.08) | 
+Feature: rmse | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.62 (+/- 0.08)
+[ 0.57779356  0.62793563  0.60575835  0.68994773  0.60790286]
+GaussianNB - f1_weighted: 0.54 (+/- 0.05)
+[ 0.50885417  0.53423598  0.56507295  0.56750916  0.50832041]
+SVM - f1_weighted: 0.31 (+/- 0.01)
+[ 0.31044601  0.29848905  0.30946292  0.30946292  0.32106136]
+Feature: mfcc | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.67 (+/- 0.14)
+[ 0.55424004  0.65566137  0.67135931  0.70484008  0.77148612]
+GaussianNB - f1_weighted: 0.63 (+/- 0.11)
+[ 0.56606754  0.6581466   0.56566332  0.67211243  0.69038282]
+SVM - f1_weighted: 0.59 (+/- 0.06)
+[ 0.61590608  0.59761105  0.58348062  0.53838509  0.62552972]
+Feature: spec_band | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.67 (+/- 0.06)
+[ 0.66494484  0.66204056  0.69565217  0.70652174  0.61633696]
+GaussianNB - f1_weighted: 0.57 (+/- 0.18)
+[ 0.45985061  0.65743064  0.57981803  0.66247987  0.46959742]
+SVM - f1_weighted: 0.55 (+/- 0.05)
+[ 0.51836735  0.53584288  0.57204571  0.57405809  0.57033076]
+Feature: spec_cent | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.67 (+/- 0.06)
+[ 0.69212963  0.68771081  0.64622426  0.63316814  0.70948251]
+GaussianNB - f1_weighted: 0.62 (+/- 0.17)
+[ 0.60594729  0.78150041  0.54919631  0.54331189  0.59863471]
+SVM - f1_weighted: 0.63 (+/- 0.09)
+[ 0.68831699  0.610031    0.55868904  0.64808819  0.63859507]
+Feature: spec_roll | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.61 (+/- 0.13)
+[ 0.5421707   0.55085659  0.5877138   0.70072183  0.68377183]
+GaussianNB - f1_weighted: 0.53 (+/- 0.15)
+[ 0.5138563   0.50124816  0.42052123  0.60767164  0.62571087]
+SVM - f1_weighted: 0.56 (+/- 0.14)
+[ 0.48645833  0.61123973  0.53316249  0.67030753  0.50943847]
+Feature: syllable_dur | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.50 (+/- 0.16)
+[ 0.64472854  0.421513    0.51379259  0.48690217  0.44842629]
+GaussianNB - f1_weighted: 0.31 (+/- 0.32)
+[ 0.04242424  0.27107104  0.50784095  0.42541135  0.31922804]
+SVM - f1_weighted: 0.31 (+/- 0.02)
+[ 0.31488095  0.29848905  0.29980532  0.30946292  0.32106136]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 232
+kNN - f1_weighted: 0.51 (+/- 0.08)
+[ 0.487475    0.52448109  0.45317726  0.51522462  0.56689896]
+GaussianNB - f1_weighted: 0.32 (+/- 0.13)
+[ 0.3542328   0.33361561  0.28985507  0.22224883  0.41960114]
+SVM - f1_weighted: 0.31 (+/- 0.02)
+[ 0.31044601  0.28911139  0.30946292  0.31408177  0.32106136]
+Número de espécies: 3 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Vanellus chilensis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.62 (+/- 0.08) |      0.54 (+/- 0.05) |      0.31 (+/- 0.01) | 
+                mfcc |      0.67 (+/- 0.14) |      0.63 (+/- 0.11) |      0.59 (+/- 0.06) | 
+           spec_band |      0.67 (+/- 0.06) |      0.57 (+/- 0.18) |      0.55 (+/- 0.05) | 
+           spec_cent |      0.67 (+/- 0.06) |      0.62 (+/- 0.17) |      0.63 (+/- 0.09) | 
+           spec_roll |      0.61 (+/- 0.13) |      0.53 (+/- 0.15) |      0.56 (+/- 0.14) | 
+        syllable_dur |      0.50 (+/- 0.16) |      0.31 (+/- 0.32) |      0.31 (+/- 0.02) | 
+   syllable_dur_list |      0.51 (+/- 0.08) |      0.32 (+/- 0.13) |      0.31 (+/- 0.02) | 
+Feature: rmse | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.30 (+/- 0.06)
+[ 0.26499021  0.28593068  0.29278509  0.3581128   0.31771629]
+GaussianNB - f1_weighted: 0.23 (+/- 0.08)
+[ 0.21183084  0.17459293  0.22180923  0.27457415  0.28125   ]
+SVM - f1_weighted: 0.12 (+/- 0.01)
+[ 0.11589085  0.11589085  0.11688312  0.12347561  0.12347561]
+Feature: mfcc | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.36 (+/- 0.04)
+[ 0.35654762  0.32258591  0.3762752   0.36264235  0.3605717 ]
+GaussianNB - f1_weighted: 0.27 (+/- 0.06)
+[ 0.30946696  0.30345405  0.24377104  0.25094326  0.2508909 ]
+SVM - f1_weighted: 0.34 (+/- 0.05)
+[ 0.34813973  0.29072244  0.35160947  0.36956686  0.3510708 ]
+Feature: spec_band | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.27 (+/- 0.04)
+[ 0.2493127   0.26718842  0.3052604   0.2605969   0.25554029]
+GaussianNB - f1_weighted: 0.23 (+/- 0.06)
+[ 0.20600629  0.1897619   0.25400925  0.2536026   0.25416667]
+SVM - f1_weighted: 0.28 (+/- 0.11)
+[ 0.20507326  0.24507453  0.3596628   0.27914187  0.32246109]
+Feature: spec_cent | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.32 (+/- 0.07)
+[ 0.36907145  0.28813694  0.27365967  0.34993989  0.30373478]
+GaussianNB - f1_weighted: 0.29 (+/- 0.06)
+[ 0.33576053  0.26462338  0.26154401  0.31217327  0.29136029]
+SVM - f1_weighted: 0.33 (+/- 0.07)
+[ 0.37993277  0.36314583  0.2755102   0.31457386  0.3411965 ]
+Feature: spec_roll | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.37 (+/- 0.09)
+[ 0.44068336  0.31452072  0.32342994  0.35552342  0.3964943 ]
+GaussianNB - f1_weighted: 0.31 (+/- 0.05)
+[ 0.31240557  0.33040317  0.3028055   0.27521107  0.34423927]
+SVM - f1_weighted: 0.29 (+/- 0.07)
+[ 0.23294308  0.25468927  0.31485808  0.30619518  0.32510902]
+Feature: syllable_dur | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.15 (+/- 0.05)
+[ 0.15614516  0.1259707   0.12778931  0.20027091  0.15972007]
+GaussianNB - f1_weighted: 0.13 (+/- 0.04)
+[ 0.10223819  0.17057839  0.13236915  0.13646562  0.12769666]
+SVM - f1_weighted: 0.12 (+/- 0.01)
+[ 0.11589085  0.11589085  0.11688312  0.12347561  0.11805556]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 334
+kNN - f1_weighted: 0.26 (+/- 0.05)
+[ 0.23315111  0.25190599  0.28241494  0.2438393   0.30222989]
+GaussianNB - f1_weighted: 0.13 (+/- 0.05)
+[ 0.13365092  0.14422435  0.16666832  0.08671875  0.13099404]
+SVM - f1_weighted: 0.15 (+/- 0.02)
+[ 0.15770817  0.14723104  0.14242424  0.17191456  0.14383681]
+Número de espécies: 8 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.30 (+/- 0.06) |      0.23 (+/- 0.08) |      0.12 (+/- 0.01) | 
+                mfcc |      0.36 (+/- 0.04) |      0.27 (+/- 0.06) |      0.34 (+/- 0.05) | 
+           spec_band |      0.27 (+/- 0.04) |      0.23 (+/- 0.06) |      0.28 (+/- 0.11) | 
+           spec_cent |      0.32 (+/- 0.07) |      0.29 (+/- 0.06) |      0.33 (+/- 0.07) | 
+           spec_roll |      0.37 (+/- 0.09) |      0.31 (+/- 0.05) |      0.29 (+/- 0.07) | 
+        syllable_dur |      0.15 (+/- 0.05) |      0.13 (+/- 0.04) |      0.12 (+/- 0.01) | 
+   syllable_dur_list |      0.26 (+/- 0.05) |      0.13 (+/- 0.05) |      0.15 (+/- 0.02) | 
+Feature: rmse | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.35 (+/- 0.07)
+[ 0.36581028  0.40923563  0.32834356  0.34380957  0.31547448]
+GaussianNB - f1_weighted: 0.27 (+/- 0.04)
+[ 0.26633653  0.2531166   0.29797872  0.23962085  0.2905896 ]
+SVM - f1_weighted: 0.15 (+/- 0.01)
+[ 0.15278137  0.16000332  0.14649038  0.13846154  0.14679549]
+Feature: mfcc | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.38 (+/- 0.03)
+[ 0.36720047  0.4103214   0.38762774  0.38164299  0.36443568]
+GaussianNB - f1_weighted: 0.24 (+/- 0.01)
+[ 0.2335962   0.22537062  0.24116481  0.23389769  0.2431808 ]
+SVM - f1_weighted: 0.24 (+/- 0.04)
+[ 0.26121435  0.21960264  0.2666671   0.24293748  0.21107807]
+Feature: spec_band | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.38 (+/- 0.05)
+[ 0.35072557  0.33920149  0.39686231  0.39470174  0.39604773]
+GaussianNB - f1_weighted: 0.25 (+/- 0.02)
+[ 0.26293933  0.23233274  0.24343103  0.25378879  0.23612262]
+SVM - f1_weighted: 0.28 (+/- 0.02)
+[ 0.28854534  0.26480905  0.27642853  0.2752186   0.29445247]
+Feature: spec_cent | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.43 (+/- 0.02)
+[ 0.42156869  0.43090365  0.43885428  0.44845198  0.42687107]
+GaussianNB - f1_weighted: 0.29 (+/- 0.02)
+[ 0.28596271  0.31081196  0.28998166  0.30300391  0.27706869]
+SVM - f1_weighted: 0.36 (+/- 0.05)
+[ 0.36673123  0.33177118  0.37376708  0.3900222   0.32089322]
+Feature: spec_roll | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.46 (+/- 0.05)
+[ 0.40255364  0.47467722  0.45687298  0.46681499  0.47656916]
+GaussianNB - f1_weighted: 0.33 (+/- 0.06)
+[ 0.30369868  0.29590873  0.3238533   0.36881296  0.37383367]
+SVM - f1_weighted: 0.34 (+/- 0.05)
+[ 0.33395264  0.325583    0.33296723  0.31646266  0.38970869]
+Feature: syllable_dur | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.18 (+/- 0.02)
+[ 0.19464134  0.16217129  0.17502366  0.17632805  0.17468477]
+GaussianNB - f1_weighted: 0.08 (+/- 0.05)
+[ 0.10996113  0.0404183   0.07131915  0.07037291  0.08667671]
+SVM - f1_weighted: 0.10 (+/- 0.03)
+[ 0.07410846  0.09868796  0.09427609  0.10440663  0.12315509]
+Feature: syllable_dur_list | Version: None
+number of files loaded: 985
+kNN - f1_weighted: 0.24 (+/- 0.03)
+[ 0.23266859  0.26426406  0.23945142  0.21669693  0.24885114]
+GaussianNB - f1_weighted: 0.17 (+/- 0.01)
+[ 0.17917712  0.17523819  0.1617756   0.1736643   0.16804572]
+SVM - f1_weighted: 0.10 (+/- 0.02)
+[ 0.09878258  0.10248348  0.10188901  0.07963772  0.09399195]
+Número de espécies: 12 Número Mínimo: 30 Scoring: f1_weighted
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trichothraupis melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/
+/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.35 (+/- 0.07) |      0.27 (+/- 0.04) |      0.15 (+/- 0.01) | 
+                mfcc |      0.38 (+/- 0.03) |      0.24 (+/- 0.01) |      0.24 (+/- 0.04) | 
+           spec_band |      0.38 (+/- 0.05) |      0.25 (+/- 0.02) |      0.28 (+/- 0.02) | 
+           spec_cent |      0.43 (+/- 0.02) |      0.29 (+/- 0.02) |      0.36 (+/- 0.05) | 
+           spec_roll |      0.46 (+/- 0.05) |      0.33 (+/- 0.06) |      0.34 (+/- 0.05) | 
+        syllable_dur |      0.18 (+/- 0.02) |      0.08 (+/- 0.05) |      0.10 (+/- 0.03) | 
+   syllable_dur_list |      0.24 (+/- 0.03) |      0.17 (+/- 0.01) |      0.10 (+/- 0.02) | 
