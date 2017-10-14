@@ -209,6 +209,23 @@
 *** TODO Fundamentação teórica
 **** TODO Conceitos iniciais
 ***** TODO Representações do sinal
+
+      Na última seção, descrevemos o processo de digitalização do sinal
+      analógico, o que nos resultou na representação temporal. Apresentamos
+      agora uma nova representação no domínio da frequência, chamada de
+      representação espectral. A principal motivação para esta representação é a
+      facilidade de algumas operações, e a possibilidade de identificar um tipo
+      de informação (em relação a frequência) que não é facilmente identificada
+      na representação temporal. A ferramenta que nos possibilita deslocar entre
+      os dois domínios é a \textit{Transformada Discreta de Fourier}, conhecida
+      também pela sigla, em inglês, DFT.
+      
+      Dado um sinal digital $x[n], \ n \in [0, N - 1]$, a DFT do sinal $x$ é dada por:
+      \begin{equation}
+      X[k] = \sum_{n = 0}^{N - 1} x[n]e^{-2 \pi ikn/N}, \ k = 0, \dotsc, N - 1
+      \end{equation}
+
+      
 ***** TODO Sons de pássaros
 ***** TODO Classificação multi-classes
 **** TODO Extração de características
