@@ -118,13 +118,12 @@ EXPERIMENTS_DIR = '/var/tmp/ff/tcc/experiments'
 
 FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list']
 
-
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
-VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
-
+#VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
+VERSIONS = [None]
 VERSIONS_EXPERIMENTS = [None]
 
 def is_audio(file_name):
@@ -140,7 +139,8 @@ def is_not_wav(file_name):
 def num_files(data_dirs, song_or_call, num_versions = 4):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
-    num_versions = len(VERSIONS)
+    #num_versions = len(VERSIONS)
+    num_versions = count_versions(data_dirs[0], song_or_call)
     num_file = 0
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
@@ -148,6 +148,7 @@ def num_files(data_dirs, song_or_call, num_versions = 4):
                 type_of_rec = subdir.split('/')[-1]
                 if is_audio(file) and type_of_rec == song_or_call:
                 #if type_of_rec == song_or_call:
+                    #print(subdir + '/' + file)
                     num_file += 1
     return int(num_file/num_versions)
 
@@ -232,6 +233,26 @@ def txt_to_audio(file_dir):
     sr = y[-1]
     return y[:-1], sr
 
+def dirs_to_pulse_dirs(data_dirs):
+    dirs = []
+    for data_dir in data_dirs:
+        dirs.append(data_dir.replace('Base', 'Base_Pulsos'))
+    return dirs
+
+def count_versions(data_dir, song_or_call):
+    num_versions = 0
+    for subdir, dirs, files in os.walk(data_dir):
+        for file in files:
+            type_of_rec = subdir.split('/')[-1]
+            if is_audio(file) and type_of_rec == song_or_call:
+                spl = file.split('.')
+                for s in spl:
+                    if s.count('filtered') != 0:
+                        current = int(s[8:])
+                        if current > num_versions:
+                            num_versions = current + 1
+    return num_versions if num_versions != 0 else 1
+    #return int(num_file/num_versions)
 
 # def kNN(data, labels, k_range, cv = 5):
 #     max_acc = -np.inf
