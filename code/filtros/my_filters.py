@@ -146,3 +146,23 @@ def my_filter3(y, sr):
     y_rec = librosa.istft(Y_rec, hop_length=512)
 
     return y_rec
+
+
+def my_filter4(y, size):
+    N = len(y)
+    energy = y**2
+    thres = np.mean(energy)
+    new_signal = []
+    i = 0
+        
+    if size > N:
+        size = int(N/10)
+    
+    while i < (N - size):
+        if energy[i] > thres:
+            new_signal += y[i:i + size].tolist()
+            i += size
+        else:
+            i += 1
+    new_signal = np.array(new_signal)
+    return new_signal

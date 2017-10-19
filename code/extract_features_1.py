@@ -14,7 +14,10 @@ def generate_local_feature(file_dir, feat_name, feat_func, **kwargs):
         print('Loading {}...'.format(file_dir))
         y, sr = librosa.load(file_dir)
         print('generating {} for {}...'.format(feat_name, file_dir))
-        feature = feat_func(y = y, **kwargs)
+        if len(y) > 0:
+            feature = feat_func(y = y, **kwargs)
+        else:
+            feature = np.array([0])
         np.savetxt(output_file, feature)
     else:
        print('{} already exists.'.format(output_file))
@@ -34,7 +37,7 @@ def extract_feat(data_dirs):
 
                     generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, **kwargs)
 
-                    generate_local_feature(file_dir, 'stft', librosa.core.stft, **kwargs)
+                    #generate_local_feature(file_dir, 'stft', librosa.core.stft, **kwargs)
 
                     generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, **kwargs)
 
@@ -51,7 +54,8 @@ def extract_feat(data_dirs):
 
 #pool = Pool(processes = 4)
 #pool.map(extract_feat, util.DATA_DIR_POOL)
-extract_feat(util.DATA_DIR_PULSE_FULL)
+#extract_feat(util.DATA_DIR_PULSE_FULL)
+extract_feat(util.DATA_DIR_FULL)
 
 
 #extract_feat(util.DATA_DIR_FULL[0])

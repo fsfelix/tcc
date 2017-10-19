@@ -123,7 +123,7 @@ CLASSIFIERS = ['kNN', 'NB', 'SVM']
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
 #VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
-VERSIONS = [None]
+#VERSIONS = [None] # no need for this anymore.
 VERSIONS_EXPERIMENTS = [None]
 
 def is_audio(file_name):
