@@ -207,7 +207,7 @@
 **** TODO Contextualização e objetivos
 **** TODO Estrutura do trabalho
 *** TODO Fundamentação teórica
-**** TODO Conceitos iniciais
+**** DONE Conceitos iniciais
 ***** DONE Representações do sinal
 
       Na última seção, descrevemos o processo de digitalização do sinal
@@ -224,12 +224,36 @@
       \begin{equation}
       X[k] = \sum_{n = 0}^{N - 1} x[n]e^{-2 \pi ikn/N}, \ k = 0, \dotsc, N - 1
       \end{equation}
-
-      
-***** TODO Sons de pássaros
-***** TODO Classificação multi-classes
+***** DONE Sons de pássaros
+***** DONE Classificação multi-classes
 **** TODO Extração de características
+
+     .... 
+
+     Características globais são especialmente importantes quando precisamos utilizar
+     vetores de características de mesmo tamanho para os algoritmos de aprendizagem,
+     o que é o caso na maioria das vezes. É importante notar que podemos transformar
+     características locais em características globais a partir de alguma estatística
+     das características locais, como a média, ou o desvio padrão. Por exemplo,
+     sabemos que o centroide espectral é calculado para cada janela de tempo, podemos
+     extrair a média de todos os centroides e obter um valor que pode ser utilizado
+     como característica global. Ou podemos calcular o desvio padrão dos centroides,
+     e utilizá-lo como uma característica global que oferece intuição em relação a
+     variabilidade dos centroides na gravação.
+
+
+     Apresentamos, agora, as características que útilizamos neste trabalho.
+
 ***** TODO Características acústicas
+      As características acústicas representam características físicas e
+      perceptuais do som. São exemplos de características físicas: centroide 
+      espectral (informação a respeito das frequências presentes no sinal) e o
+      RMS (\textit{Root mean square}) que é quantidade média de energia presente
+      no sinal. Exemplos de caraterísticas perceptuais: intensidade (\textit{loudness}),
+      brilho, altura. Geralmente, associa-se características físicas que podem ser 
+      calculadas com características perceptuais.
+      
+      
 ***** TODO Características próprias do domínio
 ***** TODO Características globais
 **** TODO Classificação
@@ -239,7 +263,7 @@
 ****** TODO Naïve-Bayes
 ****** TODO SVM
 ***** TODO Avaliação
-**** TODO Experimentos e Resultados
+*** TODO Experimentos e Resultados
 ***** TODO Dataset
 ***** TODO Detalhes de implementação
 ***** TODO Resultados
