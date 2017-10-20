@@ -35,17 +35,20 @@ def extract_feat(data_dirs):
 
                     kwargs = {}
 
-                    generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, **kwargs)
+                    #generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, **kwargs)
 
                     #generate_local_feature(file_dir, 'stft', librosa.core.stft, **kwargs)
 
-                    generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, **kwargs)
+                    #generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_cent', librosa.feature.spectral_centroid, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_cent', librosa.feature.spectral_centroid, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_band', librosa.feature.spectral_bandwidth, **kwargs)
 
-                    generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, **kwargs)
+                    #generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, **kwargs)
+
+                    generate_local_feature(file_dir, 'zcr', librosa.feature.zero_crossing_rate, **kwargs)
+
 
                     # kwargs = {'sr':  'min_dur' : 0.01, 'max_dur' : 3}
                     # generate_local_feature(file_dir, 'syllable_dur', esd.get_syllable_durations, **kwargs)

@@ -116,7 +116,7 @@ DATA_DIR_PULSE_POOL = [[DATA_DIR_PULSE_BASE + '-1/'],
 
 EXPERIMENTS_DIR = '/var/tmp/ff/tcc/experiments'
 
-FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list']
+FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list', 'zcr']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 

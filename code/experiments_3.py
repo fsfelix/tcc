@@ -159,31 +159,103 @@ def init(l):
     global lock
     lock = l
 
+# def main():
+#     global num_min
+#     # num_exp = int(input("número de experimentos: "))
+#     # num_min = int(input("número minimo de arquivos por especie: "))
+#     # num_cores = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
+
+#     num_exp = 5
+#     num_min = 30
+#     num_cores = -2
+
+#     if num_cores != -1:
+#         experiments_parallel(num_exp, num_cores)
+
+#     else:
+#         #num_species = [3, 5, 8, 12, 20]
+#         num_species = [3]
+#         file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
+#         for num in num_species:
+#             file_exp.write('Número de espécies: {}\n'.format(num))
+#             for i in range(num_exp):
+#                 print("Número espécie: {} | Exp: {}/{}".format(num, i + 1, num_exp))
+#                 generate_experiments(num, file_exp, song_or_call = 'song')
+#         file_exp.close()
+
+
+
+# info[0] = feature
+# info[1] = version
+# info[2] = data_dirs
+# info[3] = song_or_call
+# info[4] = n_species
+# info[5] = scoring
+
+def generate_experiment(info):
+    n_function_global =  4
+
+    feat         = info[0]
+    version      = info[1]
+    data_dirs    = info[2]
+    song_or_call = info[3]
+    n_species    = info[4]
+    scoring      = info[5]
+
+
+    labels_dict, labels, data = generate_global_features(n_function_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS, version = version)
+
+    print("kNN Starting ->")
+    print(len(data))
+    print(len(labels))
+    clf         = neighbors.KNeighborsClassifier(3, weights = 'uniform')
+    scores_knn  = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+    print("kNN Done <-")
+
+    print("GNB Starting ->")
+    gnb        = GaussianNB()
+    scores_gnb = cross_val_score(gnb, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+    print("GNB Done <-")
+
+    print("SVM Starting ->")
+    clf        = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
+    scores_svm = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+    print("SVM Done <-")
+
+    resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = scores_knn, gnb = scores_gnb, svm = scores_svm)
+
+    return resp
+
+
 def experiments_parallel(num_exp, num_cores):
-    l = Lock()
 
     if num_cores == -2:
         num_cores = cpu_count()
 
-    pool = Pool(initializer = init, initargs = (l,), processes = num_cores)
+    pool = Pool(num_cores)
 
-    # args_p = [3, 5, 8, 12, 20] * num_exp
-    args_p = [20] * num_exp
-    # args_p = [3] * num_exp
+    DIR = util.EXPERIMENTS_DIR + '/' + generate_exp_file()
 
-    pool.map(generate_experiments_parallel, args_p)
-    pool.close()
-    pool.join()
+    num_species = 3
+    num_min = 30
+    song_or_call = 'song'
+    DIRS3 = util.choose_species(num_species)
+    DIRS3 = util.check_num_files(DIRS3, song_or_call, num_species, num_min)
+
+    infos = [('rmse', None, DIRS3, song_or_call, num_species, 'f1_weighted'),
+             ('mfcc', None, DIRS3, song_or_call, num_species, 'f1_weighted'),
+             ('spec_cent', None, DIRS3, song_or_call, num_species, 'f1_weighted')]
+
+    with open(DIR, 'w') as f:
+        for result in pool.imap(generate_experiment, infos):
+            f.write(str(result))
+            f.write('\n')
 
 def main():
-    global num_min
-    # num_exp = int(input("número de experimentos: "))
-    # num_min = int(input("número minimo de arquivos por especie: "))
-    # num_cores = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
-
     num_exp = 5
     num_min = 30
     num_cores = -2
+
 
     if num_cores != -1:
         experiments_parallel(num_exp, num_cores)
