@@ -1,0 +1,9 @@
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/'], 'n_species': 3, 'svm': '0.33 (+/- 0.00)', 'feat': 'rmse', 'version': None, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.08)', 'knn': '0.61 (+/- 0.24)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/'], 'n_species': 3, 'svm': '0.62 (+/- 0.14)', 'feat': 'mfcc', 'version': None, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.20)', 'knn': '0.58 (+/- 0.19)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thryothorus longirostris/'], 'n_species': 3, 'svm': '0.53 (+/- 0.16)', 'feat': 'spec_cent', 'version': None, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'gnb': '0.50 (+/- 0.11)', 'knn': '0.56 (+/- 0.06)'}
+
+

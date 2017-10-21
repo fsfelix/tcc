@@ -152,38 +152,8 @@ def generate_experiments_parallel(num_species, song_or_call = 'song', scoring = 
 
     #file_exp.close()
 
-def generate_exp_file():
-    return 'experiment_' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
-
-def init(l):
-    global lock
-    lock = l
-
-# def main():
-#     global num_min
-#     # num_exp = int(input("número de experimentos: "))
-#     # num_min = int(input("número minimo de arquivos por especie: "))
-#     # num_cores = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
-
-#     num_exp = 5
-#     num_min = 30
-#     num_cores = -2
-
-#     if num_cores != -1:
-#         experiments_parallel(num_exp, num_cores)
-
-#     else:
-#         #num_species = [3, 5, 8, 12, 20]
-#         num_species = [3]
-#         file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
-#         for num in num_species:
-#             file_exp.write('Número de espécies: {}\n'.format(num))
-#             for i in range(num_exp):
-#                 print("Número espécie: {} | Exp: {}/{}".format(num, i + 1, num_exp))
-#                 generate_experiments(num, file_exp, song_or_call = 'song')
-#         file_exp.close()
-
-
+def generate_exp_file(num_exp, num_min, song_or_call):
+    return 'experiment-' + 'numexps-' + str(num_exp) + '-num_min-' + str(num_min) + '-' + str(song_or_call) + '-' + datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 # info[0] = feature
 # info[1] = version
@@ -201,75 +171,147 @@ def generate_experiment(info):
     song_or_call = info[3]
     n_species    = info[4]
     scoring      = info[5]
-
+    num_min      = info[6]
+    num_exp      = info[7]
 
     labels_dict, labels, data = generate_global_features(n_function_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS, version = version)
 
-    print("kNN Starting ->")
-    print(len(data))
-    print(len(labels))
-    clf         = neighbors.KNeighborsClassifier(3, weights = 'uniform')
-    scores_knn  = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-    print("kNN Done <-")
+    len_data = len(data)
+    len_labels = len(labels)
+    print("len data: {}".format(len_data))
+    print("len labels: {}".format(len_labels))
 
-    print("GNB Starting ->")
-    gnb        = GaussianNB()
-    scores_gnb = cross_val_score(gnb, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-    print("GNB Done <-")
+    if len_data != len_labels:
+        print("ACHAMOS UMA INCOSISTENCIA")
+        print(data_dirs)
+        resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = '-1', gnb = '-1', svm = '-1', num_min = num_min, num_exp = num_exp)
 
-    print("SVM Starting ->")
-    clf        = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
-    scores_svm = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-    print("SVM Done <-")
+    else:
+        print("kNN Starting ->")
+        clf         = neighbors.KNeighborsClassifier(3, weights = 'uniform')
+        scores      = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+        result_knn  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        print("[DONE] kNN Done <-")
 
-    resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = scores_knn, gnb = scores_gnb, svm = scores_svm)
+        print("GNB Starting ->")
+        gnb        = GaussianNB()
+        scores     = cross_val_score(gnb, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+        result_gnb = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        print("[DONE] GNB Done <-")
+
+        print("SVM Starting ->")
+        clf        = svm.SVC(kernel = 'linear', C = 1, decision_function_shape='ovr')
+        scores     = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
+        result_svm = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
+        print("[DONE] SVM Done <-")
+
+        resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = result_knn, gnb = result_gnb, svm = result_svm, num_min = num_min, num_exp = num_exp)
 
     return resp
 
 
-def experiments_parallel(num_exp, num_cores):
+def generate_info(num_species, num_exp, num_min):
+    print("Generating infos for parallel...")
+    infos = []
+    for n in range(num_exp):
+        for spc in num_species:
+            DIRS = util.choose_species(spc)
+            if spc > 10:
+                DIRS = util.check_num_files(DIRS, 'song', spc, 20)
+            else:
+                DIRS = util.check_num_files(DIRS, 'song', spc, num_min)
+            for feat in util.FEATURES:
+                for version in util.VERSIONS:
+                    print((feat, version, DIRS, 'song', spc, 'f1_weighted'))
+                    infos.append((feat, version, DIRS, 'song', spc, 'f1_weighted', num_min, num_exp))
+    print("[DONE] Info generated.")
+    print("Info lenght: {}".format(len(infos)))
+    return infos
+
+
+def write_info(d, file_exp):
+    file_exp.write('\n--------------------------------------\n')
+    file_exp.write('experimento número: {} \n'.format(d['num_exp']))
+    file_exp.write('numero de especies: {}\n'.format(d['n_species']))
+    file_exp.write('numero minimo de arquivos por especie: {}\n'.format(d['num_min']))
+    file_exp.write('diretórios: {}\n'.format(d['dirs']))
+    file_exp.write('scoring: {}\n'.format(d['scoring']))
+    file_exp.write('song_or_call: {}\n'.format(d['song_or_call']))
+    file_exp.write('versão: {}'.format(d['version']))
+    file_exp.write('\n--------------------------------------\n')
+
+def tables_from_dicts(dicts, file_exp):
+
+    while len(dicts) > 0:
+        lines = []
+        ds = []
+        current = dicts[0]
+
+        for d in dicts:
+            if d['dirs'] == current['dirs'] and d['version'] == current['version'] and d['num_exp'] == current['num_exp']:
+                ds.append(d)
+
+        for d in ds:
+            dicts.remove(d)
+            lines.append([d['feat'], d['knn'], d['gnb'], d['svm']])
+
+        print_table(lines)
+        write_info(ds[0], file_exp)
+        write_table(lines, file_exp)
+
+def experiments_parallel(num_exp, num_cores, num_min, song_or_call, spc):
 
     if num_cores == -2:
         num_cores = cpu_count()
 
     pool = Pool(num_cores)
 
-    DIR = util.EXPERIMENTS_DIR + '/' + generate_exp_file()
+    DIR = util.EXPERIMENTS_DIR + '/' + generate_exp_file(num_exp, num_min, song_or_call)
 
-    num_species = 3
-    num_min = 30
     song_or_call = 'song'
-    DIRS3 = util.choose_species(num_species)
-    DIRS3 = util.check_num_files(DIRS3, song_or_call, num_species, num_min)
 
-    infos = [('rmse', None, DIRS3, song_or_call, num_species, 'f1_weighted'),
-             ('mfcc', None, DIRS3, song_or_call, num_species, 'f1_weighted'),
-             ('spec_cent', None, DIRS3, song_or_call, num_species, 'f1_weighted')]
+    infos = generate_info(spc, num_exp, num_min)
+
+    dicts = []
 
     with open(DIR, 'w') as f:
         for result in pool.imap(generate_experiment, infos):
             f.write(str(result))
             f.write('\n')
+            f.write('\n')
+            f.write('\n')
+            dicts.append(result)
+        pool.close()
+        pool.join()
+        tables_from_dicts(dicts, f)
+
 
 def main():
-    num_exp = 5
-    num_min = 30
-    num_cores = -2
 
+    num_exp = int(input("número de experimentos: "))
+    spc = str(input("lista com número de espécies separado por espaços (ex: 3 5 8): "))
+    num_min = int(input("número minimo de arquivos por especie: "))
+    num_cores = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
+    song_or_call = str(input("song or call: "))
+    # num_exp = 1
+    # num_min = 30
+    # num_cores = -2
+
+    spc = [int(n) for n in spc.split(' ')]
 
     if num_cores != -1:
-        experiments_parallel(num_exp, num_cores)
+        experiments_parallel(num_exp, num_cores, num_min, song_or_call, spc)
 
-    else:
-        #num_species = [3, 5, 8, 12, 20]
-        num_species = [3]
-        file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
-        for num in num_species:
-            file_exp.write('Número de espécies: {}\n'.format(num))
-            for i in range(num_exp):
-                print("Número espécie: {} | Exp: {}/{}".format(num, i + 1, num_exp))
-                generate_experiments(num, file_exp, song_or_call = 'song')
-        file_exp.close()
+    # else:
+    #     #num_species = [3, 5, 8, 12, 20]
+    #     num_species = [3]
+    #     file_exp = open(util.EXPERIMENTS_DIR + '/' + generate_exp_file(), "w+")
+    #     for num in num_species:
+    #         file_exp.write('Número de espécies: {}\n'.format(num))
+    #         for i in range(num_exp):
+    #             print("Número espécie: {} | Exp: {}/{}".format(num, i + 1, num_exp))
+    #             generate_experiments(num, file_exp, song_or_call = 'song')
+    #     file_exp.close()
 
 if __name__ == '__main__':
     main()

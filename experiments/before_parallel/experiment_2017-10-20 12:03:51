@@ -1,0 +1,9 @@
+{'scoring': 'f1_weighted', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/'], 'knn': '0.83 (+/- 0.08)', 'song_or_call': 'song', 'feat': 'rmse', 'gnb': '0.74 (+/- 0.04)', 'svm': '0.66 (+/- 0.03)', 'version': None, 'n_species': 3}
+
+
+{'scoring': 'f1_weighted', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/'], 'knn': '0.75 (+/- 0.07)', 'song_or_call': 'song', 'feat': 'mfcc', 'gnb': '0.71 (+/- 0.07)', 'svm': '0.66 (+/- 0.03)', 'version': None, 'n_species': 3}
+
+
+{'scoring': 'f1_weighted', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Synallaxis spixi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Basileuterus leucoblepharus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/'], 'knn': '0.76 (+/- 0.05)', 'song_or_call': 'song', 'feat': 'spec_cent', 'gnb': '0.76 (+/- 0.06)', 'svm': '0.75 (+/- 0.09)', 'version': None, 'n_species': 3}
+
+

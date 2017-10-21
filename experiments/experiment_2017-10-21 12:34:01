@@ -1,0 +1,440 @@
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.18 (+/- 0.04)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': None, 'knn': '0.33 (+/- 0.22)', 'gnb': '0.33 (+/- 0.18)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered1', 'knn': '0.32 (+/- 0.10)', 'gnb': '0.36 (+/- 0.08)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered2', 'knn': '0.37 (+/- 0.18)', 'gnb': '0.37 (+/- 0.27)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered3', 'knn': '0.44 (+/- 0.16)', 'gnb': '0.36 (+/- 0.17)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.23 (+/- 0.14)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered4', 'knn': '0.41 (+/- 0.10)', 'gnb': '0.35 (+/- 0.24)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.27 (+/- 0.18)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': None, 'knn': '0.26 (+/- 0.15)', 'gnb': '0.30 (+/- 0.15)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.51 (+/- 0.26)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered1', 'knn': '0.43 (+/- 0.06)', 'gnb': '0.44 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.41 (+/- 0.20)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered2', 'knn': '0.40 (+/- 0.11)', 'gnb': '0.35 (+/- 0.18)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.59 (+/- 0.18)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered3', 'knn': '0.42 (+/- 0.10)', 'gnb': '0.40 (+/- 0.14)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.38 (+/- 0.12)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered4', 'knn': '0.27 (+/- 0.29)', 'gnb': '0.42 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.33 (+/- 0.23)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': None, 'knn': '0.43 (+/- 0.29)', 'gnb': '0.35 (+/- 0.21)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.34 (+/- 0.18)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered1', 'knn': '0.41 (+/- 0.06)', 'gnb': '0.40 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.26 (+/- 0.06)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered2', 'knn': '0.43 (+/- 0.11)', 'gnb': '0.40 (+/- 0.17)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.20 (+/- 0.07)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered3', 'knn': '0.47 (+/- 0.21)', 'gnb': '0.25 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.34 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered4', 'knn': '0.38 (+/- 0.22)', 'gnb': '0.32 (+/- 0.12)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.46 (+/- 0.13)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': None, 'knn': '0.37 (+/- 0.18)', 'gnb': '0.38 (+/- 0.19)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.36 (+/- 0.17)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered1', 'knn': '0.35 (+/- 0.14)', 'gnb': '0.24 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.42 (+/- 0.23)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered2', 'knn': '0.44 (+/- 0.23)', 'gnb': '0.32 (+/- 0.22)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.46 (+/- 0.14)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered3', 'knn': '0.47 (+/- 0.21)', 'gnb': '0.35 (+/- 0.30)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.39 (+/- 0.17)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered4', 'knn': '0.34 (+/- 0.21)', 'gnb': '0.40 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.33 (+/- 0.17)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': None, 'knn': '0.43 (+/- 0.25)', 'gnb': '0.35 (+/- 0.23)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.43 (+/- 0.08)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered1', 'knn': '0.42 (+/- 0.12)', 'gnb': '0.40 (+/- 0.19)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.53 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered2', 'knn': '0.55 (+/- 0.16)', 'gnb': '0.48 (+/- 0.09)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.57 (+/- 0.27)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered3', 'knn': '0.49 (+/- 0.10)', 'gnb': '0.32 (+/- 0.20)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.43 (+/- 0.20)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered4', 'knn': '0.44 (+/- 0.15)', 'gnb': '0.36 (+/- 0.23)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.17 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': None, 'knn': '0.43 (+/- 0.16)', 'gnb': '0.19 (+/- 0.08)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.03)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered1', 'knn': '0.47 (+/- 0.07)', 'gnb': '0.36 (+/- 0.27)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered2', 'knn': '0.51 (+/- 0.14)', 'gnb': '0.55 (+/- 0.22)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.01)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered3', 'knn': '0.32 (+/- 0.11)', 'gnb': '0.20 (+/- 0.07)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '-1', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered4', 'knn': '-1', 'gnb': '-1'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.18 (+/- 0.04)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': None, 'knn': '0.58 (+/- 0.13)', 'gnb': '0.21 (+/- 0.10)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.03)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered1', 'knn': '0.51 (+/- 0.19)', 'gnb': '0.34 (+/- 0.19)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered2', 'knn': '0.51 (+/- 0.15)', 'gnb': '0.54 (+/- 0.36)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.03)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered3', 'knn': '0.46 (+/- 0.15)', 'gnb': '0.28 (+/- 0.22)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '-1', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered4', 'knn': '-1', 'gnb': '-1'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.21 (+/- 0.08)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': None, 'knn': '0.33 (+/- 0.22)', 'gnb': '0.30 (+/- 0.27)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.21 (+/- 0.09)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered1', 'knn': '0.39 (+/- 0.09)', 'gnb': '0.37 (+/- 0.22)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered2', 'knn': '0.43 (+/- 0.15)', 'gnb': '0.36 (+/- 0.11)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.02)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered3', 'knn': '0.72 (+/- 0.14)', 'gnb': '0.46 (+/- 0.15)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'n_species': 3, 'svm': '0.19 (+/- 0.03)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered4', 'knn': '0.53 (+/- 0.16)', 'gnb': '0.42 (+/- 0.20)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': None, 'knn': '0.40 (+/- 0.24)', 'gnb': '0.30 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered1', 'knn': '0.30 (+/- 0.11)', 'gnb': '0.25 (+/- 0.26)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered2', 'knn': '0.35 (+/- 0.14)', 'gnb': '0.33 (+/- 0.10)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered3', 'knn': '0.38 (+/- 0.17)', 'gnb': '0.15 (+/- 0.07)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'rmse', 'num_min': 30, 'version': 'filtered4', 'knn': '0.43 (+/- 0.16)', 'gnb': '0.34 (+/- 0.15)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.37 (+/- 0.18)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': None, 'knn': '0.46 (+/- 0.11)', 'gnb': '0.31 (+/- 0.09)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.49 (+/- 0.13)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered1', 'knn': '0.32 (+/- 0.07)', 'gnb': '0.46 (+/- 0.14)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.39 (+/- 0.23)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered2', 'knn': '0.36 (+/- 0.08)', 'gnb': '0.41 (+/- 0.08)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.35 (+/- 0.12)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered3', 'knn': '0.35 (+/- 0.13)', 'gnb': '0.42 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.39 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'mfcc', 'num_min': 30, 'version': 'filtered4', 'knn': '0.34 (+/- 0.09)', 'gnb': '0.34 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.31 (+/- 0.13)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': None, 'knn': '0.34 (+/- 0.20)', 'gnb': '0.37 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.40 (+/- 0.14)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered1', 'knn': '0.33 (+/- 0.10)', 'gnb': '0.36 (+/- 0.08)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.33 (+/- 0.13)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered2', 'knn': '0.37 (+/- 0.15)', 'gnb': '0.42 (+/- 0.11)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.45 (+/- 0.18)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered3', 'knn': '0.47 (+/- 0.13)', 'gnb': '0.24 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.47 (+/- 0.13)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_band', 'num_min': 30, 'version': 'filtered4', 'knn': '0.36 (+/- 0.11)', 'gnb': '0.42 (+/- 0.08)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.34 (+/- 0.10)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': None, 'knn': '0.40 (+/- 0.12)', 'gnb': '0.40 (+/- 0.11)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.41 (+/- 0.03)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered1', 'knn': '0.39 (+/- 0.09)', 'gnb': '0.40 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.33 (+/- 0.14)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered2', 'knn': '0.39 (+/- 0.13)', 'gnb': '0.36 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.48 (+/- 0.10)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered3', 'knn': '0.45 (+/- 0.16)', 'gnb': '0.38 (+/- 0.28)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.40 (+/- 0.08)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'num_min': 30, 'version': 'filtered4', 'knn': '0.37 (+/- 0.08)', 'gnb': '0.41 (+/- 0.13)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.27 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': None, 'knn': '0.44 (+/- 0.12)', 'gnb': '0.37 (+/- 0.19)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.39 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered1', 'knn': '0.45 (+/- 0.13)', 'gnb': '0.40 (+/- 0.16)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.37 (+/- 0.09)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered2', 'knn': '0.41 (+/- 0.21)', 'gnb': '0.43 (+/- 0.03)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.44 (+/- 0.06)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered3', 'knn': '0.45 (+/- 0.19)', 'gnb': '0.40 (+/- 0.26)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.35 (+/- 0.16)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'num_min': 30, 'version': 'filtered4', 'knn': '0.44 (+/- 0.18)', 'gnb': '0.32 (+/- 0.09)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.04)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': None, 'knn': '0.45 (+/- 0.11)', 'gnb': '0.31 (+/- 0.23)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered1', 'knn': '0.59 (+/- 0.14)', 'gnb': '0.27 (+/- 0.17)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered2', 'knn': '0.49 (+/- 0.08)', 'gnb': '0.44 (+/- 0.18)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered3', 'knn': '0.50 (+/- 0.15)', 'gnb': '0.31 (+/- 0.14)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '-1', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'num_min': 30, 'version': 'filtered4', 'knn': '-1', 'gnb': '-1'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.22 (+/- 0.07)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': None, 'knn': '0.54 (+/- 0.19)', 'gnb': '0.34 (+/- 0.09)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered1', 'knn': '0.49 (+/- 0.13)', 'gnb': '0.24 (+/- 0.05)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.13 (+/- 0.00)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered2', 'knn': '0.50 (+/- 0.20)', 'gnb': '0.47 (+/- 0.24)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.12 (+/- 0.04)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered3', 'knn': '0.50 (+/- 0.33)', 'gnb': '0.25 (+/- 0.07)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '-1', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'num_min': 30, 'version': 'filtered4', 'knn': '-1', 'gnb': '-1'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.32 (+/- 0.07)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': None, 'knn': '0.40 (+/- 0.15)', 'gnb': '0.39 (+/- 0.11)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.32 (+/- 0.10)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered1', 'knn': '0.44 (+/- 0.16)', 'gnb': '0.39 (+/- 0.25)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.30 (+/- 0.07)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered2', 'knn': '0.42 (+/- 0.19)', 'gnb': '0.39 (+/- 0.10)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.37 (+/- 0.06)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered3', 'knn': '0.69 (+/- 0.11)', 'gnb': '0.38 (+/- 0.06)'}
+
+
+{'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'n_species': 4, 'svm': '0.33 (+/- 0.04)', 'song_or_call': 'song', 'scoring': 'f1_weighted', 'feat': 'zcr', 'num_min': 30, 'version': 'filtered4', 'knn': '0.49 (+/- 0.16)', 'gnb': '0.39 (+/- 0.09)'}
+
+
+
+--------------------------------------
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+version: None
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.33 (+/- 0.22) |      0.33 (+/- 0.18) |      0.18 (+/- 0.04) | 
+                mfcc |      0.26 (+/- 0.15) |      0.30 (+/- 0.15) |      0.27 (+/- 0.18) | 
+           spec_band |      0.43 (+/- 0.29) |      0.35 (+/- 0.21) |      0.33 (+/- 0.23) | 
+           spec_cent |      0.37 (+/- 0.18) |      0.38 (+/- 0.19) |      0.46 (+/- 0.13) | 
+           spec_roll |      0.43 (+/- 0.25) |      0.35 (+/- 0.23) |      0.33 (+/- 0.17) | 
+        syllable_dur |      0.43 (+/- 0.16) |      0.19 (+/- 0.08) |      0.17 (+/- 0.02) | 
+   syllable_dur_list |      0.58 (+/- 0.13) |      0.21 (+/- 0.10) |      0.18 (+/- 0.04) | 
+                 zcr |      0.33 (+/- 0.22) |      0.30 (+/- 0.27) |      0.21 (+/- 0.08) | 
+
+
+--------------------------------------
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered1
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.32 (+/- 0.10) |      0.36 (+/- 0.08) |      0.19 (+/- 0.02) | 
+                mfcc |      0.43 (+/- 0.06) |      0.44 (+/- 0.16) |      0.51 (+/- 0.26) | 
+           spec_band |      0.41 (+/- 0.06) |      0.40 (+/- 0.16) |      0.34 (+/- 0.18) | 
+           spec_cent |      0.35 (+/- 0.14) |      0.24 (+/- 0.13) |      0.36 (+/- 0.17) | 
+           spec_roll |      0.42 (+/- 0.12) |      0.40 (+/- 0.19) |      0.43 (+/- 0.08) | 
+        syllable_dur |      0.47 (+/- 0.07) |      0.36 (+/- 0.27) |      0.19 (+/- 0.03) | 
+   syllable_dur_list |      0.51 (+/- 0.19) |      0.34 (+/- 0.19) |      0.19 (+/- 0.03) | 
+                 zcr |      0.39 (+/- 0.09) |      0.37 (+/- 0.22) |      0.21 (+/- 0.09) | 
+
+
+--------------------------------------
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered2
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.37 (+/- 0.18) |      0.37 (+/- 0.27) |      0.19 (+/- 0.02) | 
+                mfcc |      0.40 (+/- 0.11) |      0.35 (+/- 0.18) |      0.41 (+/- 0.20) | 
+           spec_band |      0.43 (+/- 0.11) |      0.40 (+/- 0.17) |      0.26 (+/- 0.06) | 
+           spec_cent |      0.44 (+/- 0.23) |      0.32 (+/- 0.22) |      0.42 (+/- 0.23) | 
+           spec_roll |      0.55 (+/- 0.16) |      0.48 (+/- 0.09) |      0.53 (+/- 0.16) | 
+        syllable_dur |      0.51 (+/- 0.14) |      0.55 (+/- 0.22) |      0.19 (+/- 0.02) | 
+   syllable_dur_list |      0.51 (+/- 0.15) |      0.54 (+/- 0.36) |      0.19 (+/- 0.02) | 
+                 zcr |      0.43 (+/- 0.15) |      0.36 (+/- 0.11) |      0.19 (+/- 0.02) | 
+
+
+--------------------------------------
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered3
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.44 (+/- 0.16) |      0.36 (+/- 0.17) |      0.19 (+/- 0.02) | 
+                mfcc |      0.42 (+/- 0.10) |      0.40 (+/- 0.14) |      0.59 (+/- 0.18) | 
+           spec_band |      0.47 (+/- 0.21) |      0.25 (+/- 0.16) |      0.20 (+/- 0.07) | 
+           spec_cent |      0.47 (+/- 0.21) |      0.35 (+/- 0.30) |      0.46 (+/- 0.14) | 
+           spec_roll |      0.49 (+/- 0.10) |      0.32 (+/- 0.20) |      0.57 (+/- 0.27) | 
+        syllable_dur |      0.32 (+/- 0.11) |      0.20 (+/- 0.07) |      0.19 (+/- 0.01) | 
+   syllable_dur_list |      0.46 (+/- 0.15) |      0.28 (+/- 0.22) |      0.19 (+/- 0.03) | 
+                 zcr |      0.72 (+/- 0.14) |      0.46 (+/- 0.15) |      0.19 (+/- 0.02) | 
+
+
+--------------------------------------
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered4
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.41 (+/- 0.10) |      0.35 (+/- 0.24) |      0.23 (+/- 0.14) | 
+                mfcc |      0.27 (+/- 0.29) |      0.42 (+/- 0.16) |      0.38 (+/- 0.12) | 
+           spec_band |      0.38 (+/- 0.22) |      0.32 (+/- 0.12) |      0.34 (+/- 0.16) | 
+           spec_cent |      0.34 (+/- 0.21) |      0.40 (+/- 0.13) |      0.39 (+/- 0.17) | 
+           spec_roll |      0.44 (+/- 0.15) |      0.36 (+/- 0.23) |      0.43 (+/- 0.20) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.53 (+/- 0.16) |      0.42 (+/- 0.20) |      0.19 (+/- 0.03) | 
+
+
+--------------------------------------
+numero de especies: 4
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+version: None
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.40 (+/- 0.24) |      0.30 (+/- 0.16) |      0.13 (+/- 0.00) | 
+                mfcc |      0.46 (+/- 0.11) |      0.31 (+/- 0.09) |      0.37 (+/- 0.18) | 
+           spec_band |      0.34 (+/- 0.20) |      0.37 (+/- 0.13) |      0.31 (+/- 0.13) | 
+           spec_cent |      0.40 (+/- 0.12) |      0.40 (+/- 0.11) |      0.34 (+/- 0.10) | 
+           spec_roll |      0.44 (+/- 0.12) |      0.37 (+/- 0.19) |      0.27 (+/- 0.16) | 
+        syllable_dur |      0.45 (+/- 0.11) |      0.31 (+/- 0.23) |      0.13 (+/- 0.04) | 
+   syllable_dur_list |      0.54 (+/- 0.19) |      0.34 (+/- 0.09) |      0.22 (+/- 0.07) | 
+                 zcr |      0.40 (+/- 0.15) |      0.39 (+/- 0.11) |      0.32 (+/- 0.07) | 
+
+
+--------------------------------------
+numero de especies: 4
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered1
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.30 (+/- 0.11) |      0.25 (+/- 0.26) |      0.13 (+/- 0.00) | 
+                mfcc |      0.32 (+/- 0.07) |      0.46 (+/- 0.14) |      0.49 (+/- 0.13) | 
+           spec_band |      0.33 (+/- 0.10) |      0.36 (+/- 0.08) |      0.40 (+/- 0.14) | 
+           spec_cent |      0.39 (+/- 0.09) |      0.40 (+/- 0.13) |      0.41 (+/- 0.03) | 
+           spec_roll |      0.45 (+/- 0.13) |      0.40 (+/- 0.16) |      0.39 (+/- 0.16) | 
+        syllable_dur |      0.59 (+/- 0.14) |      0.27 (+/- 0.17) |      0.13 (+/- 0.00) | 
+   syllable_dur_list |      0.49 (+/- 0.13) |      0.24 (+/- 0.05) |      0.13 (+/- 0.00) | 
+                 zcr |      0.44 (+/- 0.16) |      0.39 (+/- 0.25) |      0.32 (+/- 0.10) | 
+
+
+--------------------------------------
+numero de especies: 4
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered2
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.35 (+/- 0.14) |      0.33 (+/- 0.10) |      0.13 (+/- 0.00) | 
+                mfcc |      0.36 (+/- 0.08) |      0.41 (+/- 0.08) |      0.39 (+/- 0.23) | 
+           spec_band |      0.37 (+/- 0.15) |      0.42 (+/- 0.11) |      0.33 (+/- 0.13) | 
+           spec_cent |      0.39 (+/- 0.13) |      0.36 (+/- 0.13) |      0.33 (+/- 0.14) | 
+           spec_roll |      0.41 (+/- 0.21) |      0.43 (+/- 0.03) |      0.37 (+/- 0.09) | 
+        syllable_dur |      0.49 (+/- 0.08) |      0.44 (+/- 0.18) |      0.13 (+/- 0.00) | 
+   syllable_dur_list |      0.50 (+/- 0.20) |      0.47 (+/- 0.24) |      0.13 (+/- 0.00) | 
+                 zcr |      0.42 (+/- 0.19) |      0.39 (+/- 0.10) |      0.30 (+/- 0.07) | 
+
+
+--------------------------------------
+numero de especies: 4
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered3
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.38 (+/- 0.17) |      0.15 (+/- 0.07) |      0.13 (+/- 0.00) | 
+                mfcc |      0.35 (+/- 0.13) |      0.42 (+/- 0.16) |      0.35 (+/- 0.12) | 
+           spec_band |      0.47 (+/- 0.13) |      0.24 (+/- 0.16) |      0.45 (+/- 0.18) | 
+           spec_cent |      0.45 (+/- 0.16) |      0.38 (+/- 0.28) |      0.48 (+/- 0.10) | 
+           spec_roll |      0.45 (+/- 0.19) |      0.40 (+/- 0.26) |      0.44 (+/- 0.06) | 
+        syllable_dur |      0.50 (+/- 0.15) |      0.31 (+/- 0.14) |      0.13 (+/- 0.00) | 
+   syllable_dur_list |      0.50 (+/- 0.33) |      0.25 (+/- 0.07) |      0.12 (+/- 0.04) | 
+                 zcr |      0.69 (+/- 0.11) |      0.38 (+/- 0.06) |      0.37 (+/- 0.06) | 
+
+
+--------------------------------------
+numero de especies: 4
+numero minimo de arquivos por especie: 30
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+version: filtered4
+
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.16) |      0.34 (+/- 0.15) |      0.13 (+/- 0.00) | 
+                mfcc |      0.34 (+/- 0.09) |      0.34 (+/- 0.13) |      0.39 (+/- 0.16) | 
+           spec_band |      0.36 (+/- 0.11) |      0.42 (+/- 0.08) |      0.47 (+/- 0.13) | 
+           spec_cent |      0.37 (+/- 0.08) |      0.41 (+/- 0.13) |      0.40 (+/- 0.08) | 
+           spec_roll |      0.44 (+/- 0.18) |      0.32 (+/- 0.09) |      0.35 (+/- 0.16) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.49 (+/- 0.16) |      0.39 (+/- 0.09) |      0.33 (+/- 0.04) | 
+

@@ -1,0 +1,9 @@
+{'gnb': '0.68 (+/- 0.12)', 'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'knn': '0.72 (+/- 0.10)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'version': None, 'svm': '0.62 (+/- 0.02)'}
+
+
+{'gnb': '0.75 (+/- 0.17)', 'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'knn': '0.73 (+/- 0.16)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'version': None, 'svm': '0.71 (+/- 0.06)'}
+
+
+{'gnb': '0.69 (+/- 0.08)', 'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'scoring': 'f1_weighted', 'knn': '0.67 (+/- 0.09)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'version': None, 'svm': '0.68 (+/- 0.06)'}
+
+

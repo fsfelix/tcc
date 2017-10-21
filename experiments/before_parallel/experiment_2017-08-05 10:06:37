@@ -15,7 +15,8 @@ SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
   tol=0.001, verbose=False)SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)                     |                  kNN |                   NB |                  SVM | 
+  tol=0.001, verbose=False)
+                     |                  kNN |                   NB |                  SVM |
                 mfcc |      0.35 (+/- 0.31) |      0.29 (+/- 0.18) |      0.44 (+/- 0.05) | 
            spec_band |      0.39 (+/- 0.32) |      0.42 (+/- 0.26) |      0.42 (+/- 0.02) | 
            spec_cent |      0.44 (+/- 0.16) |      0.36 (+/- 0.21) |      0.42 (+/- 0.02) | 

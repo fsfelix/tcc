@@ -1,0 +1,15 @@
+{'n_species': 3, 'song_or_call': 'song', 'knn': '0.61 (+/- 0.12)', 'feat': 'rmse', 'gnb': '0.50 (+/- 0.11)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/'], 'svm': '0.51 (+/- 0.02)', 'version': None, 'scoring': 'f1_weighted'}
+
+
+{'n_species': 3, 'song_or_call': 'song', 'knn': '0.62 (+/- 0.04)', 'feat': 'mfcc', 'gnb': '0.67 (+/- 0.11)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/'], 'svm': '0.62 (+/- 0.14)', 'version': None, 'scoring': 'f1_weighted'}
+
+
+{'n_species': 3, 'song_or_call': 'song', 'knn': '0.73 (+/- 0.12)', 'feat': 'spec_cent', 'gnb': '0.61 (+/- 0.11)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/'], 'svm': '0.62 (+/- 0.08)', 'version': None, 'scoring': 'f1_weighted'}
+
+
+{'n_species': 5, 'song_or_call': 'song', 'knn': '0.49 (+/- 0.15)', 'feat': 'rmse', 'gnb': '0.46 (+/- 0.10)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/'], 'svm': '0.28 (+/- 0.04)', 'version': None, 'scoring': 'f1_weighted'}
+
+
+{'n_species': 5, 'song_or_call': 'song', 'knn': '0.59 (+/- 0.08)', 'feat': 'mfcc', 'gnb': '0.47 (+/- 0.09)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Trogon surrucura/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/'], 'svm': '0.47 (+/- 0.08)', 'version': None, 'scoring': 'f1_weighted'}
+
+

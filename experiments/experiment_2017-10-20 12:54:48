@@ -1,0 +1,55 @@
+{'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'version': None, 'gnb': '0.43 (+/- 0.17)', 'scoring': 'f1_weighted', 'knn': '0.60 (+/- 0.09)', 'svm': '0.42 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.44 (+/- 0.10)', 'scoring': 'f1_weighted', 'knn': '0.61 (+/- 0.17)', 'svm': '0.42 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.50 (+/- 0.12)', 'scoring': 'f1_weighted', 'knn': '0.65 (+/- 0.14)', 'svm': '0.42 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.36 (+/- 0.11)', 'scoring': 'f1_weighted', 'knn': '0.59 (+/- 0.09)', 'svm': '0.42 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'rmse', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.45 (+/- 0.10)', 'scoring': 'f1_weighted', 'knn': '0.56 (+/- 0.12)', 'svm': '0.42 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'version': None, 'gnb': '0.57 (+/- 0.08)', 'scoring': 'f1_weighted', 'knn': '0.66 (+/- 0.09)', 'svm': '0.53 (+/- 0.07)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.61 (+/- 0.04)', 'scoring': 'f1_weighted', 'knn': '0.70 (+/- 0.09)', 'svm': '0.76 (+/- 0.08)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.61 (+/- 0.14)', 'scoring': 'f1_weighted', 'knn': '0.66 (+/- 0.09)', 'svm': '0.63 (+/- 0.15)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.55 (+/- 0.15)', 'scoring': 'f1_weighted', 'knn': '0.69 (+/- 0.08)', 'svm': '0.57 (+/- 0.19)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'mfcc', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.57 (+/- 0.04)', 'scoring': 'f1_weighted', 'knn': '0.67 (+/- 0.10)', 'svm': '0.64 (+/- 0.08)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_band', 'n_species': 3, 'song_or_call': 'song', 'version': None, 'gnb': '0.65 (+/- 0.09)', 'scoring': 'f1_weighted', 'knn': '0.69 (+/- 0.09)', 'svm': '0.69 (+/- 0.06)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_band', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.54 (+/- 0.11)', 'scoring': 'f1_weighted', 'knn': '0.64 (+/- 0.05)', 'svm': '0.59 (+/- 0.10)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_band', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.65 (+/- 0.11)', 'scoring': 'f1_weighted', 'knn': '0.70 (+/- 0.08)', 'svm': '0.69 (+/- 0.11)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_band', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.46 (+/- 0.20)', 'scoring': 'f1_weighted', 'knn': '0.72 (+/- 0.03)', 'svm': '0.68 (+/- 0.10)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_band', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.58 (+/- 0.07)', 'scoring': 'f1_weighted', 'knn': '0.62 (+/- 0.08)', 'svm': '0.61 (+/- 0.12)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'version': None, 'gnb': '0.55 (+/- 0.06)', 'scoring': 'f1_weighted', 'knn': '0.67 (+/- 0.06)', 'svm': '0.66 (+/- 0.05)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.62 (+/- 0.17)', 'scoring': 'f1_weighted', 'knn': '0.72 (+/- 0.08)', 'svm': '0.64 (+/- 0.12)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.61 (+/- 0.16)', 'scoring': 'f1_weighted', 'knn': '0.71 (+/- 0.16)', 'svm': '0.60 (+/- 0.15)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+
+{'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.39 (+/- 0.14)', 'scoring': 'f1_weighted', 'knn': '0.62 (+/- 0.10)', 'svm': '0.59 (+/- 0.16)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}

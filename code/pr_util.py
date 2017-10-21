@@ -122,7 +122,7 @@ CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
-#VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3']
+VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4']
 #VERSIONS = [None] # no need for this anymore.
 VERSIONS_EXPERIMENTS = [None]
 
@@ -139,8 +139,9 @@ def is_not_wav(file_name):
 def num_files(data_dirs, song_or_call, num_versions = 4):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
-    #num_versions = len(VERSIONS)
-    num_versions = count_versions(data_dirs[0], song_or_call)
+
+    num_versions = len(VERSIONS)
+    #num_versions = count_versions(data_dirs[0], song_or_call)
     num_file = 0
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
