@@ -242,7 +242,7 @@
      variabilidade dos centroides na gravação.
 
 
-     Apresentamos, agora, as características que útilizamos neste trabalho.
+     Apresentamos, agora, as características que utilizamos neste trabalho.
 
 ***** TODO Características acústicas
       As características acústicas representam características físicas e
