@@ -226,7 +226,7 @@
       \end{equation}
 ***** DONE Sons de pássaros
 ***** DONE Classificação multi-classes
-**** TODO Extração de características
+**** DONE Extração de características
 
      .... 
 
@@ -244,7 +244,7 @@
 
      Apresentamos, agora, as características que utilizamos neste trabalho.
 
-***** TODO Características acústicas
+***** DONE Características acústicas
       As características acústicas representam características físicas e
       perceptuais do som. São exemplos de características físicas: centroide 
       espectral (informação a respeito das frequências presentes no sinal) e o
@@ -254,12 +254,12 @@
       calculadas com características perceptuais.
       
       
-***** TODO Características próprias do domínio
-***** TODO Características globais
+***** DONE Características próprias do domínio
+***** DONE Características globais
 **** TODO Classificação
-***** TODO Aprendizagem supervisionada
+***** DONE Aprendizagem supervisionada
 ***** TODO Classificadores
-****** TODO kNN
+****** DONE kNN
 ****** TODO Naïve-Bayes
 ****** TODO SVM
 ***** TODO Avaliação
