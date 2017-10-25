@@ -4,6 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
+from random import shuffle
 from sklearn import svm, neighbors
 from sklearn.model_selection import cross_val_score
 
@@ -124,7 +125,7 @@ GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
 VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4']
 #VERSIONS = [None] # no need for this anymore.
-VERSIONS_EXPERIMENTS = [None]
+VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
@@ -254,6 +255,31 @@ def count_versions(data_dir, song_or_call):
                             num_versions = current + 1
     return num_versions if num_versions != 0 else 1
     #return int(num_file/num_versions)
+
+def number_of_dir_and_name(name_dir):
+    return name_dir[:-2], name_dir[-1]
+
+def create_list_with_dir_and_number(song_or_call):
+    dir_number = []
+    for name_dir in NAME_SPECIES_NUM_DIR:
+        spc, num_dir = number_of_dir_and_name(name_dir)
+        spc_dir = DATA_DIR_BASE + '-' +  num_dir + '/' + spc + '/'
+        num_dir = num_files([spc_dir], song_or_call)
+        #print(spc_dir + ' ' +  str(num_dir))
+        dir_number.append([spc_dir, num_dir])
+    dir_number.sort(key = lambda x:x[1])
+    return dir_number
+
+def choose_species_new(num_spc, num_min, song_or_call):
+    spcs_filtered = []
+    spcs = create_list_with_dir_and_number(song_or_call)
+
+    for spc in spcs:
+        if spc[1] > num_min:
+            spcs_filtered.append(spc[0])
+
+    shuffle(spcs_filtered)
+    return spcs_filtered[:num_spc]
 
 # def kNN(data, labels, k_range, cv = 5):
 #     max_acc = -np.inf

@@ -53,3 +53,5 @@
 
 
 {'feat': 'spec_cent', 'n_species': 3, 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.39 (+/- 0.14)', 'scoring': 'f1_weighted', 'knn': '0.62 (+/- 0.10)', 'svm': '0.59 (+/- 0.16)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Theristicus caudatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Schiffornis virescens/']}
+
+

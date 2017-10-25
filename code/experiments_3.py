@@ -221,7 +221,7 @@ def generate_info(num_species, num_exp, num_min):
             else:
                 DIRS = util.check_num_files(DIRS, 'song', spc, num_min)
             for feat in util.FEATURES:
-                for version in util.VERSIONS:
+                for version in util.VERSIONS_EXPERIMENTS:
                     print((feat, version, DIRS, 'song', spc, 'f1_weighted'))
                     infos.append((feat, version, DIRS, 'song', spc, 'f1_weighted', num_min, num_exp))
     print("[DONE] Info generated.")
