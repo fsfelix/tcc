@@ -154,37 +154,6 @@ def num_files(data_dirs, song_or_call, num_versions = 4):
                     num_file += 1
     return int(num_file/num_versions)
 
-def choose_species(num_species, full_or_pulse = 'full'):
-    # Return list of directories with species randomly choosen
-
-    n_dir = len(NAME_SPECIES_NUM_DIR)
-    samples = random.sample(range(0, n_dir), num_species)
-
-    dirs = []
-    for i in samples:
-        specie = NAME_SPECIES_NUM_DIR[i]
-        if full_or_pulse == 'full':
-            dir = DATA_DIR_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
-        else:
-            dir = DATA_DIR_PULSE_BASE + '-' + specie[-1] + '/' + specie[:-2] + '/'
-        dirs.append(dir)
-    return dirs
-
-def check_num_files(data_dirs, song_or_call, num_species, n_min):
-    # Check if all dirs have at least n_min files
-
-    i = 0
-    while i < num_species:
-        spc_num_files = num_files([data_dirs[i]], song_or_call)
-        #print(data_dirs[i] + ' n files:' + str(spc_num_files))
-        if spc_num_files < n_min: #or spc_num_files > 50:
-            data_dirs = choose_species(num_species)
-            i = 0
-        else:
-            i += 1
-
-    return data_dirs
-
 def generate_filtered_dirs(data_dir, num_filters = 3):
     recordings = [data_dir]
     for i in range(num_filters):
@@ -270,7 +239,7 @@ def create_list_with_dir_and_number(song_or_call):
     dir_number.sort(key = lambda x:x[1])
     return dir_number
 
-def choose_species_new(num_spc, num_min, song_or_call):
+def choose_species(num_spc, num_min, song_or_call):
     spcs_filtered = []
     spcs = create_list_with_dir_and_number(song_or_call)
 
@@ -280,59 +249,3 @@ def choose_species_new(num_spc, num_min, song_or_call):
 
     shuffle(spcs_filtered)
     return spcs_filtered[:num_spc]
-
-# def kNN(data, labels, k_range, cv = 5):
-#     max_acc = -np.inf
-
-#     for k in k_range:
-#         for weight in ['uniform', 'distance']:
-#             clf = neighbors.KNeighborsClassifier(k, weights = weight)
-#             scores = cross_val_score(clf, data, labels, n_jobs = -1, cv = cv)
-#             acc = scores.mean()
-#             if acc > max_acc:
-#                 max_acc = acc
-#                 max_k   = k
-#                 result  = '{0:.2f} (+/- {1:.2f})'.format(max_acc, scores.std() * 2)
-#             print("{0}-Neighbors | Accuracy: {1:.2f} (+/- {2:.2f}) | Weight: {3}".format(k, scores.mean(), scores.std() * 2, weight))
-
-#     return result, max_k
-
-# def u_SVM(data2, labels2, cv2 = 5):
-#     # kwargs = {'kernel' = 'linear', 'C' = 1}
-#     # clf = svm.SVC(**kwargs)
-#     clf2 = svm.SVC(kernel = 'linear', C = 1)
-#     # print(clf)
-#     # print(data)
-#     # print(labels)
-#     # print(cv)
-#     scores2 = cross_val_score(clf2, data2, labels2, cv2)
-#     #    print(scores)
-
-
-# print(labels_dict_o)
-# print(labels_dict_f1)
-# print(labels_dict_f2)
-# print(labels_dict_f3)
-
-
-# print(labels_o)
-# print(labels_f1)
-# print(labels_f2)
-# print(labels_f3)
-
-
-# print(len(labels_o))
-# print(len(labels_f1))
-# print(len(labels_f2))
-# print(len(labels_f3))
-
-
-# print(data_o[:10])
-# print(data_f1[:10])
-# print(data_f2[:10])
-# print(data_f3[:10])
-
-# print(len(data_o))
-# print(len(data_f1))
-# print(len(data_f2))
-# print(len(data_f3))
