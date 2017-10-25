@@ -239,12 +239,12 @@ def create_list_with_dir_and_number(song_or_call):
     dir_number.sort(key = lambda x:x[1])
     return dir_number
 
-def choose_species(num_spc, num_min, song_or_call):
+def choose_species(num_spc, num_min, num_max, song_or_call):
     spcs_filtered = []
     spcs = create_list_with_dir_and_number(song_or_call)
 
     for spc in spcs:
-        if spc[1] > num_min:
+        if spc[1] >= num_min and spc[1] <= num_max:
             spcs_filtered.append(spc[0])
 
     shuffle(spcs_filtered)

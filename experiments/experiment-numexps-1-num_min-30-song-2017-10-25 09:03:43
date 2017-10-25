@@ -1,0 +1,432 @@
+{'num_max': 40, 'knn': '0.38 (+/- 0.18)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.31 (+/- 0.11)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.25 (+/- 0.17)'}
+
+
+{'num_max': 40, 'knn': '0.45 (+/- 0.11)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.31 (+/- 0.11)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.34 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.48 (+/- 0.17)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.31 (+/- 0.20)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.28 (+/- 0.17)'}
+
+
+{'num_max': 40, 'knn': '0.26 (+/- 0.09)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.22 (+/- 0.08)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.44 (+/- 0.10)'}
+
+
+{'num_max': 40, 'knn': '0.44 (+/- 0.19)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.25 (+/- 0.09)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.40 (+/- 0.10)'}
+
+
+{'num_max': 40, 'knn': '0.39 (+/- 0.23)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.23 (+/- 0.09)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.42 (+/- 0.14)'}
+
+
+{'num_max': 40, 'knn': '0.33 (+/- 0.16)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.32 (+/- 0.16)'}
+
+
+{'num_max': 40, 'knn': '0.32 (+/- 0.20)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.02)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.31 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.40 (+/- 0.10)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.34 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.44 (+/- 0.10)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.43 (+/- 0.11)'}
+
+
+{'num_max': 40, 'knn': '0.54 (+/- 0.19)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.33 (+/- 0.21)'}
+
+
+{'num_max': 40, 'knn': '0.51 (+/- 0.15)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.43 (+/- 0.14)'}
+
+
+{'num_max': 40, 'knn': '0.44 (+/- 0.10)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.45 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.47 (+/- 0.21)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.33 (+/- 0.20)'}
+
+
+{'num_max': 40, 'knn': '0.42 (+/- 0.16)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.19 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.46 (+/- 0.21)'}
+
+
+{'num_max': 40, 'knn': '0.42 (+/- 0.12)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.27 (+/- 0.14)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.29 (+/- 0.22)'}
+
+
+{'num_max': 40, 'knn': '0.38 (+/- 0.17)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.22 (+/- 0.08)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.40 (+/- 0.19)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.45 (+/- 0.18)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.26 (+/- 0.11)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.28 (+/- 0.16)'}
+
+
+{'num_max': 40, 'knn': '0.39 (+/- 0.22)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.20 (+/- 0.02)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.37 (+/- 0.16)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.51 (+/- 0.26)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.35 (+/- 0.17)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.36 (+/- 0.17)'}
+
+
+{'num_max': 40, 'knn': '0.41 (+/- 0.22)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.30 (+/- 0.11)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.41 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.60 (+/- 0.16)', 'n_species': 3, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/'], 'num_min': 30, 'svm': '0.39 (+/- 0.14)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.40 (+/- 0.14)'}
+
+
+{'num_max': 40, 'knn': '0.17 (+/- 0.07)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.22 (+/- 0.16)'}
+
+
+{'num_max': 40, 'knn': '0.21 (+/- 0.17)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.16 (+/- 0.06)'}
+
+
+{'num_max': 40, 'knn': '0.25 (+/- 0.19)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.20 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.20 (+/- 0.08)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.12 (+/- 0.08)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.24 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.24 (+/- 0.16)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.12 (+/- 0.08)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.26 (+/- 0.06)'}
+
+
+{'num_max': 40, 'knn': '0.22 (+/- 0.05)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.25 (+/- 0.03)'}
+
+
+{'num_max': 40, 'knn': '0.20 (+/- 0.14)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.26 (+/- 0.12)'}
+
+
+{'num_max': 40, 'knn': '0.29 (+/- 0.06)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.16 (+/- 0.13)'}
+
+
+{'num_max': 40, 'knn': '0.24 (+/- 0.14)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.04)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.21 (+/- 0.11)'}
+
+
+{'num_max': 40, 'knn': '0.27 (+/- 0.20)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.20 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.30 (+/- 0.11)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.20 (+/- 0.14)'}
+
+
+{'num_max': 40, 'knn': '0.26 (+/- 0.19)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.23 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.38 (+/- 0.04)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.26 (+/- 0.10)'}
+
+
+{'num_max': 40, 'knn': '0.28 (+/- 0.10)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.19 (+/- 0.06)'}
+
+
+{'num_max': 40, 'knn': '0.40 (+/- 0.15)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.10 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.20 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.21 (+/- 0.13)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.09 (+/- 0.07)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.14 (+/- 0.16)'}
+
+
+{'num_max': 40, 'knn': '0.26 (+/- 0.05)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.09 (+/- 0.02)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.08 (+/- 0.02)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.22 (+/- 0.15)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.13 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.15 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.34 (+/- 0.07)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.09 (+/- 0.04)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.12 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.30 (+/- 0.14)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.16 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.28 (+/- 0.15)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.23 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.35 (+/- 0.10)', 'n_species': 5, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/'], 'num_min': 30, 'svm': '0.08 (+/- 0.01)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.21 (+/- 0.17)'}
+
+
+{'num_max': 40, 'knn': '0.18 (+/- 0.12)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.08 (+/- 0.04)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.10 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.18 (+/- 0.03)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.08 (+/- 0.03)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.14 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.14 (+/- 0.09)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.07 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'rmse', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.12 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.20 (+/- 0.07)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.06 (+/- 0.04)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.27 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.24 (+/- 0.07)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.05 (+/- 0.03)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.25 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.22 (+/- 0.10)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.05 (+/- 0.04)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'mfcc', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.21 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.23 (+/- 0.05)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.20 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.26 (+/- 0.06)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.03 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.24 (+/- 0.06)'}
+
+
+{'num_max': 40, 'knn': '0.24 (+/- 0.12)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_band', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.16 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '0.27 (+/- 0.12)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.28 (+/- 0.06)'}
+
+
+{'num_max': 40, 'knn': '0.33 (+/- 0.10)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.23 (+/- 0.05)'}
+
+
+{'num_max': 40, 'knn': '0.31 (+/- 0.06)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_cent', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.30 (+/- 0.05)'}
+
+
+{'num_max': 40, 'knn': '0.34 (+/- 0.09)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.29 (+/- 0.10)'}
+
+
+{'num_max': 40, 'knn': '0.28 (+/- 0.07)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.25 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.35 (+/- 0.14)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.00)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'spec_roll', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.30 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.14 (+/- 0.06)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.05 (+/- 0.05)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.07 (+/- 0.08)'}
+
+
+{'num_max': 40, 'knn': '0.13 (+/- 0.05)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.02)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.06 (+/- 0.05)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.23 (+/- 0.08)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.06 (+/- 0.03)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.08 (+/- 0.04)'}
+
+
+{'num_max': 40, 'knn': '0.13 (+/- 0.06)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.04 (+/- 0.02)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.06 (+/- 0.07)'}
+
+
+{'num_max': 40, 'knn': '-1', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '-1', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'syllable_dur_list', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '-1'}
+
+
+{'num_max': 40, 'knn': '0.32 (+/- 0.08)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.19 (+/- 0.06)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': None, 'kNN': 3, 'gnb': '0.25 (+/- 0.03)'}
+
+
+{'num_max': 40, 'knn': '0.26 (+/- 0.11)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.11 (+/- 0.09)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered1', 'kNN': 3, 'gnb': '0.20 (+/- 0.09)'}
+
+
+{'num_max': 40, 'knn': '0.35 (+/- 0.08)', 'n_species': 8, 'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/'], 'num_min': 30, 'svm': '0.18 (+/- 0.07)', 'num_exp': 1, 'scoring': 'f1_weighted', 'feat': 'zcr', 'cv': 5, 'kernel': 'rbf', 'version': 'filtered4', 'kNN': 3, 'gnb': '0.29 (+/- 0.09)'}
+
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.38 (+/- 0.18) |      0.25 (+/- 0.17) |      0.31 (+/- 0.11) | 
+                mfcc |      0.26 (+/- 0.09) |      0.44 (+/- 0.10) |      0.22 (+/- 0.08) | 
+           spec_band |      0.33 (+/- 0.16) |      0.32 (+/- 0.16) |      0.19 (+/- 0.01) | 
+           spec_cent |      0.44 (+/- 0.10) |      0.43 (+/- 0.11) |      0.19 (+/- 0.01) | 
+           spec_roll |      0.44 (+/- 0.10) |      0.45 (+/- 0.08) |      0.19 (+/- 0.01) | 
+        syllable_dur |      0.42 (+/- 0.12) |      0.29 (+/- 0.22) |      0.27 (+/- 0.14) | 
+   syllable_dur_list |      0.45 (+/- 0.18) |      0.28 (+/- 0.16) |      0.26 (+/- 0.11) | 
+                 zcr |      0.51 (+/- 0.26) |      0.36 (+/- 0.17) |      0.35 (+/- 0.17) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.45 (+/- 0.11) |      0.34 (+/- 0.09) |      0.31 (+/- 0.11) | 
+                mfcc |      0.44 (+/- 0.19) |      0.40 (+/- 0.10) |      0.25 (+/- 0.09) | 
+           spec_band |      0.32 (+/- 0.20) |      0.31 (+/- 0.07) |      0.19 (+/- 0.02) | 
+           spec_cent |      0.54 (+/- 0.19) |      0.33 (+/- 0.21) |      0.19 (+/- 0.01) | 
+           spec_roll |      0.47 (+/- 0.21) |      0.33 (+/- 0.20) |      0.19 (+/- 0.01) | 
+        syllable_dur |      0.38 (+/- 0.17) |      0.40 (+/- 0.19) |      0.22 (+/- 0.08) | 
+   syllable_dur_list |      0.39 (+/- 0.22) |      0.37 (+/- 0.16) |      0.20 (+/- 0.02) | 
+                 zcr |      0.41 (+/- 0.22) |      0.41 (+/- 0.09) |      0.30 (+/- 0.11) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.48 (+/- 0.17) |      0.28 (+/- 0.17) |      0.31 (+/- 0.20) | 
+                mfcc |      0.39 (+/- 0.23) |      0.42 (+/- 0.14) |      0.23 (+/- 0.09) | 
+           spec_band |      0.40 (+/- 0.10) |      0.34 (+/- 0.09) |      0.19 (+/- 0.01) | 
+           spec_cent |      0.51 (+/- 0.15) |      0.43 (+/- 0.14) |      0.19 (+/- 0.01) | 
+           spec_roll |      0.42 (+/- 0.16) |      0.46 (+/- 0.21) |      0.19 (+/- 0.01) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.60 (+/- 0.16) |      0.40 (+/- 0.14) |      0.39 (+/- 0.14) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.17 (+/- 0.07) |      0.22 (+/- 0.16) |      0.08 (+/- 0.01) | 
+                mfcc |      0.20 (+/- 0.08) |      0.24 (+/- 0.08) |      0.12 (+/- 0.08) | 
+           spec_band |      0.20 (+/- 0.14) |      0.26 (+/- 0.12) |      0.10 (+/- 0.05) | 
+           spec_cent |      0.27 (+/- 0.20) |      0.20 (+/- 0.07) |      0.10 (+/- 0.05) | 
+           spec_roll |      0.38 (+/- 0.04) |      0.26 (+/- 0.10) |      0.10 (+/- 0.06) | 
+        syllable_dur |      0.21 (+/- 0.13) |      0.14 (+/- 0.16) |      0.09 (+/- 0.07) | 
+   syllable_dur_list |      0.22 (+/- 0.15) |      0.15 (+/- 0.09) |      0.13 (+/- 0.05) | 
+                 zcr |      0.30 (+/- 0.14) |      0.16 (+/- 0.09) |      0.08 (+/- 0.01) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.21 (+/- 0.17) |      0.16 (+/- 0.06) |      0.08 (+/- 0.01) | 
+                mfcc |      0.24 (+/- 0.16) |      0.26 (+/- 0.06) |      0.12 (+/- 0.08) | 
+           spec_band |      0.29 (+/- 0.06) |      0.16 (+/- 0.13) |      0.10 (+/- 0.05) | 
+           spec_cent |      0.30 (+/- 0.11) |      0.20 (+/- 0.14) |      0.10 (+/- 0.06) | 
+           spec_roll |      0.28 (+/- 0.10) |      0.19 (+/- 0.06) |      0.10 (+/- 0.06) | 
+        syllable_dur |      0.26 (+/- 0.05) |      0.08 (+/- 0.02) |      0.09 (+/- 0.02) | 
+   syllable_dur_list |      0.34 (+/- 0.07) |      0.12 (+/- 0.07) |      0.09 (+/- 0.04) | 
+                 zcr |      0.28 (+/- 0.15) |      0.23 (+/- 0.09) |      0.08 (+/- 0.01) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Piprites chloris/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Polioptila dumicola/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.25 (+/- 0.19) |      0.20 (+/- 0.09) |      0.08 (+/- 0.01) | 
+                mfcc |      0.22 (+/- 0.05) |      0.25 (+/- 0.03) |      0.10 (+/- 0.05) | 
+           spec_band |      0.24 (+/- 0.14) |      0.21 (+/- 0.11) |      0.10 (+/- 0.04) | 
+           spec_cent |      0.26 (+/- 0.19) |      0.23 (+/- 0.09) |      0.10 (+/- 0.05) | 
+           spec_roll |      0.40 (+/- 0.15) |      0.20 (+/- 0.09) |      0.10 (+/- 0.06) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.35 (+/- 0.10) |      0.21 (+/- 0.17) |      0.08 (+/- 0.01) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.18 (+/- 0.12) |      0.10 (+/- 0.07) |      0.08 (+/- 0.04) | 
+                mfcc |      0.20 (+/- 0.07) |      0.27 (+/- 0.07) |      0.06 (+/- 0.04) | 
+           spec_band |      0.23 (+/- 0.05) |      0.20 (+/- 0.08) |      0.04 (+/- 0.00) | 
+           spec_cent |      0.27 (+/- 0.12) |      0.28 (+/- 0.06) |      0.04 (+/- 0.00) | 
+           spec_roll |      0.34 (+/- 0.09) |      0.29 (+/- 0.10) |      0.04 (+/- 0.00) | 
+        syllable_dur |      0.14 (+/- 0.06) |      0.07 (+/- 0.08) |      0.05 (+/- 0.05) | 
+   syllable_dur_list |      0.23 (+/- 0.08) |      0.08 (+/- 0.04) |      0.06 (+/- 0.03) | 
+                 zcr |      0.32 (+/- 0.08) |      0.25 (+/- 0.03) |      0.19 (+/- 0.06) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.18 (+/- 0.03) |      0.14 (+/- 0.07) |      0.08 (+/- 0.03) | 
+                mfcc |      0.24 (+/- 0.07) |      0.25 (+/- 0.09) |      0.05 (+/- 0.03) | 
+           spec_band |      0.26 (+/- 0.06) |      0.24 (+/- 0.06) |      0.03 (+/- 0.00) | 
+           spec_cent |      0.33 (+/- 0.10) |      0.23 (+/- 0.05) |      0.04 (+/- 0.00) | 
+           spec_roll |      0.28 (+/- 0.07) |      0.25 (+/- 0.09) |      0.04 (+/- 0.00) | 
+        syllable_dur |      0.13 (+/- 0.05) |      0.06 (+/- 0.05) |      0.04 (+/- 0.02) | 
+   syllable_dur_list |      0.13 (+/- 0.06) |      0.06 (+/- 0.07) |      0.04 (+/- 0.02) | 
+                 zcr |      0.26 (+/- 0.11) |      0.20 (+/- 0.09) |      0.11 (+/- 0.09) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 30
+numero máximo de arquivos por especie: 40
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Tangara desmaresti/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Batara cinerea/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.14 (+/- 0.09) |      0.12 (+/- 0.08) |      0.07 (+/- 0.06) | 
+                mfcc |      0.22 (+/- 0.10) |      0.21 (+/- 0.07) |      0.05 (+/- 0.04) | 
+           spec_band |      0.24 (+/- 0.12) |      0.16 (+/- 0.07) |      0.04 (+/- 0.00) | 
+           spec_cent |      0.31 (+/- 0.06) |      0.30 (+/- 0.05) |      0.04 (+/- 0.00) | 
+           spec_roll |      0.35 (+/- 0.14) |      0.30 (+/- 0.08) |      0.04 (+/- 0.00) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.35 (+/- 0.08) |      0.29 (+/- 0.09) |      0.18 (+/- 0.07) | 
+
