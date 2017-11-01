@@ -8,6 +8,9 @@ from multiprocessing import Pool
 
 # Como rodar: extract_feat(util.DATA_DIR_FULL)
 
+def mag_spec(y):
+    return np.abs(librosa.core.stft(y))
+
 def generate_local_feature(file_dir, feat_name, feat_func, **kwargs):
     output_file = file_dir + '.' + feat_name + '.txt'
     if not os.path.isfile(output_file):
@@ -37,7 +40,7 @@ def extract_feat(data_dirs):
 
                     #generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, **kwargs)
 
-                    #generate_local_feature(file_dir, 'stft', librosa.core.stft, **kwargs)
+                    generate_local_feature(file_dir, 'stft', mag_spec, **kwargs)
 
                     #generate_local_feature(file_dir, 'mfcc', librosa.feature.mfcc, **kwargs)
 
@@ -47,7 +50,7 @@ def extract_feat(data_dirs):
 
                     #generate_local_feature(file_dir, 'spec_roll', librosa.feature.spectral_rolloff, **kwargs)
 
-                    generate_local_feature(file_dir, 'zcr', librosa.feature.zero_crossing_rate, **kwargs)
+                    # generate_local_feature(file_dir, 'zcr', librosa.feature.zero_crossing_rate, **kwargs)
 
 
                     # kwargs = {'sr':  'min_dur' : 0.01, 'max_dur' : 3}
@@ -57,10 +60,7 @@ def extract_feat(data_dirs):
 
 #pool = Pool(processes = 4)
 #pool.map(extract_feat, util.DATA_DIR_POOL)
-#extract_feat(util.DATA_DIR_PULSE_FULL)
-extract_feat(util.DATA_DIR_FULL)
 
+most3 = ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/']
 
-#extract_feat(util.DATA_DIR_FULL[0])
-#extract_feat(['/var/tmp/ff/experimentos_100/Vanellus chilensis', '/var/tmp/ff/experimentos_100/Trogon surrucura', '/var/tmp/ff/experimentos_100/Synallaxis spixi'])
-#extract_feat(['/var/tmp/ff/experimentos_100/Synallaxis spixi/song'])
+extract_feat(most3)

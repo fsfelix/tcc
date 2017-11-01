@@ -1,0 +1,432 @@
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.50 (+/- 0.18)', 'gnb': '0.46 (+/- 0.20)', 'num_exp': 1, 'version': None, 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.52 (+/- 0.25)', 'gnb': '0.45 (+/- 0.17)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.57 (+/- 0.13)', 'gnb': '0.51 (+/- 0.17)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.58 (+/- 0.23)', 'gnb': '0.65 (+/- 0.07)', 'num_exp': 1, 'version': None, 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.77 (+/- 0.17)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.63 (+/- 0.17)', 'gnb': '0.70 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.75 (+/- 0.16)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.52 (+/- 0.19)', 'gnb': '0.72 (+/- 0.11)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.71 (+/- 0.13)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.47 (+/- 0.14)', 'gnb': '0.44 (+/- 0.12)', 'num_exp': 1, 'version': None, 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.43 (+/- 0.13)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.47 (+/- 0.16)', 'gnb': '0.49 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.49 (+/- 0.12)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.46 (+/- 0.16)', 'gnb': '0.42 (+/- 0.19)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.54 (+/- 0.16)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.45 (+/- 0.09)', 'gnb': '0.40 (+/- 0.12)', 'num_exp': 1, 'version': None, 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.44 (+/- 0.20)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.43 (+/- 0.08)', 'gnb': '0.35 (+/- 0.13)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.42 (+/- 0.15)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.46 (+/- 0.20)', 'gnb': '0.42 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.47 (+/- 0.20)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.52 (+/- 0.17)', 'gnb': '0.47 (+/- 0.11)', 'num_exp': 1, 'version': None, 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.52 (+/- 0.05)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.44 (+/- 0.18)', 'gnb': '0.42 (+/- 0.11)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.48 (+/- 0.07)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.53 (+/- 0.09)', 'gnb': '0.49 (+/- 0.07)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.54 (+/- 0.17)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.44 (+/- 0.16)', 'gnb': '0.29 (+/- 0.13)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.50 (+/- 0.22)', 'gnb': '0.24 (+/- 0.15)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.55 (+/- 0.30)', 'gnb': '0.36 (+/- 0.11)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.47 (+/- 0.09)', 'gnb': '0.37 (+/- 0.27)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.46 (+/- 0.15)', 'gnb': '0.37 (+/- 0.19)', 'num_exp': 1, 'version': None, 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.41 (+/- 0.08)', 'gnb': '0.36 (+/- 0.09)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 3, 'kernel': 'linear', 'knn': '0.51 (+/- 0.15)', 'gnb': '0.39 (+/- 0.18)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.25 (+/- 0.10)', 'gnb': '0.24 (+/- 0.12)', 'num_exp': 1, 'version': None, 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.10 (+/- 0.06)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.29 (+/- 0.24)', 'gnb': '0.25 (+/- 0.19)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.11 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.27 (+/- 0.14)', 'gnb': '0.24 (+/- 0.15)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.10 (+/- 0.05)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.50 (+/- 0.16)', 'gnb': '0.67 (+/- 0.24)', 'num_exp': 1, 'version': None, 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.77 (+/- 0.15)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.64 (+/- 0.07)', 'gnb': '0.75 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.81 (+/- 0.06)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.57 (+/- 0.18)', 'gnb': '0.67 (+/- 0.23)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.73 (+/- 0.08)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.24 (+/- 0.11)', 'gnb': '0.27 (+/- 0.10)', 'num_exp': 1, 'version': None, 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.22 (+/- 0.17)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.31 (+/- 0.11)', 'gnb': '0.25 (+/- 0.16)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.28 (+/- 0.12)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.29 (+/- 0.17)', 'gnb': '0.29 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.24 (+/- 0.08)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.33 (+/- 0.12)', 'gnb': '0.37 (+/- 0.12)', 'num_exp': 1, 'version': None, 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.31 (+/- 0.11)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.34 (+/- 0.08)', 'gnb': '0.32 (+/- 0.12)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.25 (+/- 0.15)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.36 (+/- 0.12)', 'gnb': '0.36 (+/- 0.15)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.35 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.29 (+/- 0.16)', 'gnb': '0.28 (+/- 0.10)', 'num_exp': 1, 'version': None, 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.29 (+/- 0.08)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.26 (+/- 0.08)', 'gnb': '0.30 (+/- 0.12)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.32 (+/- 0.12)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.36 (+/- 0.17)', 'gnb': '0.31 (+/- 0.18)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.41 (+/- 0.13)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.24 (+/- 0.19)', 'gnb': '0.15 (+/- 0.07)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.09 (+/- 0.01)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.26 (+/- 0.10)', 'gnb': '0.19 (+/- 0.12)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.08 (+/- 0.01)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.34 (+/- 0.17)', 'gnb': '0.25 (+/- 0.14)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.18 (+/- 0.08)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.35 (+/- 0.14)', 'gnb': '0.22 (+/- 0.13)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.08 (+/- 0.01)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.45 (+/- 0.19)', 'gnb': '0.38 (+/- 0.11)', 'num_exp': 1, 'version': None, 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.24 (+/- 0.14)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.31 (+/- 0.19)', 'gnb': '0.26 (+/- 0.13)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.15 (+/- 0.11)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 5, 'kernel': 'linear', 'knn': '0.51 (+/- 0.21)', 'gnb': '0.38 (+/- 0.22)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.24 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.23 (+/- 0.08)', 'gnb': '0.12 (+/- 0.08)', 'num_exp': 1, 'version': None, 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.07 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.11 (+/- 0.04)', 'gnb': '0.12 (+/- 0.05)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.04 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.26 (+/- 0.08)', 'gnb': '0.14 (+/- 0.04)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'rmse', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.06 (+/- 0.06)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.43 (+/- 0.15)', 'gnb': '0.54 (+/- 0.11)', 'num_exp': 1, 'version': None, 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.65 (+/- 0.14)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.51 (+/- 0.12)', 'gnb': '0.65 (+/- 0.09)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.66 (+/- 0.14)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.41 (+/- 0.11)', 'gnb': '0.53 (+/- 0.09)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'mfcc', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.65 (+/- 0.03)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.22 (+/- 0.09)', 'gnb': '0.19 (+/- 0.10)', 'num_exp': 1, 'version': None, 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.21 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.17 (+/- 0.06)', 'gnb': '0.21 (+/- 0.08)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.20 (+/- 0.12)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.18 (+/- 0.08)', 'gnb': '0.17 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_band', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.25 (+/- 0.12)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.29 (+/- 0.05)', 'gnb': '0.27 (+/- 0.06)', 'num_exp': 1, 'version': None, 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.24 (+/- 0.05)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.32 (+/- 0.08)', 'gnb': '0.23 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.28 (+/- 0.11)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.30 (+/- 0.09)', 'gnb': '0.29 (+/- 0.07)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_cent', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.34 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.28 (+/- 0.08)', 'gnb': '0.24 (+/- 0.07)', 'num_exp': 1, 'version': None, 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.23 (+/- 0.09)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.27 (+/- 0.10)', 'gnb': '0.18 (+/- 0.09)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.23 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.30 (+/- 0.03)', 'gnb': '0.23 (+/- 0.10)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'spec_roll', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.24 (+/- 0.11)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.13 (+/- 0.07)', 'gnb': '0.15 (+/- 0.04)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.06 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.20 (+/- 0.08)', 'gnb': '0.05 (+/- 0.04)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.05 (+/- 0.02)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.20 (+/- 0.07)', 'gnb': '0.13 (+/- 0.05)', 'num_exp': 1, 'version': None, 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.08 (+/- 0.05)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.17 (+/- 0.04)', 'gnb': '0.07 (+/- 0.07)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.08 (+/- 0.03)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '-1', 'gnb': '-1', 'num_exp': 1, 'version': 'filtered4', 'feat': 'syllable_dur_list', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '-1', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.28 (+/- 0.09)', 'gnb': '0.27 (+/- 0.11)', 'num_exp': 1, 'version': None, 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.12 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.23 (+/- 0.07)', 'gnb': '0.18 (+/- 0.09)', 'num_exp': 1, 'version': 'filtered1', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.10 (+/- 0.04)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+{'kNN': 3, 'n_species': 8, 'kernel': 'linear', 'knn': '0.30 (+/- 0.12)', 'gnb': '0.27 (+/- 0.07)', 'num_exp': 1, 'version': 'filtered4', 'feat': 'zcr', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/'], 'song_or_call': 'song', 'cv': 5, 'svm': '0.15 (+/- 0.02)', 'num_max': 200, 'num_min': 20, 'scoring': 'f1_weighted'}
+
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.18) |      0.46 (+/- 0.20) |      0.31 (+/- 0.04) | 
+                mfcc |      0.58 (+/- 0.23) |      0.65 (+/- 0.07) |      0.77 (+/- 0.17) | 
+           spec_band |      0.47 (+/- 0.14) |      0.44 (+/- 0.12) |      0.43 (+/- 0.13) | 
+           spec_cent |      0.45 (+/- 0.09) |      0.40 (+/- 0.12) |      0.44 (+/- 0.20) | 
+           spec_roll |      0.52 (+/- 0.17) |      0.47 (+/- 0.11) |      0.52 (+/- 0.05) | 
+        syllable_dur |      0.44 (+/- 0.16) |      0.29 (+/- 0.13) |      0.31 (+/- 0.04) | 
+   syllable_dur_list |      0.55 (+/- 0.30) |      0.36 (+/- 0.11) |      0.31 (+/- 0.04) | 
+                 zcr |      0.46 (+/- 0.15) |      0.37 (+/- 0.19) |      0.31 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.25) |      0.45 (+/- 0.17) |      0.31 (+/- 0.04) | 
+                mfcc |      0.63 (+/- 0.17) |      0.70 (+/- 0.10) |      0.75 (+/- 0.16) | 
+           spec_band |      0.47 (+/- 0.16) |      0.49 (+/- 0.10) |      0.49 (+/- 0.12) | 
+           spec_cent |      0.43 (+/- 0.08) |      0.35 (+/- 0.13) |      0.42 (+/- 0.15) | 
+           spec_roll |      0.44 (+/- 0.18) |      0.42 (+/- 0.11) |      0.48 (+/- 0.07) | 
+        syllable_dur |      0.50 (+/- 0.22) |      0.24 (+/- 0.15) |      0.31 (+/- 0.04) | 
+   syllable_dur_list |      0.47 (+/- 0.09) |      0.37 (+/- 0.27) |      0.31 (+/- 0.04) | 
+                 zcr |      0.41 (+/- 0.08) |      0.36 (+/- 0.09) |      0.31 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.57 (+/- 0.13) |      0.51 (+/- 0.17) |      0.31 (+/- 0.04) | 
+                mfcc |      0.52 (+/- 0.19) |      0.72 (+/- 0.11) |      0.71 (+/- 0.13) | 
+           spec_band |      0.46 (+/- 0.16) |      0.42 (+/- 0.19) |      0.54 (+/- 0.16) | 
+           spec_cent |      0.46 (+/- 0.20) |      0.42 (+/- 0.10) |      0.47 (+/- 0.20) | 
+           spec_roll |      0.53 (+/- 0.09) |      0.49 (+/- 0.07) |      0.54 (+/- 0.17) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.51 (+/- 0.15) |      0.39 (+/- 0.18) |      0.31 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.25 (+/- 0.10) |      0.24 (+/- 0.12) |      0.10 (+/- 0.06) | 
+                mfcc |      0.50 (+/- 0.16) |      0.67 (+/- 0.24) |      0.77 (+/- 0.15) | 
+           spec_band |      0.24 (+/- 0.11) |      0.27 (+/- 0.10) |      0.22 (+/- 0.17) | 
+           spec_cent |      0.33 (+/- 0.12) |      0.37 (+/- 0.12) |      0.31 (+/- 0.11) | 
+           spec_roll |      0.29 (+/- 0.16) |      0.28 (+/- 0.10) |      0.29 (+/- 0.08) | 
+        syllable_dur |      0.24 (+/- 0.19) |      0.15 (+/- 0.07) |      0.09 (+/- 0.01) | 
+   syllable_dur_list |      0.34 (+/- 0.17) |      0.25 (+/- 0.14) |      0.18 (+/- 0.08) | 
+                 zcr |      0.45 (+/- 0.19) |      0.38 (+/- 0.11) |      0.24 (+/- 0.14) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.29 (+/- 0.24) |      0.25 (+/- 0.19) |      0.11 (+/- 0.09) | 
+                mfcc |      0.64 (+/- 0.07) |      0.75 (+/- 0.10) |      0.81 (+/- 0.06) | 
+           spec_band |      0.31 (+/- 0.11) |      0.25 (+/- 0.16) |      0.28 (+/- 0.12) | 
+           spec_cent |      0.34 (+/- 0.08) |      0.32 (+/- 0.12) |      0.25 (+/- 0.15) | 
+           spec_roll |      0.26 (+/- 0.08) |      0.30 (+/- 0.12) |      0.32 (+/- 0.12) | 
+        syllable_dur |      0.26 (+/- 0.10) |      0.19 (+/- 0.12) |      0.08 (+/- 0.01) | 
+   syllable_dur_list |      0.35 (+/- 0.14) |      0.22 (+/- 0.13) |      0.08 (+/- 0.01) | 
+                 zcr |      0.31 (+/- 0.19) |      0.26 (+/- 0.13) |      0.15 (+/- 0.11) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 5
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thraupis palmarum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Thamnophilus ruficapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Colaptes campestris/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.27 (+/- 0.14) |      0.24 (+/- 0.15) |      0.10 (+/- 0.05) | 
+                mfcc |      0.57 (+/- 0.18) |      0.67 (+/- 0.23) |      0.73 (+/- 0.08) | 
+           spec_band |      0.29 (+/- 0.17) |      0.29 (+/- 0.10) |      0.24 (+/- 0.08) | 
+           spec_cent |      0.36 (+/- 0.12) |      0.36 (+/- 0.15) |      0.35 (+/- 0.09) | 
+           spec_roll |      0.36 (+/- 0.17) |      0.31 (+/- 0.18) |      0.41 (+/- 0.13) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.51 (+/- 0.21) |      0.38 (+/- 0.22) |      0.24 (+/- 0.09) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.23 (+/- 0.08) |      0.12 (+/- 0.08) |      0.07 (+/- 0.04) | 
+                mfcc |      0.43 (+/- 0.15) |      0.54 (+/- 0.11) |      0.65 (+/- 0.14) | 
+           spec_band |      0.22 (+/- 0.09) |      0.19 (+/- 0.10) |      0.21 (+/- 0.09) | 
+           spec_cent |      0.29 (+/- 0.05) |      0.27 (+/- 0.06) |      0.24 (+/- 0.05) | 
+           spec_roll |      0.28 (+/- 0.08) |      0.24 (+/- 0.07) |      0.23 (+/- 0.09) | 
+        syllable_dur |      0.13 (+/- 0.07) |      0.15 (+/- 0.04) |      0.06 (+/- 0.04) | 
+   syllable_dur_list |      0.20 (+/- 0.07) |      0.13 (+/- 0.05) |      0.08 (+/- 0.05) | 
+                 zcr |      0.28 (+/- 0.09) |      0.27 (+/- 0.11) |      0.12 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.11 (+/- 0.04) |      0.12 (+/- 0.05) |      0.04 (+/- 0.04) | 
+                mfcc |      0.51 (+/- 0.12) |      0.65 (+/- 0.09) |      0.66 (+/- 0.14) | 
+           spec_band |      0.17 (+/- 0.06) |      0.21 (+/- 0.08) |      0.20 (+/- 0.12) | 
+           spec_cent |      0.32 (+/- 0.08) |      0.23 (+/- 0.10) |      0.28 (+/- 0.11) | 
+           spec_roll |      0.27 (+/- 0.10) |      0.18 (+/- 0.09) |      0.23 (+/- 0.04) | 
+        syllable_dur |      0.20 (+/- 0.08) |      0.05 (+/- 0.04) |      0.05 (+/- 0.02) | 
+   syllable_dur_list |      0.17 (+/- 0.04) |      0.07 (+/- 0.07) |      0.08 (+/- 0.03) | 
+                 zcr |      0.23 (+/- 0.07) |      0.18 (+/- 0.09) |      0.10 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 8
+numero minimo de arquivos por especie: 20
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Phleocryptes melanops/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Dysithamnus mentalis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pseudoleistes guirahuro/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Leucochloris albicollis/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Poospiza nigrorufa/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xiphorhynchus fuscus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.26 (+/- 0.08) |      0.14 (+/- 0.04) |      0.06 (+/- 0.06) | 
+                mfcc |      0.41 (+/- 0.11) |      0.53 (+/- 0.09) |      0.65 (+/- 0.03) | 
+           spec_band |      0.18 (+/- 0.08) |      0.17 (+/- 0.10) |      0.25 (+/- 0.12) | 
+           spec_cent |      0.30 (+/- 0.09) |      0.29 (+/- 0.07) |      0.34 (+/- 0.09) | 
+           spec_roll |      0.30 (+/- 0.03) |      0.23 (+/- 0.10) |      0.24 (+/- 0.11) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.30 (+/- 0.12) |      0.27 (+/- 0.07) |      0.15 (+/- 0.02) | 
+

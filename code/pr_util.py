@@ -126,8 +126,8 @@ CLASSIFIERS = ['kNN', 'NB', 'SVM']
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
 VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4']
-#VERSIONS = [None] # no need for this anymore.
-VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
+#VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
+VERSIONS_EXPERIMENTS = ['filtered2', 'filtered3']
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
@@ -162,7 +162,7 @@ def generate_filtered_dirs(data_dir, num_filters = 3):
         recordings.append(data_dir + '.filtered' + str(i + 1) + '.wav')
     return recordings
 
-def return_random_audio(data_dirs):
+def return_random_audio(data_dirs = DATA_DIR_FULL):
     recordings = []
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
@@ -252,3 +252,10 @@ def choose_species(num_spc, num_min, num_max, song_or_call):
 
     shuffle(spcs_filtered)
     return spcs_filtered[:num_spc]
+
+def return_n_most_frequent_species(n, song_or_call):
+    spcs = create_list_with_dir_and_number(song_or_call)
+    res = []
+    for spc in spcs[-n:]:
+        res.append(spc[0])
+    return res

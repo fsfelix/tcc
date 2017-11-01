@@ -1,0 +1,87 @@
+{'feat': 'rmse', 'song_or_call': 'song', 'version': None, 'gnb': '0.52 (+/- 0.05)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.60 (+/- 0.11)'}
+
+
+{'feat': 'rmse', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.59 (+/- 0.14)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.65 (+/- 0.09)'}
+
+
+{'feat': 'rmse', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.62 (+/- 0.10)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.67 (+/- 0.17)'}
+
+
+{'feat': 'rmse', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.49 (+/- 0.18)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.64 (+/- 0.11)'}
+
+
+{'feat': 'rmse', 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.44 (+/- 0.07)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.58 (+/- 0.03)'}
+
+
+{'feat': 'mfcc', 'song_or_call': 'song', 'version': None, 'gnb': '0.63 (+/- 0.10)', 'svm': '0.62 (+/- 0.12)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.68 (+/- 0.09)'}
+
+
+{'feat': 'mfcc', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.59 (+/- 0.10)', 'svm': '0.66 (+/- 0.16)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.66 (+/- 0.18)'}
+
+
+{'feat': 'mfcc', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.59 (+/- 0.15)', 'svm': '0.61 (+/- 0.06)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.60 (+/- 0.14)'}
+
+
+{'feat': 'mfcc', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.59 (+/- 0.13)', 'svm': '0.73 (+/- 0.11)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.68 (+/- 0.06)'}
+
+
+{'feat': 'mfcc', 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.54 (+/- 0.10)', 'svm': '0.56 (+/- 0.09)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.61 (+/- 0.15)'}
+
+
+{'feat': 'spec_band', 'song_or_call': 'song', 'version': None, 'gnb': '0.54 (+/- 0.11)', 'svm': '0.59 (+/- 0.10)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.60 (+/- 0.24)'}
+
+
+{'feat': 'spec_band', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.61 (+/- 0.14)', 'svm': '0.61 (+/- 0.15)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.59 (+/- 0.11)'}
+
+
+{'feat': 'spec_band', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.58 (+/- 0.12)', 'svm': '0.61 (+/- 0.11)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.64 (+/- 0.18)'}
+
+
+{'feat': 'spec_band', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.62 (+/- 0.09)', 'svm': '0.62 (+/- 0.08)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.65 (+/- 0.15)'}
+
+
+{'feat': 'spec_band', 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.49 (+/- 0.07)', 'svm': '0.57 (+/- 0.18)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.59 (+/- 0.17)'}
+
+
+{'feat': 'spec_cent', 'song_or_call': 'song', 'version': None, 'gnb': '0.71 (+/- 0.14)', 'svm': '0.67 (+/- 0.05)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.70 (+/- 0.09)'}
+
+
+{'feat': 'spec_cent', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.67 (+/- 0.12)', 'svm': '0.70 (+/- 0.18)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.74 (+/- 0.12)'}
+
+
+{'feat': 'spec_cent', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.70 (+/- 0.09)', 'svm': '0.75 (+/- 0.13)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.75 (+/- 0.09)'}
+
+
+{'feat': 'spec_cent', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.66 (+/- 0.10)', 'svm': '0.66 (+/- 0.09)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.75 (+/- 0.08)'}
+
+
+{'feat': 'spec_cent', 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.71 (+/- 0.10)', 'svm': '0.56 (+/- 0.10)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.72 (+/- 0.03)'}
+
+
+{'feat': 'spec_roll', 'song_or_call': 'song', 'version': None, 'gnb': '0.64 (+/- 0.14)', 'svm': '0.61 (+/- 0.10)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.62 (+/- 0.09)'}
+
+
+{'feat': 'spec_roll', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.62 (+/- 0.09)', 'svm': '0.56 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.68 (+/- 0.17)'}
+
+
+{'feat': 'spec_roll', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.68 (+/- 0.08)', 'svm': '0.60 (+/- 0.08)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.69 (+/- 0.15)'}
+
+
+{'feat': 'spec_roll', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.67 (+/- 0.10)', 'svm': '0.65 (+/- 0.13)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.74 (+/- 0.05)'}
+
+
+{'feat': 'spec_roll', 'song_or_call': 'song', 'version': 'filtered4', 'gnb': '0.63 (+/- 0.05)', 'svm': '0.53 (+/- 0.04)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.72 (+/- 0.12)'}
+
+
+{'feat': 'syllable_dur', 'song_or_call': 'song', 'version': None, 'gnb': '0.41 (+/- 0.11)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.52 (+/- 0.06)'}
+
+
+{'feat': 'syllable_dur', 'song_or_call': 'song', 'version': 'filtered1', 'gnb': '0.40 (+/- 0.24)', 'svm': '0.44 (+/- 0.05)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.44 (+/- 0.12)'}
+
+
+{'feat': 'syllable_dur', 'song_or_call': 'song', 'version': 'filtered2', 'gnb': '0.52 (+/- 0.15)', 'svm': '0.43 (+/- 0.03)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.51 (+/- 0.05)'}
+
+
+{'feat': 'syllable_dur', 'song_or_call': 'song', 'version': 'filtered3', 'gnb': '0.47 (+/- 0.07)', 'svm': '0.43 (+/- 0.04)', 'num_min': 30, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Xenops minutus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Mimus saturninus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Certhiaxis cinnamomeus/'], 'n_species': 3, 'scoring': 'f1_weighted', 'knn': '0.48 (+/- 0.07)'}
+
+

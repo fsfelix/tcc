@@ -180,7 +180,7 @@ def generate_experiment(info):
     num_min      = info[6]
     num_exp      = info[7]
     num_max      = info[8]
-    kernel       = 'rbf'
+    kernel       = 'linear'
     k            = 3
     cv           = 5
 
@@ -191,7 +191,7 @@ def generate_experiment(info):
     print("len data: {}".format(len_data))
     print("len labels: {}".format(len_labels))
 
-    if len_data != len_labels:
+    if len_data != len_labels or data == [] or len_data == 0 or len_labels == 0:
         print("ACHAMOS UMA INCOSISTENCIA")
         print(data_dirs)
         resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = '-1', gnb = '-1', svm = '-1', num_min = num_min, num_max = num_max, num_exp = num_exp, kernel = kernel, kNN = k, cv = cv)
@@ -226,7 +226,10 @@ def generate_info(num_species, num_exp, num_min, num_max, song_or_call):
     infos = []
     for n in range(num_exp):
         for spc in num_species:
-            DIRS = util.choose_species(spc, num_min, num_max, song_or_call)
+            if num_min == -1:
+                DIRS = util.return_n_most_frequent_species(spc, song_or_call)
+            else:
+                DIRS = util.choose_species(spc, num_min, num_max, song_or_call)
             for feat in util.FEATURES:
                 for version in util.VERSIONS_EXPERIMENTS:
                     print((feat, version, DIRS, song_or_call, spc, 'f1_weighted'))
@@ -235,12 +238,11 @@ def generate_info(num_species, num_exp, num_min, num_max, song_or_call):
     print("Info lenght: {}".format(len(infos)))
     return infos
 
-
 def write_info(d, file_exp):
     file_exp.write('\n--------------------------------------\n')
     file_exp.write('experimento número: {} \n'.format(d['num_exp']))
     file_exp.write('numero de especies: {}\n'.format(d['n_species']))
-    file_exp.write('numero minimo de arquivos por especie: {}\n'.format(d['num_min']))
+    file_exp.write('numero minimo de arquivos por especie (-1 most frequent): {}\n'.format(d['num_min']))
     file_exp.write('numero máximo de arquivos por especie: {}\n'.format(d['num_max']))
     file_exp.write('diretórios: {}\n'.format(d['dirs']))
     file_exp.write('scoring: {}\n'.format(d['scoring']))
@@ -299,11 +301,11 @@ def experiments_parallel(num_exp, num_cores, num_min, num_max, song_or_call, spc
 
 def main():
 
-    num_exp = int(input("número de experimentos: "))
-    spc = str(input("lista com número de espécies separado por espaços (ex: 3 5 8): "))
-    num_min = int(input("número minimo de arquivos por especie: "))
-    num_max = int(input("número maximo de arquivos por especie: "))
-    num_cores = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
+    num_exp      = int(input("número de experimentos: "))
+    spc          = str(input("lista com número de espécies separado por espaços (ex: 3 5 8): "))
+    num_min      = int(input("número minimo de arquivos por especie (-1 para as n especies + freq): "))
+    num_max      = int(input("número maximo de arquivos por especie: "))
+    num_cores    = int(input("número de cores (-1 sem paralelismo, -2 número máximo possível): "))
     song_or_call = str(input("song or call: "))
 
     spc = [int(n) for n in spc.split(' ')]

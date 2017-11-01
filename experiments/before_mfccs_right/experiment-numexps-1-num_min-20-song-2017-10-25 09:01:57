@@ -1,0 +1,141 @@
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.53 (+/- 0.32)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'rmse', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.35 (+/- 0.13)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.49 (+/- 0.20)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'rmse', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.39 (+/- 0.10)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.51 (+/- 0.32)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'rmse', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.34 (+/- 0.21)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.64 (+/- 0.12)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'mfcc', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.72 (+/- 0.05)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.44 (+/- 0.16)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'mfcc', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.49 (+/- 0.15)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.52 (+/- 0.16)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'mfcc', 'cv': 5, 'n_species': 3, 'svm': '0.33 (+/- 0.17)', 'gnb': '0.51 (+/- 0.28)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.50 (+/- 0.16)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'spec_band', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.54 (+/- 0.27)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.59 (+/- 0.22)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_band', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.58 (+/- 0.09)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.44 (+/- 0.21)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_band', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.55 (+/- 0.25)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.54 (+/- 0.08)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'spec_cent', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.58 (+/- 0.13)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.73 (+/- 0.17)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_cent', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.65 (+/- 0.15)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.58 (+/- 0.24)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_cent', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.58 (+/- 0.22)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.35 (+/- 0.17)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'spec_roll', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.45 (+/- 0.26)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.65 (+/- 0.14)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_roll', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.64 (+/- 0.15)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.38 (+/- 0.08)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'spec_roll', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.38 (+/- 0.18)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.46 (+/- 0.11)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur', 'cv': 5, 'n_species': 3, 'svm': '0.26 (+/- 0.14)', 'gnb': '0.33 (+/- 0.13)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.44 (+/- 0.32)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.23 (+/- 0.16)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '-1', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur', 'cv': 5, 'n_species': 3, 'svm': '-1', 'gnb': '-1', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.43 (+/- 0.18)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur_list', 'cv': 5, 'n_species': 3, 'svm': '0.32 (+/- 0.11)', 'gnb': '0.30 (+/- 0.11)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.42 (+/- 0.18)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur_list', 'cv': 5, 'n_species': 3, 'svm': '0.21 (+/- 0.07)', 'gnb': '0.21 (+/- 0.14)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '-1', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'syllable_dur_list', 'cv': 5, 'n_species': 3, 'svm': '-1', 'gnb': '-1', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.72 (+/- 0.19)', 'scoring': 'f1_weighted', 'version': None, 'num_max': 30, 'num_exp': 1, 'feat': 'zcr', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.55 (+/- 0.25)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.63 (+/- 0.12)', 'scoring': 'f1_weighted', 'version': 'filtered1', 'num_max': 30, 'num_exp': 1, 'feat': 'zcr', 'cv': 5, 'n_species': 3, 'svm': '0.27 (+/- 0.16)', 'gnb': '0.69 (+/- 0.18)', 'song_or_call': 'song'}
+
+
+{'kNN': 3, 'kernel': 'rbf', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/'], 'num_min': 20, 'knn': '0.81 (+/- 0.17)', 'scoring': 'f1_weighted', 'version': 'filtered4', 'num_max': 30, 'num_exp': 1, 'feat': 'zcr', 'cv': 5, 'n_species': 3, 'svm': '0.24 (+/- 0.04)', 'gnb': '0.50 (+/- 0.28)', 'song_or_call': 'song'}
+
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.53 (+/- 0.32) |      0.35 (+/- 0.13) |      0.24 (+/- 0.04) | 
+                mfcc |      0.64 (+/- 0.12) |      0.72 (+/- 0.05) |      0.24 (+/- 0.04) | 
+           spec_band |      0.50 (+/- 0.16) |      0.54 (+/- 0.27) |      0.24 (+/- 0.04) | 
+           spec_cent |      0.54 (+/- 0.08) |      0.58 (+/- 0.13) |      0.24 (+/- 0.04) | 
+           spec_roll |      0.35 (+/- 0.17) |      0.45 (+/- 0.26) |      0.24 (+/- 0.04) | 
+        syllable_dur |      0.46 (+/- 0.11) |      0.33 (+/- 0.13) |      0.26 (+/- 0.14) | 
+   syllable_dur_list |      0.43 (+/- 0.18) |      0.30 (+/- 0.11) |      0.32 (+/- 0.11) | 
+                 zcr |      0.72 (+/- 0.19) |      0.55 (+/- 0.25) |      0.24 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.49 (+/- 0.20) |      0.39 (+/- 0.10) |      0.24 (+/- 0.04) | 
+                mfcc |      0.44 (+/- 0.16) |      0.49 (+/- 0.15) |      0.24 (+/- 0.04) | 
+           spec_band |      0.59 (+/- 0.22) |      0.58 (+/- 0.09) |      0.24 (+/- 0.04) | 
+           spec_cent |      0.73 (+/- 0.17) |      0.65 (+/- 0.15) |      0.24 (+/- 0.04) | 
+           spec_roll |      0.65 (+/- 0.14) |      0.64 (+/- 0.15) |      0.24 (+/- 0.04) | 
+        syllable_dur |      0.44 (+/- 0.32) |      0.23 (+/- 0.16) |      0.24 (+/- 0.04) | 
+   syllable_dur_list |      0.42 (+/- 0.18) |      0.21 (+/- 0.14) |      0.21 (+/- 0.07) | 
+                 zcr |      0.63 (+/- 0.12) |      0.69 (+/- 0.18) |      0.27 (+/- 0.16) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 3
+numero minimo de arquivos por especie: 20
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Aegolius harrisii/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Hypoedaleus guttatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Stymphalornis acutirostris/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: rbf
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.51 (+/- 0.32) |      0.34 (+/- 0.21) |      0.24 (+/- 0.04) | 
+                mfcc |      0.52 (+/- 0.16) |      0.51 (+/- 0.28) |      0.33 (+/- 0.17) | 
+           spec_band |      0.44 (+/- 0.21) |      0.55 (+/- 0.25) |      0.24 (+/- 0.04) | 
+           spec_cent |      0.58 (+/- 0.24) |      0.58 (+/- 0.22) |      0.24 (+/- 0.04) | 
+           spec_roll |      0.38 (+/- 0.08) |      0.38 (+/- 0.18) |      0.24 (+/- 0.04) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |                   -1 |                   -1 |                   -1 | 
+                 zcr |      0.81 (+/- 0.17) |      0.50 (+/- 0.28) |      0.24 (+/- 0.04) | 
+
