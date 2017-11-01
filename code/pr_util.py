@@ -90,6 +90,8 @@ NAME_SPECIES_NUM_DIR = ['Aegolius harrisii 1',
 #DATA_DIR_BASE = '/var/tmp/ff/pr_article/S_A_C_Base_Parte'
 DATA_DIR_BASE = '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte'
 
+DATA_DIR_ORIGINAL = '/var/tmp/ff/tcc/dataset/pr_article/original/S_A_C_Base_Parte'
+
 DATA_DIR_FULL = [DATA_DIR_BASE + '-1/',
                  DATA_DIR_BASE + '-2/',
                  DATA_DIR_BASE + '-3/',
@@ -137,7 +139,7 @@ def is_not_wav(file_name):
     file_extension = file_extension.lower()
     return file_extension == 'mp3' or file_extension == 'flac' or file_extension == 'aiff' or file_extension == 'aac'
 
-def num_files(data_dirs, song_or_call, num_versions = 4):
+def num_files(data_dirs, song_or_call, num_versions = 1):
     # num_versions indicates how many filtered versions we
     # have for each original audio file
 
@@ -233,6 +235,7 @@ def create_list_with_dir_and_number(song_or_call):
     for name_dir in NAME_SPECIES_NUM_DIR:
         spc, num_dir = number_of_dir_and_name(name_dir)
         spc_dir = DATA_DIR_BASE + '-' +  num_dir + '/' + spc + '/'
+        # spc_dir = DATA_DIR_ORIGINAL + '-' +  num_dir + '/' + spc + '/'
         num_dir = num_files([spc_dir], song_or_call)
         #print(spc_dir + ' ' +  str(num_dir))
         dir_number.append([spc_dir, num_dir])

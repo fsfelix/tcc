@@ -69,7 +69,8 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
     n_files = util.num_files(data_dirs, song_or_call)
     i = 0
     j = 0
-    data = np.empty((n_files, n_global_feat))
+    #data = np.empty((n_files, n_global_feat))
+    data = []
     print("number of files loaded: {}".format(n_files))
     for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
@@ -88,15 +89,26 @@ def generate_global_features(n_global_feat, feat_name, data_dirs, song_or_call, 
                             labels.append(labels_dict[bird_specie])
                         feature_path = subdir + '/' + file
                         feature = np.loadtxt(feature_path)
-                        for function in functions: # Iterate through all functions
-                            #print(feature)
-                            if feature.size > 0:
-                                data[i][j] = function(feature)
-                            else:
-                                data[i][j] = 0
-                            j += 1
-                        i += 1
-                        j  = 0
-
+                        data.append(create_global_feat_data(feature, functions))
+    data = np.array(data)
     labels = np.array(labels)
     return labels_dict, labels, data
+
+def create_global_feat_data(feat, functions):
+    data = []
+    global_feat = [0]*len(functions)
+
+    if len(feat.shape) > 1:
+        for i in range(len(functions)):
+            f = functions[i]
+            kwargs = {'axis' : 1}
+            global_feat[i] = [f(feat, **kwargs)]
+        data = np.array(global_feat)
+        data = data.T.reshape((1, data.size))
+        return data[0]
+    else:
+        for i in range(len(functions)):
+            f = functions[i]
+            global_feat[i] = f(feat)
+        data = np.array(global_feat)
+        return data
