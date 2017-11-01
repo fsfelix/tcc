@@ -258,10 +258,10 @@
 ***** DONE Características globais
 **** TODO Classificação
 ***** DONE Aprendizagem supervisionada
-***** TODO Classificadores
+***** DONE Classificadores
 ****** DONE kNN
-****** TODO Naïve-Bayes
-****** TODO SVM
+****** DONE Naïve-Bayes
+****** DONE SVM
 ***** TODO Avaliação
 *** TODO Experimentos e Resultados
 ***** TODO Dataset
