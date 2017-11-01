@@ -1,0 +1,30 @@
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered2', 'svm': '0.21 (+/- 0.01)', 'num_min': -1, 'num_max': 200, 'knn': '0.46 (+/- 0.21)', 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.07)', 'feat': 'rmse', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered3', 'svm': '0.31 (+/- 0.10)', 'num_min': -1, 'num_max': 200, 'knn': '0.51 (+/- 0.16)', 'scoring': 'f1_weighted', 'gnb': '0.44 (+/- 0.19)', 'feat': 'rmse', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered2', 'svm': '0.74 (+/- 0.14)', 'num_min': -1, 'num_max': 200, 'knn': '0.54 (+/- 0.10)', 'scoring': 'f1_weighted', 'gnb': '0.69 (+/- 0.17)', 'feat': 'mfcc', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered3', 'svm': '0.65 (+/- 0.14)', 'num_min': -1, 'num_max': 200, 'knn': '0.54 (+/- 0.15)', 'scoring': 'f1_weighted', 'gnb': '0.66 (+/- 0.23)', 'feat': 'mfcc', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered2', 'svm': '0.50 (+/- 0.16)', 'num_min': -1, 'num_max': 200, 'knn': '0.47 (+/- 0.14)', 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.09)', 'feat': 'spec_band', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered3', 'svm': '0.40 (+/- 0.08)', 'num_min': -1, 'num_max': 200, 'knn': '0.46 (+/- 0.10)', 'scoring': 'f1_weighted', 'gnb': '0.29 (+/- 0.10)', 'feat': 'spec_band', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered2', 'svm': '0.42 (+/- 0.09)', 'num_min': -1, 'num_max': 200, 'knn': '0.45 (+/- 0.12)', 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.18)', 'feat': 'spec_cent', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered3', 'svm': '0.55 (+/- 0.20)', 'num_min': -1, 'num_max': 200, 'knn': '0.51 (+/- 0.22)', 'scoring': 'f1_weighted', 'gnb': '0.30 (+/- 0.06)', 'feat': 'spec_cent', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered2', 'svm': '0.41 (+/- 0.14)', 'num_min': -1, 'num_max': 200, 'knn': '0.53 (+/- 0.08)', 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.24)', 'feat': 'spec_roll', 'kernel': 'linear'}
+
+
+{'song_or_call': 'song', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'cv': 5, 'num_exp': 1, 'kNN': 3, 'n_species': 3, 'version': 'filtered3', 'svm': '0.52 (+/- 0.13)', 'num_min': -1, 'num_max': 200, 'knn': '0.53 (+/- 0.15)', 'scoring': 'f1_weighted', 'gnb': '0.32 (+/- 0.18)', 'feat': 'spec_roll', 'kernel': 'linear'}
+
+

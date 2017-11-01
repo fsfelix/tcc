@@ -259,3 +259,23 @@ def return_n_most_frequent_species(n, song_or_call):
     for spc in spcs[-n:]:
         res.append(spc[0])
     return res
+
+def create_latex_table(lines):
+    new = []
+    for l in lines:
+        spl = l.split('|')
+        newsplt = ''
+        for s in spl:
+            s = s.replace(' ', '')
+            s = s.replace('\n', '')
+            s = '  & $' + s + '$ &  '
+            newsplt += s
+        newsplt += '\n'
+        new.append(newsplt)
+    f = open('table_gen', 'w+')
+
+    for line in new:
+        f.writelines(line)
+    f.close()
+
+    return new

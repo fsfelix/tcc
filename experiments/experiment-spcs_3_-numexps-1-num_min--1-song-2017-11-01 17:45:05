@@ -1,0 +1,12 @@
+{'n_species': 3, 'svm': '0.21 (+/- 0.01)', 'kNN': 3, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'num_min': -1, 'num_exp': 1, 'kernel': 'linear', 'feat': 'rmse', 'num_max': 200, 'gnb': '0.51 (+/- 0.07)', 'song_or_call': 'song', 'version': 'filtered2', 'scoring': 'f1_weighted', 'knn': '0.46 (+/- 0.21)', 'cv': 5}
+
+
+{'n_species': 3, 'svm': '0.31 (+/- 0.10)', 'kNN': 3, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'num_min': -1, 'num_exp': 1, 'kernel': 'linear', 'feat': 'rmse', 'num_max': 200, 'gnb': '0.44 (+/- 0.19)', 'song_or_call': 'song', 'version': 'filtered3', 'scoring': 'f1_weighted', 'knn': '0.51 (+/- 0.16)', 'cv': 5}
+
+
+{'n_species': 3, 'svm': '0.74 (+/- 0.14)', 'kNN': 3, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'num_min': -1, 'num_exp': 1, 'kernel': 'linear', 'feat': 'mfcc', 'num_max': 200, 'gnb': '0.69 (+/- 0.17)', 'song_or_call': 'song', 'version': 'filtered2', 'scoring': 'f1_weighted', 'knn': '0.54 (+/- 0.10)', 'cv': 5}
+
+
+{'n_species': 3, 'svm': '0.65 (+/- 0.14)', 'kNN': 3, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/'], 'num_min': -1, 'num_exp': 1, 'kernel': 'linear', 'feat': 'mfcc', 'num_max': 200, 'gnb': '0.66 (+/- 0.23)', 'song_or_call': 'song', 'version': 'filtered3', 'scoring': 'f1_weighted', 'knn': '0.54 (+/- 0.15)', 'cv': 5}
+
+

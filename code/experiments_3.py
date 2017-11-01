@@ -184,12 +184,14 @@ def generate_experiment(info):
     k            = 3
     cv           = 5
 
+    print("{} {} {} {} {}".format(feat, version, data_dirs, song_or_call, n_species))
+    print(data_dirs)
     labels_dict, labels, data = generate_global_features(n_function_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS, version = version)
 
     len_data = len(data)
     len_labels = len(labels)
-    print("len data: {}".format(len_data))
-    print("len labels: {}".format(len_labels))
+    #print("len data: {}".format(len_data))
+    #print("len labels: {}".format(len_labels))
 
     if len_data != len_labels or data == [] or len_data == 0 or len_labels == 0:
         print("ACHAMOS UMA INCOSISTENCIA")
@@ -197,24 +199,23 @@ def generate_experiment(info):
         resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = '-1', gnb = '-1', svm = '-1', num_min = num_min, num_max = num_max, num_exp = num_exp, kernel = kernel, kNN = k, cv = cv)
 
     else:
-        print("kNN Starting ->")
+        #print("kNN Starting ->")
         clf         = neighbors.KNeighborsClassifier(k, weights = 'uniform')
         scores      = cross_val_score(clf, data, labels, n_jobs = 1, cv = cv, scoring=scoring)
         result_knn  = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        print("[DONE] kNN Done <-")
+        #print("[DONE] kNN Done <-")
 
-        print("GNB Starting ->")
+        #print("GNB Starting ->")
         gnb        = GaussianNB()
         scores     = cross_val_score(gnb, data, labels, n_jobs = 1, cv = cv, scoring=scoring)
         result_gnb = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        print("[DONE] GNB Done <-")
+        #print("[DONE] GNB Done <-")
 
-        print("SVM Starting ->")
-
+        #print("SVM Starting ->")
         clf        = svm.SVC(kernel = kernel, C = 1, decision_function_shape='ovr')
         scores     = cross_val_score(clf, data, labels, n_jobs = 1, cv = cv, scoring=scoring)
         result_svm = '{0:.2f} (+/- {1:.2f})'.format(scores.mean(), scores.std() * 2)
-        print("[DONE] SVM Done <-")
+        #print("[DONE] SVM Done <-")
 
         resp = dict(n_species = n_species,  feat = feat, version = version, dirs = data_dirs, song_or_call = song_or_call, scoring = scoring, knn = result_knn, gnb = result_gnb, svm = result_svm, num_min = num_min, num_max = num_max, num_exp = num_exp, kernel = kernel, kNN = k, cv = cv)
 

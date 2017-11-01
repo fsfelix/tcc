@@ -1,0 +1,12 @@
+{'scoring': 'f1_weighted', 'num_max': 200, 'cv': 5, 'num_min': -1, 'kernel': 'linear', 'num_exp': 1, 'gnb': '0.51 (+/- 0.07)', 'knn': '0.46 (+/- 0.21)', 'song_or_call': 'song', 'version': 'filtered2', 'kNN': 3, 'feat': 'rmse', 'n_species': 3, 'svm': '0.21 (+/- 0.01)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/']}
+
+
+{'scoring': 'f1_weighted', 'num_max': 200, 'cv': 5, 'num_min': -1, 'kernel': 'linear', 'num_exp': 1, 'gnb': '0.44 (+/- 0.19)', 'knn': '0.51 (+/- 0.16)', 'song_or_call': 'song', 'version': 'filtered3', 'kNN': 3, 'feat': 'rmse', 'n_species': 3, 'svm': '0.31 (+/- 0.10)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/']}
+
+
+{'scoring': 'f1_weighted', 'num_max': 200, 'cv': 5, 'num_min': -1, 'kernel': 'linear', 'num_exp': 1, 'gnb': '0.69 (+/- 0.17)', 'knn': '0.54 (+/- 0.10)', 'song_or_call': 'song', 'version': 'filtered2', 'kNN': 3, 'feat': 'mfcc', 'n_species': 3, 'svm': '0.74 (+/- 0.14)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/']}
+
+
+{'scoring': 'f1_weighted', 'num_max': 200, 'cv': 5, 'num_min': -1, 'kernel': 'linear', 'num_exp': 1, 'gnb': '0.66 (+/- 0.23)', 'knn': '0.54 (+/- 0.15)', 'song_or_call': 'song', 'version': 'filtered3', 'kNN': 3, 'feat': 'mfcc', 'n_species': 3, 'svm': '0.65 (+/- 0.14)', 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Gnorimopsar chopi/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-4/Sittasomus griseicapillus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Lathrotriccus euleri/']}
+
+
