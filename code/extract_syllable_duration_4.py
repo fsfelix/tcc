@@ -8,7 +8,7 @@ import pr_util as util
 from scipy import signal, ndimage
 
 def autodetec(y, power, thres, signal_or_change = 'both'):
-    print("<- autodetec")
+    #print("<- autodetec")
     N = len(y)
     y_env = np.abs(y) ** power
     y_new = y.copy()
@@ -31,7 +31,7 @@ def autodetec(y, power, thres, signal_or_change = 'both'):
     y3[0] = 3
     y3[-1] = 3
 
-    print("-> autodetec")
+    #print("-> autodetec")
     if signal_or_change == 'change':
         y_new[np.where(y3 != 3)[0]] = 0
         y_new[np.where(y3 == 3)[0]] = 1
@@ -54,7 +54,7 @@ def autodetec(y, power, thres, signal_or_change = 'both'):
 
 
 def estimate_struc_size(y, min_size = 0):
-    print("<- estimate_struc_size")
+    #print("<- estimate_struc_size")
     non_zeros = np.where(y == 1)[0]
     max_dis = -np.inf
     distances = []
@@ -64,17 +64,23 @@ def estimate_struc_size(y, min_size = 0):
         if current_dis > min_size:
             distances += [current_dis]
     distances = np.array(distances)
-    print("estimate_struc_size ->")
+    #print("estimate_struc_size ->")
+
+    while int(np.percentile(distances, 99)) == 1:
+        distances = distances[100:]
     return int(np.percentile(distances, 99))
 
 def dilate_both_and(y_new):
-    print("<- dilate_both_and")
+    #print("<- dilate_both_and")
     struc_size = estimate_struc_size(y_new)
+
     N = len(y_new)
+
     while (struc_size/N > 0.5 or struc_size > 10000):
         struc_size = int(struc_size/100)
-    print("         samples: {}".format(N))
-    print("         struc size in dilation: {}".format(struc_size))
+
+    #print("         samples: {}".format(N))
+    #print("         struc size in dilation: {}".format(struc_size))
     struc_size *= 2
     struc_size -= 1
     half_size = int(struc_size/2)
@@ -83,20 +89,20 @@ def dilate_both_and(y_new):
     struc_r = np.array([1] * struc_size)
     struc_r[half_size:] = 0
     #plt.ylim([-2,2])
-    print("         starting dilations")
+    #print("         starting dilations")
     y_filtered_l = ndimage.morphology.binary_dilation(y_new, struc_l, iterations = 1)
     #plt.plot(y_filtered_l)
-    print("         finished first dilation")
+    #print("         finished first dilation")
     y_filtered_r = ndimage.morphology.binary_dilation(y_new, struc_r, iterations = 1)
     #plt.plot(y_filtered_r)
-    print("         finished second dilation")
+    #print("         finished second dilation")
     y_filtered = np.logical_and(y_filtered_l, y_filtered_r)
     #plt.plot(y_filtered)
-    print("dilate_both_and ->")
+    #print("dilate_both_and ->")
     return y_filtered
 
 def durations_syllable(y):
-    print("durations_syllable ->")
+    #print("durations_syllable ->")
     durations = []
     N = len(y)
     i = 0
@@ -113,21 +119,35 @@ def durations_syllable(y):
             durations += [end - init]
             syllable = False
         i += 1
-    print("<- durations_syllable")
+    #print("<- durations_syllable")
     return durations
 
 def filter_durations(durations, dur_min, dur_max):
-    print("<- filter_durations ->")
+    #print("<- filter_durations ->")
     return [dur for dur in durations if dur < dur_max and dur > dur_min]
 
-def get_syllable_durations(y, sr, min_dur, max_dur):
-    print("<- get_syllable_durations")
+def filter_durations_non_null(durations, dur_min, dur_max):
+    dur_max_original = dur_max
+    dur_min_original = dur_min
+    filtered = [dur for dur in durations if dur < dur_max and dur > dur_min]
 
+    if durations == []:
+        print("durations vazio dentro do filter_durations")
+        return []
+
+    while (len(filtered) == 0):
+        dur_max += dur_max_original
+        dur_min -= dur_min_original
+        filtered = [dur for dur in durations if dur < dur_max and dur > dur_min]
+    return filtered
+
+def get_syllable_durations(y, sr, min_dur, max_dur):
+    #print("<- get_syllable_durations")
     y_new = autodetec(y, 2, 0.2, 'both')
     y_filtered = dilate_both_and(y_new)
     durations = durations_syllable(y_filtered)
     durations = filter_durations(durations, util.time_to_samples(min_dur, sr), util.time_to_samples(max_dur, sr))
-    print("get_syllable_durations ->")
+    #print("get_syllable_durations ->")
     if durations != []:
         return np.array([util.samples_to_time(np.percentile(durations, 90), sr)])
     else:
@@ -135,16 +155,19 @@ def get_syllable_durations(y, sr, min_dur, max_dur):
         return np.array([-1])
 
 def get_syllable_durations_list(y, sr, min_dur, max_dur):
-    print("<- get_syllable_durations")
+    #print("<- get_syllable_durations")
 
     y_new = autodetec(y, 2, 0.2, 'both')
     y_filtered = dilate_both_and(y_new)
     durations = durations_syllable(y_filtered)
-    durations = filter_durations(durations, util.time_to_samples(min_dur, sr), util.time_to_samples(max_dur, sr))
-    print("get_syllable_durations ->")
-    durations = [util.samples_to_time(dur, sr) for dur in durations]
+    durations = filter_durations_non_null(durations, util.time_to_samples(min_dur, sr), util.time_to_samples(max_dur, sr))
+
+    #print("get_syllable_durations ->")
+
     if durations != []:
+        durations = [util.samples_to_time(dur, sr) for dur in durations]
         durations = np.array(durations)
+        #print(durations)
         return durations[durations >= np.percentile(durations, 90)]
         #return np.array([util.samples_to_time(np.percentile(durations, 90), sr)])
     else:
