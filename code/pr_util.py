@@ -131,7 +131,7 @@ GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
 VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4']
 #VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
-VERSIONS_EXPERIMENTS = ['filtered2', 'filtered3']
+VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4']
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]
