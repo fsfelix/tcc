@@ -163,12 +163,19 @@ def get_syllable_durations_list(y, sr, min_dur, max_dur):
     durations = filter_durations_non_null(durations, util.time_to_samples(min_dur, sr), util.time_to_samples(max_dur, sr))
 
     #print("get_syllable_durations ->")
-
+    print(durations)
+    durations = [util.samples_to_time(dur, sr) for dur in durations]
+    print(durations)
     if durations != []:
-        durations = [util.samples_to_time(dur, sr) for dur in durations]
         durations = np.array(durations)
-        #print(durations)
-        return durations[durations >= np.percentile(durations, 90)]
+        p = 90
+        durations_p = durations[durations >= np.percentile(durations, p)]
+        while (len(durations_p) == 0):
+            p -= 10
+            durations_p = durations[durations >= np.percentile(durations, p)]
+        #return durations[durations >= np.percentile(durations, 90)]
+        print(durations_p)
+        return durations_p
         #return np.array([util.samples_to_time(np.percentile(durations, 90), sr)])
     else:
         print("Duracao nao encontrada")
