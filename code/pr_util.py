@@ -123,6 +123,8 @@ EXPERIMENTS_DIR = '/var/tmp/ff/tcc/experiments'
 
 LOG_DIR = '/var/tmp/ff/tcc/code/log'
 
+PICS_DIR = '/Users/felipefelix/USP/tcc/pics'
+
 FEATURES = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list', 'zcr']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
