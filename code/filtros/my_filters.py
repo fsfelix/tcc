@@ -166,3 +166,22 @@ def my_filter4(y, size):
             i += 1
     new_signal = np.array(new_signal)
     return new_signal
+
+def my_filter5(y, size):
+    N = len(y)
+    energy = y**2
+    thres = np.mean(energy)
+    new_signal = []
+    i = 0
+
+    if size > N:
+        size = int(N/10)
+
+    while i < (N - size):
+        if np.mean(energy[i:i+size]) > thres:
+            new_signal += y[i:i + size].tolist()
+            i += size
+        else:
+            i += size
+    new_signal = np.array(new_signal)
+    return new_signal
