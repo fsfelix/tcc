@@ -164,6 +164,7 @@ def num_files(data_dirs, song_or_call, num_versions = 1):
 
 def generate_filtered_dirs(data_dir, num_filters = 3):
     recordings = [data_dir]
+    num_filters = len(VERSIONS) - 1
     for i in range(num_filters):
         recordings.append(data_dir + '.filtered' + str(i + 1) + '.wav')
     return recordings

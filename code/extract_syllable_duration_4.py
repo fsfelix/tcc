@@ -66,8 +66,12 @@ def estimate_struc_size(y, min_size = 0):
     distances = np.array(distances)
     #print("estimate_struc_size ->")
 
-    while int(np.percentile(distances, 99)) == 1:
-        distances = distances[100:]
+    jump = int(len(distances)/50)
+    
+    while len(distances) > jump and int(np.percentile(distances, 99)) == 1:
+        distances = distances[jump:]
+        print(distances)
+
     return int(np.percentile(distances, 99))
 
 def dilate_both_and(y_new):
