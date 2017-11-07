@@ -15,7 +15,7 @@ def generate_local_feature(file_dir, feat_name, feat_func, log_file, norm = Fals
         print('Loading {}...'.format(file_dir))
         y, sr = librosa.load(file_dir)
 
-        if norm:
+        if y.max() != 0.0 and norm:
             y = y/y.max()
 
         if feat_name == 'syllable_dur_list':
