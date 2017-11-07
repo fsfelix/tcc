@@ -95,63 +95,6 @@ def generate_experiments(num_species, file_exp, song_or_call = 'song', scoring =
         print_table(table)
         write_table(table, file_exp)
 
-def generate_experiments_parallel(num_species, song_or_call = 'song', scoring = 'f1_weighted'):
-    n_global = 4
-
-    data_dirs = util.choose_species(num_species)
-    data_dirs = util.check_num_files(data_dirs, song_or_call, num_species, num_min)
-
-#    file_exp = open(util.EXPERIMENTS_DIR + '/parallel_' + 'num_specie_' + str(num_species) + '_num_min_' + str(num_min) + '_scoring_' + scoring + generate_exp_file(), "w+")
-
-    for version in util.VERSIONS_EXPERIMENTS:
-        i = 0
-        table = create_table(util.FEATURES)
-        for feat in util.FEATURES:
-            #file_exp.write(feat)
-            print('Feature: {} | Version: {}'.format(feat, version))
-            #file_exp.write('lol\n')
-            #file_exp.flush()
-
-            labels_dict, labels, data = generate_global_features(n_global, feat, data_dirs, song_or_call, util.GLOBAL_FUNCTIONS, version = version)
-
-            clf     = neighbors.KNeighborsClassifier(3, weights = 'uniform')
-            scores  = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-            generate_results_table(table[i], 'kNN', scoring, scores)
-
-            # naïve-bayes
-            gnb    = GaussianNB()
-            scores = cross_val_score(gnb, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-            generate_results_table(table[i], 'GaussianNB', scoring, scores)
-
-            # SVM
-            #clf = svm.SVC(kernel = 'rbf', C = 1)
-            #clf = svm.SVC(kernel = 'poly', C = 1)
-
-            clf = svm.SVC(kernel = 'linear', max_iter = 100000000 ,C = 1, decision_function_shape='ovr')
-            #file_exp.write(str(clf) + '\n')
-            #file_exp.flush()
-            scores = cross_val_score(clf, data, labels, n_jobs = 1, cv = 5, scoring=scoring)
-            generate_results_table(table[i], 'SVM', scoring, scores)
-            i += 1
-
-        # lock.acquire()
-        #file_exp.write("Número de espécies: {}\n".format(num_species))
-        #file_exp.write("Diretórios: \n")
-        print("\n")
-        print("Número de espécies: {} Número Mínimo: {} Scoring: {}".format(num_species, num_min, scoring))
-        for dir in data_dirs:
-            print(dir)
-            #file_exp.write("{} \n".format(dir))
-        print("\n")
-        #file_exp.write("\n")
-        #file_exp.write("type of score: {}\n".format(scoring))
-        #file_exp.write('Type of recording: ' + str(version) + '\n')
-        print_table(table)
-        #write_table(table, file_exp)
-        #file_exp.flush()
-
-    #file_exp.close()
-
 def generate_exp_file(num_exp, num_min, song_or_call, spc):
     spcs = ''
     for s in spc:
