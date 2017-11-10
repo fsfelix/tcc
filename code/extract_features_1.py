@@ -146,7 +146,6 @@ def extract_feat(data_dirs, log_file):
                     # generate_local_feature(file_dir, 'syllable_dur', esd.get_syllable_durations, log_file, **kwargs)
 
                     generate_local_feature(file_dir, 'syllable_dur_list', esd.get_syllable_durations_list, log_file, **kwargs)
-        printProgressBar(i + 1, n_dirs, prefix = 'Progress:', suffix = 'Complete', length = 50)
 
 def main():
     #pool = Pool(processes = 4)

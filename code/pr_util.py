@@ -126,12 +126,13 @@ LOG_DIR = '/var/tmp/ff/tcc/code/log'
 PICS_DIR = '/Users/felipefelix/USP/tcc/pics'
 
 FEATURES = ['rmse', 'mfcc', 'mfcc_norm', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'syllable_dur_list', 'zcr']
+FEATURES_PLOT = ['rmse', 'mfcc', 'spec_band', 'spec_cent', 'spec_roll', 'syllable_dur', 'zcr']
 
 CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
-VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5', 'filtered6', 'filtered7', 'filtered8', 'filtered9']
+VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5', 'filtered6', 'filtered7', 'filtered8']
 #VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
 #VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5']
 #VERSIONS_EXPERIMENTS = ['filtered6', 'filtered7', 'filtered8']
