@@ -131,9 +131,10 @@ CLASSIFIERS = ['kNN', 'NB', 'SVM']
 
 GLOBAL_FUNCTIONS = [np.mean, np.std, np.max, np.min]
 
-VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5']
+VERSIONS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5', 'filtered6', 'filtered7', 'filtered8', 'filtered9']
 #VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered4']
-VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5']
+#VERSIONS_EXPERIMENTS = [None, 'filtered1', 'filtered2', 'filtered3', 'filtered4', 'filtered5']
+#VERSIONS_EXPERIMENTS = ['filtered6', 'filtered7', 'filtered8']
 
 def is_audio(file_name):
     file_extension = file_name.split('.')[-1]

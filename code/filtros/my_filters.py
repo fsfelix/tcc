@@ -147,6 +147,7 @@ def my_filter3(y, sr):
 
     return y_rec
 
+# Segmentação antiga de energia.
 
 def my_filter4(y, size):
     N = len(y)

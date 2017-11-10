@@ -1,0 +1,1560 @@
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.57 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.42 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.49 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.44 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.67 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.61 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.60 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.28)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.58 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.87 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.78 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.71 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.94 (+/- 0.11)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.89 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.98 (+/- 0.06)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.92 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.86 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.84 (+/- 0.19)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.72 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.77 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.86 (+/- 0.04)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.82 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.75 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.10)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.74 (+/- 0.07)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.17)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.80 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.77 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.95 (+/- 0.09)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.89 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.95 (+/- 0.10)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.93 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.88 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.92 (+/- 0.06)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.78 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.80 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.25)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.72 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.87 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.15)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.78 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.65 (+/- 0.31)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.67 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.61 (+/- 0.18)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.68 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.31)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.57 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.58 (+/- 0.20)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.39 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.60 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.62 (+/- 0.09)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.62 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.62 (+/- 0.09)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.51 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.73 (+/- 0.16)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.70 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.70 (+/- 0.28)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.55 (+/- 0.26)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.65 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.63 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.62 (+/- 0.22)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.70 (+/- 0.27)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.63 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.57 (+/- 0.34)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.33)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.59 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.71 (+/- 0.23)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.69 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.72 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.77 (+/- 0.24)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.73 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.73 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.69 (+/- 0.28)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.77 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.67 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.58 (+/- 0.29)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.68 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.73 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.74 (+/- 0.24)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.77 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.66 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.52 (+/- 0.24)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.56 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.57 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.74 (+/- 0.15)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.78 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.75 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.77 (+/- 0.27)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.82 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.73 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.41 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.53 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.55 (+/- 0.06)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.41 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.61 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.35 (+/- 0.05)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.29 (+/- 0.03)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.34 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.39 (+/- 0.12)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.59 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.47 (+/- 0.08)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.64 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.42 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.54 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.40 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.49 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.50 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.61 (+/- 0.30)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.69 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.46 (+/- 0.29)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.56 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.57 (+/- 0.09)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.70 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.63 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.61 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.57 (+/- 0.17)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.72 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.73 (+/- 0.02)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.66 (+/- 0.26)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 1, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.68 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/'], 'knn': '0.84 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.35 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.49 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.45 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.57 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.50 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.32 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.36 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.39 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.43 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.43 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.93 (+/- 0.15)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.86 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.64 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.94 (+/- 0.11)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.92 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.79 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.95 (+/- 0.05)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.89 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.80 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.81 (+/- 0.15)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.76 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.72 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.92 (+/- 0.16)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.85 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.97 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.92 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.80 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.89 (+/- 0.20)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.55 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.93 (+/- 0.08)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.92 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.79 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.95 (+/- 0.16)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.95 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.78 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.78 (+/- 0.21)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.77 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.73 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.91 (+/- 0.17)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.86 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.81 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.07)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.96 (+/- 0.07)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.78 (+/- 0.06)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.67 (+/- 0.22)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.55 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.63 (+/- 0.30)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.72 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.67 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.55 (+/- 0.17)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.42 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.44 (+/- 0.14)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.30 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.42 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.71 (+/- 0.15)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.61 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.72 (+/- 0.21)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.67 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.21)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.60 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.57 (+/- 0.20)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.56 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.13)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.09)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.42 (+/- 0.27)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.46 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.61 (+/- 0.26)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.69 (+/- 0.37)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.65 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.71 (+/- 0.22)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.74 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.72 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.70 (+/- 0.25)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.70 (+/- 0.31)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.41)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.59 (+/- 0.24)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.68 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.65 (+/- 0.11)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.71 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.63 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.49 (+/- 0.32)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.53 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.71 (+/- 0.20)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.29)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.71 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.71 (+/- 0.24)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.75 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.77 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.38 (+/- 0.05)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.36 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.34 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.46 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.33 (+/- 0.32)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.05)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.33 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.41 (+/- 0.28)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.40 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.56 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.55 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.38 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.54 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.28)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.55 (+/- 0.33)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.54 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.40 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.55 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.32)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.57 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.44 (+/- 0.18)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.32)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.53 (+/- 0.35)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.63 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.49 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.77 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.73 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.04)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 2, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.72 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.45 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.48 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.52 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.50 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.45 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.56 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.45 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.51 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.60 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.20)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.69 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.11)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.93 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.87 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.97 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.96 (+/- 0.07)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.87 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.83 (+/- 0.19)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.87 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.89 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.94 (+/- 0.14)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.90 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.79 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.87 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.14)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.80 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.92 (+/- 0.20)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.96 (+/- 0.07)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.90 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.11)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.93 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.87 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.07)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.93 (+/- 0.01)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.90 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.91 (+/- 0.11)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.80 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.87 (+/- 0.18)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.85 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.54 (+/- 0.32)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.54 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.55 (+/- 0.31)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.48 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.50 (+/- 0.10)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.64 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.56 (+/- 0.08)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.31)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.66 (+/- 0.27)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.39 (+/- 0.18)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.35 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.56 (+/- 0.41)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.53 (+/- 0.21)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.31)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.52 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.50 (+/- 0.12)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.51 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.54 (+/- 0.39)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.53 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.50 (+/- 0.21)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.58 (+/- 0.27)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.48 (+/- 0.35)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.51 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.48 (+/- 0.17)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.57 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.24)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.59 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.47 (+/- 0.25)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.34)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.55 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.53 (+/- 0.22)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.38)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.58 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.74 (+/- 0.19)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.67 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.64 (+/- 0.29)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.58 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.49 (+/- 0.28)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.67 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.59 (+/- 0.13)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.81 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.53 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.38 (+/- 0.28)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.68 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.71 (+/- 0.27)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.72 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.36 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.52 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.39 (+/- 0.09)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.39 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.60 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.76 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.71 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.76 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.64 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.66 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.39 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.50 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.39 (+/- 0.10)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.49 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.61 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.45 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.39 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.40 (+/- 0.14)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.49 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.56 (+/- 0.28)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.54 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.73 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.86 (+/- 0.08)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.65 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 3, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.33)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/'], 'knn': '0.68 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.63 (+/- 0.33)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.55 (+/- 0.38)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.29)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.56 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.41 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.61 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.69 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.58 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.61 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.93 (+/- 0.12)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.79 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.70 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.82 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.07)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.85 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.85 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.11)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.80 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.96 (+/- 0.06)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.87 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.78 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.08)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.83 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.89 (+/- 0.15)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.82 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.78 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.92 (+/- 0.10)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.91 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.82 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.91 (+/- 0.14)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.85 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.17)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.83 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.80 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.93 (+/- 0.12)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.87 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.81 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.90 (+/- 0.13)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.90 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.80 (+/- 0.33)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.62 (+/- 0.34)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.31)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.58 (+/- 0.28)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.23)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.64 (+/- 0.25)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.65 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.67 (+/- 0.20)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.65 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.62 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.65 (+/- 0.09)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.34)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.68 (+/- 0.33)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.64 (+/- 0.33)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.67 (+/- 0.31)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.48 (+/- 0.31)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.66 (+/- 0.17)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.66 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.57 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.46 (+/- 0.22)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.51 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.45 (+/- 0.28)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.27)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.46 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.48 (+/- 0.26)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.57 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.64 (+/- 0.39)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.34 (+/- 0.28)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.65 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.56 (+/- 0.25)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.58 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.63 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.61 (+/- 0.17)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.65 (+/- 0.09)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.63 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.23)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.77 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.45 (+/- 0.18)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.49 (+/- 0.22)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.48 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.11)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.71 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.63 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.58 (+/- 0.21)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.48 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.66 (+/- 0.20)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.67 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.63 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.69 (+/- 0.17)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.69 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.65 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.48 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.41 (+/- 0.04)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.44 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.58 (+/- 0.30)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.35)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.62 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.53 (+/- 0.33)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.33)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.56 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.27)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.56 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.76 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.79 (+/- 0.19)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.63 (+/- 0.35)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.71 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.49 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.59 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.05)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.46 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.52 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.52 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.48 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.60 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.56 (+/- 0.11)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.65 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.54 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.59 (+/- 0.18)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.42 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 4, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.61 (+/- 0.07)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/'], 'knn': '0.62 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.42 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.52 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.65 (+/- 0.28)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.40 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.49 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.44 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.54 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.46 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'rmse', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.43 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.59 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.92 (+/- 0.14)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.85 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.70 (+/- 0.11)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.86 (+/- 0.20)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.93 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.85 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.95 (+/- 0.10)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.84 (+/- 0.08)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.83 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.80 (+/- 0.11)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.79 (+/- 0.39)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.82 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.18)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.83 (+/- 0.19)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.79 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.84 (+/- 0.12)', 'feat': 'mfcc', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.78 (+/- 0.33)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.87 (+/- 0.17)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.80 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.70 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.88 (+/- 0.21)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.92 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.82 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.94 (+/- 0.11)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.82 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.82 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.78 (+/- 0.15)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.78 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.74 (+/- 0.23)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.89 (+/- 0.12)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.82 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.75 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.93 (+/- 0.16)', 'feat': 'mfcc_norm', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.88 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.76 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.59 (+/- 0.09)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.54 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.32)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.36)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.58 (+/- 0.08)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.62 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.66 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.15)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.30 (+/- 0.12)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.50 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.58 (+/- 0.06)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.59 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.68 (+/- 0.29)', 'feat': 'spec_band', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.66 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.13)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.54 (+/- 0.20)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.58 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.67 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.50 (+/- 0.12)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.57 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.65 (+/- 0.25)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.52 (+/- 0.35)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.46 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.62 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.48 (+/- 0.28)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.45 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.73 (+/- 0.17)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.54 (+/- 0.14)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.50 (+/- 0.21)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.61 (+/- 0.20)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.46 (+/- 0.07)', 'feat': 'spec_cent', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.59 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.60 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.47 (+/- 0.07)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.60 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.53 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.59 (+/- 0.23)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.61 (+/- 0.10)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.60 (+/- 0.21)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.52 (+/- 0.21)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.61 (+/- 0.15)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.67 (+/- 0.14)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.60 (+/- 0.36)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.30)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.60 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.52 (+/- 0.27)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.24)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.64 (+/- 0.26)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.63 (+/- 0.13)', 'feat': 'spec_roll', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.66 (+/- 0.09)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.37)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.56 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.07)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.33 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.50 (+/- 0.42)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.61 (+/- 0.20)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.52 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.37 (+/- 0.07)', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.33 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.50 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '-1', 'feat': 'syllable_dur', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '-1', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '-1'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.41 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.51 (+/- 0.32)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.58 (+/- 0.32)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.70 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.70 (+/- 0.16)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.70 (+/- 0.12)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.53 (+/- 0.29)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.53 (+/- 0.16)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.38 (+/- 0.17)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.56 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.36 (+/- 0.10)', 'feat': 'syllable_dur_list', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.51 (+/- 0.13)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.69 (+/- 0.22)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': None, 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.37 (+/- 0.18)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.56 (+/- 0.24)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered1', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.52 (+/- 0.26)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.53 (+/- 0.10)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered2', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.48 (+/- 0.23)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.67 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered3', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.49 (+/- 0.14)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.82 (+/- 0.15)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered4', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.47 (+/- 0.07)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.61 (+/- 0.29)'}
+
+
+{'kernel': 'linear', 'song_or_call': 'song', 'version': 'filtered5', 'cv': 5, 'num_min': 30, 'svm': '0.38 (+/- 0.03)', 'feat': 'zcr', 'kNN': 3, 'num_exp': 5, 'num_max': 200, 'scoring': 'f1_weighted', 'gnb': '0.55 (+/- 0.29)', 'n_species': 2, 'dirs': ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/'], 'knn': '0.79 (+/- 0.08)'}
+
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.57 (+/- 0.32) |      0.54 (+/- 0.20) |      0.36 (+/- 0.03) | 
+                mfcc |      0.71 (+/- 0.18) |      0.78 (+/- 0.16) |      0.87 (+/- 0.07) | 
+           mfcc_norm |      0.77 (+/- 0.19) |      0.80 (+/- 0.23) |      0.90 (+/- 0.17) | 
+           spec_band |      0.67 (+/- 0.20) |      0.62 (+/- 0.24) |      0.65 (+/- 0.31) | 
+           spec_cent |      0.70 (+/- 0.28) |      0.70 (+/- 0.23) |      0.73 (+/- 0.16) | 
+           spec_roll |      0.67 (+/- 0.09) |      0.77 (+/- 0.20) |      0.69 (+/- 0.28) | 
+        syllable_dur |      0.53 (+/- 0.31) |      0.41 (+/- 0.17) |      0.36 (+/- 0.03) | 
+   syllable_dur_list |      0.59 (+/- 0.22) |      0.48 (+/- 0.16) |      0.39 (+/- 0.12) | 
+                 zcr |      0.69 (+/- 0.24) |      0.62 (+/- 0.22) |      0.61 (+/- 0.30) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.42 (+/- 0.16) |      0.55 (+/- 0.25) |      0.36 (+/- 0.03) | 
+                mfcc |      0.89 (+/- 0.14) |      0.88 (+/- 0.10) |      0.94 (+/- 0.11) | 
+           mfcc_norm |      0.89 (+/- 0.20) |      0.88 (+/- 0.15) |      0.95 (+/- 0.09) | 
+           spec_band |      0.68 (+/- 0.23) |      0.63 (+/- 0.14) |      0.61 (+/- 0.18) | 
+           spec_cent |      0.63 (+/- 0.10) |      0.65 (+/- 0.19) |      0.55 (+/- 0.26) | 
+           spec_roll |      0.73 (+/- 0.23) |      0.68 (+/- 0.18) |      0.58 (+/- 0.29) | 
+        syllable_dur |      0.55 (+/- 0.06) |      0.37 (+/- 0.09) |      0.36 (+/- 0.03) | 
+   syllable_dur_list |      0.47 (+/- 0.08) |      0.47 (+/- 0.19) |      0.36 (+/- 0.03) | 
+                 zcr |      0.56 (+/- 0.12) |      0.57 (+/- 0.23) |      0.46 (+/- 0.29) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered2
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.49 (+/- 0.21) |      0.59 (+/- 0.24) |      0.36 (+/- 0.03) | 
+                mfcc |      0.86 (+/- 0.10) |      0.92 (+/- 0.19) |      0.98 (+/- 0.06) | 
+           mfcc_norm |      0.88 (+/- 0.10) |      0.93 (+/- 0.09) |      0.95 (+/- 0.10) | 
+           spec_band |      0.57 (+/- 0.29) |      0.59 (+/- 0.13) |      0.60 (+/- 0.31) | 
+           spec_cent |      0.63 (+/- 0.23) |      0.70 (+/- 0.27) |      0.62 (+/- 0.22) | 
+           spec_roll |      0.66 (+/- 0.10) |      0.77 (+/- 0.12) |      0.74 (+/- 0.24) | 
+        syllable_dur |      0.61 (+/- 0.29) |      0.41 (+/- 0.18) |      0.36 (+/- 0.03) | 
+   syllable_dur_list |      0.64 (+/- 0.23) |      0.37 (+/- 0.23) |      0.36 (+/- 0.03) | 
+                 zcr |      0.63 (+/- 0.21) |      0.70 (+/- 0.14) |      0.57 (+/- 0.09) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered3
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.67 (+/- 0.18) |      0.44 (+/- 0.15) |      0.36 (+/- 0.03) | 
+                mfcc |      0.77 (+/- 0.20) |      0.72 (+/- 0.18) |      0.84 (+/- 0.19) | 
+           mfcc_norm |      0.80 (+/- 0.14) |      0.78 (+/- 0.23) |      0.92 (+/- 0.06) | 
+           spec_band |      0.60 (+/- 0.19) |      0.39 (+/- 0.25) |      0.58 (+/- 0.20) | 
+           spec_cent |      0.59 (+/- 0.14) |      0.46 (+/- 0.33) |      0.57 (+/- 0.34) | 
+           spec_roll |      0.57 (+/- 0.12) |      0.56 (+/- 0.19) |      0.52 (+/- 0.24) | 
+        syllable_dur |      0.34 (+/- 0.23) |      0.29 (+/- 0.03) |      0.35 (+/- 0.05) | 
+   syllable_dur_list |      0.54 (+/- 0.29) |      0.42 (+/- 0.16) |      0.36 (+/- 0.03) | 
+                 zcr |      0.61 (+/- 0.21) |      0.55 (+/- 0.19) |      0.36 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.60 (+/- 0.22) |      0.61 (+/- 0.24) |      0.36 (+/- 0.03) | 
+                mfcc |      0.75 (+/- 0.16) |      0.82 (+/- 0.17) |      0.86 (+/- 0.04) | 
+           mfcc_norm |      0.87 (+/- 0.14) |      0.72 (+/- 0.13) |      0.88 (+/- 0.25) | 
+           spec_band |      0.62 (+/- 0.19) |      0.60 (+/- 0.15) |      0.62 (+/- 0.09) | 
+           spec_cent |      0.72 (+/- 0.15) |      0.69 (+/- 0.16) |      0.71 (+/- 0.23) | 
+           spec_roll |      0.75 (+/- 0.17) |      0.78 (+/- 0.11) |      0.74 (+/- 0.15) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.49 (+/- 0.15) |      0.40 (+/- 0.24) |      0.36 (+/- 0.03) | 
+                 zcr |      0.73 (+/- 0.02) |      0.72 (+/- 0.22) |      0.57 (+/- 0.17) | 
+
+
+--------------------------------------
+experimento número: 1 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Myiophobus fasciatus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered5
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.58 (+/- 0.32) |      0.57 (+/- 0.28) |      0.36 (+/- 0.03) | 
+                mfcc |      0.74 (+/- 0.07) |      0.84 (+/- 0.16) |      0.90 (+/- 0.10) | 
+           mfcc_norm |      0.78 (+/- 0.12) |      0.84 (+/- 0.19) |      0.88 (+/- 0.15) | 
+           spec_band |      0.51 (+/- 0.09) |      0.55 (+/- 0.30) |      0.62 (+/- 0.09) | 
+           spec_cent |      0.73 (+/- 0.19) |      0.73 (+/- 0.15) |      0.77 (+/- 0.24) | 
+           spec_roll |      0.73 (+/- 0.19) |      0.82 (+/- 0.08) |      0.77 (+/- 0.27) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.50 (+/- 0.29) |      0.43 (+/- 0.22) |      0.36 (+/- 0.03) | 
+                 zcr |      0.84 (+/- 0.12) |      0.68 (+/- 0.24) |      0.66 (+/- 0.26) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.49 (+/- 0.09) |      0.35 (+/- 0.25) |      0.40 (+/- 0.04) | 
+                mfcc |      0.64 (+/- 0.26) |      0.86 (+/- 0.09) |      0.93 (+/- 0.15) | 
+           mfcc_norm |      0.55 (+/- 0.20) |      0.84 (+/- 0.16) |      0.89 (+/- 0.20) | 
+           spec_band |      0.55 (+/- 0.30) |      0.60 (+/- 0.19) |      0.67 (+/- 0.22) | 
+           spec_cent |      0.60 (+/- 0.13) |      0.59 (+/- 0.12) |      0.60 (+/- 0.21) | 
+           spec_roll |      0.62 (+/- 0.41) |      0.70 (+/- 0.31) |      0.70 (+/- 0.25) | 
+        syllable_dur |      0.36 (+/- 0.23) |      0.38 (+/- 0.05) |      0.40 (+/- 0.04) | 
+   syllable_dur_list |      0.56 (+/- 0.29) |      0.40 (+/- 0.14) |      0.40 (+/- 0.04) | 
+                 zcr |      0.57 (+/- 0.25) |      0.57 (+/- 0.32) |      0.40 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.57 (+/- 0.18) |      0.45 (+/- 0.22) |      0.40 (+/- 0.04) | 
+                mfcc |      0.79 (+/- 0.13) |      0.92 (+/- 0.11) |      0.94 (+/- 0.11) | 
+           mfcc_norm |      0.79 (+/- 0.24) |      0.92 (+/- 0.10) |      0.93 (+/- 0.08) | 
+           spec_band |      0.67 (+/- 0.15) |      0.72 (+/- 0.21) |      0.63 (+/- 0.30) | 
+           spec_cent |      0.56 (+/- 0.21) |      0.55 (+/- 0.17) |      0.57 (+/- 0.20) | 
+           spec_roll |      0.68 (+/- 0.15) |      0.62 (+/- 0.11) |      0.59 (+/- 0.24) | 
+        syllable_dur |      0.46 (+/- 0.17) |      0.34 (+/- 0.14) |      0.40 (+/- 0.04) | 
+   syllable_dur_list |      0.55 (+/- 0.21) |      0.37 (+/- 0.21) |      0.40 (+/- 0.04) | 
+                 zcr |      0.53 (+/- 0.35) |      0.60 (+/- 0.32) |      0.44 (+/- 0.18) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered2
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.50 (+/- 0.31) |      0.52 (+/- 0.17) |      0.40 (+/- 0.04) | 
+                mfcc |      0.80 (+/- 0.14) |      0.89 (+/- 0.11) |      0.95 (+/- 0.05) | 
+           mfcc_norm |      0.78 (+/- 0.19) |      0.95 (+/- 0.10) |      0.95 (+/- 0.16) | 
+           spec_band |      0.42 (+/- 0.23) |      0.55 (+/- 0.10) |      0.55 (+/- 0.17) | 
+           spec_cent |      0.62 (+/- 0.19) |      0.63 (+/- 0.18) |      0.60 (+/- 0.13) | 
+           spec_roll |      0.63 (+/- 0.22) |      0.71 (+/- 0.17) |      0.65 (+/- 0.11) | 
+        syllable_dur |      0.62 (+/- 0.21) |      0.33 (+/- 0.32) |      0.40 (+/- 0.04) | 
+   syllable_dur_list |      0.54 (+/- 0.11) |      0.38 (+/- 0.18) |      0.40 (+/- 0.04) | 
+                 zcr |      0.63 (+/- 0.15) |      0.62 (+/- 0.26) |      0.40 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered3
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.36 (+/- 0.20) |      0.32 (+/- 0.08) |      0.40 (+/- 0.04) | 
+                mfcc |      0.72 (+/- 0.13) |      0.76 (+/- 0.18) |      0.81 (+/- 0.15) | 
+           mfcc_norm |      0.73 (+/- 0.21) |      0.77 (+/- 0.13) |      0.78 (+/- 0.21) | 
+           spec_band |      0.42 (+/- 0.24) |      0.30 (+/- 0.11) |      0.44 (+/- 0.14) | 
+           spec_cent |      0.46 (+/- 0.23) |      0.42 (+/- 0.27) |      0.37 (+/- 0.09) | 
+           spec_roll |      0.53 (+/- 0.17) |      0.53 (+/- 0.11) |      0.49 (+/- 0.32) | 
+        syllable_dur |      0.41 (+/- 0.28) |      0.33 (+/- 0.13) |      0.38 (+/- 0.05) | 
+   syllable_dur_list |      0.55 (+/- 0.33) |      0.48 (+/- 0.28) |      0.40 (+/- 0.04) | 
+                 zcr |      0.77 (+/- 0.24) |      0.49 (+/- 0.24) |      0.40 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.12) |      0.39 (+/- 0.26) |      0.40 (+/- 0.04) | 
+                mfcc |      0.62 (+/- 0.23) |      0.85 (+/- 0.17) |      0.92 (+/- 0.16) | 
+           mfcc_norm |      0.81 (+/- 0.19) |      0.86 (+/- 0.23) |      0.91 (+/- 0.17) | 
+           spec_band |      0.61 (+/- 0.26) |      0.47 (+/- 0.14) |      0.71 (+/- 0.15) | 
+           spec_cent |      0.65 (+/- 0.29) |      0.69 (+/- 0.37) |      0.61 (+/- 0.26) | 
+           spec_roll |      0.71 (+/- 0.15) |      0.63 (+/- 0.29) |      0.71 (+/- 0.20) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.54 (+/- 0.15) |      0.47 (+/- 0.25) |      0.40 (+/- 0.04) | 
+                 zcr |      0.73 (+/- 0.17) |      0.62 (+/- 0.15) |      0.40 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 2 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Chiroxiphia caudata/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered5
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.43 (+/- 0.23) |      0.46 (+/- 0.20) |      0.40 (+/- 0.04) | 
+                mfcc |      0.80 (+/- 0.14) |      0.92 (+/- 0.16) |      0.97 (+/- 0.07) | 
+           mfcc_norm |      0.78 (+/- 0.06) |      0.96 (+/- 0.07) |      0.96 (+/- 0.07) | 
+           spec_band |      0.67 (+/- 0.11) |      0.57 (+/- 0.14) |      0.72 (+/- 0.21) | 
+           spec_cent |      0.72 (+/- 0.18) |      0.74 (+/- 0.20) |      0.71 (+/- 0.22) | 
+           spec_roll |      0.77 (+/- 0.19) |      0.75 (+/- 0.09) |      0.71 (+/- 0.24) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.55 (+/- 0.24) |      0.40 (+/- 0.09) |      0.40 (+/- 0.04) | 
+                 zcr |      0.72 (+/- 0.19) |      0.60 (+/- 0.19) |      0.40 (+/- 0.04) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.48 (+/- 0.23) |      0.45 (+/- 0.19) |      0.37 (+/- 0.03) | 
+                mfcc |      0.69 (+/- 0.22) |      0.91 (+/- 0.14) |      0.90 (+/- 0.20) | 
+           mfcc_norm |      0.80 (+/- 0.13) |      0.91 (+/- 0.14) |      0.90 (+/- 0.14) | 
+           spec_band |      0.54 (+/- 0.13) |      0.54 (+/- 0.20) |      0.54 (+/- 0.32) | 
+           spec_cent |      0.51 (+/- 0.30) |      0.48 (+/- 0.11) |      0.50 (+/- 0.12) | 
+           spec_roll |      0.55 (+/- 0.19) |      0.46 (+/- 0.34) |      0.47 (+/- 0.25) | 
+        syllable_dur |      0.53 (+/- 0.32) |      0.37 (+/- 0.18) |      0.37 (+/- 0.03) | 
+   syllable_dur_list |      0.60 (+/- 0.21) |      0.39 (+/- 0.09) |      0.39 (+/- 0.09) | 
+                 zcr |      0.39 (+/- 0.16) |      0.45 (+/- 0.30) |      0.37 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.17) |      0.53 (+/- 0.09) |      0.37 (+/- 0.03) | 
+                mfcc |      0.87 (+/- 0.10) |      0.93 (+/- 0.09) |      0.90 (+/- 0.11) | 
+           mfcc_norm |      0.90 (+/- 0.11) |      0.96 (+/- 0.07) |      0.92 (+/- 0.20) | 
+           spec_band |      0.48 (+/- 0.31) |      0.59 (+/- 0.13) |      0.55 (+/- 0.31) | 
+           spec_cent |      0.53 (+/- 0.14) |      0.48 (+/- 0.20) |      0.54 (+/- 0.39) | 
+           spec_roll |      0.58 (+/- 0.17) |      0.55 (+/- 0.38) |      0.53 (+/- 0.22) | 
+        syllable_dur |      0.68 (+/- 0.18) |      0.38 (+/- 0.28) |      0.36 (+/- 0.04) | 
+   syllable_dur_list |      0.71 (+/- 0.11) |      0.76 (+/- 0.24) |      0.37 (+/- 0.03) | 
+                 zcr |      0.49 (+/- 0.23) |      0.52 (+/- 0.15) |      0.40 (+/- 0.14) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered2
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.45 (+/- 0.14) |      0.50 (+/- 0.14) |      0.37 (+/- 0.03) | 
+                mfcc |      0.87 (+/- 0.17) |      0.96 (+/- 0.07) |      0.97 (+/- 0.07) | 
+           mfcc_norm |      0.87 (+/- 0.12) |      0.93 (+/- 0.09) |      0.96 (+/- 0.11) | 
+           spec_band |      0.64 (+/- 0.13) |      0.60 (+/- 0.17) |      0.50 (+/- 0.10) | 
+           spec_cent |      0.58 (+/- 0.27) |      0.52 (+/- 0.20) |      0.50 (+/- 0.21) | 
+           spec_roll |      0.67 (+/- 0.20) |      0.63 (+/- 0.15) |      0.74 (+/- 0.19) | 
+        syllable_dur |      0.72 (+/- 0.20) |      0.71 (+/- 0.27) |      0.37 (+/- 0.03) | 
+   syllable_dur_list |      0.64 (+/- 0.15) |      0.76 (+/- 0.26) |      0.37 (+/- 0.03) | 
+                 zcr |      0.54 (+/- 0.17) |      0.56 (+/- 0.28) |      0.37 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered3
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.56 (+/- 0.26) |      0.43 (+/- 0.15) |      0.37 (+/- 0.03) | 
+                mfcc |      0.89 (+/- 0.14) |      0.87 (+/- 0.10) |      0.83 (+/- 0.19) | 
+           mfcc_norm |      0.90 (+/- 0.16) |      0.93 (+/- 0.01) |      0.88 (+/- 0.07) | 
+           spec_band |      0.66 (+/- 0.27) |      0.43 (+/- 0.31) |      0.56 (+/- 0.08) | 
+           spec_cent |      0.51 (+/- 0.18) |      0.57 (+/- 0.20) |      0.48 (+/- 0.35) | 
+           spec_roll |      0.58 (+/- 0.17) |      0.51 (+/- 0.30) |      0.64 (+/- 0.29) | 
+        syllable_dur |      0.52 (+/- 0.22) |      0.36 (+/- 0.11) |      0.36 (+/- 0.04) | 
+   syllable_dur_list |      0.66 (+/- 0.14) |      0.62 (+/- 0.16) |      0.37 (+/- 0.03) | 
+                 zcr |      0.86 (+/- 0.08) |      0.73 (+/- 0.15) |      0.37 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.51 (+/- 0.13) |      0.45 (+/- 0.24) |      0.37 (+/- 0.03) | 
+                mfcc |      0.79 (+/- 0.19) |      0.90 (+/- 0.17) |      0.94 (+/- 0.14) | 
+           mfcc_norm |      0.80 (+/- 0.32) |      0.88 (+/- 0.25) |      0.91 (+/- 0.11) | 
+           spec_band |      0.56 (+/- 0.41) |      0.35 (+/- 0.18) |      0.39 (+/- 0.18) | 
+           spec_cent |      0.57 (+/- 0.26) |      0.52 (+/- 0.16) |      0.48 (+/- 0.17) | 
+           spec_roll |      0.67 (+/- 0.18) |      0.54 (+/- 0.16) |      0.49 (+/- 0.28) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.50 (+/- 0.12) |      0.39 (+/- 0.10) |      0.37 (+/- 0.03) | 
+                 zcr |      0.65 (+/- 0.16) |      0.62 (+/- 0.21) |      0.37 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 3 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Pyriglena leucoptera/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered5
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.60 (+/- 0.15) |      0.51 (+/- 0.21) |      0.37 (+/- 0.03) | 
+                mfcc |      0.87 (+/- 0.15) |      0.91 (+/- 0.11) |      0.96 (+/- 0.07) | 
+           mfcc_norm |      0.85 (+/- 0.21) |      0.91 (+/- 0.15) |      0.87 (+/- 0.18) | 
+           spec_band |      0.52 (+/- 0.23) |      0.48 (+/- 0.31) |      0.53 (+/- 0.21) | 
+           spec_cent |      0.59 (+/- 0.22) |      0.57 (+/- 0.22) |      0.60 (+/- 0.24) | 
+           spec_roll |      0.81 (+/- 0.16) |      0.62 (+/- 0.19) |      0.59 (+/- 0.13) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.61 (+/- 0.25) |      0.49 (+/- 0.08) |      0.39 (+/- 0.10) | 
+                 zcr |      0.68 (+/- 0.24) |      0.59 (+/- 0.33) |      0.37 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.63 (+/- 0.33) |      0.46 (+/- 0.17) |      0.42 (+/- 0.03) | 
+                mfcc |      0.70 (+/- 0.23) |      0.79 (+/- 0.30) |      0.93 (+/- 0.12) | 
+           mfcc_norm |      0.78 (+/- 0.13) |      0.82 (+/- 0.12) |      0.89 (+/- 0.15) | 
+           spec_band |      0.58 (+/- 0.28) |      0.63 (+/- 0.31) |      0.62 (+/- 0.34) | 
+           spec_cent |      0.51 (+/- 0.25) |      0.51 (+/- 0.23) |      0.46 (+/- 0.22) | 
+           spec_roll |      0.77 (+/- 0.30) |      0.59 (+/- 0.16) |      0.60 (+/- 0.23) | 
+        syllable_dur |      0.48 (+/- 0.18) |      0.37 (+/- 0.13) |      0.42 (+/- 0.03) | 
+   syllable_dur_list |      0.56 (+/- 0.22) |      0.48 (+/- 0.27) |      0.42 (+/- 0.03) | 
+                 zcr |      0.52 (+/- 0.22) |      0.54 (+/- 0.13) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.55 (+/- 0.38) |      0.53 (+/- 0.12) |      0.42 (+/- 0.03) | 
+                mfcc |      0.82 (+/- 0.18) |      0.88 (+/- 0.13) |      0.96 (+/- 0.07) | 
+           mfcc_norm |      0.82 (+/- 0.20) |      0.91 (+/- 0.11) |      0.92 (+/- 0.10) | 
+           spec_band |      0.65 (+/- 0.32) |      0.64 (+/- 0.25) |      0.60 (+/- 0.23) | 
+           spec_cent |      0.46 (+/- 0.15) |      0.46 (+/- 0.27) |      0.45 (+/- 0.28) | 
+           spec_roll |      0.48 (+/- 0.30) |      0.49 (+/- 0.22) |      0.45 (+/- 0.18) | 
+        syllable_dur |      0.58 (+/- 0.30) |      0.44 (+/- 0.08) |      0.41 (+/- 0.04) | 
+   syllable_dur_list |      0.79 (+/- 0.19) |      0.76 (+/- 0.17) |      0.42 (+/- 0.03) | 
+                 zcr |      0.48 (+/- 0.09) |      0.48 (+/- 0.17) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered2
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.56 (+/- 0.19) |      0.59 (+/- 0.29) |      0.42 (+/- 0.03) | 
+                mfcc |      0.85 (+/- 0.19) |      0.85 (+/- 0.17) |      0.96 (+/- 0.07) | 
+           mfcc_norm |      0.85 (+/- 0.09) |      0.84 (+/- 0.20) |      0.91 (+/- 0.14) | 
+           spec_band |      0.62 (+/- 0.30) |      0.65 (+/- 0.23) |      0.67 (+/- 0.20) | 
+           spec_cent |      0.57 (+/- 0.18) |      0.55 (+/- 0.13) |      0.48 (+/- 0.26) | 
+           spec_roll |      0.63 (+/- 0.25) |      0.71 (+/- 0.21) |      0.60 (+/- 0.11) | 
+        syllable_dur |      0.62 (+/- 0.19) |      0.43 (+/- 0.35) |      0.42 (+/- 0.03) | 
+   syllable_dur_list |      0.71 (+/- 0.25) |      0.63 (+/- 0.35) |      0.42 (+/- 0.03) | 
+                 zcr |      0.60 (+/- 0.12) |      0.52 (+/- 0.19) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered3
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.61 (+/- 0.24) |      0.41 (+/- 0.08) |      0.42 (+/- 0.03) | 
+                mfcc |      0.80 (+/- 0.14) |      0.84 (+/- 0.11) |      0.90 (+/- 0.11) | 
+           mfcc_norm |      0.80 (+/- 0.31) |      0.83 (+/- 0.21) |      0.88 (+/- 0.17) | 
+           spec_band |      0.68 (+/- 0.33) |      0.54 (+/- 0.34) |      0.65 (+/- 0.09) | 
+           spec_cent |      0.65 (+/- 0.22) |      0.34 (+/- 0.28) |      0.64 (+/- 0.39) | 
+           spec_roll |      0.48 (+/- 0.11) |      0.48 (+/- 0.23) |      0.58 (+/- 0.21) | 
+        syllable_dur |      0.56 (+/- 0.29) |      0.53 (+/- 0.33) |      0.53 (+/- 0.33) | 
+   syllable_dur_list |      0.59 (+/- 0.17) |      0.49 (+/- 0.14) |      0.42 (+/- 0.03) | 
+                 zcr |      0.65 (+/- 0.11) |      0.56 (+/- 0.11) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.69 (+/- 0.30) |      0.54 (+/- 0.08) |      0.42 (+/- 0.03) | 
+                mfcc |      0.78 (+/- 0.31) |      0.87 (+/- 0.10) |      0.96 (+/- 0.06) | 
+           mfcc_norm |      0.81 (+/- 0.21) |      0.87 (+/- 0.19) |      0.93 (+/- 0.12) | 
+           spec_band |      0.48 (+/- 0.31) |      0.67 (+/- 0.31) |      0.64 (+/- 0.33) | 
+           spec_cent |      0.63 (+/- 0.25) |      0.58 (+/- 0.30) |      0.56 (+/- 0.25) | 
+           spec_roll |      0.63 (+/- 0.14) |      0.67 (+/- 0.14) |      0.66 (+/- 0.20) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.46 (+/- 0.12) |      0.52 (+/- 0.05) |      0.42 (+/- 0.03) | 
+                 zcr |      0.59 (+/- 0.18) |      0.54 (+/- 0.16) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 4 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-2/Myiodynastes maculatus/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-3/Saltator similis/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered5
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.61 (+/- 0.29) |      0.58 (+/- 0.19) |      0.42 (+/- 0.03) | 
+                mfcc |      0.83 (+/- 0.16) |      0.91 (+/- 0.14) |      0.90 (+/- 0.08) | 
+           mfcc_norm |      0.80 (+/- 0.33) |      0.90 (+/- 0.13) |      0.90 (+/- 0.13) | 
+           spec_band |      0.57 (+/- 0.17) |      0.66 (+/- 0.20) |      0.66 (+/- 0.17) | 
+           spec_cent |      0.63 (+/- 0.25) |      0.65 (+/- 0.09) |      0.61 (+/- 0.17) | 
+           spec_roll |      0.65 (+/- 0.12) |      0.69 (+/- 0.14) |      0.69 (+/- 0.17) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.52 (+/- 0.15) |      0.47 (+/- 0.21) |      0.42 (+/- 0.03) | 
+                 zcr |      0.62 (+/- 0.29) |      0.61 (+/- 0.07) |      0.42 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: None
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.52 (+/- 0.24) |      0.42 (+/- 0.18) |      0.38 (+/- 0.03) | 
+                mfcc |      0.70 (+/- 0.11) |      0.85 (+/- 0.19) |      0.92 (+/- 0.14) | 
+           mfcc_norm |      0.70 (+/- 0.12) |      0.80 (+/- 0.12) |      0.87 (+/- 0.17) | 
+           spec_band |      0.54 (+/- 0.17) |      0.59 (+/- 0.24) |      0.59 (+/- 0.09) | 
+           spec_cent |      0.67 (+/- 0.17) |      0.58 (+/- 0.17) |      0.54 (+/- 0.20) | 
+           spec_roll |      0.53 (+/- 0.26) |      0.60 (+/- 0.18) |      0.47 (+/- 0.07) | 
+        syllable_dur |      0.56 (+/- 0.10) |      0.48 (+/- 0.37) |      0.38 (+/- 0.03) | 
+   syllable_dur_list |      0.51 (+/- 0.32) |      0.41 (+/- 0.18) |      0.38 (+/- 0.03) | 
+                 zcr |      0.56 (+/- 0.24) |      0.37 (+/- 0.18) |      0.38 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered1
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.65 (+/- 0.28) |      0.46 (+/- 0.13) |      0.38 (+/- 0.03) | 
+                mfcc |      0.85 (+/- 0.20) |      0.93 (+/- 0.13) |      0.86 (+/- 0.20) | 
+           mfcc_norm |      0.82 (+/- 0.32) |      0.92 (+/- 0.20) |      0.88 (+/- 0.21) | 
+           spec_band |      0.62 (+/- 0.12) |      0.60 (+/- 0.36) |      0.60 (+/- 0.32) | 
+           spec_cent |      0.65 (+/- 0.25) |      0.57 (+/- 0.30) |      0.50 (+/- 0.12) | 
+           spec_roll |      0.60 (+/- 0.21) |      0.61 (+/- 0.10) |      0.59 (+/- 0.23) | 
+        syllable_dur |      0.50 (+/- 0.42) |      0.33 (+/- 0.16) |      0.37 (+/- 0.07) | 
+   syllable_dur_list |      0.70 (+/- 0.29) |      0.58 (+/- 0.32) |      0.38 (+/- 0.03) | 
+                 zcr |      0.53 (+/- 0.10) |      0.52 (+/- 0.26) |      0.38 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered2
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.49 (+/- 0.22) |      0.40 (+/- 0.26) |      0.38 (+/- 0.03) | 
+                mfcc |      0.83 (+/- 0.20) |      0.84 (+/- 0.08) |      0.95 (+/- 0.10) | 
+           mfcc_norm |      0.82 (+/- 0.12) |      0.82 (+/- 0.20) |      0.94 (+/- 0.11) | 
+           spec_band |      0.66 (+/- 0.09) |      0.62 (+/- 0.17) |      0.58 (+/- 0.08) | 
+           spec_cent |      0.62 (+/- 0.16) |      0.46 (+/- 0.21) |      0.52 (+/- 0.35) | 
+           spec_roll |      0.67 (+/- 0.14) |      0.61 (+/- 0.15) |      0.52 (+/- 0.21) | 
+        syllable_dur |      0.52 (+/- 0.15) |      0.61 (+/- 0.20) |      0.38 (+/- 0.03) | 
+   syllable_dur_list |      0.70 (+/- 0.12) |      0.70 (+/- 0.16) |      0.38 (+/- 0.03) | 
+                 zcr |      0.67 (+/- 0.29) |      0.48 (+/- 0.23) |      0.38 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered3
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.54 (+/- 0.13) |      0.44 (+/- 0.23) |      0.38 (+/- 0.03) | 
+                mfcc |      0.82 (+/- 0.17) |      0.79 (+/- 0.39) |      0.80 (+/- 0.11) | 
+           mfcc_norm |      0.74 (+/- 0.23) |      0.78 (+/- 0.13) |      0.78 (+/- 0.15) | 
+           spec_band |      0.50 (+/- 0.15) |      0.30 (+/- 0.12) |      0.38 (+/- 0.15) | 
+           spec_cent |      0.73 (+/- 0.17) |      0.45 (+/- 0.18) |      0.48 (+/- 0.28) | 
+           spec_roll |      0.60 (+/- 0.22) |      0.48 (+/- 0.30) |      0.60 (+/- 0.36) | 
+        syllable_dur |      0.50 (+/- 0.16) |      0.33 (+/- 0.13) |      0.37 (+/- 0.07) | 
+   syllable_dur_list |      0.53 (+/- 0.16) |      0.53 (+/- 0.29) |      0.38 (+/- 0.03) | 
+                 zcr |      0.82 (+/- 0.15) |      0.49 (+/- 0.14) |      0.38 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered4
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.46 (+/- 0.17) |      0.47 (+/- 0.20) |      0.38 (+/- 0.03) | 
+                mfcc |      0.79 (+/- 0.09) |      0.83 (+/- 0.19) |      0.88 (+/- 0.18) | 
+           mfcc_norm |      0.75 (+/- 0.24) |      0.82 (+/- 0.20) |      0.89 (+/- 0.12) | 
+           spec_band |      0.59 (+/- 0.20) |      0.53 (+/- 0.21) |      0.58 (+/- 0.06) | 
+           spec_cent |      0.61 (+/- 0.20) |      0.50 (+/- 0.21) |      0.54 (+/- 0.14) | 
+           spec_roll |      0.64 (+/- 0.26) |      0.51 (+/- 0.24) |      0.52 (+/- 0.27) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.56 (+/- 0.22) |      0.38 (+/- 0.17) |      0.38 (+/- 0.03) | 
+                 zcr |      0.61 (+/- 0.29) |      0.47 (+/- 0.07) |      0.38 (+/- 0.03) | 
+
+
+--------------------------------------
+experimento número: 5 
+numero de especies: 2
+numero minimo de arquivos por especie (-1 most frequent): 30
+numero máximo de arquivos por especie: 200
+diretórios: ['/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Camptostoma obsoletum/', '/var/tmp/ff/tcc/dataset/pr_article/S_A_C_Base_Parte-1/Automolus leucophthalmus/']
+scoring: f1_weighted
+song_or_call: song
+versão: filtered5
+kernel SVM: linear
+k do kNN: 3
+numero cross-validation: 5
+--------------------------------------
+                     |                  kNN |                   NB |                  SVM | 
+                rmse |      0.59 (+/- 0.24) |      0.43 (+/- 0.16) |      0.38 (+/- 0.03) | 
+                mfcc |      0.78 (+/- 0.33) |      0.88 (+/- 0.16) |      0.84 (+/- 0.12) | 
+           mfcc_norm |      0.76 (+/- 0.21) |      0.88 (+/- 0.15) |      0.93 (+/- 0.16) | 
+           spec_band |      0.62 (+/- 0.13) |      0.66 (+/- 0.26) |      0.68 (+/- 0.29) | 
+           spec_cent |      0.60 (+/- 0.16) |      0.59 (+/- 0.14) |      0.46 (+/- 0.07) | 
+           spec_roll |      0.66 (+/- 0.09) |      0.51 (+/- 0.16) |      0.63 (+/- 0.13) | 
+        syllable_dur |                   -1 |                   -1 |                   -1 | 
+   syllable_dur_list |      0.69 (+/- 0.22) |      0.51 (+/- 0.13) |      0.36 (+/- 0.10) | 
+                 zcr |      0.79 (+/- 0.08) |      0.55 (+/- 0.29) |      0.38 (+/- 0.03) | 
+

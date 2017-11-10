@@ -6,6 +6,27 @@ import extract_syllable_duration_4 as esd
 
 from multiprocessing import Pool, Lock, cpu_count, RLock
 
+def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end = '\r')
+    # Print New Line on Complete
+    if iteration == total: 
+        print()
+
+
 def mag_spec(y):
     return np.abs(librosa.core.stft(y))
 
@@ -92,14 +113,16 @@ def extract_feat_par(data_dir):
 def extract_feat(data_dirs, log_file):
     kwargs = {}
 
-    for data_dir in data_dirs:
+    n_dirs = len(data_dirs)
+
+    for data_dir, i in zip(data_dirs, n_dirs):
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 if util.is_audio(file):
                     file_dir = subdir + '/' + file
 
                     # y, sr = librosa.load(file_dir)
-
+                    print(file_dir)
                     kwargs = {}
 
                     generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, log_file, **kwargs)
@@ -123,6 +146,7 @@ def extract_feat(data_dirs, log_file):
                     # generate_local_feature(file_dir, 'syllable_dur', esd.get_syllable_durations, log_file, **kwargs)
 
                     generate_local_feature(file_dir, 'syllable_dur_list', esd.get_syllable_durations_list, log_file, **kwargs)
+        printProgressBar(i + 1, n_dirs, prefix = 'Progress:', suffix = 'Complete', length = 50)
 
 def main():
     #pool = Pool(processes = 4)
@@ -130,7 +154,7 @@ def main():
 
     # Not parallel
     log_file = open(util.LOG_DIR + '/log_extract_features_' + util.date_string() + '.txt', 'w+')
-    most20 = util.return_n_most_frequent_species(100, 'song')
+    most20 = util.return_n_most_frequent_species(3, 'song')
     extract_feat(most20, log_file)
     log_file.close()
 
