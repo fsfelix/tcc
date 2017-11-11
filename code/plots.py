@@ -88,3 +88,19 @@ def transpose_matrices(all_data):
         all_data_t.append(d.T)
     all_data_t = np.array(all_data_t)
     return all_data_t
+
+def max_f_per_version(all_data):
+    data_f = []
+    for data in all_data:
+        data_f.append(np.max(data,axis=1))
+    data_f = np.array(data_f)
+    return data_f
+
+def line_plot_max(all_data, title):
+    data = max_f_per_version(all_data)
+    line_plot_data([data], 1, 1, title,['max(f-measure) per version'], 'Versão filtrada', 'F-measure', util.FEATURES_PLOT, ['no filter', 'filter1', 'filter2', 'filter3'] )
+
+def plot_all(all_data, title):
+    color_plot_data(all_data,title)
+    line_plot_data(all_data, 2, 2, title,['no filter', 'filter1', 'filter2', 'filter3'], 'Feature', 'F-measure', util.CLASSIFIERS, util.FEATURES_PLOT )
+    line_plot_max(all_data, title)
