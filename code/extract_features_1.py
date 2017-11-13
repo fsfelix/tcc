@@ -33,7 +33,7 @@ def mag_spec(y):
 def generate_local_feature(file_dir, feat_name, feat_func, log_file, norm = False, **kwargs):
     output_file = file_dir + '.' + feat_name + '.txt'
     if not os.path.isfile(output_file):
-        print('Loading {}...'.format(file_dir))
+        #print('Loading {}...'.format(file_dir))
         y, sr = librosa.load(file_dir)
 
         if y.max() != 0.0 and norm:
@@ -42,18 +42,19 @@ def generate_local_feature(file_dir, feat_name, feat_func, log_file, norm = Fals
         if feat_name == 'syllable_dur_list':
             kwargs['sr'] = sr
 
-        print('generating {} for {}...'.format(feat_name, file_dir))
+        #print('generating {} for {}...'.format(feat_name, file_dir))
         if len(y) > 0:
             feature = feat_func(y = y, **kwargs)
             if len(feature.shape) == 1 and feature[0] == -1:
                 log_file.write('{} invalid for {}\n'.format(feat_name, file_dir))
-                print("Não encontramos {}".format(file_dir))
+                #print("Não encontramos {}".format(file_dir))
         else:
             log_file.write('file too short: {}\n'.format(file_dir))
             feature = np.array([0])
         np.savetxt(output_file, feature)
     else:
-       print('{} already exists.'.format(output_file))
+        log_file.write('{} already exists.'.format(output_file))
+        #print('{} already exists.'.format(output_file))
 
 
 def generate_local_feature_par(file_dir, feat_name, feat_func, norm = False, **kwargs):
@@ -114,15 +115,19 @@ def extract_feat(data_dirs, log_file):
     kwargs = {}
 
     n_dirs = len(data_dirs)
+    n_files = int(util.num_files(data_dirs, 'song')*len(util.VERSIONS))
 
-    for data_dir, i in zip(data_dirs, n_dirs):
+    i = 0
+    printProgressBar(i, n_files, prefix = 'Progress:', suffix = 'Complete', length = 5)
+
+    for data_dir in data_dirs:
         for subdir, dirs, files in os.walk(data_dir):
             for file in files:
                 if util.is_audio(file):
                     file_dir = subdir + '/' + file
 
                     # y, sr = librosa.load(file_dir)
-                    print(file_dir)
+                    # print(file_dir)
                     kwargs = {}
 
                     generate_local_feature(file_dir, 'rmse', librosa.feature.rmse, log_file, **kwargs)
@@ -146,6 +151,8 @@ def extract_feat(data_dirs, log_file):
                     # generate_local_feature(file_dir, 'syllable_dur', esd.get_syllable_durations, log_file, **kwargs)
 
                     generate_local_feature(file_dir, 'syllable_dur_list', esd.get_syllable_durations_list, log_file, **kwargs)
+                    i += 1
+                    printProgressBar(i, n_files, prefix = 'Progress:', suffix = 'Complete', length = 5)
 
 def main():
     #pool = Pool(processes = 4)
@@ -153,7 +160,7 @@ def main():
 
     # Not parallel
     log_file = open(util.LOG_DIR + '/log_extract_features_' + util.date_string() + '.txt', 'w+')
-    most20 = util.return_n_most_frequent_species(3, 'song')
+    most20 = util.return_n_most_frequent_species(25, 'song')
     extract_feat(most20, log_file)
     log_file.close()
 

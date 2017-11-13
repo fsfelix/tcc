@@ -38,7 +38,7 @@ def matrix_from_table(table_dir):
     all_matrix = np.array(all_matrix)
     return all_matrix
 
-def color_plot_data(data_all, title_global):
+def color_plot_data_f_c(data_all, title_global):
     plt.figure(figsize=(10, 10))
     plt.suptitle(title_global, fontsize = 20, y = 1.05)
     n_lin = 2
@@ -65,6 +65,33 @@ def color_plot_data(data_all, title_global):
 
     plt.tight_layout()
 
+def color_plot_data_f_v(data_all, title_global):
+    data_all = data_all.T
+    plt.figure(figsize=(15, 5))
+    plt.suptitle(title_global, fontsize = 20, y = 1.05)
+    n_lin = 1
+    n_col = 3
+    titles = ['sem filtragem', 'filtro 1', 'filtro 2', 'filtro3']
+    for i in range(n_lin):
+        for j in range(n_col):
+            n_fig = i * n_col + (j + 1)
+            data = data_all[n_fig -1 ]
+            ax = plt.subplot(n_lin, n_col, n_fig)
+            heatmap = ax.pcolor(data, cmap=plt.cm.Blues)
+
+            ax.set_xticks(np.arange(data.shape[1]) + 0.5, minor=False)
+            ax.set_yticks(np.arange(data.shape[0]) + 0.5, minor=False)
+
+            # want a more natural, table-like display
+            ax.invert_yaxis()
+            ax.xaxis.tick_top()
+
+            ax.set_xticklabels(titles, minor=False)
+            ax.set_yticklabels(util.FEATURES_PLOT, minor=False)
+            plt.colorbar(mappable=heatmap, ax=ax)
+            plt.title("{}\n\n".format(util.CLASSIFIERS[n_fig - 1]))
+    plt.tight_layout()
+
 def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel, legend, xticks):
     fig = plt.figure(figsize=(10*n_lin, 5*n_col))
     fig.suptitle(title_global, fontsize = 30, y = 1.05)
@@ -74,6 +101,7 @@ def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel,
             data = data_all[n_fig -1 ]
             ax = plt.subplot(n_lin, n_col, n_fig)
             ax.set_ylim((0.0, 0.8))
+            print(data)
             ax.plot(data)
             plt.xlabel(xlabel)
             plt.ylabel(ylabel)
@@ -98,9 +126,17 @@ def max_f_per_version(all_data):
 
 def line_plot_max(all_data, title):
     data = max_f_per_version(all_data)
-    line_plot_data([data], 1, 1, title,['max(f-measure) per version'], 'Versão filtrada', 'F-measure', util.FEATURES_PLOT, ['no filter', 'filter1', 'filter2', 'filter3'] )
+    line_plot_data([data], 1, 1, title,['max(f-measure) por versão/feat'], 'Versão filtrada', 'F-measure', util.FEATURES_PLOT, ['no filter', 'filter1', 'filter2', 'filter3'] )
+
+def line_plot_max_v_c(all_data, title):
+    data = np.max(all_data, axis = 1)
+    line_plot_data([data], 1, 1, title,['max(f-measure) por versão/classificador'], 'Versão filtrada', 'F-measure', util.CLASSIFIERS, ['no filter', 'filter1', 'filter2', 'filter3'] )
 
 def plot_all(all_data, title):
-    color_plot_data(all_data,title)
+    color_plot_data_f_c(all_data,title)
+    color_plot_data_f_v(all_data,title)
     line_plot_data(all_data, 2, 2, title,['no filter', 'filter1', 'filter2', 'filter3'], 'Feature', 'F-measure', util.CLASSIFIERS, util.FEATURES_PLOT )
     line_plot_max(all_data, title)
+    line_plot_max_v_c(all_data, title)
+
+
