@@ -64,7 +64,8 @@ def color_plot_data_f_c(data_all, title_global):
             plt.colorbar(mappable=heatmap, ax=ax)
             plt.title("{}\n\n".format(titles[n_fig - 1]))
 
-    plt.tight_layout()
+    plot = plt.tight_layout()
+    return plot
 
 def color_plot_data_f_v(data_all, title_global):
     data_all = data_all.T
@@ -91,7 +92,8 @@ def color_plot_data_f_v(data_all, title_global):
             ax.set_yticklabels(util.FEATURES_PLOT, minor=False)
             plt.colorbar(mappable=heatmap, ax=ax)
             plt.title("{}\n\n".format(util.CLASSIFIERS[n_fig - 1]))
-    plt.tight_layout()
+    plot = plt.tight_layout()
+    return plot
 
 def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel, legend, xticks):
     fig = plt.figure(figsize=(10*n_lin, 5*n_col))
@@ -109,7 +111,8 @@ def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel,
             plt.legend(legend)
             plt.xticks(np.arange(0,len(xticks),1),xticks)
             plt.title("{}".format(titles[n_fig - 1]))
-    fig.tight_layout()
+    plot = plt.tight_layout()
+    return plot
 
 
 
@@ -159,7 +162,8 @@ def line_plot_data_max(data_all, n_lin, n_col, title_global, titles, xlabel, yla
             plt.ylabel(ylabel)
             plt.xticks(np.arange(0,len(xticks),1),xticks)
             plt.title("{}".format(titles[n_fig - 1]))
-    fig.tight_layout()
+    plot = plt.tight_layout()
+    return plot
 
 def max_f_per_version(all_data):
     data_f = []
