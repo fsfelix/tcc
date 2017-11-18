@@ -41,7 +41,7 @@ def matrix_from_table(table_dir):
 
 def color_plot_data_f_c(data_all, title_global):
     plt.figure(figsize=(10, 10))
-    plt.suptitle(title_global, fontsize = 20, y = 1.05)
+    plt.suptitle(title_global, fontsize = 20)
     n_lin = 2
     n_col = 2
     titles = ['sem filtragem', 'filtro 1', 'filtro 2', 'filtro3']
@@ -65,12 +65,14 @@ def color_plot_data_f_c(data_all, title_global):
             plt.title("{}\n\n".format(titles[n_fig - 1]))
 
     plot = plt.tight_layout()
+    plt.subplots_adjust(top=0.88)
+
     return plot
 
 def color_plot_data_f_v(data_all, title_global):
     data_all = data_all.T
     plt.figure(figsize=(15, 5))
-    plt.suptitle(title_global, fontsize = 20, y = 1.05)
+    plt.suptitle(title_global, fontsize = 20)
     n_lin = 1
     n_col = 3
     titles = ['sem filtragem', 'filtro 1', 'filtro 2', 'filtro3']
@@ -93,11 +95,13 @@ def color_plot_data_f_v(data_all, title_global):
             plt.colorbar(mappable=heatmap, ax=ax)
             plt.title("{}\n\n".format(util.CLASSIFIERS[n_fig - 1]))
     plot = plt.tight_layout()
+    plt.subplots_adjust(top=0.78)
+
     return plot
 
 def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel, legend, xticks):
     fig = plt.figure(figsize=(10*n_lin, 5*n_col))
-    fig.suptitle(title_global, fontsize = 30, y = 1.05)
+    fig.suptitle(title_global, fontsize = 20)
     for i in range(n_lin):
         for j in range(n_col):
             n_fig = i * n_col + (j + 1)
@@ -112,13 +116,14 @@ def line_plot_data(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel,
             plt.xticks(np.arange(0,len(xticks),1),xticks)
             plt.title("{}".format(titles[n_fig - 1]))
     plot = plt.tight_layout()
+
     return plot
 
 
 
 def line_plot_data_max(data_all, n_lin, n_col, title_global, titles, xlabel, ylabel, legend, xticks, dict_markers, axis):
     fig = plt.figure(figsize=(15*n_lin, 7.5*n_col))
-    fig.suptitle(title_global, fontsize = 30, y = 1.05)
+    my_suptitle = fig.suptitle(title_global + '           ', fontsize = 20)
     markers=['o','X','D','8','p','*','+','8','+','4','8','s','p','P','*','h','H','+','x','X','D','d','|','_']
     colors = ['r', 'g', 'b', 'c', 'm', 'y','k']
     m_i = 0
@@ -163,6 +168,10 @@ def line_plot_data_max(data_all, n_lin, n_col, title_global, titles, xlabel, yla
             plt.xticks(np.arange(0,len(xticks),1),xticks)
             plt.title("{}".format(titles[n_fig - 1]))
     plot = plt.tight_layout()
+    plt.subplots_adjust(top=0.88, right=0.90)
+
+    #fig.savefig('teste.pdf', dpi=300, bbox_inches='tight',bbox_extra_artists=[my_suptitle])
+
     return plot
 
 def max_f_per_version(all_data):
@@ -173,10 +182,10 @@ def max_f_per_version(all_data):
     return data_f
 
 def line_plot_max(all_data, title):
-    line_plot_data_max([all_data], 1, 1, title,['max(f-measure) por versão/feat'], 'Versão filtrada', 'F-measure', util.FEATURES_PLOT, ['no filter', 'filter1', 'filter2', 'filter3'],{0:'kNN', 1:'NB', 2:'SVM'}, 2)
+    return line_plot_data_max([all_data], 1, 1, title,['max(f-measure) por versão/feat'], 'Versão filtrada', 'F-measure', util.FEATURES_PLOT, ['no filter', 'filter1', 'filter2', 'filter3'],{0:'kNN', 1:'NB', 2:'SVM'}, 2)
 
 def line_plot_max_v_c(all_data, title):
-    line_plot_data_max([all_data], 1, 1, title,['max(f-measure) por versão/classificador'], 'Versão filtrada', 'F-measure', util.CLASSIFIERS, ['no filter', 'filter1', 'filter2', 'filter3'],{0:'rmse', 1:'mfcc', 2:'spec_band', 3:'spec_cent', 4:'spec_roll', 5:'syllable_dur', 6:'zcr'}, 1)
+    return line_plot_data_max([all_data], 1, 1, title,['max(f-measure) por versão/classificador'], 'Versão filtrada', 'F-measure', util.CLASSIFIERS, ['no filter', 'filter1', 'filter2', 'filter3'],{0:'rmse', 1:'mfcc', 2:'spec_band', 3:'spec_cent', 4:'spec_roll', 5:'syllable_dur', 6:'zcr'}, 1)
 
 def transpose_matrices(all_data):
     all_data_t = []
